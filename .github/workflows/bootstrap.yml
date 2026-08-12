@@ -24,19 +24,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install project from ZIP
-        run: |
-          if [ -f yokohama-change-ready.zip ]; then
-            unzip -o yokohama-change-ready.zip -d temp
-            cp -a temp/japan-change-zero/. .
-            rm -rf temp
-
-            # GitHub Actionsから別のworkflowを作ると拒否されるため除外
-            rm -f .github/workflows/collect.yml
-
-            rm -f yokohama-change-ready.zip
-          fi
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -49,6 +36,8 @@ jobs:
           fi
 
       - name: Collect public changes
+        env:
+          GBIZINFO_API_TOKEN: ${{ secrets.GBIZINFO_API_TOKEN }}
         run: |
           if [ -f scripts/collect.py ]; then
             python scripts/collect.py
