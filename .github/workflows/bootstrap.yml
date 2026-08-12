@@ -1,0 +1,33 @@
+name: Bootstrap YOKOHAMA CHANGE
+
+on:
+  push:
+    paths:
+      - ".github/workflows/bootstrap.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Extract project
+        run: |
+          unzip -o yokohama-change-ready.zip -d temp
+          cp -a temp/japan-change-zero/. .
+          rm -rf temp
+          rm -f yokohama-change-ready.zip
+
+      - name: Commit full project
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Bootstrap YOKOHAMA CHANGE" || exit 0
+          git push
