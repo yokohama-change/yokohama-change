@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="横浜市の公式公開情報から、ビジネス価値のある変化だけを自動検出する無料プロトタイプ">
+  <title>YOKOHAMA CHANGE — ビジネス変化レーダー</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="eyebrow">ZERO-COST BUSINESS SIGNAL RADAR</div>
+    <h1>YOKOHAMA <span>CHANGE</span></h1>
+    <p>横浜市の公式公開情報を巡回し、<strong>「何が変わったか」</strong>と<strong>「誰に価値がありそうか」</strong>を自動整理する実験版。</p>
+    <div class="metrics">
+      <div><b id="count">—</b><small>検出履歴</small></div>
+      <div><b id="runCount">—</b><small>今回の変化</small></div>
+      <div><b id="hotCount">—</b><small>商用スコア70+</small></div>
+      <div><b id="updated">—</b><small>最終更新</small></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="controls" aria-label="絞り込み">
+      <input id="search" type="search" placeholder="補助金、道路、プロポーザル…">
+      <select id="category"><option value="">すべての分類</option></select>
+      <select id="buyer"><option value="">すべての想定利用者</option></select>
+      <select id="commercial">
+        <option value="0">商用スコアすべて</option>
+        <option value="50">商用スコア 50+</option>
+        <option value="70">商用スコア 70+</option>
+        <option value="85">商用スコア 85+</option>
+      </select>
+    </section>
+
+    <div id="notice" class="notice" hidden></div>
+    <section id="cards" class="cards" aria-live="polite"></section>
+  </main>
+
+  <footer>
+    <p>公式情報へのリンクを必ず確認してください。これは行政機関の公式サービスではありません。</p>
+    <p><a href="data/latest.json">JSONデータ</a> · <a href="data/leads.csv">候補CSV</a> · <a href="data/summary.json">集計</a> · <a href="data/status.json">収集ステータス</a></p>
+    <p>横浜市オープンデータを利用する場合は各データセットのライセンス条件に従います。本サービスは横浜市の公式サービスではありません。</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-08-12T19:21:36+00:00",
+  "commercial_50_plus": 38,
+  "commercial_70_plus": 26,
+  "commercial_85_plus": 23,
+  "by_buyer_segment": {
+    "入札・公共調達": 33,
+    "士業・補助金支援": 31,
+    "地域メディア": 7,
+    "不動産・建設": 6,
+    "法人営業": 5
+  },
+  "by_opportunity_type": {
+    "受注機会": 33,
+    "開発・不動産": 3,
+    "資金・支援": 2
+  }
+}

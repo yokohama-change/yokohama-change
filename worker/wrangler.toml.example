@@ -1,0 +1,7 @@
+name = "yokohama-change-api"
+main = "worker.js"
+compatibility_date = "2026-08-12"
+
+[vars]
+# Replace after GitHub Pages is live.
+DATA_URL = "https://YOUR_GITHUB_PAGES_HOST/YOUR_REPO/data/latest.json"

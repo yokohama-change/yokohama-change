@@ -1,0 +1,49 @@
+{
+  "sources": [
+    {
+      "id": "yokohama_city_info",
+      "name": "横浜市 市政情報",
+      "type": "rss",
+      "url": "https://www.city.yokohama.lg.jp/city-info/rss_news.xml",
+      "region": "横浜市",
+      "license_mode": "website-rss",
+      "commercial_redistribution": "link-and-signal-only-review-before-paid-launch"
+    },
+    {
+      "id": "yokohama_procurement",
+      "name": "横浜市 入札・契約",
+      "type": "rss",
+      "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/rss_news.xml",
+      "region": "横浜市",
+      "license_mode": "website-rss",
+      "commercial_redistribution": "link-and-signal-only-review-before-paid-launch"
+    },
+    {
+      "id": "yokohama_sme",
+      "name": "横浜市 中小企業支援",
+      "type": "rss",
+      "url": "https://www.city.yokohama.lg.jp/business/kigyoshien/rss_news.xml",
+      "region": "横浜市",
+      "license_mode": "website-rss",
+      "commercial_redistribution": "link-and-signal-only-review-before-paid-launch"
+    },
+    {
+      "id": "yokohama_business_sector",
+      "name": "横浜市 事業者向け分野別情報",
+      "type": "rss",
+      "url": "https://www.city.yokohama.lg.jp/business/bunyabetsu/rss_news.xml",
+      "region": "横浜市",
+      "license_mode": "website-rss",
+      "commercial_redistribution": "link-and-signal-only-review-before-paid-launch"
+    },
+    {
+      "id": "yokohama_open_data",
+      "name": "横浜市オープンデータ",
+      "type": "ckan",
+      "url": "https://data.city.yokohama.lg.jp/api/3/action/package_search?rows=1000",
+      "region": "横浜市",
+      "license_mode": "cc-by-4.0",
+      "commercial_redistribution": "allowed-with-attribution"
+    }
+  ]
+}
