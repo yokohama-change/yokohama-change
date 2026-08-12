@@ -1,33 +1,69 @@
-name: Bootstrap YOKOHAMA CHANGE
+name: YOKOHAMA CHANGE Auto
 
 on:
   push:
     paths:
       - ".github/workflows/bootstrap.yml"
   workflow_dispatch:
+  schedule:
+    - cron: "17 */3 * * *"
 
 permissions:
   contents: write
 
+concurrency:
+  group: yokohama-change-auto
+  cancel-in-progress: false
+
 jobs:
-  bootstrap:
+  run:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Extract project
+      - name: Install project from ZIP
         run: |
-          unzip -o yokohama-change-ready.zip -d temp
-          cp -a temp/japan-change-zero/. .
-          rm -rf temp
-          rm -f yokohama-change-ready.zip
+          if [ -f yokohama-change-ready.zip ]; then
+            unzip -o yokohama-change-ready.zip -d temp
+            cp -a temp/japan-change-zero/. .
+            rm -rf temp
 
-      - name: Commit full project
+            # GitHub Actionsから別のworkflowを作ると拒否されるため除外
+            rm -f .github/workflows/collect.yml
+
+            rm -f yokohama-change-ready.zip
+          fi
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run tests
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -d tests ]; then
+            python -m unittest discover -s tests -v
+          fi
+
+      - name: Collect public changes
+        run: |
+          if [ -f scripts/collect.py ]; then
+            python scripts/collect.py
+          fi
+
+      - name: Save changes automatically
+        run: |
+          git config user.name "yokohama-change-bot"
+          git config user.email "yokohama-change-bot@users.noreply.github.com"
+
           git add -A
-          git commit -m "Bootstrap YOKOHAMA CHANGE" || exit 0
-          git push
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "auto: update YOKOHAMA CHANGE"
+            git push
+          fi
