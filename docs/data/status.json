@@ -1,9 +1,21 @@
 {
-  "generated_at": "2026-08-12T20:43:28+00:00",
+  "generated_at": "2026-08-12T22:55:50+00:00",
   "sources_total": 5,
   "sources_ok": 5,
   "items_seen": 891,
   "changes_this_run": 0,
   "errors": [],
-  "state_preserved": false
+  "state_preserved": false,
+  "gbiz_enabled": true,
+  "gbiz_period": {
+    "from": "20260811",
+    "to": "20260813"
+  },
+  "gbiz_items_seen": 3,
+  "gbiz_errors": [
+    {
+      "source": "補助金実績更新",
+      "error": "HTTPError: HTTP Error 404: "
+    }
+  ]
 }
