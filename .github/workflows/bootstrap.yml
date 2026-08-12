@@ -18,7 +18,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: Checkout
@@ -35,21 +35,109 @@ jobs:
             python -m unittest discover -s tests -v
           fi
 
-      - name: Collect public changes
-        env:
-          GBIZINFO_API_TOKEN: ${{ secrets.GBIZINFO_API_TOKEN }}
+      - name: Collect Yokohama public changes
         run: |
           if [ -f scripts/collect.py ]; then
             python scripts/collect.py
           fi
 
+      - name: Collect gBizINFO signals
+        env:
+          GBIZINFO_API_TOKEN: ${{ secrets.GBIZINFO_API_TOKEN }}
+        run: |
+          python - <<'PY'
+          import json, os, urllib.parse, urllib.request
+          from datetime import datetime, timedelta, timezone
+          from pathlib import Path
+
+          token = os.environ.get("GBIZINFO_API_TOKEN", "").strip()
+          if not token:
+              print("GBIZINFO_API_TOKEN not set; skipped")
+              raise SystemExit(0)
+
+          JST = timezone(timedelta(hours=9))
+          today = datetime.now(JST).date()
+          from_day = (today - timedelta(days=2)).strftime("%Y%m%d")
+          to_day = today.strftime("%Y%m%d")
+          base = "https://api.info.gbiz.go.jp/hojin/v2/hojin"
+          endpoints = {
+              "法人情報更新": "/updateInfo",
+              "調達実績更新": "/updateInfo/procurement",
+              "補助金実績更新": "/updateInfo/subsidy",
+          }
+
+          def get(url):
+              req = urllib.request.Request(url, headers={
+                  "X-hojinInfo-api-token": token,
+                  "Accept": "application/json",
+                  "User-Agent": "YokohamaChange/0.4"
+              })
+              with urllib.request.urlopen(req, timeout=45) as r:
+                  return json.loads(r.read().decode("utf-8"))
+
+          def find_companies(obj):
+              if isinstance(obj, dict):
+                  for k in ("hojin-infos", "hojin_infos", "hojinInfos", "items"):
+                      v = obj.get(k)
+                      if isinstance(v, list) and all(isinstance(x, dict) for x in v):
+                          return v
+                  for v in obj.values():
+                      out = find_companies(v)
+                      if out:
+                          return out
+              return []
+
+          rows, errors = [], []
+          for label, path in endpoints.items():
+              try:
+                  params = urllib.parse.urlencode({"from": from_day, "to": to_day, "page": 1})
+                  payload = get(base + path + "?" + params)
+                  companies = find_companies(payload)
+                  for c in companies:
+                      raw = json.dumps(c, ensure_ascii=False)
+                      if "横浜市" not in raw:
+                          continue
+                      rows.append({
+                          "signal_type": label,
+                          "corporate_number": c.get("corporate_number") or c.get("corporateNumber"),
+                          "name": c.get("name"),
+                          "raw": c,
+                      })
+              except Exception as e:
+                  errors.append({"source": label, "error": f"{type(e).__name__}: {str(e)[:240]}"})
+
+          out = {
+              "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+              "period": {"from": from_day, "to": to_day},
+              "count": len(rows),
+              "items": rows[:500],
+              "errors": errors,
+              "note": "調達・補助金は過去実績の更新シグナルであり、現在募集中の案件を意味しません。"
+          }
+          p = Path("docs/data/gbiz_latest.json")
+          p.parent.mkdir(parents=True, exist_ok=True)
+          p.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+
+          status_path = Path("docs/data/status.json")
+          try:
+              status = json.loads(status_path.read_text(encoding="utf-8"))
+          except Exception:
+              status = {}
+          status.update({
+              "gbiz_enabled": True,
+              "gbiz_period": out["period"],
+              "gbiz_items_seen": len(rows),
+              "gbiz_errors": errors,
+          })
+          status_path.write_text(json.dumps(status, ensure_ascii=False, indent=2), encoding="utf-8")
+          print(json.dumps({"gbiz_items_seen": len(rows), "errors": errors}, ensure_ascii=False, indent=2))
+          PY
+
       - name: Save changes automatically
         run: |
           git config user.name "yokohama-change-bot"
           git config user.email "yokohama-change-bot@users.noreply.github.com"
-
           git add -A
-
           if git diff --cached --quiet; then
             echo "No changes"
           else
