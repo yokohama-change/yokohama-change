@@ -1,7 +1,7 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-08-13T05:52:41+00:00",
+  "updated_at": "2026-08-13T09:50:12+00:00",
   "items": {
     "80521eaea9e70588b719": {
       "fingerprint": "d5549840b6eff7d115a9e89f2a8670c4cf660fc11bd2f52fdaf970b439c12f77",
@@ -17,6 +17,10 @@
     },
     "21394989119ad85fa991": {
       "fingerprint": "369fc559756693a585bcb5d3853c06507d260682a89064c0768ebdbed2c22429",
+      "source_id": "yokohama_city_info"
+    },
+    "bdcbdf4a717c086eaf57": {
+      "fingerprint": "2c196bebfa7307d69d165e4aa8795b29e54230fa97d17f87686af36cdb4a15e7",
       "source_id": "yokohama_city_info"
     },
     "b8564f4dc448b9445bc3": {
@@ -579,10 +583,6 @@
       "fingerprint": "6aee70bb2bfa22fbbe7944720a981754ccc574aa46bc996652e49c8f8224af7b",
       "source_id": "yokohama_city_info"
     },
-    "1683c3031bb9b1960fd1": {
-      "fingerprint": "e2481c544547e45f346dde1cae995a8b8b28bace6ab662e0a3575ba9017f0026",
-      "source_id": "yokohama_city_info"
-    },
     "b77e2d323e0719ed921c": {
       "fingerprint": "93759b1f4142df95ab7cabe1d1b9f3d3dbedb2ba6f8c38d8d671ed169166bf70",
       "source_id": "yokohama_city_info"
@@ -942,6 +942,10 @@
     "1fae1e91120b69487f1d": {
       "fingerprint": "940dfe648846109d51f3cea2bbf4a11910ce0c79f05670b4f52899f87af0caf9",
       "source_id": "yokohama_business_sector"
+    },
+    "36b2ec03108a54d7d91c": {
+      "fingerprint": "95e4acff0dfa894ef3771094386ecace8d32d36982a55bcdb398f61e402457cd",
+      "source_id": "yokohama_open_data"
     },
     "b119fabb7e10415356f3": {
       "fingerprint": "edb36a1ce65a0162a8bc490266ab145d1646d3b35051dc7d206365bde3c636fe",
@@ -1373,10 +1377,6 @@
     },
     "121720ef8aa8ee7c6ee8": {
       "fingerprint": "ca117c5279ca007db7606f7096ada681ab0159a4d76282bc0010f15bd9eba72a",
-      "source_id": "yokohama_open_data"
-    },
-    "36b2ec03108a54d7d91c": {
-      "fingerprint": "e1f00c7b0fc26343b62f260641f41806eb10c560115ea23812a7c883dda4dcd5",
       "source_id": "yokohama_open_data"
     },
     "b4147bd4d0ad923cbd9a": {
