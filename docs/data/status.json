@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-13T15:35:17+00:00",
+  "generated_at": "2026-08-13T20:06:19+00:00",
   "sources_total": 5,
   "sources_ok": 5,
   "items_seen": 891,
-  "changes_this_run": 2,
+  "changes_this_run": 0,
   "errors": [],
   "state_preserved": false,
   "gbiz_enabled": true,
@@ -11,7 +11,7 @@
     "from": "20260812",
     "to": "20260814"
   },
-  "gbiz_items_seen": 7,
+  "gbiz_items_seen": 2,
   "gbiz_errors": [
     {
       "source": "補助金実績更新",
