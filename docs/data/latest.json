@@ -1,9 +1,113 @@
 {
-  "generated_at": "2026-08-12T23:24:38+00:00",
+  "generated_at": "2026-08-13T05:52:41+00:00",
   "scope": "横浜市 MVP",
-  "count": 40,
-  "changes_this_run": 0,
+  "count": 44,
+  "changes_this_run": 4,
   "items": [
+    {
+      "id": "21394989119ad85fa991",
+      "source_id": "yokohama_city_info",
+      "source_name": "横浜市 市政情報",
+      "source_type": "rss",
+      "region": "横浜市",
+      "title": "【記者発表】横浜グリーンエクスポ 横浜市出展 「建物空間を活用した発信拠点」 ＹＫＫ ＡＰ株式会社と協賛契約を締結 ～ペロブスカイト太陽電池を用いた「建材一体型太陽光発電」の内窓に関する展示物の貸与～",
+      "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0813kyousan2.html",
+      "source_updated": "Thu, 13 Aug 2026 01:00:00 GMT",
+      "description": "",
+      "license_mode": "website-rss",
+      "commercial_redistribution": "link-and-signal-only-review-before-paid-launch",
+      "category": "入札・調達",
+      "importance": 26,
+      "matched_keywords": [
+        "契約"
+      ],
+      "buyer_segments": [
+        "入札・公共調達"
+      ],
+      "opportunity_type": "情報更新",
+      "commercial_score": 33,
+      "urgency": 10,
+      "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
+      "change_type": "added",
+      "detected_at": "2026-08-13T05:52:41+00:00"
+    },
+    {
+      "id": "2663bd956e3af7583eb0",
+      "source_id": "yokohama_city_info",
+      "source_name": "横浜市 市政情報",
+      "source_type": "rss",
+      "region": "横浜市",
+      "title": "【記者発表】横浜グリーンエクスポ 横浜市出展「建物空間を活用した発信拠点」 イケア・ジャパン株式会社と協賛契約を締結 ～屋外空間演出に関する展示物の貸与及び外構への実装展示～",
+      "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0813kyousan1.html",
+      "source_updated": "Thu, 13 Aug 2026 01:00:00 GMT",
+      "description": "",
+      "license_mode": "website-rss",
+      "commercial_redistribution": "link-and-signal-only-review-before-paid-launch",
+      "category": "入札・調達",
+      "importance": 26,
+      "matched_keywords": [
+        "契約"
+      ],
+      "buyer_segments": [
+        "入札・公共調達"
+      ],
+      "opportunity_type": "情報更新",
+      "commercial_score": 33,
+      "urgency": 10,
+      "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
+      "change_type": "added",
+      "detected_at": "2026-08-13T05:52:41+00:00"
+    },
+    {
+      "id": "54877a0446b94e1e122a",
+      "source_id": "yokohama_city_info",
+      "source_name": "横浜市 市政情報",
+      "source_type": "rss",
+      "region": "横浜市",
+      "title": "【記者発表】商店街プレミアム付商品券 新たに15商店街・戸塚区商店街連合会で販売開始します",
+      "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/keizai/2026/0831premium.html",
+      "source_updated": "Thu, 13 Aug 2026 01:00:00 GMT",
+      "description": "",
+      "license_mode": "website-rss",
+      "commercial_redistribution": "link-and-signal-only-review-before-paid-launch",
+      "category": "事業・雇用",
+      "importance": 26,
+      "matched_keywords": [
+        "商店街"
+      ],
+      "buyer_segments": [
+        "法人営業"
+      ],
+      "opportunity_type": "情報更新",
+      "commercial_score": 23,
+      "urgency": 10,
+      "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
+      "change_type": "added",
+      "detected_at": "2026-08-13T05:52:41+00:00"
+    },
+    {
+      "id": "80521eaea9e70588b719",
+      "source_id": "yokohama_city_info",
+      "source_name": "横浜市 市政情報",
+      "source_type": "rss",
+      "region": "横浜市",
+      "title": "【記者発表】市営バスの事故について",
+      "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/koutuu/2026/0813.html",
+      "source_updated": "Thu, 13 Aug 2026 01:00:00 GMT",
+      "description": "",
+      "license_mode": "website-rss",
+      "commercial_redistribution": "link-and-signal-only-review-before-paid-launch",
+      "category": "その他",
+      "importance": 20,
+      "matched_keywords": [],
+      "buyer_segments": [],
+      "opportunity_type": "情報更新",
+      "commercial_score": 15,
+      "urgency": 10,
+      "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
+      "change_type": "added",
+      "detected_at": "2026-08-13T05:52:41+00:00"
+    },
     {
       "id": "26bc2ed14ac3dcb5066e",
       "source_id": "yokohama_procurement",
