@@ -1,8 +1,12 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-08-14T01:32:40+00:00",
+  "updated_at": "2026-08-14T05:49:55+00:00",
   "items": {
+    "e36f66f5ad8b5450551c": {
+      "fingerprint": "f8c67c187b8b131e73d9b7df72f8f69a0e3ec7614e9848379dc3812702f0de92",
+      "source_id": "yokohama_city_info"
+    },
     "454e8bbb15fe1e650ce9": {
       "fingerprint": "32c37266d59cee059aa5bdf5d37ff88a97d0dad32fd28f4cb92bfb5be4debdfe",
       "source_id": "yokohama_city_info"
@@ -799,10 +803,6 @@
       "fingerprint": "5559ce59473d3f441516aeb3cb1d457e8e0389fc9d9dc3391de026de6e757ad2",
       "source_id": "yokohama_city_info"
     },
-    "8d75c8bdbdb9984c0458": {
-      "fingerprint": "e179d31650625d79f3bdafdb03e8868fd92e2417d047f6fd48c7d519c95adbf7",
-      "source_id": "yokohama_city_info"
-    },
     "dd9c71fbaf7479ecfc93": {
       "fingerprint": "c7110908e9cdee6cd38610a9ef68ab6f15d80ad6376e548eb10283949bae11c9",
       "source_id": "yokohama_procurement"
@@ -942,6 +942,10 @@
     "1fae1e91120b69487f1d": {
       "fingerprint": "940dfe648846109d51f3cea2bbf4a11910ce0c79f05670b4f52899f87af0caf9",
       "source_id": "yokohama_business_sector"
+    },
+    "07e545059af1f292a77a": {
+      "fingerprint": "ded0fdd25c3b195f3c1ed6a0556a8e44ec1644d3577e803f3d799402571f9422",
+      "source_id": "yokohama_open_data"
     },
     "36b2ec03108a54d7d91c": {
       "fingerprint": "95e4acff0dfa894ef3771094386ecace8d32d36982a55bcdb398f61e402457cd",
@@ -1871,14 +1875,6 @@
       "fingerprint": "e19f7cacbe2ee1a4da2cce7968087debdca07a1be3781ce669dc99828b36fbb2",
       "source_id": "yokohama_open_data"
     },
-    "39ec4d542cdd3bde0e4d": {
-      "fingerprint": "3aea9d8fe351ffff0dbe96255432ea05899249de0131ba098a780e9e7758f542",
-      "source_id": "yokohama_open_data"
-    },
-    "adcde0987542083f89b3": {
-      "fingerprint": "51298b110a43dc0dde8d6691f227cb2ce9c670b37eff865a930386af52170bba",
-      "source_id": "yokohama_open_data"
-    },
     "170fc9068b11ec6e6444": {
       "fingerprint": "b28e7f610778183170f352f4e226fc0552cf442eee555822cf237619d50ade24",
       "source_id": "yokohama_open_data"
@@ -2621,10 +2617,6 @@
     },
     "b1de49cc4f06c7cc174b": {
       "fingerprint": "c8fb1476ac3e2195ad6cd37ee464e8b9495640b8f9a32cffce1a7dbdd0657cc5",
-      "source_id": "yokohama_open_data"
-    },
-    "bb7e4cf1db093f5dc463": {
-      "fingerprint": "4eff9f95888270794fa824b6c72e07c9e5c96c66404f9a2cb5b832a7351887c4",
       "source_id": "yokohama_open_data"
     },
     "9946db5a0d5e0a3eeea0": {

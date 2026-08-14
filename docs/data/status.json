@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-14T01:32:40+00:00",
+  "generated_at": "2026-08-14T05:49:55+00:00",
   "sources_total": 5,
   "sources_ok": 5,
-  "items_seen": 891,
-  "changes_this_run": 3,
+  "items_seen": 889,
+  "changes_this_run": 2,
   "errors": [],
   "state_preserved": false,
   "application_status_version": 2,
-  "application_status_checked_at": "2026-08-14T01:32:56+00:00",
+  "application_status_checked_at": "2026-08-14T05:49:56+00:00",
   "application_status_candidates": 35,
   "application_status_open_now": 2,
-  "application_status_fetches": 32,
+  "application_status_fetches": 0,
   "application_status_errors": [
     {
       "title": "【総務局】会計年度任用職員（入札参加資格審査に係る事務補助等）（令和８年10月１日採用）",
@@ -19,6 +19,18 @@
     {
       "title": "【総務局】会計年度任用職員（入札参加資格審査に係る審査事務等）（令和８年10月１日採用）",
       "error": "HTTPError: HTTP Error 404: Not Found"
+    }
+  ],
+  "gbiz_enabled": true,
+  "gbiz_period": {
+    "from": "20260812",
+    "to": "20260814"
+  },
+  "gbiz_items_seen": 2,
+  "gbiz_errors": [
+    {
+      "source": "補助金実績更新",
+      "error": "HTTPError: HTTP Error 404: "
     }
   ]
 }
