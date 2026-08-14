@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-14T09:44:52+00:00",
+  "generated_at": "2026-08-14T15:10:54+00:00",
   "period": {
-    "from": "20260812",
-    "to": "20260814"
+    "from": "20260813",
+    "to": "20260815"
   },
-  "count": 2,
+  "count": 1,
   "items": [
     {
       "signal_type": "法人情報更新",
@@ -36,25 +36,6 @@
         "business_items": [],
         "qualification_grade": null,
         "update_date": "2026-08-12T00:00:00+09:00"
-      }
-    },
-    {
-      "signal_type": "調達実績更新",
-      "corporate_number": "9020001010681",
-      "name": "株式会社八代産業",
-      "raw": {
-        "corporate_number": "9020001010681",
-        "name": "株式会社八代産業",
-        "location": "神奈川県横浜市西区浅間町４丁目３５０番地２",
-        "procurement": [
-          {
-            "date_of_order": "2026-08-10T00:00:00+09:00",
-            "title": "第二海堡蓄電池撤去工事",
-            "amount": 9412000,
-            "government_departments": "海上保安庁",
-            "note": null
-          }
-        ]
       }
     }
   ],

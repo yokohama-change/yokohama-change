@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-14T09:44:46+00:00",
+  "generated_at": "2026-08-14T15:10:47+00:00",
   "sources_total": 5,
   "sources_ok": 5,
   "items_seen": 889,
-  "changes_this_run": 4,
+  "changes_this_run": 1,
   "errors": [],
   "state_preserved": false,
   "application_status_version": 2,
-  "application_status_checked_at": "2026-08-14T09:44:48+00:00",
+  "application_status_checked_at": "2026-08-14T15:10:50+00:00",
   "application_status_candidates": 36,
   "application_status_open_now": 2,
   "application_status_fetches": 0,
@@ -23,10 +23,10 @@
   ],
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20260812",
-    "to": "20260814"
+    "from": "20260813",
+    "to": "20260815"
   },
-  "gbiz_items_seen": 2,
+  "gbiz_items_seen": 1,
   "gbiz_errors": [
     {
       "source": "補助金実績更新",
