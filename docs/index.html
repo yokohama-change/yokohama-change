@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="横浜市の公式公開情報から、今から応募できるビジネス機会を自動判定する無料プロトタイプ">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://yokohama-change.github.io/yokohama-change/">
   <title>YOKOHAMA CHANGE — ビジネス変化レーダー</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -21,6 +23,15 @@
   </header>
 
   <main>
+    <section class="product-promo" aria-label="福祉新規指定事業所データ">
+      <div>
+        <span>NEW DATA PRODUCT</span>
+        <h2>神奈川県 介護・障害福祉<br>新規指定事業所リスト</h2>
+        <p>自治体ごとに分かれた公式情報を、営業・市場調査に使いやすいExcel・CSVへ整理。20件の無料サンプルを公開しています。</p>
+      </div>
+      <a href="welfare-data/">詳しく見る →</a>
+    </section>
+
     <section class="controls" aria-label="絞り込み">
       <input id="search" type="search" placeholder="補助金、道路、プロポーザル…">
       <select id="applicationStatus">
@@ -45,7 +56,7 @@
 
   <footer>
     <p>「受付中」は公式ページの締切表記から機械判定しています。契約・応募前には必ず公式情報をご確認ください。</p>
-    <p><a href="data/latest.json">JSONデータ</a> · <a href="data/leads.csv">候補CSV</a> · <a href="data/summary.json">集計</a> · <a href="data/status.json">収集ステータス</a></p>
+    <p><a href="data/latest.json">JSONデータ</a> · <a href="data/leads.csv">候補CSV</a> · <a href="data/summary.json">集計</a> · <a href="data/status.json">収集ステータス</a> · <a href="welfare-data/">福祉新規指定事業所データ</a></p>
     <p>横浜市オープンデータを利用する場合は各データセットのライセンス条件に従います。本サービスは横浜市の公式サービスではありません。</p>
   </footer>
   <script src="app.js"></script>
