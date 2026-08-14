@@ -1,9 +1,41 @@
 {
-  "generated_at": "2026-08-13T23:25:53+00:00",
+  "generated_at": "2026-08-14T00:30:26+00:00",
   "scope": "横浜市 MVP",
-  "count": 48,
-  "changes_this_run": 0,
+  "count": 49,
+  "changes_this_run": 1,
   "items": [
+    {
+      "id": "647d2806365bbb42c70e",
+      "source_id": "yokohama_city_info",
+      "source_name": "横浜市 市政情報",
+      "source_type": "rss",
+      "region": "横浜市",
+      "title": "令和８年度戸塚区役所こども家庭支援課会計年度任用職員【日額職】 要保護児童対策及び未就園児等把握調査に関する事務補助",
+      "url": "https://www.city.yokohama.lg.jp/totsuka/kusei/saiyoannai/saiyou-kaikeinenndo.html",
+      "source_updated": "Fri, 14 Aug 2026 00:00:00 GMT",
+      "description": "",
+      "license_mode": "website-rss",
+      "commercial_redistribution": "link-and-signal-only-review-before-paid-launch",
+      "category": "子育て・教育",
+      "importance": 26,
+      "matched_keywords": [
+        "児童"
+      ],
+      "buyer_segments": [],
+      "opportunity_type": "情報更新",
+      "commercial_score": 15,
+      "urgency": 10,
+      "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
+      "change_type": "added",
+      "detected_at": "2026-08-14T00:30:26+00:00",
+      "status_checked_at": "2026-08-14T00:30:27+00:00",
+      "application_status": "案件外",
+      "is_open_now": null,
+      "participation_deadline": "",
+      "next_deadline": "",
+      "status_confidence": "n/a",
+      "status_reason": "応募型案件の自動判定対象外"
+    },
     {
       "id": "85b2049340d29330f227",
       "source_id": "yokohama_city_info",
@@ -30,7 +62,14 @@
       "urgency": 10,
       "why_it_matters": "施設・道路・地域環境への影響があり、地域事業者やメディアの確認対象になり得ます。",
       "change_type": "added",
-      "detected_at": "2026-08-13T15:35:17+00:00"
+      "detected_at": "2026-08-13T15:35:17+00:00",
+      "status_checked_at": "2026-08-14T00:30:27+00:00",
+      "application_status": "案件外",
+      "is_open_now": null,
+      "participation_deadline": "",
+      "next_deadline": "",
+      "status_confidence": "n/a",
+      "status_reason": "応募型案件の自動判定対象外"
     },
     {
       "id": "4948c8b19fce17aabcad",
@@ -53,7 +92,14 @@
       "urgency": 22,
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
-      "detected_at": "2026-08-13T15:35:17+00:00"
+      "detected_at": "2026-08-13T15:35:17+00:00",
+      "status_checked_at": "2026-08-14T00:30:27+00:00",
+      "application_status": "案件外",
+      "is_open_now": null,
+      "participation_deadline": "",
+      "next_deadline": "",
+      "status_confidence": "n/a",
+      "status_reason": "応募型案件の自動判定対象外"
     },
     {
       "id": "bdcbdf4a717c086eaf57",
@@ -81,7 +127,14 @@
       "urgency": 22,
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
-      "detected_at": "2026-08-13T09:50:12+00:00"
+      "detected_at": "2026-08-13T09:50:12+00:00",
+      "status_checked_at": "2026-08-14T00:30:27+00:00",
+      "application_status": "案件外",
+      "is_open_now": null,
+      "participation_deadline": "",
+      "next_deadline": "",
+      "status_confidence": "n/a",
+      "status_reason": "応募型案件の自動判定対象外"
     },
     {
       "id": "36b2ec03108a54d7d91c",
@@ -108,7 +161,14 @@
       "urgency": 10,
       "why_it_matters": "施設・道路・地域環境への影響があり、地域事業者やメディアの確認対象になり得ます。",
       "change_type": "updated",
-      "detected_at": "2026-08-13T09:50:12+00:00"
+      "detected_at": "2026-08-13T09:50:12+00:00",
+      "status_checked_at": "2026-08-14T00:30:27+00:00",
+      "application_status": "案件外",
+      "is_open_now": null,
+      "participation_deadline": "",
+      "next_deadline": "",
+      "status_confidence": "n/a",
+      "status_reason": "応募型案件の自動判定対象外"
     },
     {
       "id": "21394989119ad85fa991",
@@ -135,7 +195,14 @@
       "urgency": 10,
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
-      "detected_at": "2026-08-13T05:52:41+00:00"
+      "detected_at": "2026-08-13T05:52:41+00:00",
+      "status_checked_at": "2026-08-14T00:30:27+00:00",
+      "application_status": "案件外",
+      "is_open_now": null,
+      "participation_deadline": "",
+      "next_deadline": "",
+      "status_confidence": "n/a",
+      "status_reason": "応募型案件の自動判定対象外"
     },
     {
       "id": "2663bd956e3af7583eb0",
@@ -162,7 +229,14 @@
       "urgency": 10,
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
-      "detected_at": "2026-08-13T05:52:41+00:00"
+      "detected_at": "2026-08-13T05:52:41+00:00",
+      "status_checked_at": "2026-08-14T00:30:27+00:00",
+      "application_status": "案件外",
+      "is_open_now": null,
+      "participation_deadline": "",
+      "next_deadline": "",
+      "status_confidence": "n/a",
+      "status_reason": "応募型案件の自動判定対象外"
     },
     {
       "id": "54877a0446b94e1e122a",
@@ -189,7 +263,14 @@
       "urgency": 10,
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
-      "detected_at": "2026-08-13T05:52:41+00:00"
+      "detected_at": "2026-08-13T05:52:41+00:00",
+      "status_checked_at": "2026-08-14T00:30:27+00:00",
+      "application_status": "案件外",
+      "is_open_now": null,
+      "participation_deadline": "",
+      "next_deadline": "",
+      "status_confidence": "n/a",
+      "status_reason": "応募型案件の自動判定対象外"
     },
     {
       "id": "80521eaea9e70588b719",
@@ -212,7 +293,14 @@
       "urgency": 10,
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
-      "detected_at": "2026-08-13T05:52:41+00:00"
+      "detected_at": "2026-08-13T05:52:41+00:00",
+      "status_checked_at": "2026-08-14T00:30:27+00:00",
+      "application_status": "案件外",
+      "is_open_now": null,
+      "participation_deadline": "",
+      "next_deadline": "",
+      "status_confidence": "n/a",
+      "status_reason": "応募型案件の自動判定対象外"
     },
     {
       "id": "26bc2ed14ac3dcb5066e",
@@ -247,7 +335,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:27+00:00",
+      "application_status": "受付中",
+      "is_open_now": true,
+      "participation_deadline": "2026-09-01",
+      "next_deadline": "2026-09-01",
+      "status_confidence": "high",
+      "status_reason": "参加・申込期限を2026-09-01と判定"
     },
     {
       "id": "d5f3e3f2a670eeb95604",
@@ -281,7 +376,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:27+00:00",
+      "application_status": "結果掲載済",
+      "is_open_now": false,
+      "participation_deadline": "2026-08-12",
+      "next_deadline": "",
+      "status_confidence": "medium",
+      "status_reason": "新規参加期限を経過し、結果掲載語を検出"
     },
     {
       "id": "b877597b84c9b060e656",
@@ -315,7 +417,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:28+00:00",
+      "application_status": "資格者のみ進行中",
+      "is_open_now": false,
+      "participation_deadline": "2026-08-07",
+      "next_deadline": "2026-08-28",
+      "status_confidence": "high",
+      "status_reason": "新規参加期限は終了。質問・提案等の後続期限あり"
     },
     {
       "id": "b935dd9b1e818910b0e8",
@@ -347,7 +456,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:29+00:00",
+      "application_status": "参加締切済",
+      "is_open_now": false,
+      "participation_deadline": "2026-07-08",
+      "next_deadline": "",
+      "status_confidence": "high",
+      "status_reason": "新規参加期限を経過"
     },
     {
       "id": "c7df71dff7965176ec12",
@@ -380,7 +496,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:30+00:00",
+      "application_status": "参加締切済",
+      "is_open_now": false,
+      "participation_deadline": "2026-07-17",
+      "next_deadline": "",
+      "status_confidence": "high",
+      "status_reason": "新規参加期限を経過"
     },
     {
       "id": "131ec49de4937b452189",
@@ -412,7 +535,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:31+00:00",
+      "application_status": "受付中",
+      "is_open_now": true,
+      "participation_deadline": "2026-08-19",
+      "next_deadline": "2026-08-19",
+      "status_confidence": "high",
+      "status_reason": "参加・申込期限を2026-08-19と判定"
     },
     {
       "id": "ae766e4a9ce81ecfd3de",
@@ -444,7 +574,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:32+00:00",
+      "application_status": "結果掲載済",
+      "is_open_now": false,
+      "participation_deadline": "2026-05-27",
+      "next_deadline": "",
+      "status_confidence": "medium",
+      "status_reason": "新規参加期限を経過し、結果掲載語を検出"
     },
     {
       "id": "566523d09fb0aa60568f",
@@ -476,7 +613,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:33+00:00",
+      "application_status": "結果掲載済",
+      "is_open_now": false,
+      "participation_deadline": "2026-07-03",
+      "next_deadline": "",
+      "status_confidence": "medium",
+      "status_reason": "新規参加期限を経過し、結果掲載語を検出"
     },
     {
       "id": "dd9c71fbaf7479ecfc93",
@@ -507,7 +651,14 @@
       "urgency": 82,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:33+00:00",
+      "application_status": "受付中",
+      "is_open_now": true,
+      "participation_deadline": "2026-08-31",
+      "next_deadline": "2026-08-31",
+      "status_confidence": "high",
+      "status_reason": "参加・申込期限を2026-08-31と判定"
     },
     {
       "id": "2dc9d6542db23d89392e",
@@ -538,7 +689,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:34+00:00",
+      "application_status": "結果掲載済",
+      "is_open_now": false,
+      "participation_deadline": "2026-05-01",
+      "next_deadline": "",
+      "status_confidence": "medium",
+      "status_reason": "新規参加期限を経過し、結果掲載語を検出"
     },
     {
       "id": "4bcd1c3b41b54d62cdd7",
@@ -569,7 +727,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:34+00:00",
+      "application_status": "受付中",
+      "is_open_now": true,
+      "participation_deadline": "2026-08-31",
+      "next_deadline": "2026-08-31",
+      "status_confidence": "high",
+      "status_reason": "参加・申込期限を2026-08-31と判定"
     },
     {
       "id": "7cf9ec0b9bf702eaf198",
@@ -600,7 +765,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:35+00:00",
+      "application_status": "資格者のみ進行中",
+      "is_open_now": false,
+      "participation_deadline": "2026-08-07",
+      "next_deadline": "2026-08-14",
+      "status_confidence": "high",
+      "status_reason": "新規参加期限は終了。質問・提案等の後続期限あり"
     },
     {
       "id": "19a61eb72877e6251b8a",
@@ -631,7 +803,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:35+00:00",
+      "application_status": "受付中",
+      "is_open_now": true,
+      "participation_deadline": "2026-08-28",
+      "next_deadline": "2026-08-28",
+      "status_confidence": "high",
+      "status_reason": "参加・申込期限を2026-08-28と判定"
     },
     {
       "id": "1ee6318574af9587ab38",
@@ -662,7 +841,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:36+00:00",
+      "application_status": "参加締切済",
+      "is_open_now": false,
+      "participation_deadline": "2026-07-17",
+      "next_deadline": "",
+      "status_confidence": "high",
+      "status_reason": "新規参加期限を経過"
     },
     {
       "id": "ed71172d5d67b70c1c3c",
@@ -693,7 +879,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:36+00:00",
+      "application_status": "参加締切済",
+      "is_open_now": false,
+      "participation_deadline": "2026-07-17",
+      "next_deadline": "",
+      "status_confidence": "high",
+      "status_reason": "新規参加期限を経過"
     },
     {
       "id": "1797d8e12f8ad1a9add0",
@@ -724,7 +917,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:37+00:00",
+      "application_status": "参加締切済",
+      "is_open_now": false,
+      "participation_deadline": "2026-07-17",
+      "next_deadline": "",
+      "status_confidence": "high",
+      "status_reason": "新規参加期限を経過"
     },
     {
       "id": "902e6decab00d5467a49",
@@ -755,7 +955,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:37+00:00",
+      "application_status": "結果掲載済",
+      "is_open_now": false,
+      "participation_deadline": "2026-05-08",
+      "next_deadline": "",
+      "status_confidence": "medium",
+      "status_reason": "新規参加期限を経過し、結果掲載語を検出"
     },
     {
       "id": "e81a3f4f46ac6568e817",
@@ -786,7 +993,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:38+00:00",
+      "application_status": "結果掲載済",
+      "is_open_now": false,
+      "participation_deadline": "2026-06-18",
+      "next_deadline": "",
+      "status_confidence": "medium",
+      "status_reason": "新規参加期限を経過し、結果掲載語を検出"
     },
     {
       "id": "4629785b8032dd5ba121",
@@ -817,7 +1031,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:38+00:00",
+      "application_status": "結果掲載済",
+      "is_open_now": false,
+      "participation_deadline": "2026-08-05",
+      "next_deadline": "",
+      "status_confidence": "medium",
+      "status_reason": "新規参加期限を経過し、結果掲載語を検出"
     },
     {
       "id": "024042f6997641c3471c",
@@ -848,7 +1069,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:39+00:00",
+      "application_status": "受付中",
+      "is_open_now": true,
+      "participation_deadline": "2026-08-26",
+      "next_deadline": "2026-08-26",
+      "status_confidence": "high",
+      "status_reason": "参加・申込期限を2026-08-26と判定"
     },
     {
       "id": "b64112d18c01bd955dc1",
@@ -879,7 +1107,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:41+00:00",
+      "application_status": "受付中",
+      "is_open_now": true,
+      "participation_deadline": "2026-08-21",
+      "next_deadline": "2026-08-21",
+      "status_confidence": "high",
+      "status_reason": "参加・申込期限を2026-08-21と判定"
     },
     {
       "id": "6c952ee9cecff868ae38",
@@ -910,7 +1145,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:42+00:00",
+      "application_status": "結果掲載済",
+      "is_open_now": false,
+      "participation_deadline": "2026-07-10",
+      "next_deadline": "",
+      "status_confidence": "medium",
+      "status_reason": "新規参加期限を経過し、結果掲載語を検出"
     },
     {
       "id": "3e661dcc993e867268c9",
@@ -944,7 +1186,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:43+00:00",
+      "application_status": "判定不可",
+      "is_open_now": null,
+      "participation_deadline": "",
+      "next_deadline": "",
+      "status_confidence": "low",
+      "status_reason": "締切を特定できませんでした。原典確認が必要です"
     },
     {
       "id": "e7de75141316511ddbc7",
@@ -978,7 +1227,14 @@
       "urgency": 10,
       "why_it_matters": "開発・土地利用・周辺環境に影響する可能性があり、不動産・建設事業者の先行確認に向きます。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:43+00:00",
+      "application_status": "案件外",
+      "is_open_now": null,
+      "participation_deadline": "",
+      "next_deadline": "",
+      "status_confidence": "n/a",
+      "status_reason": "応募型案件の自動判定対象外"
     },
     {
       "id": "4fcca73f72e2bad0c3b7",
@@ -1012,7 +1268,14 @@
       "urgency": 10,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:43+00:00",
+      "application_status": "判定不可",
+      "is_open_now": null,
+      "participation_deadline": "",
+      "next_deadline": "",
+      "status_confidence": "low",
+      "status_reason": "公式ページの締切確認待ち。原典確認が必要です"
     },
     {
       "id": "2b289775c0968147368a",
@@ -1043,7 +1306,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:43+00:00",
+      "application_status": "結果掲載済",
+      "is_open_now": false,
+      "participation_deadline": "",
+      "next_deadline": "",
+      "status_confidence": "low",
+      "status_reason": "結果掲載語を検出"
     },
     {
       "id": "a9c094bc373d933e102b",
@@ -1073,7 +1343,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:44+00:00",
+      "application_status": "結果掲載済",
+      "is_open_now": false,
+      "participation_deadline": "2026-07-02",
+      "next_deadline": "",
+      "status_confidence": "medium",
+      "status_reason": "新規参加期限を経過し、結果掲載語を検出"
     },
     {
       "id": "e9afab10bdb8196e5d1d",
@@ -1103,7 +1380,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:44+00:00",
+      "application_status": "結果掲載済",
+      "is_open_now": false,
+      "participation_deadline": "2026-07-02",
+      "next_deadline": "",
+      "status_confidence": "medium",
+      "status_reason": "新規参加期限を経過し、結果掲載語を検出"
     },
     {
       "id": "f3b4f0c4877a4c711310",
@@ -1133,7 +1417,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:45+00:00",
+      "application_status": "受付中",
+      "is_open_now": true,
+      "participation_deadline": "2026-08-20",
+      "next_deadline": "2026-08-20",
+      "status_confidence": "high",
+      "status_reason": "参加・申込期限を2026-08-20と判定"
     },
     {
       "id": "b7f0242408d8ba94e4de",
@@ -1163,7 +1454,14 @@
       "urgency": 52,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:45+00:00",
+      "application_status": "資格者のみ進行中",
+      "is_open_now": false,
+      "participation_deadline": "2026-06-29",
+      "next_deadline": "2026-11-18",
+      "status_confidence": "high",
+      "status_reason": "新規参加期限は終了。質問・提案等の後続期限あり"
     },
     {
       "id": "ab277f9833daa5332a15",
@@ -1192,7 +1490,14 @@
       "urgency": 10,
       "why_it_matters": "開発・土地利用・周辺環境に影響する可能性があり、不動産・建設事業者の先行確認に向きます。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:46+00:00",
+      "application_status": "案件外",
+      "is_open_now": null,
+      "participation_deadline": "",
+      "next_deadline": "",
+      "status_confidence": "n/a",
+      "status_reason": "応募型案件の自動判定対象外"
     },
     {
       "id": "e0833ebb6d40551fc623",
@@ -1223,7 +1528,14 @@
       "urgency": 52,
       "why_it_matters": "補助・助成等の利用可能性があり、対象事業者や支援者にとって確認価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:46+00:00",
+      "application_status": "受付中",
+      "is_open_now": true,
+      "participation_deadline": "2027-02-24",
+      "next_deadline": "2027-02-24",
+      "status_confidence": "high",
+      "status_reason": "参加・申込期限を2027-02-24と判定"
     },
     {
       "id": "b5d44edb4590e63293c6",
@@ -1252,7 +1564,14 @@
       "urgency": 10,
       "why_it_matters": "開発・土地利用・周辺環境に影響する可能性があり、不動産・建設事業者の先行確認に向きます。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:46+00:00",
+      "application_status": "案件外",
+      "is_open_now": null,
+      "participation_deadline": "",
+      "next_deadline": "",
+      "status_confidence": "n/a",
+      "status_reason": "応募型案件の自動判定対象外"
     },
     {
       "id": "19d26dc75a7815fdd7bb",
@@ -1280,7 +1599,14 @@
       "urgency": 10,
       "why_it_matters": "補助・助成等の利用可能性があり、対象事業者や支援者にとって確認価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:46+00:00",
+      "application_status": "判定不可",
+      "is_open_now": null,
+      "participation_deadline": "",
+      "next_deadline": "",
+      "status_confidence": "low",
+      "status_reason": "締切を特定できませんでした。原典確認が必要です"
     },
     {
       "id": "718422da9391b77c2961",
@@ -1309,7 +1635,14 @@
       "urgency": 46,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:47+00:00",
+      "application_status": "判定不可",
+      "is_open_now": null,
+      "participation_deadline": "",
+      "next_deadline": "",
+      "status_confidence": "low",
+      "status_reason": "公式ページの締切確認待ち。原典確認が必要です"
     },
     {
       "id": "56552e43543676b31eda",
@@ -1338,7 +1671,14 @@
       "urgency": 46,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:47+00:00",
+      "application_status": "判定不可",
+      "is_open_now": null,
+      "participation_deadline": "",
+      "next_deadline": "",
+      "status_confidence": "low",
+      "status_reason": "公式ページの締切確認待ち。原典確認が必要です"
     },
     {
       "id": "fd1c7f37c18b19ce349a",
@@ -1366,7 +1706,14 @@
       "urgency": 10,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:48+00:00",
+      "application_status": "結果掲載済",
+      "is_open_now": false,
+      "participation_deadline": "2026-02-09",
+      "next_deadline": "",
+      "status_confidence": "medium",
+      "status_reason": "新規参加期限を経過し、結果掲載語を検出"
     },
     {
       "id": "8ff14e2f221cf97715a3",
@@ -1394,7 +1741,14 @@
       "urgency": 10,
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:48+00:00",
+      "application_status": "判定不可",
+      "is_open_now": null,
+      "participation_deadline": "",
+      "next_deadline": "",
+      "status_confidence": "low",
+      "status_reason": "締切を特定できませんでした。原典確認が必要です"
     },
     {
       "id": "fefc6d5c73ff73aa45ce",
@@ -1424,7 +1778,14 @@
       "urgency": 10,
       "why_it_matters": "補助・助成等の利用可能性があり、対象事業者や支援者にとって確認価値があります。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:49+00:00",
+      "application_status": "案件外",
+      "is_open_now": null,
+      "participation_deadline": "",
+      "next_deadline": "",
+      "status_confidence": "n/a",
+      "status_reason": "応募型案件の自動判定対象外"
     },
     {
       "id": "74b4e7598d03cb4940d2",
@@ -1453,8 +1814,17 @@
       "urgency": 22,
       "why_it_matters": "施設・道路・地域環境への影響があり、地域事業者やメディアの確認対象になり得ます。",
       "change_type": "baseline",
-      "detected_at": "2026-08-12T19:21:36+00:00"
+      "detected_at": "2026-08-12T19:21:36+00:00",
+      "status_checked_at": "2026-08-14T00:30:49+00:00",
+      "application_status": "案件外",
+      "is_open_now": null,
+      "participation_deadline": "",
+      "next_deadline": "",
+      "status_confidence": "n/a",
+      "status_reason": "応募型案件の自動判定対象外"
     }
   ],
-  "disclaimer": "公開情報の自動整理です。商用・契約・投資等の判断は必ずリンク先の公式情報を確認してください。"
+  "disclaimer": "公開情報の自動整理です。『受付中』は公式ページの締切表記から機械判定しています。判定不可・契約・商用判断は必ずリンク先の公式情報を確認してください。",
+  "open_now_count": 9,
+  "application_status_checked_at": "2026-08-14T00:30:49+00:00"
 }

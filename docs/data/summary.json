@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T23:25:53+00:00",
+  "generated_at": "2026-08-14T00:30:26+00:00",
   "commercial_50_plus": 38,
   "commercial_70_plus": 26,
   "commercial_85_plus": 23,
@@ -14,5 +14,14 @@
     "受注機会": 33,
     "開発・不動産": 3,
     "資金・支援": 2
+  },
+  "open_now": 9,
+  "open_now_commercial_70_plus": 7,
+  "application_status_counts": {
+    "受付中": 9,
+    "参加締切済": 5,
+    "資格者のみ進行中": 3,
+    "結果掲載済": 12,
+    "判定不可": 6
   }
 }

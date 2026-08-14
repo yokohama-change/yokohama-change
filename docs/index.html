@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="横浜市の公式公開情報から、ビジネス価値のある変化だけを自動検出する無料プロトタイプ">
+  <meta name="description" content="横浜市の公式公開情報から、今から応募できるビジネス機会を自動判定する無料プロトタイプ">
   <title>YOKOHAMA CHANGE — ビジネス変化レーダー</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -11,11 +11,11 @@
   <header class="hero">
     <div class="eyebrow">ZERO-COST BUSINESS SIGNAL RADAR</div>
     <h1>YOKOHAMA <span>CHANGE</span></h1>
-    <p>横浜市の公式公開情報を巡回し、<strong>「何が変わったか」</strong>と<strong>「誰に価値がありそうか」</strong>を自動整理する実験版。</p>
+    <p>横浜市の公式公開情報を巡回し、<strong>「何が変わったか」</strong>に加えて、<strong>「今から応募できるか」</strong>まで自動判定します。</p>
     <div class="metrics">
       <div><b id="count">—</b><small>検出履歴</small></div>
       <div><b id="runCount">—</b><small>今回の変化</small></div>
-      <div><b id="hotCount">—</b><small>商用スコア70+</small></div>
+      <div><b id="hotCount">—</b><small>受付中・商用70+</small></div>
       <div><b id="updated">—</b><small>最終更新</small></div>
     </div>
   </header>
@@ -23,6 +23,12 @@
   <main>
     <section class="controls" aria-label="絞り込み">
       <input id="search" type="search" placeholder="補助金、道路、プロポーザル…">
+      <select id="applicationStatus">
+        <option value="open" selected>今から応募できる案件</option>
+        <option value="all">募集状態すべて</option>
+        <option value="closed">締切・結果掲載済</option>
+        <option value="unknown">判定不可</option>
+      </select>
       <select id="category"><option value="">すべての分類</option></select>
       <select id="buyer"><option value="">すべての想定利用者</option></select>
       <select id="commercial">
@@ -38,7 +44,7 @@
   </main>
 
   <footer>
-    <p>公式情報へのリンクを必ず確認してください。これは行政機関の公式サービスではありません。</p>
+    <p>「受付中」は公式ページの締切表記から機械判定しています。契約・応募前には必ず公式情報をご確認ください。</p>
     <p><a href="data/latest.json">JSONデータ</a> · <a href="data/leads.csv">候補CSV</a> · <a href="data/summary.json">集計</a> · <a href="data/status.json">収集ステータス</a></p>
     <p>横浜市オープンデータを利用する場合は各データセットのライセンス条件に従います。本サービスは横浜市の公式サービスではありません。</p>
   </footer>
