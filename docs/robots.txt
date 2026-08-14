@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yokohama-change.github.io/yokohama-change/sitemap.xml
