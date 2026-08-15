@@ -1,7 +1,7 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-08-15T04:52:12+00:00",
+  "updated_at": "2026-08-15T07:46:23+00:00",
   "items": {
     "e36f66f5ad8b5450551c": {
       "fingerprint": "f8c67c187b8b131e73d9b7df72f8f69a0e3ec7614e9848379dc3812702f0de92",
@@ -925,10 +925,6 @@
     },
     "b935dd9b1e818910b0e8": {
       "fingerprint": "fb7372e11a07ed9fada01ad749149139031186cbfa762c34ae33ba67345cb0cc",
-      "source_id": "yokohama_procurement"
-    },
-    "2dc9d6542db23d89392e": {
-      "fingerprint": "af614f95bed3c374258650915ec701acd0ddbfc64b84f3750a1e59cb528e2e16",
       "source_id": "yokohama_procurement"
     },
     "e0833ebb6d40551fc623": {
