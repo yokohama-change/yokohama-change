@@ -1,23 +1,13 @@
 {
-  "generated_at": "2026-08-15T13:49:55+00:00",
+  "generated_at": "2026-08-15T15:53:18+00:00",
   "enabled": true,
   "stale": false,
   "period": {
-    "from": "20260813",
-    "to": "20260815"
+    "from": "20260814",
+    "to": "20260816"
   },
-  "count": 1,
-  "items": [
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1010401191576",
-      "name": "株式会社アグリベラル",
-      "location": "神奈川県横浜市神奈川区山内町２番地",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    }
-  ],
+  "count": 0,
+  "items": [],
   "errors": [],
   "endpoint_mode": "v2-period-corporate-update-only",
   "note": "法人情報の更新シグナルです。現在募集中の調達・補助金ではありません。",

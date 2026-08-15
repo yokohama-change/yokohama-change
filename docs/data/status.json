@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T13:49:52+00:00",
+  "generated_at": "2026-08-15T15:53:15+00:00",
   "sources_total": 5,
   "sources_ok": 5,
   "items_seen": 888,
@@ -9,7 +9,7 @@
   "public_items": 56,
   "public_duplicate_revisions_removed": 3,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-08-15T13:49:52+00:00",
+  "application_status_checked_at": "2026-08-15T15:53:15+00:00",
   "application_status_candidates": 33,
   "application_status_open_now": 2,
   "application_status_fetches": 0,
@@ -21,10 +21,10 @@
   "support_period_errors": [],
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20260813",
-    "to": "20260815"
+    "from": "20260814",
+    "to": "20260816"
   },
-  "gbiz_items_seen": 1,
+  "gbiz_items_seen": 0,
   "gbiz_errors": [],
   "gbiz_endpoint_mode": "v2-period-corporate-update-only"
 }
