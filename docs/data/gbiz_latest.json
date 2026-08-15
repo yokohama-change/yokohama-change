@@ -1,5 +1,7 @@
 {
-  "generated_at": "2026-08-15T09:57:15+00:00",
+  "generated_at": "2026-08-15T13:47:29+00:00",
+  "enabled": true,
+  "stale": false,
   "period": {
     "from": "20260813",
     "to": "20260815"
@@ -8,42 +10,16 @@
   "items": [
     {
       "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
       "corporate_number": "1010401191576",
       "name": "株式会社アグリベラル",
-      "raw": {
-        "corporate_number": "1010401191576",
-        "name": "株式会社アグリベラル",
-        "kana": "アグリベラル",
-        "name_en": null,
-        "postal_code": "2210054",
-        "location": "神奈川県横浜市神奈川区山内町２番地",
-        "process": "12",
-        "aggregated_year": "0",
-        "status": "-",
-        "close_date": null,
-        "close_cause": null,
-        "kind": "301",
-        "representative_name": null,
-        "capital_stock": null,
-        "employee_number": null,
-        "company_size_male": null,
-        "company_size_female": null,
-        "business_summary": null,
-        "company_url": null,
-        "founding_year": null,
-        "industry": [],
-        "date_of_establishment": null,
-        "business_items": [],
-        "qualification_grade": null,
-        "update_date": "2026-08-12T00:00:00+09:00"
-      }
+      "location": "神奈川県横浜市神奈川区山内町２番地",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     }
   ],
-  "errors": [
-    {
-      "source": "補助金実績更新",
-      "error": "HTTPError: HTTP Error 404: "
-    }
-  ],
-  "note": "調達・補助金は過去実績の更新シグナルであり、現在募集中の案件を意味しません。"
+  "errors": [],
+  "endpoint_mode": "v2-period-corporate-update-only",
+  "note": "法人情報の更新シグナルです。現在募集中の調達・補助金ではありません。",
+  "signal_semantics": "営業先探索の補助情報。応募可能案件は YOKOHAMA CHANGE の受付中フィードを参照してください。"
 }
