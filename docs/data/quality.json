@@ -1,11 +1,11 @@
 {
-  "checked_at": "2026-08-15T13:47:29+00:00",
+  "checked_at": "2026-08-15T13:49:55+00:00",
   "health": "good",
   "health_label": "正常",
   "errors": [],
   "warnings": [],
   "freshness_minutes": 0,
-  "open_now": 1,
+  "open_now": 2,
   "open_now_high_value": 1,
   "checks": {
     "open_deadlines_not_past": true,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T13:47:00+00:00",
+  "generated_at": "2026-08-15T13:49:52+00:00",
   "commercial_50_plus": 39,
   "commercial_70_plus": 27,
   "commercial_85_plus": 24,
@@ -16,14 +16,14 @@
     "資金・支援": 2
   },
   "status_engine_version": 3,
-  "open_now": 1,
+  "open_now": 2,
   "open_now_commercial_70_plus": 1,
   "application_status_counts": {
-    "受付中": 1,
+    "受付中": 2,
     "参加締切済": 5,
     "資格者のみ進行中": 4,
     "結果掲載済": 17,
-    "判定不可": 6,
+    "判定不可": 5,
     "案件外": 23
   }
 }
