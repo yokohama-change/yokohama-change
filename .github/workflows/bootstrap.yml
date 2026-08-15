@@ -37,6 +37,10 @@ jobs:
         run: |
           python scripts/collect.py
 
+      - name: Normalize public latest view
+        run: |
+          python scripts/normalize_public.py
+
       - name: Enrich application status
         run: |
           python scripts/enrich_status.py
