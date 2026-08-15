@@ -3,50 +3,87 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="横浜市の公式公開情報から、今から応募できるビジネス機会を自動判定する無料プロトタイプ">
-  <title>YOKOHAMA CHANGE — ビジネス変化レーダー</title>
+  <meta name="description" content="横浜市の公式公開情報から、今応募できる公共案件・支援情報を締切付きで自動整理するビジネス機会レーダー">
+  <meta name="theme-color" content="#090b10">
+  <title>YOKOHAMA CHANGE — 横浜のビジネス機会レーダー</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="alternate" type="application/rss+xml" title="YOKOHAMA CHANGE 受付中案件" href="data/open_now.rss">
 </head>
 <body>
   <header class="hero">
-    <div class="eyebrow">ZERO-COST BUSINESS SIGNAL RADAR</div>
+    <div class="eyebrow">PUBLIC SIGNAL INTELLIGENCE · YOKOHAMA</div>
     <h1>YOKOHAMA <span>CHANGE</span></h1>
-    <p>横浜市の公式公開情報を巡回し、<strong>「何が変わったか」</strong>に加えて、<strong>「今から応募できるか」</strong>まで自動判定します。</p>
+    <p>横浜市の公式公開情報を自動巡回し、<strong>「何が変わったか」</strong>だけでなく、<strong>「今から応募できるか」「締切まで何日か」</strong>まで安全側で判定します。</p>
     <div class="metrics">
-      <div><b id="count">—</b><small>検出履歴</small></div>
-      <div><b id="runCount">—</b><small>今回の変化</small></div>
+      <div class="metric primary"><b id="openCount">—</b><small>今、応募できる案件</small></div>
       <div><b id="hotCount">—</b><small>受付中・商用70+</small></div>
+      <div><b id="runCount">—</b><small>今回の新規・更新</small></div>
+      <div><b id="qualityLabel">—</b><small>データ品質</small></div>
       <div><b id="updated">—</b><small>最終更新</small></div>
     </div>
   </header>
 
   <main>
-    <section class="controls" aria-label="絞り込み">
-      <input id="search" type="search" placeholder="補助金、道路、プロポーザル…">
-      <select id="applicationStatus">
-        <option value="open" selected>今から応募できる案件</option>
-        <option value="all">募集状態すべて</option>
-        <option value="closed">締切・結果掲載済</option>
-        <option value="unknown">判定不可</option>
-      </select>
-      <select id="category"><option value="">すべての分類</option></select>
-      <select id="buyer"><option value="">すべての想定利用者</option></select>
-      <select id="commercial">
-        <option value="0">商用スコアすべて</option>
-        <option value="50">商用スコア 50+</option>
-        <option value="70">商用スコア 70+</option>
-        <option value="85">商用スコア 85+</option>
-      </select>
+    <section class="priority-shell" aria-labelledby="priorityTitle">
+      <div class="section-head">
+        <div>
+          <span class="section-kicker">TODAY'S TARGETS</span>
+          <h2 id="priorityTitle">今、狙える案件</h2>
+        </div>
+        <div class="feed-links">
+          <a href="data/open_now.json">JSON</a>
+          <a href="data/open_now.csv">CSV</a>
+          <a href="data/open_now.rss">RSS</a>
+        </div>
+      </div>
+      <p class="section-note">新規参加期限を公式ページで明示確認できた案件だけを表示。高スコアでも締切済みならここには出しません。</p>
+      <div id="priorityCards" class="priority-cards" aria-live="polite"></div>
     </section>
 
-    <div id="notice" class="notice" hidden></div>
-    <section id="cards" class="cards" aria-live="polite"></section>
+    <section class="explore-shell" aria-labelledby="exploreTitle">
+      <div class="section-head compact">
+        <div>
+          <span class="section-kicker">EXPLORE</span>
+          <h2 id="exploreTitle">公開情報を探す</h2>
+        </div>
+      </div>
+      <section class="controls" aria-label="絞り込み">
+        <input id="search" type="search" placeholder="補助金、DX、プロポーザル…">
+        <select id="applicationStatus">
+          <option value="open" selected>今から応募できる案件</option>
+          <option value="all">募集状態すべて</option>
+          <option value="closed">締切・結果掲載済</option>
+          <option value="unknown">判定不可</option>
+        </select>
+        <select id="category"><option value="">すべての分類</option></select>
+        <select id="buyer"><option value="">すべての想定利用者</option></select>
+        <select id="commercial">
+          <option value="0">商用スコアすべて</option>
+          <option value="50">商用スコア 50+</option>
+          <option value="70">商用スコア 70+</option>
+          <option value="85">商用スコア 85+</option>
+        </select>
+      </section>
+      <div id="notice" class="notice" hidden></div>
+      <section id="cards" class="cards" aria-live="polite"></section>
+    </section>
+
+    <section class="signal-shell" aria-labelledby="signalTitle">
+      <div class="section-head compact">
+        <div>
+          <span class="section-kicker">SALES SIGNALS · gBizINFO</span>
+          <h2 id="signalTitle">法人更新シグナル</h2>
+        </div>
+      </div>
+      <p class="section-note"><strong>ここは募集案件ではありません。</strong> 横浜市内企業の法人情報更新を、営業先探索の補助シグナルとして分離表示しています。</p>
+      <div id="gbizSignals" class="signal-list"></div>
+    </section>
   </main>
 
   <footer>
-    <p>「受付中」は公式ページの締切表記から機械判定しています。契約・応募前には必ず公式情報をご確認ください。</p>
-    <p><a href="data/latest.json">JSONデータ</a> · <a href="data/leads.csv">候補CSV</a> · <a href="data/summary.json">集計</a> · <a href="data/status.json">収集ステータス</a></p>
-    <p>横浜市オープンデータを利用する場合は各データセットのライセンス条件に従います。本サービスは横浜市の公式サービスではありません。</p>
+    <p>「受付中」は公式ページの新規参加期限から機械判定しています。時刻表記がある場合は締切時刻まで考慮します。応募・契約前には必ず公式情報をご確認ください。</p>
+    <p><a href="data/open_now.json">受付中JSON</a> · <a href="data/open_now.csv">受付中CSV</a> · <a href="data/open_now.rss">受付中RSS</a> · <a href="data/leads.csv">全候補CSV</a> · <a href="data/summary.json">集計</a> · <a href="data/quality.json">品質</a> · <a href="data/status.json">収集状態</a></p>
+    <p>横浜市オープンデータを利用する場合は各データセットのライセンス条件に従います。gBizINFOは法人更新シグナルとして利用しています。本サービスは横浜市・Gビズインフォの公式サービスではありません。</p>
   </footer>
   <script src="app.js"></script>
 </body>
