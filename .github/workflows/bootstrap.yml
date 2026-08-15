@@ -45,6 +45,10 @@ jobs:
         run: |
           python scripts/enrich_status.py
 
+      - name: Enrich active support periods
+        run: |
+          python scripts/enrich_support_periods.py
+
       - name: Collect gBizINFO sales signals
         env:
           GBIZINFO_API_TOKEN: ${{ secrets.GBIZINFO_API_TOKEN }}
