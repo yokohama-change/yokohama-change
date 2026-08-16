@@ -21,11 +21,54 @@ function rankOpen(a,b){
     Number(b.urgency||0)-Number(a.urgency||0);
 }
 
+function deadlineMs(x){
+  if (!x.participation_deadline_at) return null;
+  const t = new Date(x.participation_deadline_at).getTime();
+  return Number.isFinite(t) ? t - Date.now() : null;
+}
+
+function urgentTimeLabel(ms){
+  const hours = ms / 3600000;
+  if (hours < 1) return '残り1時間未満';
+  return `残り約${Math.ceil(hours)}時間`;
+}
+
 function deadlineBlock(x){
   if (!x.participation_deadline) return '';
   const label = x.deadline_label || `締切 ${fmtDate(x.participation_deadline)}`;
   const exact = x.participation_deadline_at ? ` · ${fmt(x.participation_deadline_at)}` : '';
   return `<div class="deadline ${x.is_open_now===true?'live':''}"><strong>${esc(label)}</strong><span>参加期限 ${esc(fmtDate(x.participation_deadline))}${esc(exact)}</span></div>`;
+}
+
+function renderUrgent(){
+  const shell = $('#urgentShell');
+  const target = $('#urgentCards');
+  const urgent = state.items.map(x => ({x, ms: deadlineMs(x)})).filter(({x,ms}) =>
+    x.is_open_now === true &&
+    x.status_confidence === 'high' &&
+    Number(x.commercial_score||0) >= 70 &&
+    ms != null && ms > 0 && ms <= 48 * 3600000
+  ).sort((a,b) => a.ms - b.ms || Number(b.x.commercial_score||0)-Number(a.x.commercial_score||0));
+
+  if (!urgent.length) {
+    shell.hidden = true;
+    target.innerHTML = '';
+    return;
+  }
+
+  shell.hidden = false;
+  target.innerHTML = urgent.map(({x,ms}) => `
+    <article class="urgent-card">
+      <div class="urgent-topline">
+        <span class="urgent-badge">締切迫る</span>
+        <strong>${esc(urgentTimeLabel(ms))}</strong>
+        <span>商用 ${esc(x.commercial_score ?? 0)}</span>
+      </div>
+      <a class="urgent-title" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>
+      ${deadlineBlock(x)}
+      <div class="urgent-meta">${esc(x.opportunity_type || '情報更新')} · ${esc(x.source_name || '')}</div>
+      <a class="urgent-cta" href="${esc(x.url)}" target="_blank" rel="noopener">今すぐ公式情報を確認 →</a>
+    </article>`).join('');
 }
 
 function renderPriority(){
@@ -141,6 +184,7 @@ Promise.all([
   $('#category').innerHTML += cats.map(c=>`<option>${esc(c)}</option>`).join('');
   $('#buyer').innerHTML += buyers.map(c=>`<option>${esc(c)}</option>`).join('');
   if (data.disclaimer) { $('#notice').hidden=false; $('#notice').textContent=data.disclaimer; }
+  renderUrgent();
   renderPriority();
   render();
   renderGbiz();
