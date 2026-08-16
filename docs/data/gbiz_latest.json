@@ -1,13 +1,41 @@
 {
-  "generated_at": "2026-08-16T13:47:48+00:00",
+  "generated_at": "2026-08-16T15:54:36+00:00",
   "enabled": true,
   "stale": false,
   "period": {
-    "from": "20260814",
-    "to": "20260816"
+    "from": "20260815",
+    "to": "20260817"
   },
-  "count": 0,
-  "items": [],
+  "count": 3,
+  "items": [
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1020001169963",
+      "name": "株式会社ＤＴＭ",
+      "location": "神奈川県横浜市保土ケ谷区上菅田町５７９番地１プルミエール２０２号",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    },
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1020002018574",
+      "name": "有限会社ケイユー興業（閉鎖）",
+      "location": "神奈川県横浜市港南区日限山１丁目３３番１３号",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    },
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1021003017103",
+      "name": "合同会社文研ビズ",
+      "location": "神奈川県横浜市金沢区柴町３９１番地マリンシティ金沢文庫Ｅ棟３０２号",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    }
+  ],
   "errors": [],
   "endpoint_mode": "v2-period-corporate-update-only",
   "note": "法人情報の更新シグナルです。現在募集中の調達・補助金ではありません。",
