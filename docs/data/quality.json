@@ -1,9 +1,11 @@
 {
-  "checked_at": "2026-08-17T14:01:18+00:00",
-  "health": "good",
-  "health_label": "正常",
+  "checked_at": "2026-08-17T15:57:45+00:00",
+  "health": "warning",
+  "health_label": "注意",
   "errors": [],
-  "warnings": [],
+  "warnings": [
+    "gBizINFO注意 1件"
+  ],
   "freshness_minutes": 0,
   "open_now": 3,
   "open_now_high_value": 2,
