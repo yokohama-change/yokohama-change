@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-17T03:29:37+00:00",
-  "commercial_50_plus": 39,
-  "commercial_70_plus": 27,
-  "commercial_85_plus": 24,
+  "generated_at": "2026-08-17T08:10:13+00:00",
+  "commercial_50_plus": 40,
+  "commercial_70_plus": 28,
+  "commercial_85_plus": 25,
   "by_buyer_segment": {
-    "入札・公共調達": 34,
-    "士業・補助金支援": 32,
+    "入札・公共調達": 35,
+    "士業・補助金支援": 33,
     "地域メディア": 8,
     "不動産・建設": 6,
     "法人営業": 6
   },
   "by_opportunity_type": {
-    "受注機会": 34,
+    "受注機会": 35,
     "開発・不動産": 3,
     "資金・支援": 2
   },
   "status_engine_version": 3,
-  "open_now": 2,
-  "open_now_commercial_70_plus": 1,
+  "open_now": 3,
+  "open_now_commercial_70_plus": 2,
   "application_status_counts": {
-    "受付中": 2,
+    "受付中": 3,
     "参加締切済": 5,
     "資格者のみ進行中": 4,
     "結果掲載済": 17,
     "判定不可": 5,
-    "案件外": 33
+    "案件外": 35
   }
 }

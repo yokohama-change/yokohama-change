@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-08-17T03:29:37+00:00",
+  "updated_at": "2026-08-17T08:10:14+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -664,6 +664,28 @@
         "result_hit": false,
         "closed_hit": false,
         "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "61dcfe507a375a81cc45": {
+      "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2026/itaku/aoba/miryoku_kiji.html",
+      "source_updated": "Mon, 17 Aug 2026 04:00:00 GMT",
+      "fetched_at": "2026-08-17T08:10:14+00:00",
+      "facts": {
+        "participation_deadline": "2026-09-02",
+        "participation_deadline_at": "2026-09-02T17:00+09:00",
+        "participation_source": "申込期限+申込欄:提出期間",
+        "downstream_dates": [
+          "2026-09-08",
+          "2026-09-18",
+          "2026-09-30",
+          "2026-10-21"
+        ],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [
+          "2026-09-02"
+        ],
         "generic_dates": []
       }
     }

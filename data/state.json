@@ -1,8 +1,12 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-08-17T03:29:37+00:00",
+  "updated_at": "2026-08-17T08:10:13+00:00",
   "items": {
+    "a439968e9f9da6784ef0": {
+      "fingerprint": "56d89fc866f39604a2ae252d4fe52e94af03d518c348e800a51960c3e48c167a",
+      "source_id": "yokohama_city_info"
+    },
     "a5ce7ef00eef0bd39670": {
       "fingerprint": "83adac687011508f9fdc8d613298de658f971c4d794165e774732d7a357bf1ef",
       "source_id": "yokohama_city_info"
@@ -109,6 +113,10 @@
     },
     "c77b4478c5dfc28becf2": {
       "fingerprint": "d87d8c9069daaa5be22b5090b6533c7da7253ceeffb0a0c35c9ba3af0f54680f",
+      "source_id": "yokohama_city_info"
+    },
+    "0edca55f4899c30ed20a": {
+      "fingerprint": "1bf50ff7bff9980fc9caa2074841a0131bb927de25bde3a0afd6adcec0efe458",
       "source_id": "yokohama_city_info"
     },
     "15df708250d4c8a34ba8": {
@@ -243,10 +251,6 @@
       "fingerprint": "512eca1cfac783322fd2a1547e66fd1566227815c1451031840c4b5242544148",
       "source_id": "yokohama_city_info"
     },
-    "fe3149ce2c5423754839": {
-      "fingerprint": "d59563c5e01926f2cca1af6b732781f2f6f598ea58f5e17e67ea09889ac96c33",
-      "source_id": "yokohama_city_info"
-    },
     "8f67257bb636e4be4d40": {
       "fingerprint": "f6becd088f903d553b18bffad80ef2f373f2b322e6dc392c4623dbac9c270376",
       "source_id": "yokohama_city_info"
@@ -297,10 +301,6 @@
     },
     "6a13eb7ccb4be8c8fab9": {
       "fingerprint": "770624f1a4060786c99fe9bd39f513fcfb721feb6b035cb74d5793fec10c1c48",
-      "source_id": "yokohama_city_info"
-    },
-    "7cb4955bb71594430e86": {
-      "fingerprint": "ee6cfbf11d0781825a25f193723080a3df836d5c2c68d2d2a935633918d7b479",
       "source_id": "yokohama_city_info"
     },
     "b36ddbdb7f9968c4449a": {
@@ -802,6 +802,10 @@
     "663f867abd0c77ee8e0c": {
       "fingerprint": "a58f797677e3a5df4d704fdcd94d2b7f631a5384b3dc12db5e1a8f31cfb400e0",
       "source_id": "yokohama_city_info"
+    },
+    "61dcfe507a375a81cc45": {
+      "fingerprint": "2146ca3996862dc833d65f050027d947c3547d6f75ed3f37027684ea4d9395d3",
+      "source_id": "yokohama_procurement"
     },
     "dd9c71fbaf7479ecfc93": {
       "fingerprint": "c7110908e9cdee6cd38610a9ef68ab6f15d80ad6376e548eb10283949bae11c9",
