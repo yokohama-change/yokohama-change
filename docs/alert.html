@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="YOKOHAMA CHANGE ALERT β。商用スコア70以上・現在受付中・締切48時間以内の重要案件だけを通知する有料アラートサービス。">
+  <meta name="description" content="YOKOHAMA CHANGE ALERT β。商用スコア70以上・現在受付中・締切48時間以内の重要案件を通知し、本日締切はTODAYとして最上位で知らせる有料アラートサービス。">
   <meta name="theme-color" content="#090b10">
   <title>YOKOHAMA CHANGE ALERT β — 高価値案件の即時アラート</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="today.css">
   <link rel="stylesheet" href="monetization.css">
 </head>
 <body>
@@ -16,7 +17,7 @@
     <section class="alert-hero">
       <span class="alert-label">YOKOHAMA CHANGE ALERT · BETA</span>
       <h1>今動くべき案件だけを、<span>先に知る。</span></h1>
-      <p class="alert-lead">横浜市の公開情報を毎日探し回る代わりに、商用スコア70以上・現在受付中・締切48時間以内の重要案件だけを通知する有料アラートです。募集終了済みの調達・補助金履歴や、gBizINFOの法人更新履歴は「応募できる案件」として混ぜません。</p>
+      <p class="alert-lead">横浜市の公開情報を毎日探し回る代わりに、商用スコア70以上・現在受付中・締切48時間以内の重要案件だけを通知する有料アラートです。本日締切になった案件は「TODAY」として最上位で知らせます。募集終了済みの調達・補助金履歴や、gBizINFOの法人更新履歴は「応募できる案件」として混ぜません。</p>
       <div class="alert-price">
         <strong><span>月額</span>980円</strong>
         <small>β版予定価格</small>
@@ -33,11 +34,11 @@
         </article>
         <article class="alert-feature">
           <b>現在受付中のみ</b>
-          <p>公式ページで新規参加期限を確認でき、現時点で応募可能と判定した案件だけを対象にします。</p>
+          <p>公式ページで新規参加期限を確認でき、現時点で応募可能かつ判定confidence highの案件だけを対象にします。</p>
         </article>
         <article class="alert-feature">
-          <b>締切48時間以内</b>
-          <p>「いつか見る情報」ではなく、「今日確認すべき情報」を通知。締切時刻まで確認できる案件を優先します。</p>
+          <b>TODAYを最上位</b>
+          <p>締切48時間以内を通知し、そのうち日本時間で本日締切の案件は「TODAY」として最優先表示。締切時刻を確認できない案件は対象外です。</p>
         </article>
       </div>
     </section>
@@ -52,7 +53,7 @@
           <tr><td>受付中案件の閲覧</td><td class="alert-yes">○</td><td class="alert-yes">○</td></tr>
           <tr><td>商用スコアで優先順位付け</td><td class="alert-yes">○</td><td class="alert-yes">○</td></tr>
           <tr><td>締切48時間以内の高価値案件通知</td><td class="alert-no">—</td><td class="alert-yes">○</td></tr>
-          <tr><td>行政ページを開かずに「今日見る案件」を把握</td><td class="alert-no">—</td><td class="alert-yes">○</td></tr>
+          <tr><td>本日締切を「TODAY」で最上位通知</td><td class="alert-no">—</td><td class="alert-yes">○</td></tr>
           <tr><td>過去履歴と現在募集中案件を分離</td><td class="alert-yes">○</td><td class="alert-yes">○</td></tr>
         </tbody>
       </table>
@@ -60,12 +61,12 @@
 
     <section class="alert-section">
       <h2>誤通知を減らすためのルール</h2>
-      <div class="alert-guardrail">「公募」「募集」という言葉だけでは通知しません。受付中判定・公式の新規参加期限・締切時刻・判定confidenceを確認したうえで対象を絞ります。gBizINFOは営業先探索の補助シグナルとして扱い、過去の補助金・調達履歴を現在応募できる案件として通知しません。応募や契約の最終判断は、必ず公式ページで確認してください。</div>
+      <div class="alert-guardrail">「公募」「募集」という言葉だけでは通知しません。受付中判定・公式の新規参加期限・締切時刻・判定confidenceを確認したうえで対象を絞ります。「TODAY」は日本時間の日付と公式締切時刻の両方を確認できる案件だけに付与し、締切時刻を過ぎた案件は表示対象から外します。gBizINFOは営業先探索の補助シグナルとして扱い、過去の補助金・調達履歴を現在応募できる案件として通知しません。応募や契約の最終判断は、必ず公式ページで確認してください。</div>
     </section>
 
     <section class="alert-ready">
       <strong>現在、β版の販売開始準備中です。</strong>
-      <p>決済・通知先の導線が整い次第、このページから申し込める形にします。無料版の案件レーダーは引き続き利用できます。</p>
+      <p>決済・通知先の導線が整い、通知判定の安定稼働を確認した後に販売を開始します。無料版の案件レーダーは引き続き利用できます。</p>
       <a class="alert-home-cta" href="./">現在の受付中案件を見る →</a>
     </section>
   </main>
