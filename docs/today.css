@@ -1,0 +1,12 @@
+.urgent-shell.today-mode{border-color:#b84b4b;background:linear-gradient(135deg,#321313,#1b1115 58%,#11151d);box-shadow:0 24px 64px rgba(0,0,0,.3)}
+.urgent-shell.today-mode:before{background:rgba(255,110,110,.1)}
+.urgent-shell.today-mode .urgent-kicker{color:#ff9f9f}
+.urgent-shell.today-mode .urgent-heading h2{color:#fff7f7}
+.urgent-shell.today-mode .urgent-note{color:#e3bcbc}
+.urgent-card.today{border-color:#bd5555;background:linear-gradient(145deg,rgba(58,19,19,.9),rgba(20,14,17,.88));box-shadow:inset 4px 0 0 #ff8f8f}
+.urgent-badge.today{border-color:#d36a6a;background:#4a1717;color:#ffd0d0;letter-spacing:.04em}
+.urgent-card.today .urgent-topline strong{color:#ffb3b3}
+.urgent-card.today .deadline.live{border-color:#9f4a4a;background:#251111}
+.urgent-card.today .deadline.live strong{color:#ffb0b0}
+.urgent-shell.today-mode .urgent-cta{background:#ffb0a0;color:#21100d}
+@media(max-width:620px){.urgent-card.today{box-shadow:inset 3px 0 0 #ff8f8f}}
