@@ -41,6 +41,29 @@ function isTodayDeadline(x){
   return Boolean(x.participation_deadline && x.participation_deadline === tokyoDateKey());
 }
 
+function alertDataHealthy(){
+  const status = state.status || {};
+  const quality = state.quality || {};
+  const errorLists = [
+    status.errors,
+    status.application_status_errors,
+    status.application_status_warnings,
+    status.support_period_errors,
+    status.gbiz_errors,
+    quality.errors,
+    quality.warnings
+  ];
+  const noReportedProblems = errorLists.every(v => !Array.isArray(v) || v.length === 0);
+  const sourcesKnown = Number.isFinite(Number(status.sources_total)) && Number.isFinite(Number(status.sources_ok));
+  const sourcesHealthy = sourcesKnown && Number(status.sources_total) > 0 && Number(status.sources_ok) === Number(status.sources_total);
+  const checks = quality.checks && typeof quality.checks === 'object' ? Object.values(quality.checks) : [];
+  const checksHealthy = checks.length > 0 && checks.every(Boolean);
+  const generatedAt = Date.parse(status.generated_at || '');
+  const ageMs = Number.isFinite(generatedAt) ? Date.now() - generatedAt : Infinity;
+  const freshEnough = ageMs >= -5 * 60 * 1000 && ageMs <= 26 * 3600000;
+  return quality.health === 'good' && noReportedProblems && sourcesHealthy && checksHealthy && status.state_preserved === false && freshEnough;
+}
+
 function urgentTimeLabel(ms){
   const hours = ms / 3600000;
   if (hours < 1) return '残り1時間未満';
@@ -57,6 +80,13 @@ function deadlineBlock(x){
 function renderUrgent(){
   const shell = $('#urgentShell');
   const target = $('#urgentCards');
+  if (!alertDataHealthy()) {
+    shell.hidden = true;
+    shell.classList.remove('today-mode');
+    target.innerHTML = '';
+    return;
+  }
+
   const urgent = state.items.map(x => ({x, ms: deadlineMs(x)})).filter(({x,ms}) =>
     x.is_open_now === true &&
     x.status_confidence === 'high' &&
