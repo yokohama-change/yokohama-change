@@ -27,6 +27,20 @@ function deadlineMs(x){
   return Number.isFinite(t) ? t - Date.now() : null;
 }
 
+function tokyoDateKey(date = new Date()){
+  try {
+    const parts = new Intl.DateTimeFormat('en-US',{year:'numeric',month:'2-digit',day:'2-digit',timeZone:'Asia/Tokyo'}).formatToParts(date);
+    const get = (type) => parts.find(p => p.type === type)?.value || '';
+    return `${get('year')}-${get('month')}-${get('day')}`;
+  } catch {
+    return '';
+  }
+}
+
+function isTodayDeadline(x){
+  return Boolean(x.participation_deadline && x.participation_deadline === tokyoDateKey());
+}
+
 function urgentTimeLabel(ms){
   const hours = ms / 3600000;
   if (hours < 1) return '残り1時間未満';
@@ -48,19 +62,37 @@ function renderUrgent(){
     x.status_confidence === 'high' &&
     Number(x.commercial_score||0) >= 70 &&
     ms != null && ms > 0 && ms <= 48 * 3600000
-  ).sort((a,b) => a.ms - b.ms || Number(b.x.commercial_score||0)-Number(a.x.commercial_score||0));
+  ).sort((a,b) =>
+    Number(isTodayDeadline(b.x)) - Number(isTodayDeadline(a.x)) ||
+    a.ms - b.ms ||
+    Number(b.x.commercial_score||0)-Number(a.x.commercial_score||0)
+  );
 
   if (!urgent.length) {
     shell.hidden = true;
+    shell.classList.remove('today-mode');
     target.innerHTML = '';
     return;
   }
 
+  const hasToday = urgent.some(({x}) => isTodayDeadline(x));
+  const kicker = shell.querySelector('.urgent-kicker');
+  const title = shell.querySelector('.urgent-heading h2');
+  const note = shell.querySelector('.urgent-note');
   shell.hidden = false;
-  target.innerHTML = urgent.map(({x,ms}) => `
-    <article class="urgent-card">
+  shell.classList.toggle('today-mode', hasToday);
+  if (kicker) kicker.textContent = hasToday ? 'TODAY · ACTION REQUIRED' : 'ACTION REQUIRED · 48H';
+  if (title) title.textContent = hasToday ? '本日締切の最重要案件' : '締切48時間以内の高商用案件';
+  if (note) note.textContent = hasToday
+    ? '商用スコア70以上・受付中・confidence high・公式締切時刻確認済みのうち、本日締切の案件を最上位で表示します。'
+    : '商用スコア70以上・受付中・公式締切時刻を確認できた案件だけを表示します。';
+
+  target.innerHTML = urgent.map(({x,ms}) => {
+    const today = isTodayDeadline(x);
+    return `
+    <article class="urgent-card ${today?'today':''}">
       <div class="urgent-topline">
-        <span class="urgent-badge">締切迫る</span>
+        <span class="urgent-badge ${today?'today':''}">${today?'TODAY / 本日締切':'締切48時間以内'}</span>
         <strong>${esc(urgentTimeLabel(ms))}</strong>
         <span>商用 ${esc(x.commercial_score ?? 0)}</span>
       </div>
@@ -68,7 +100,8 @@ function renderUrgent(){
       ${deadlineBlock(x)}
       <div class="urgent-meta">${esc(x.opportunity_type || '情報更新')} · ${esc(x.source_name || '')}</div>
       <a class="urgent-cta" href="${esc(x.url)}" target="_blank" rel="noopener">今すぐ公式情報を確認 →</a>
-    </article>`).join('');
+    </article>`;
+  }).join('');
 }
 
 function renderPriority(){
