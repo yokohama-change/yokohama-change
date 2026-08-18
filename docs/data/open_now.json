@@ -1,33 +1,8 @@
 {
-  "generated_at": "2026-08-18T05:02:47+00:00",
-  "count": 3,
-  "high_value_count": 2,
+  "generated_at": "2026-08-18T08:04:21+00:00",
+  "count": 2,
+  "high_value_count": 1,
   "items": [
-    {
-      "id": "19a61eb72877e6251b8a",
-      "title": "【公募型プロポーザル】在宅医療領域における医療DX推進に向けたデジタル技術活用実証業務委託",
-      "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2026/itaku/iryo/iryoDXdigital.html",
-      "source_name": "横浜市 入札・契約",
-      "category": "入札・調達",
-      "opportunity_type": "受注機会",
-      "buyer_segments": [
-        "士業・補助金支援",
-        "入札・公共調達"
-      ],
-      "commercial_score": 87,
-      "urgency": 52,
-      "importance": 80,
-      "application_status": "受付中",
-      "participation_deadline": "2026-08-18",
-      "participation_deadline_at": "2026-08-18T17:00+09:00",
-      "days_left": 0,
-      "deadline_label": "本日締切",
-      "priority_tier": "最優先",
-      "status_confidence": "high",
-      "status_reason": "明示された新規参加期限（申込期限+申込欄:提出期間）を確認",
-      "detected_at": "2026-08-12T19:21:36+00:00",
-      "source_updated": "Thu, 06 Aug 2026 00:00:00 GMT"
-    },
     {
       "id": "61dcfe507a375a81cc45",
       "title": "【公募型プロポーザル】横浜市青葉区の居住に関する魅力記事制作掲載業務委託",
