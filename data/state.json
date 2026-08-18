@@ -1,8 +1,12 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-08-18T03:12:55+00:00",
+  "updated_at": "2026-08-18T05:02:47+00:00",
   "items": {
+    "0563887518fbc2279586": {
+      "fingerprint": "a0a6baa842aec19679ddb005e47d47a64be0acb355670a8ad5af700ce627d594",
+      "source_id": "yokohama_city_info"
+    },
     "9686646eb7c9d36741f9": {
       "fingerprint": "22a946c9ec867804269135ecf77801f53ba8a3414a13ee77b1c175f9cb7b17b9",
       "source_id": "yokohama_city_info"
@@ -799,10 +803,6 @@
       "fingerprint": "e14657c8341a21f58f9cc209a5743ab1779243e2d5defc40620da9b8ead92b11",
       "source_id": "yokohama_city_info"
     },
-    "6ab21968a6ecc7ea54ca": {
-      "fingerprint": "81ea0da82a49630b693e4110d6243e3574d585cf894fa355d30a2ef299006274",
-      "source_id": "yokohama_city_info"
-    },
     "d5f3e3f2a670eeb95604": {
       "fingerprint": "ebee345e654053710c3b4ce3def804d462236d7d262e61cc9dfcce86d1f98f38",
       "source_id": "yokohama_procurement"
@@ -946,6 +946,10 @@
     "1fae1e91120b69487f1d": {
       "fingerprint": "940dfe648846109d51f3cea2bbf4a11910ce0c79f05670b4f52899f87af0caf9",
       "source_id": "yokohama_business_sector"
+    },
+    "8e7a43f52326ecdda78f": {
+      "fingerprint": "21c4d81aa30f8d0fb3ceb588a1bbb094b491a284dd3a84f82d78e0cde0ac9390",
+      "source_id": "yokohama_open_data"
     },
     "83191ee457461bed6c18": {
       "fingerprint": "74987aff805688ea86370c072d6c99d0d0234e494c6d64610cb73a6a9c3c6f4c",
@@ -1493,10 +1497,6 @@
     },
     "ee2a163fff94ef1e3aef": {
       "fingerprint": "ed3918d22427be9d06dc69874e0194b3b1c6ccbc17d20b41621ee6045133d158",
-      "source_id": "yokohama_open_data"
-    },
-    "8e7a43f52326ecdda78f": {
-      "fingerprint": "3bde3c82e60cd1a1d98d8b6846a20eb796ad3760aa9ff2ced0de8f7d69024a5b",
       "source_id": "yokohama_open_data"
     },
     "0cdfd8a1aede324b7447": {
