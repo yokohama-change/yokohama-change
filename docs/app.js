@@ -134,6 +134,50 @@ function renderUrgent(){
   }).join('');
 }
 
+function recentExpiryProofItems(){
+  const now = Date.now();
+  const windowMs = 36 * 3600000;
+  return state.items.map(x => ({x, deadline: Date.parse(x.participation_deadline_at || '')})).filter(({x,deadline}) => {
+    const elapsed = now - deadline;
+    return x.is_open_now === false &&
+      x.status_confidence === 'high' &&
+      Number(x.commercial_score||0) >= 70 &&
+      Number.isFinite(deadline) &&
+      elapsed >= 0 && elapsed <= windowMs &&
+      (x.application_status === '参加締切済' || x.application_status === '結果掲載済');
+  }).sort((a,b) => b.deadline - a.deadline || Number(b.x.commercial_score||0)-Number(a.x.commercial_score||0));
+}
+
+function renderQualityProof(){
+  const shell = $('#qualityProof');
+  const target = $('#qualityProofItems');
+  const count = $('#qualityProofCount');
+  if (!shell || !target || !count || !alertDataHealthy()) {
+    if (shell) shell.hidden = true;
+    if (target) target.innerHTML = '';
+    return;
+  }
+
+  const items = recentExpiryProofItems();
+  if (!items.length) {
+    shell.hidden = true;
+    target.innerHTML = '';
+    return;
+  }
+
+  shell.hidden = false;
+  count.textContent = items.length;
+  target.innerHTML = items.slice(0,3).map(({x}) => `
+    <div class="quality-proof-item">
+      <span class="quality-proof-check" aria-hidden="true">✓</span>
+      <div class="quality-proof-copy">
+        <a class="quality-proof-title" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>
+        <small>${esc(fmt(x.participation_deadline_at))} 締切 → 現在は「${esc(x.application_status)}」</small>
+      </div>
+      <span class="quality-proof-score">商用 ${esc(x.commercial_score ?? 0)}</span>
+    </div>`).join('');
+}
+
 function renderPriority(){
   const open = state.items.filter(x => x.is_open_now === true).sort(rankOpen);
   $('#priorityCards').innerHTML = open.length ? open.slice(0,4).map((x,i) => `
@@ -249,6 +293,7 @@ Promise.all([
   if (data.disclaimer) { $('#notice').hidden=false; $('#notice').textContent=data.disclaimer; }
   renderUrgent();
   renderPriority();
+  renderQualityProof();
   render();
   renderGbiz();
 }).catch(err=>{
