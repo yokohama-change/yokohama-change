@@ -1,59 +1,13 @@
 {
-  "generated_at": "2026-08-18T16:04:12+00:00",
+  "generated_at": "2026-08-18T19:40:14+00:00",
   "enabled": true,
   "stale": false,
   "period": {
     "from": "20260817",
     "to": "20260819"
   },
-  "count": 5,
-  "items": [
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001145469",
-      "name": "株式会社ＩＮＫ（閉鎖）",
-      "location": "神奈川県横浜市港北区新横浜３丁目１７番１２号",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001169897",
-      "name": "マルカコーポレーション株式会社",
-      "location": "神奈川県横浜市鶴見区尻手１丁目１－１６－１４０５",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001169947",
-      "name": "株式会社レプロライフ",
-      "location": "神奈川県横浜市中区相生町１丁目１５番地第二東商ビル４Ｃ",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020002020126",
-      "name": "有限会社山崎プレス工業（閉鎖）",
-      "location": "神奈川県横浜市港南区日野５丁目４番１１号",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020002036254",
-      "name": "有限会社八幡工務店",
-      "location": "神奈川県横浜市港北区小机町２４３２番地５",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    }
-  ],
+  "count": 0,
+  "items": [],
   "errors": [],
   "endpoint_mode": "v2-period-corporate-update-only",
   "note": "法人情報の更新シグナルです。現在募集中の調達・補助金ではありません。",
