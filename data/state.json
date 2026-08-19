@@ -1,8 +1,16 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-08-19T03:26:02+00:00",
+  "updated_at": "2026-08-19T08:05:21+00:00",
   "items": {
+    "b2bc65b89d22e5ab7219": {
+      "fingerprint": "f87f6f048d3c9b10d6a4c2c9eff9b56a6884be8ffe485bf0098e063623c4c974",
+      "source_id": "yokohama_city_info"
+    },
+    "a47aab78fb7211866f8f": {
+      "fingerprint": "627b9cd71d8da1b7c16d9cdf8f6c2c7362905d305a186acc76d36136de4742fa",
+      "source_id": "yokohama_city_info"
+    },
     "24d947948f096cfe7d0f": {
       "fingerprint": "df4bdfc8f1714f0341e5ec70d58a8f339d664519f7faef138864e3088ad6ab1f",
       "source_id": "yokohama_city_info"
@@ -29,10 +37,6 @@
     },
     "adf1d6b3560aeb24b890": {
       "fingerprint": "e55b3957aec84c79a2043417f70ac48118f6d794218553e1bd1df5269cce2ba2",
-      "source_id": "yokohama_city_info"
-    },
-    "0563887518fbc2279586": {
-      "fingerprint": "a0a6baa842aec19679ddb005e47d47a64be0acb355670a8ad5af700ce627d594",
       "source_id": "yokohama_city_info"
     },
     "9686646eb7c9d36741f9": {
@@ -209,10 +213,6 @@
     },
     "15df708250d4c8a34ba8": {
       "fingerprint": "514daf7a36b4378eb414dbbea11b746cd32823d968619d287d722f425cc1201f",
-      "source_id": "yokohama_city_info"
-    },
-    "5743ded88fb93314de4a": {
-      "fingerprint": "b19ee5577dd1e1e3027ee1f162a131ad670cd0a4fb34634a057bbf10295c1230",
       "source_id": "yokohama_city_info"
     },
     "240a07507fdf89e7b329": {
