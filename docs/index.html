@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="today.css">
   <link rel="stylesheet" href="monetization.css">
+  <link rel="stylesheet" href="next-deadline.css">
   <link rel="alternate" type="application/rss+xml" title="YOKOHAMA CHANGE 受付中案件" href="data/open_now.rss">
 </head>
 <body>
@@ -33,6 +34,17 @@
       </div>
       <p class="urgent-note">商用スコア70以上・受付中・公式締切時刻を確認できた案件だけを表示します。</p>
       <div id="urgentCards" class="urgent-cards" aria-live="polite"></div>
+    </section>
+
+    <section id="nextHighValueShell" class="next-high-value" aria-labelledby="nextHighValueTitle" hidden>
+      <div class="next-high-value-head">
+        <div>
+          <span class="next-high-value-kicker">ALERT PREVIEW · NEXT HIGH-VALUE DEADLINE</span>
+          <h2 id="nextHighValueTitle">次の高商用締切</h2>
+          <p>48時間以内の緊急案件がないときだけ、商用70+・受付中・confidence high・公式締切時刻確認済みの次案件を1件だけ予告します。</p>
+        </div>
+      </div>
+      <div id="nextHighValueCard" class="next-high-value-card" aria-live="polite"></div>
     </section>
 
     <section class="priority-shell" aria-labelledby="priorityTitle">
@@ -124,5 +136,6 @@
     <p>横浜市オープンデータを利用する場合は各データセットのライセンス条件に従います。gBizINFOは法人更新シグナルとして利用しています。本サービスは横浜市・Gビズインフォの公式サービスではありません。</p>
   </footer>
   <script src="app.js"></script>
+  <script src="next-deadline.js"></script>
 </body>
 </html>
