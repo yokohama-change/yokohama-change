@@ -17,7 +17,7 @@
     <section class="alert-hero">
       <span class="alert-label">YOKOHAMA CHANGE ALERT · BETA</span>
       <h1>今動くべき案件だけを、<span>先に知る。</span></h1>
-      <p class="alert-lead">横浜市の公開情報を毎日探し回る代わりに、商用スコア70以上・現在受付中・締切48時間以内の重要案件だけを通知する有料アラートです。本日締切になった案件は「TODAY」として最上位で知らせます。募集終了済みの調達・補助金履歴や、gBizINFOの法人更新履歴は「応募できる案件」として混ぜません。</p>
+      <p class="alert-lead">横浜市の公開情報を毎日探し回る代わりに、商用スコア70以上・現在受付中・締切48時間以内の重要案件だけを通知する有料アラートです。本日締切になった案件は「TODAY」として最上位で知らせ、締切後は受付中から外れたことも品質実績として可視化します。募集終了済みの調達・補助金履歴や、gBizINFOの法人更新履歴は「応募できる案件」として混ぜません。</p>
       <div class="alert-price">
         <strong><span>月額</span>980円</strong>
         <small>β版予定価格</small>
@@ -54,14 +54,20 @@
           <tr><td>商用スコアで優先順位付け</td><td class="alert-yes">○</td><td class="alert-yes">○</td></tr>
           <tr><td>締切48時間以内の高価値案件通知</td><td class="alert-no">—</td><td class="alert-yes">○</td></tr>
           <tr><td>本日締切を「TODAY」で最上位通知</td><td class="alert-no">—</td><td class="alert-yes">○</td></tr>
+          <tr><td>締切後の自動除外を品質実績として可視化</td><td class="alert-yes">○</td><td class="alert-yes">○</td></tr>
           <tr><td>過去履歴と現在募集中案件を分離</td><td class="alert-yes">○</td><td class="alert-yes">○</td></tr>
         </tbody>
       </table>
     </section>
 
     <section class="alert-section">
+      <h2>「残さない」品質も公開します</h2>
+      <div class="alert-guardrail">直近36時間に締切を迎えた商用スコア70以上の案件について、現在のデータで <strong>is_open_now:false</strong>、判定confidence high、かつ「参加締切済」または「結果掲載済」を確認できた場合だけ、公開サイトに品質実績として表示します。過去の状態を推測して「昨日は受付中だった」と断定することはせず、現在データで検証できる事実だけを見せます。</div>
+    </section>
+
+    <section class="alert-section">
       <h2>誤通知を減らすためのルール</h2>
-      <div class="alert-guardrail">「公募」「募集」という言葉だけでは通知しません。受付中判定・公式の新規参加期限・締切時刻・判定confidenceを確認したうえで対象を絞ります。「TODAY」は日本時間の日付と公式締切時刻の両方を確認できる案件だけに付与し、締切時刻を過ぎた案件は表示対象から外します。gBizINFOは営業先探索の補助シグナルとして扱い、過去の補助金・調達履歴を現在応募できる案件として通知しません。応募や契約の最終判断は、必ず公式ページで確認してください。</div>
+      <div class="alert-guardrail">「公募」「募集」という言葉だけでは通知しません。受付中判定・公式の新規参加期限・締切時刻・判定confidenceを確認したうえで対象を絞ります。「TODAY」は日本時間の日付と公式締切時刻の両方を確認できる案件だけに付与し、締切時刻を過ぎた案件は表示対象から外します。収集/APIエラー、品質警告、データ保持状態、鮮度超過がある場合は高優先アラート自体を止めます。gBizINFOは営業先探索の補助シグナルとして扱い、過去の補助金・調達履歴を現在応募できる案件として通知しません。応募や契約の最終判断は、必ず公式ページで確認してください。</div>
     </section>
 
     <section class="alert-ready">
