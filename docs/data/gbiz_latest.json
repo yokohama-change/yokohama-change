@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-19T14:09:18+00:00",
+  "generated_at": "2026-08-19T16:04:03+00:00",
   "enabled": true,
   "stale": false,
   "period": {
-    "from": "20260817",
-    "to": "20260819"
+    "from": "20260818",
+    "to": "20260820"
   },
   "count": 0,
   "items": [],
