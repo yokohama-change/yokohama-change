@@ -1,13 +1,23 @@
 {
-  "generated_at": "2026-08-20T14:20:55+00:00",
+  "generated_at": "2026-08-20T17:01:08+00:00",
   "enabled": true,
   "stale": false,
   "period": {
-    "from": "20260818",
-    "to": "20260820"
+    "from": "20260819",
+    "to": "20260821"
   },
-  "count": 0,
-  "items": [],
+  "count": 1,
+  "items": [
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1010401147520",
+      "name": "ＣｏＧｒｉ　Ｊａｐａｎ株式会社（閉鎖）",
+      "location": "神奈川県横浜市中区住吉町２丁目２２番地松栄関内ビル２階ＥＣＯＶＩＳＡＫＩＡＴａｘＣｏｎｓｕｌｔａｎｔｓ内",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    }
+  ],
   "errors": [],
   "endpoint_mode": "v2-period-corporate-update-only",
   "note": "法人情報の更新シグナルです。現在募集中の調達・補助金ではありません。",
