@@ -1,8 +1,12 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-08-20T03:14:57+00:00",
+  "updated_at": "2026-08-20T05:06:23+00:00",
   "items": {
+    "2a1767cbabdc3db0dd17": {
+      "fingerprint": "3802ae6691c4a120a1bb7d64f4f6792f77fc919f0fffeae4f3ba7581a7e618c2",
+      "source_id": "yokohama_city_info"
+    },
     "47d6fb41cd1bfcb65274": {
       "fingerprint": "a6529606e888fc1f710d67ab391d921dcccb17966e2477888c03f310a24cf12e",
       "source_id": "yokohama_city_info"
@@ -799,9 +803,9 @@
       "fingerprint": "fb1577eade765c56fa925ab34208cd3c4c1e70254980eedb19a5aaa47bcf64c4",
       "source_id": "yokohama_city_info"
     },
-    "c485fe23f861f13cfecf": {
-      "fingerprint": "b8fc67b291017fb3481901bfee681df568e5f73eb84a069d4bebe292687de82b",
-      "source_id": "yokohama_city_info"
+    "f3b4f0c4877a4c711310": {
+      "fingerprint": "2bf1e44b894625bceeb9f20c1559b31d45d2ca3f160b25b01a877a235f81c27d",
+      "source_id": "yokohama_procurement"
     },
     "d5f3e3f2a670eeb95604": {
       "fingerprint": "ebee345e654053710c3b4ce3def804d462236d7d262e61cc9dfcce86d1f98f38",
@@ -821,10 +825,6 @@
     },
     "f3715c018a262bc816fa": {
       "fingerprint": "61e3c2e314baacf9bcf3f4500145d00b9bc861516d8cf17d0f3730dd6c02583c",
-      "source_id": "yokohama_procurement"
-    },
-    "f3b4f0c4877a4c711310": {
-      "fingerprint": "93487bd7dab7dcc55d505ac043d05279e3ee5c5cf96b49229306df198e88a33c",
       "source_id": "yokohama_procurement"
     },
     "19a61eb72877e6251b8a": {
