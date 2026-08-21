@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T14:09:52+00:00",
+  "generated_at": "2026-08-21T17:01:36+00:00",
   "count": 2,
   "high_value_count": 1,
   "items": [
@@ -20,8 +20,8 @@
       "application_status": "受付中",
       "participation_deadline": "2026-09-02",
       "participation_deadline_at": "2026-09-02T17:00+09:00",
-      "days_left": 12,
-      "deadline_label": "残り12日",
+      "days_left": 11,
+      "deadline_label": "残り11日",
       "priority_tier": "高優先",
       "status_confidence": "high",
       "status_reason": "明示された新規参加期限（申込期限+申込欄:提出期間）を確認",
@@ -45,8 +45,8 @@
       "application_status": "受付中",
       "participation_deadline": "2026-08-31",
       "participation_deadline_at": "2026-08-31T17:00+09:00",
-      "days_left": 10,
-      "deadline_label": "残り10日",
+      "days_left": 9,
+      "deadline_label": "残り9日",
       "priority_tier": "受付中",
       "status_confidence": "high",
       "status_reason": "明示された新規参加期限（支援制度:申請期間）を確認",
