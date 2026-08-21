@@ -1,8 +1,20 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-08-20T22:02:06+00:00",
+  "updated_at": "2026-08-21T03:33:13+00:00",
   "items": {
+    "75d6a6d9adf5b7a4b667": {
+      "fingerprint": "b70e113ffd33ace1561dd0abe83115b0ec1c0583e21e8a1f01a57130e8c25639",
+      "source_id": "yokohama_city_info"
+    },
+    "e62debed53e9a334706c": {
+      "fingerprint": "919df49e8997d9b7378ef84c9d1f2830280031f2535393ffd4f2fd47bb4390b5",
+      "source_id": "yokohama_city_info"
+    },
+    "6bb06ffb298613947215": {
+      "fingerprint": "eb8ccab6ff27a5930eca7f649d22f02e6696cd9f8bffbd8f726d2b2bcb4a0144",
+      "source_id": "yokohama_city_info"
+    },
     "2a1767cbabdc3db0dd17": {
       "fingerprint": "3802ae6691c4a120a1bb7d64f4f6792f77fc919f0fffeae4f3ba7581a7e618c2",
       "source_id": "yokohama_city_info"
@@ -791,18 +803,6 @@
       "fingerprint": "fce62debe24c0d77386635e8b1b4abb2016b6fe7551b5c67b4f5658ea47189c2",
       "source_id": "yokohama_city_info"
     },
-    "1bc1796e037af06b9f09": {
-      "fingerprint": "7a02245c183b1b6c266e058aeefded8c869c620e93985a59ebca1a7d8ba80eda",
-      "source_id": "yokohama_city_info"
-    },
-    "2db3a047294de706d5fd": {
-      "fingerprint": "fb1577eade765c56fa925ab34208cd3c4c1e70254980eedb19a5aaa47bcf64c4",
-      "source_id": "yokohama_city_info"
-    },
-    "c485fe23f861f13cfecf": {
-      "fingerprint": "b8fc67b291017fb3481901bfee681df568e5f73eb84a069d4bebe292687de82b",
-      "source_id": "yokohama_city_info"
-    },
     "f3b4f0c4877a4c711310": {
       "fingerprint": "2bf1e44b894625bceeb9f20c1559b31d45d2ca3f160b25b01a877a235f81c27d",
       "source_id": "yokohama_procurement"
@@ -946,6 +946,58 @@
     "1fae1e91120b69487f1d": {
       "fingerprint": "940dfe648846109d51f3cea2bbf4a11910ce0c79f05670b4f52899f87af0caf9",
       "source_id": "yokohama_business_sector"
+    },
+    "5929b3f83bce79de9961": {
+      "fingerprint": "223a504fa14c4649651dfffcac3c05e2f5558bafa269093a5d744cc801499cc9",
+      "source_id": "yokohama_open_data"
+    },
+    "c506fbd7aaec97867cb0": {
+      "fingerprint": "c000424f0a41e380bf062dda28bc379dc6ff2c94197b07ef62aab06e666dfab3",
+      "source_id": "yokohama_open_data"
+    },
+    "2eb899f4217aee7795ea": {
+      "fingerprint": "99222232363fa2ae28bc7fd9b5e79566beeace43ccad69c8f713a6a98d493c95",
+      "source_id": "yokohama_open_data"
+    },
+    "35f60db09bb4d9238f34": {
+      "fingerprint": "a278f99646dd605907d4b907e5d667d0a7f21f39c45640639f961a1443cb4386",
+      "source_id": "yokohama_open_data"
+    },
+    "29508623bcc01ef950e4": {
+      "fingerprint": "0a21b0b1c7933a9c81557e41032c51275a2ee76b9bb44a4a743fff9f02f7f41c",
+      "source_id": "yokohama_open_data"
+    },
+    "283fb3954721bccc54b3": {
+      "fingerprint": "1faa67c36fff7160ab4c1fcf66afa94b77a9daf909b07f5a0ea380cc244f3d18",
+      "source_id": "yokohama_open_data"
+    },
+    "630c0d71a0e2b932d094": {
+      "fingerprint": "5b347a9d4cd2977d03c8de9849482d1eef71b8bba8527ba9c53ea9e0cbd9e3d2",
+      "source_id": "yokohama_open_data"
+    },
+    "fb78ef2623fd5050fa18": {
+      "fingerprint": "3f7edc2751ff3302fc85a2842a355616e2163a2ce7a177519180241ba93343ab",
+      "source_id": "yokohama_open_data"
+    },
+    "486efb0ebec1ca56bc6f": {
+      "fingerprint": "d36993718a769a921342b61fe35e263124ff31299f117d84b6bcf431b759ceb4",
+      "source_id": "yokohama_open_data"
+    },
+    "241cf79e48abb586e7be": {
+      "fingerprint": "b93acf5a5d8e81c19aba29ee7c86cdcd012a4b47a9aa827b8508ea9d9605eeaa",
+      "source_id": "yokohama_open_data"
+    },
+    "8fff8ca0f96db78d8df7": {
+      "fingerprint": "c083ccb719acbda094a56740848e36c55ef4595e7b5b730443403efef41b881f",
+      "source_id": "yokohama_open_data"
+    },
+    "860d998c7a12b31fa14d": {
+      "fingerprint": "769dd8bc202b59e48bd3e2b5f5f7302da62e3cd68cf4961349592efc1d767000",
+      "source_id": "yokohama_open_data"
+    },
+    "6853b80086810e9247ab": {
+      "fingerprint": "a9a77d51fb8f5a25a71a4c63ef9bf3b74551928370fa189dc68aaaf898c898e6",
+      "source_id": "yokohama_open_data"
     },
     "b696d8a9dfcad7f45cd1": {
       "fingerprint": "f71389d1fa26b88da04d56805aaf539f35c7b05eb502fd2cdca5c116dd33011b",
@@ -2015,10 +2067,6 @@
       "fingerprint": "51f9fddb9e4fc24641f00a92b4d00ed3c9f4565185b457c75551276b647b1868",
       "source_id": "yokohama_open_data"
     },
-    "860d998c7a12b31fa14d": {
-      "fingerprint": "75dbc3dd3c265672adc22eb0e28517d002f46f9b6cc12f5392bd261b50a21288",
-      "source_id": "yokohama_open_data"
-    },
     "89cf5868041bea3fbe02": {
       "fingerprint": "2157b60680e574cf863fa8163597b1a6f675996df7045871446932896881e613",
       "source_id": "yokohama_open_data"
@@ -2295,32 +2343,8 @@
       "fingerprint": "80c3e5ba7a053bd0a92ffbd1e51dbfb7d9853ba188662d1194c3fbe8763232c8",
       "source_id": "yokohama_open_data"
     },
-    "2eb899f4217aee7795ea": {
-      "fingerprint": "08b737c297dfc78757f4c313560fc21036bae249556b19530b73d4f1c62c484d",
-      "source_id": "yokohama_open_data"
-    },
-    "241cf79e48abb586e7be": {
-      "fingerprint": "e8c6d5d7be15eb71b61bdfe20de31c1f5cc843185c61f1f1c8b901940b646008",
-      "source_id": "yokohama_open_data"
-    },
-    "283fb3954721bccc54b3": {
-      "fingerprint": "7393fe678dbfe15c2d21e73fc261bac3fd5cdc8ead7c432f341fc5be098c63ff",
-      "source_id": "yokohama_open_data"
-    },
-    "fb78ef2623fd5050fa18": {
-      "fingerprint": "1dcfcef3a51197d4b99fdf30a60c22fa9bf116a17e05c190277bb1bd1dff504f",
-      "source_id": "yokohama_open_data"
-    },
     "8845a20043a3fe751ec0": {
       "fingerprint": "45c78a20c65979c25dba0bc2ed3b9a60d101d2825840f8a7b96cf832b6197499",
-      "source_id": "yokohama_open_data"
-    },
-    "5929b3f83bce79de9961": {
-      "fingerprint": "a2d2288a6d65951bb7b62e0bbbcb76670f973312f698e128f83a9144b4f1d65c",
-      "source_id": "yokohama_open_data"
-    },
-    "29508623bcc01ef950e4": {
-      "fingerprint": "c8d2f4e6b1082baad6608f432539209def28d086d89c553e33b1856fbb848be9",
       "source_id": "yokohama_open_data"
     },
     "244dc13e0ea3134eaefd": {
@@ -2329,14 +2353,6 @@
     },
     "48288aa7c1cee5a17fa6": {
       "fingerprint": "7bfba1118430eb3b879ed4cb64ac50d61501ecc0da5ed8e9441805f29b55ebf4",
-      "source_id": "yokohama_open_data"
-    },
-    "486efb0ebec1ca56bc6f": {
-      "fingerprint": "952ef69a86090ece1ed9bf49f34c0387207d9e8beea371d90a7a10768ffc24b7",
-      "source_id": "yokohama_open_data"
-    },
-    "8fff8ca0f96db78d8df7": {
-      "fingerprint": "7c8626711b249f53e8220969a80e4530ecd8e23956c133254ba6e7d2125350f3",
       "source_id": "yokohama_open_data"
     },
     "5bdaab58df7ec618546d": {
@@ -2987,10 +3003,6 @@
       "fingerprint": "727598b79c6fab52a0ec7213e27125cb040f356225c4bfa7226c51eaa4a52aeb",
       "source_id": "yokohama_open_data"
     },
-    "c506fbd7aaec97867cb0": {
-      "fingerprint": "80fa945aaec62293dd1b2c25393705be8d29e454449f83ffb8dc49bbfeea8a09",
-      "source_id": "yokohama_open_data"
-    },
     "78bb6ef7efe2bd2bb233": {
       "fingerprint": "3d33dace19dfe72a90f86d1b7e0f4ac18ba00fd70d78e7e3aab3212ae8f93914",
       "source_id": "yokohama_open_data"
@@ -3057,10 +3069,6 @@
     },
     "a7e1dff501ed3676d991": {
       "fingerprint": "f91862048b265183b1e0db34ace3656e5ffe6b8cc6e95e9890f6a6ab684a42e0",
-      "source_id": "yokohama_open_data"
-    },
-    "630c0d71a0e2b932d094": {
-      "fingerprint": "1f35813e7dbe041d3d424714ed59317b1cfc481ac96ee838443a8b6fea59a561",
       "source_id": "yokohama_open_data"
     },
     "5ca0229a1638ce9d9b47": {
@@ -3131,10 +3139,6 @@
       "fingerprint": "db820482c5aead0e88018b5433c6288b7652ef6371987d0ba8ce0e9af2e730c0",
       "source_id": "yokohama_open_data"
     },
-    "35f60db09bb4d9238f34": {
-      "fingerprint": "8b5507c7216044cb8164ca4aba2a4d5bc441664013cb7a6a7c9a284c10a314fe",
-      "source_id": "yokohama_open_data"
-    },
     "1dfc97a70139fe33f621": {
       "fingerprint": "208be828bea2f413350f920232e977f7a7911616d3a9f7956c0edfc58f664aae",
       "source_id": "yokohama_open_data"
@@ -3161,10 +3165,6 @@
     },
     "86b74b287780a2859080": {
       "fingerprint": "22e37c56804024be598ab35d59d6b5d18010ce34e8baf92d7e564d5929c58924",
-      "source_id": "yokohama_open_data"
-    },
-    "6853b80086810e9247ab": {
-      "fingerprint": "3ed117bfbce8f133393ab43c673aa170af550427062abadedd8c08ef4358f35e",
       "source_id": "yokohama_open_data"
     },
     "d72ae082d4f83c9d09d1": {
