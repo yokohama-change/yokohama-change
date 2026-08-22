@@ -3,12 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="YOKOHAMA CHANGE ALERT β。商用スコア70以上・現在受付中・締切48時間以内の重要案件を通知し、本日締切はTODAYとして最上位で知らせる有料アラートサービス。">
+  <meta name="description" content="YOKOHAMA CHANGE ALERT β。商用スコア70以上・現在受付中の高価値案件を、自社タイプと欲しい機会で絞り込み、重要になった案件だけを通知する有料アラートサービス。">
   <meta name="theme-color" content="#090b10">
-  <title>YOKOHAMA CHANGE ALERT β — 高価値案件の即時アラート</title>
+  <title>YOKOHAMA CHANGE ALERT β — 自社向け高価値案件アラート</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="today.css">
   <link rel="stylesheet" href="monetization.css">
+  <link rel="stylesheet" href="my-fit.css">
 </head>
 <body>
   <main class="alert-page">
@@ -16,8 +17,8 @@
 
     <section class="alert-hero">
       <span class="alert-label">YOKOHAMA CHANGE ALERT · BETA</span>
-      <h1>今動くべき案件だけを、<span>先に知る。</span></h1>
-      <p class="alert-lead">横浜市の公開情報を毎日探し回る代わりに、商用スコア70以上・現在受付中・締切48時間以内の重要案件だけを通知する有料アラートです。本日締切になった案件は「TODAY」として最上位で知らせ、締切後は受付中から外れたことも品質実績として可視化します。募集終了済みの調達・補助金履歴や、gBizINFOの法人更新履歴は「応募できる案件」として混ぜません。</p>
+      <h1>自社に関係ある案件だけを、<span>先に知る。</span></h1>
+      <p class="alert-lead">商用スコア70以上・現在受付中・判定confidence highの案件を土台に、自社タイプと欲しい機会が合う案件だけを絞ります。締切48時間以内は優先通知、本日締切は「TODAY」として最上位。募集終了済みの調達・補助金履歴やgBizINFOの法人更新履歴は「応募できる案件」として混ぜません。</p>
       <div class="alert-price">
         <strong><span>月額</span>980円</strong>
         <small>β版予定価格</small>
@@ -26,21 +27,62 @@
     </section>
 
     <section class="alert-section">
-      <h2>通知するのは、この条件だけ。</h2>
+      <h2>有料版の中心は「自社フィット」です。</h2>
       <div class="alert-grid">
         <article class="alert-feature">
-          <b>商用スコア70+</b>
-          <p>受注・支援・営業につながる可能性が高い案件を優先。情報量ではなく、行動価値を基準に絞ります。</p>
+          <b>商用70+ × 受付中</b>
+          <p>まず高価値かつ今応募できる案件だけに絞ります。件数を増やすために判定条件を緩めません。</p>
         </article>
         <article class="alert-feature">
-          <b>現在受付中のみ</b>
-          <p>公式ページで新規参加期限を確認でき、現時点で応募可能かつ判定confidence highの案件だけを対象にします。</p>
+          <b>MY FITで自社向けに限定</b>
+          <p>既存データのbuyer_segmentsとopportunity_typeを使い、自社タイプ・欲しい機会に一致する案件だけを通知候補にします。</p>
         </article>
         <article class="alert-feature">
-          <b>TODAYを最上位</b>
-          <p>締切48時間以内を通知し、そのうち日本時間で本日締切の案件は「TODAY」として最優先表示。締切時刻を確認できない案件は対象外です。</p>
+          <b>48H / TODAYを優先</b>
+          <p>自社向け案件のうち締切48時間以内を優先し、本日締切はTODAYとして最上位。締切時刻不明は対象外です。</p>
         </article>
       </div>
+    </section>
+
+    <section id="myFit" class="my-fit" aria-labelledby="myFitTitle">
+      <div class="my-fit-head">
+        <div>
+          <span class="my-fit-kicker">MY FIT · LOCAL PREVIEW</span>
+          <h2 id="myFitTitle">いま、自社向けの70+案件はある？</h2>
+          <p>2項目だけ選ぶと、現在の商用70+・受付中・confidence high案件から一致案件を判定します。これは通知前の無料プレビューで、β版では同じ条件を通知フィルターに使う設計です。</p>
+        </div>
+        <span class="my-fit-privacy">端末内保存・外部送信なし</span>
+      </div>
+
+      <div class="my-fit-form">
+        <fieldset class="my-fit-field">
+          <legend>自社タイプ</legend>
+          <div class="my-fit-options">
+            <label class="my-fit-choice"><input type="checkbox" name="fitSegment" value="入札・公共調達"><span>入札・公共調達</span></label>
+            <label class="my-fit-choice"><input type="checkbox" name="fitSegment" value="士業・補助金支援"><span>士業・補助金支援</span></label>
+            <label class="my-fit-choice"><input type="checkbox" name="fitSegment" value="法人営業"><span>法人営業</span></label>
+            <label class="my-fit-choice"><input type="checkbox" name="fitSegment" value="不動産・建設"><span>不動産・建設</span></label>
+            <label class="my-fit-choice"><input type="checkbox" name="fitSegment" value="地域メディア"><span>地域メディア</span></label>
+          </div>
+        </fieldset>
+
+        <fieldset class="my-fit-field">
+          <legend>欲しい機会</legend>
+          <div class="my-fit-options">
+            <label class="my-fit-choice"><input type="checkbox" name="fitOpportunity" value="受注機会"><span>受注機会</span></label>
+            <label class="my-fit-choice"><input type="checkbox" name="fitOpportunity" value="資金・支援"><span>補助金・支援</span></label>
+            <label class="my-fit-choice"><input type="checkbox" name="fitOpportunity" value="開発・不動産"><span>開発・不動産</span></label>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="my-fit-actions">
+        <button id="myFitSave" class="my-fit-save" type="button">この条件を端末に保存</button>
+        <button id="myFitClear" class="my-fit-clear" type="button">クリア</button>
+        <span class="my-fit-note">氏名・会社名・メールアドレスは入力しません。</span>
+      </div>
+      <div id="myFitResult" class="my-fit-result" aria-live="polite"><div class="my-fit-empty">データを確認しています…</div></div>
+      <div class="my-fit-product-note"><strong>有料版で売るのは検索画面ではなく自動配信です。</strong> MY FIT A/Bのうち重要度が上がった案件だけを、サイトを見に来なくても受け取れる状態をβ版の中心価値にします。</div>
     </section>
 
     <section class="alert-section">
@@ -52,12 +94,19 @@
         <tbody>
           <tr><td>受付中案件の閲覧</td><td class="alert-yes">○</td><td class="alert-yes">○</td></tr>
           <tr><td>商用スコアで優先順位付け</td><td class="alert-yes">○</td><td class="alert-yes">○</td></tr>
+          <tr><td>自社タイプ・欲しい機会でMY FIT判定</td><td class="alert-yes">プレビュー</td><td class="alert-yes">○</td></tr>
+          <tr><td>自社向け案件だけを自動通知</td><td class="alert-no">—</td><td class="alert-yes">○</td></tr>
           <tr><td>締切48時間以内の高価値案件通知</td><td class="alert-no">—</td><td class="alert-yes">○</td></tr>
-          <tr><td>本日締切を「TODAY」で最上位通知</td><td class="alert-no">—</td><td class="alert-yes">○</td></tr>
+          <tr><td>本日締切をTODAYで最上位通知</td><td class="alert-no">—</td><td class="alert-yes">○</td></tr>
           <tr><td>締切後の自動除外を品質実績として可視化</td><td class="alert-yes">○</td><td class="alert-yes">○</td></tr>
           <tr><td>過去履歴と現在募集中案件を分離</td><td class="alert-yes">○</td><td class="alert-yes">○</td></tr>
         </tbody>
       </table>
+    </section>
+
+    <section class="alert-section">
+      <h2>フィット判定は推測ではなく、既存データで行います</h2>
+      <div class="alert-guardrail">MY FITは、案件ごとに既に付与している <strong>buyer_segments</strong> と <strong>opportunity_type</strong> への一致だけで判定します。選択した全項目に一致すればMY FIT A、一部一致ならMY FIT B、一致しなければ通知候補から外します。業種から受注可能性を推測したり、AIが勝手に適性を断定したりしません。</div>
     </section>
 
     <section class="alert-section">
@@ -67,14 +116,15 @@
 
     <section class="alert-section">
       <h2>誤通知を減らすためのルール</h2>
-      <div class="alert-guardrail">「公募」「募集」という言葉だけでは通知しません。受付中判定・公式の新規参加期限・締切時刻・判定confidenceを確認したうえで対象を絞ります。「TODAY」は日本時間の日付と公式締切時刻の両方を確認できる案件だけに付与し、締切時刻を過ぎた案件は表示対象から外します。収集/APIエラー、品質警告、データ保持状態、鮮度超過がある場合は高優先アラート自体を止めます。gBizINFOは営業先探索の補助シグナルとして扱い、過去の補助金・調達履歴を現在応募できる案件として通知しません。応募や契約の最終判断は、必ず公式ページで確認してください。</div>
+      <div class="alert-guardrail">「公募」「募集」という言葉だけでは通知しません。受付中判定・公式の新規参加期限・締切時刻・判定confidenceを確認したうえで対象を絞ります。収集/APIエラー、品質警告、データ保持状態、鮮度超過がある場合はMY FIT判定と高優先アラートを止めます。gBizINFOは営業先探索の補助シグナルとして扱い、過去の補助金・調達履歴を現在応募できる案件として通知しません。応募や契約の最終判断は、必ず公式ページで確認してください。</div>
     </section>
 
     <section class="alert-ready">
       <strong>現在、β版の販売開始準備中です。</strong>
-      <p>決済・通知先の導線が整い、通知判定の安定稼働を確認した後に販売を開始します。無料版の案件レーダーは引き続き利用できます。</p>
+      <p>MY FIT判定・締切判定・自動除外の安定稼働と、決済・通知先の導線を確認してから販売を開始します。無料版の案件レーダーは引き続き利用できます。</p>
       <a class="alert-home-cta" href="./">現在の受付中案件を見る →</a>
     </section>
   </main>
+  <script src="my-fit.js"></script>
 </body>
 </html>
