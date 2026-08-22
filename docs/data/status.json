@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T13:46:33+00:00",
+  "generated_at": "2026-08-22T15:53:46+00:00",
   "sources_total": 5,
   "sources_ok": 5,
   "items_seen": 890,
@@ -9,10 +9,10 @@
   "public_items": 135,
   "public_duplicate_revisions_removed": 6,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-08-22T13:46:34+00:00",
+  "application_status_checked_at": "2026-08-22T15:54:05+00:00",
   "application_status_candidates": 33,
   "application_status_open_now": 2,
-  "application_status_fetches": 0,
+  "application_status_fetches": 30,
   "application_status_errors": [],
   "application_status_warnings": [],
   "employment_notices_excluded": 30,
@@ -21,10 +21,10 @@
   "support_period_errors": [],
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20260820",
-    "to": "20260822"
+    "from": "20260821",
+    "to": "20260823"
   },
-  "gbiz_items_seen": 1,
+  "gbiz_items_seen": 2,
   "gbiz_errors": [],
   "gbiz_endpoint_mode": "v2-period-corporate-update-only"
 }
