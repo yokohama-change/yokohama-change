@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-24T14:28:03+00:00",
+  "generated_at": "2026-08-24T17:07:53+00:00",
   "enabled": true,
   "stale": false,
   "period": {
-    "from": "20260822",
-    "to": "20260824"
+    "from": "20260823",
+    "to": "20260825"
   },
   "count": 7,
   "items": [
@@ -12,63 +12,63 @@
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1011001171753",
-      "name": "花生株式会社",
-      "location": "神奈川県横浜市都筑区茅ケ崎中央２３番１６号メイフェアミュゼ２Ｆ",
+      "corporate_number": "1020001004229",
+      "name": "株式会社常盤石材（閉鎖）",
+      "location": "神奈川県横浜市港南区日野中央１丁目１２番３号",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001002026",
-      "name": "株式会社小池自動車研究所",
-      "location": "神奈川県横浜市緑区白山１丁目１１番７号",
+      "corporate_number": "1020001040802",
+      "name": "エム・エス・イー株式会社（閉鎖）",
+      "location": "神奈川県横浜市金沢区幸浦２丁目１２番２０",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001050693",
-      "name": "株式会社トランスコスモス・デジタル・テクノロジー",
-      "location": "神奈川県横浜市西区みなとみらい３丁目６番４号",
+      "corporate_number": "1020001058233",
+      "name": "株式会社セラグレーズ",
+      "location": "神奈川県横浜市港南区上永谷６丁目３番１０号",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001087876",
-      "name": "株式会社ホテルゴルフ横浜",
-      "location": "神奈川県横浜市港北区綱島東１丁目４番３号",
+      "corporate_number": "1020001168833",
+      "name": "株式会社新里工業",
+      "location": "神奈川県横浜市鶴見区鶴見中央４丁目２８番１７号",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020002035025",
-      "name": "有限会社富岡工業所",
-      "location": "神奈川県横浜市港北区新吉田町４番地",
+      "corporate_number": "1020001170087",
+      "name": "株式会社Ｋ．Ｕリアルエステート",
+      "location": "神奈川県横浜市神奈川区鶴屋町２丁目９番２２号日興パレス横浜２０６",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020002084658",
-      "name": "有限会社羽陽電機製作所",
-      "location": "神奈川県横浜市港北区高田西１丁目６番２４号Ｄ号室",
+      "corporate_number": "1020001170095",
+      "name": "株式会社オークバリュー",
+      "location": "神奈川県横浜市都筑区北山田１丁目１０番５号ヴィ・ド・カンパーニュ港北ル・ソレイユ２Ｆ－１２",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020003018854",
-      "name": "合同会社Ｓａｇａｒｏ",
-      "location": "神奈川県横浜市港北区綱島西３丁目２５－１０－４",
+      "corporate_number": "1020002001778",
+      "name": "有限会社トシ・メンテナンス",
+      "location": "神奈川県横浜市瀬谷区阿久和東２丁目６０番地１",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     }
   ],
