@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T21:54:29+00:00",
+  "generated_at": "2026-08-24T14:28:03+00:00",
   "enabled": true,
-  "stale": true,
+  "stale": false,
   "period": {
     "from": "20260822",
     "to": "20260824"
@@ -72,14 +72,8 @@
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     }
   ],
-  "errors": [
-    {
-      "source": "法人情報更新",
-      "error": "HTTPError: HTTP Error 503: Service Temporarily Unavailable"
-    }
-  ],
+  "errors": [],
   "endpoint_mode": "v2-period-corporate-update-only",
-  "note": "gBizINFO更新取得に失敗したため、直前データを保持しています。現在募集中の案件とは分離されています。",
-  "signal_semantics": "営業先探索の補助情報。応募可能案件は YOKOHAMA CHANGE の受付中フィードを参照してください。",
-  "last_attempt_at": "2026-08-24T11:02:30+00:00"
+  "note": "法人情報の更新シグナルです。現在募集中の調達・補助金ではありません。",
+  "signal_semantics": "営業先探索の補助情報。応募可能案件は YOKOHAMA CHANGE の受付中フィードを参照してください。"
 }
