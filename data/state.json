@@ -1,8 +1,64 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-08-23T21:54:26+00:00",
+  "updated_at": "2026-08-24T03:36:52+00:00",
   "items": {
+    "68e4c32f0a32e5c8662b": {
+      "fingerprint": "357ca8517be9e8a4f54665d7ab36fb63f4761cb63bdca355d335a1cba01042c2",
+      "source_id": "yokohama_city_info"
+    },
+    "f4cd25898dd313994fe4": {
+      "fingerprint": "d26de89efc20ddcf37e4f620ba3a7f4ca32f7dd7bdd2c780a6e6080159c08a94",
+      "source_id": "yokohama_city_info"
+    },
+    "e88c7685f1aa73c28ab0": {
+      "fingerprint": "289eedb8dff95cbd86195c673f2261b016d234411ae083c8d8daaa5834e0db38",
+      "source_id": "yokohama_city_info"
+    },
+    "9f7c24902a9d9cddd3c3": {
+      "fingerprint": "0c950e3a51f942b22fd106230669f35b656cd8b1ea41ad737ddfc6da8c956b2f",
+      "source_id": "yokohama_city_info"
+    },
+    "a57ed57271fcafff2d32": {
+      "fingerprint": "ee22690a67e7e4cf2cc093fb8f0702531f21305e59c8efdb056944aabd4c917b",
+      "source_id": "yokohama_city_info"
+    },
+    "c01b9dda33531bd36f3f": {
+      "fingerprint": "95bd085b32fa4654355489394f9e628898e7825d9c0e7a2eb766e2cdae9405c8",
+      "source_id": "yokohama_city_info"
+    },
+    "973d6084637cdf36d81e": {
+      "fingerprint": "2ca5b16a07de9b494aef54c2d1c180361f27a630b60ad8958196cfb815ee180a",
+      "source_id": "yokohama_city_info"
+    },
+    "6d6949090c68e094c6b8": {
+      "fingerprint": "bee8d31fa614c784e89ecfda3dd04e390ceef141c8f7377dcb22f968ea0a9691",
+      "source_id": "yokohama_city_info"
+    },
+    "a23d858e73d80511f9da": {
+      "fingerprint": "5640b8388bea8579445165623c1e8293c5348d2609dbabc644d959164bee4e99",
+      "source_id": "yokohama_city_info"
+    },
+    "29fdf82a19bfddcfcbd7": {
+      "fingerprint": "bdea5f1dc4b43df64795c0eb1ef4755d0cff6bece0c808cb85be30b5fb62e4af",
+      "source_id": "yokohama_city_info"
+    },
+    "72330fc4862b335bda86": {
+      "fingerprint": "04c0751ba803eb768bd86b6ed322660afbd5c7b7b186c808048fcaae9be9e4eb",
+      "source_id": "yokohama_city_info"
+    },
+    "d6b0b222a72b44e32fd0": {
+      "fingerprint": "d010c818e70e9f2be0989dc2a6acca1ee8ea1956c91768d5b94a0628e0627020",
+      "source_id": "yokohama_city_info"
+    },
+    "aae5cdae3ad58427c99e": {
+      "fingerprint": "7f30eed1c455bd02a9aa9d1cac831663260da379303e45e6d07c0a55c345e430",
+      "source_id": "yokohama_city_info"
+    },
+    "0efa2415324f0eb715cb": {
+      "fingerprint": "904a309c7a97e85d179fab579e492d43df4cdfc356cb51958c9be2498b2d3ef2",
+      "source_id": "yokohama_city_info"
+    },
     "97b48b89ab87cd0ae712": {
       "fingerprint": "1bd0cf91570e8d983f01fe075f71d4b1aa4fae351ebd393db67d6f3112fab55c",
       "source_id": "yokohama_city_info"
@@ -745,62 +801,6 @@
     },
     "260ef81282c0d9a7f2de": {
       "fingerprint": "6aee70bb2bfa22fbbe7944720a981754ccc574aa46bc996652e49c8f8224af7b",
-      "source_id": "yokohama_city_info"
-    },
-    "b77e2d323e0719ed921c": {
-      "fingerprint": "93759b1f4142df95ab7cabe1d1b9f3d3dbedb2ba6f8c38d8d671ed169166bf70",
-      "source_id": "yokohama_city_info"
-    },
-    "fe376171b0891699599d": {
-      "fingerprint": "0988c175e97e599213f52590b603b7ebc99c431d887b0f026cbf6c06dd3062b5",
-      "source_id": "yokohama_city_info"
-    },
-    "fd1fe34412437d9c16fa": {
-      "fingerprint": "f84069b9c2773d8f14b18411f51861b113bcbd16fe71289035296bb05ac76757",
-      "source_id": "yokohama_city_info"
-    },
-    "5e74033c8a4fb9b8b862": {
-      "fingerprint": "67ffb07d532ca042af0386293f55184dda36ac58a9bc255488e4acffb1196ad9",
-      "source_id": "yokohama_city_info"
-    },
-    "9f7f4b151ca9cfd9ebc0": {
-      "fingerprint": "691ece54485d559495f9dbc8d5921ade0a6095878c34db55bb19403c1282ea85",
-      "source_id": "yokohama_city_info"
-    },
-    "615c47e4efa22aee7e95": {
-      "fingerprint": "62e051decd87058e8a4c0e94e71537f60ad517a6811a2fea8e6e4c9fe96999a4",
-      "source_id": "yokohama_city_info"
-    },
-    "c8111de74ca8f98e1bae": {
-      "fingerprint": "aedee7176feeca02c09ccaf3237f2140a8f7daf3aed46b9de61759e3ea673cfb",
-      "source_id": "yokohama_city_info"
-    },
-    "06473ef9a4d63ef3b8c7": {
-      "fingerprint": "fb8f8906466ab154fe2b2275057adb75b6eb27e45de158a38109f9b2fbe33b05",
-      "source_id": "yokohama_city_info"
-    },
-    "4c6dd6a6e9c9a87bf3f4": {
-      "fingerprint": "ad83d64ef1f08638e5bf80e40c8da3565bbaa395d9fcea238e70965b37753261",
-      "source_id": "yokohama_city_info"
-    },
-    "f47c0ace3d4e9f877e09": {
-      "fingerprint": "7a460af90db3e3bf51ff81251662ec4f933e9edd49324e2735a314509d0976f3",
-      "source_id": "yokohama_city_info"
-    },
-    "6eb5a89399fa76407946": {
-      "fingerprint": "bd0b612b4a2e46e4246126d3daf668702050ddbbf43e81c96891673cff113d71",
-      "source_id": "yokohama_city_info"
-    },
-    "d532607f076348956cce": {
-      "fingerprint": "5a06e997c10113978913830f78cf641ca5cf75706319b933fbf7ab030f4d607c",
-      "source_id": "yokohama_city_info"
-    },
-    "6bf389692a5ec204d7c2": {
-      "fingerprint": "d001e9efba96d655ee8b3ad882f852c9c7d5cbd4be9ddabee91b7ed678ed4cee",
-      "source_id": "yokohama_city_info"
-    },
-    "c6034755369879c26ea3": {
-      "fingerprint": "91bd89c98e650f398c2b2c6b0b53744c75d4415df2346564a8e00b6837ccb128",
       "source_id": "yokohama_city_info"
     },
     "f3b4f0c4877a4c711310": {
