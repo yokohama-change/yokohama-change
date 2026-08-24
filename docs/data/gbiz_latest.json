@@ -81,5 +81,5 @@
   "endpoint_mode": "v2-period-corporate-update-only",
   "note": "gBizINFO更新取得に失敗したため、直前データを保持しています。現在募集中の案件とは分離されています。",
   "signal_semantics": "営業先探索の補助情報。応募可能案件は YOKOHAMA CHANGE の受付中フィードを参照してください。",
-  "last_attempt_at": "2026-08-24T03:36:54+00:00"
+  "last_attempt_at": "2026-08-24T08:31:24+00:00"
 }
