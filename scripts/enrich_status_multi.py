@@ -21,6 +21,7 @@ APPROVED_OFFICIAL_HOSTS = {
     "www.city.yokosuka.kanagawa.jp",
     "www.city.kamakura.kanagawa.jp",
     "www.city.hiratsuka.kanagawa.jp",
+    "www.city.odawara.kanagawa.jp",
 }
 
 
