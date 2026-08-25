@@ -1,115 +1,16 @@
 {
   "sources": [
-    {
-      "id": "yokohama_city_info",
-      "name": "横浜市 市政情報",
-      "type": "rss",
-      "url": "https://www.city.yokohama.lg.jp/city-info/rss_news.xml",
-      "region": "横浜市",
-      "license_mode": "website-rss",
-      "commercial_redistribution": "link-and-signal-only-review-before-paid-launch"
-    },
-    {
-      "id": "yokohama_procurement",
-      "name": "横浜市 入札・契約",
-      "type": "rss",
-      "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/rss_news.xml",
-      "region": "横浜市",
-      "license_mode": "website-rss",
-      "commercial_redistribution": "link-and-signal-only-review-before-paid-launch"
-    },
-    {
-      "id": "yokohama_sme",
-      "name": "横浜市 中小企業支援",
-      "type": "rss",
-      "url": "https://www.city.yokohama.lg.jp/business/kigyoshien/rss_news.xml",
-      "region": "横浜市",
-      "license_mode": "website-rss",
-      "commercial_redistribution": "link-and-signal-only-review-before-paid-launch"
-    },
-    {
-      "id": "yokohama_business_sector",
-      "name": "横浜市 事業者向け分野別情報",
-      "type": "rss",
-      "url": "https://www.city.yokohama.lg.jp/business/bunyabetsu/rss_news.xml",
-      "region": "横浜市",
-      "license_mode": "website-rss",
-      "commercial_redistribution": "link-and-signal-only-review-before-paid-launch"
-    },
-    {
-      "id": "yokohama_open_data",
-      "name": "横浜市オープンデータ",
-      "type": "ckan",
-      "url": "https://data.city.yokohama.lg.jp/api/3/action/package_search?rows=1000",
-      "region": "横浜市",
-      "license_mode": "cc-by-4.0",
-      "commercial_redistribution": "allowed-with-attribution"
-    },
-    {
-      "id": "kanagawa_pref_news",
-      "name": "神奈川県 新着情報",
-      "type": "rss",
-      "url": "https://www.pref.kanagawa.jp/news/news.xml",
-      "region": "神奈川県",
-      "license_mode": "website-rss",
-      "commercial_redistribution": "link-and-signal-only-review-before-paid-launch",
-      "bootstrap_mode": "baseline",
-      "baseline_limit": 30
-    },
-    {
-      "id": "kawasaki_business",
-      "name": "川崎市 事業者情報",
-      "type": "rss",
-      "url": "https://www.city.kawasaki.jp/jigyou/rss/rss.xml",
-      "region": "川崎市",
-      "license_mode": "website-rss",
-      "commercial_redistribution": "link-and-signal-only-review-before-paid-launch",
-      "bootstrap_mode": "baseline",
-      "baseline_limit": 30
-    },
-    {
-      "id": "sagamihara_news",
-      "name": "相模原市 新着更新情報",
-      "type": "rss",
-      "url": "https://www.city.sagamihara.kanagawa.jp/rss.rss",
-      "region": "相模原市",
-      "license_mode": "website-rss",
-      "commercial_redistribution": "link-and-signal-only-review-before-paid-launch",
-      "bootstrap_mode": "baseline",
-      "baseline_limit": 30
-    },
-    {
-      "id": "fujisawa_news",
-      "name": "藤沢市 新着情報",
-      "type": "rss",
-      "url": "https://www.city.fujisawa.kanagawa.jp/shinchaku/shinchaku.xml",
-      "region": "藤沢市",
-      "license_mode": "website-rss",
-      "commercial_redistribution": "link-and-signal-only-review-before-paid-launch",
-      "bootstrap_mode": "baseline",
-      "baseline_limit": 30
-    },
-    {
-      "id": "chigasaki_news",
-      "name": "茅ヶ崎市 更新情報",
-      "type": "rss",
-      "url": "https://www.city.chigasaki.kanagawa.jp/news.rss",
-      "region": "茅ヶ崎市",
-      "license_mode": "website-rss",
-      "commercial_redistribution": "link-and-signal-only-review-before-paid-launch",
-      "bootstrap_mode": "baseline",
-      "baseline_limit": 30
-    },
-    {
-      "id": "yokosuka_business",
-      "name": "横須賀市 産業・まちづくり新着情報",
-      "type": "rss",
-      "url": "https://www.city.yokosuka.kanagawa.jp/sangyo/shinchaku/sangyou.xml",
-      "region": "横須賀市",
-      "license_mode": "website-rss",
-      "commercial_redistribution": "link-and-signal-only-review-before-paid-launch",
-      "bootstrap_mode": "baseline",
-      "baseline_limit": 30
-    }
+    {"id":"yokohama_city_info","name":"横浜市 市政情報","type":"rss","url":"https://www.city.yokohama.lg.jp/city-info/rss_news.xml","region":"横浜市","license_mode":"website-rss","commercial_redistribution":"link-and-signal-only-review-before-paid-launch"},
+    {"id":"yokohama_procurement","name":"横浜市 入札・契約","type":"rss","url":"https://www.city.yokohama.lg.jp/business/nyusatsu/rss_news.xml","region":"横浜市","license_mode":"website-rss","commercial_redistribution":"link-and-signal-only-review-before-paid-launch"},
+    {"id":"yokohama_sme","name":"横浜市 中小企業支援","type":"rss","url":"https://www.city.yokohama.lg.jp/business/kigyoshien/rss_news.xml","region":"横浜市","license_mode":"website-rss","commercial_redistribution":"link-and-signal-only-review-before-paid-launch"},
+    {"id":"yokohama_business_sector","name":"横浜市 事業者向け分野別情報","type":"rss","url":"https://www.city.yokohama.lg.jp/business/bunyabetsu/rss_news.xml","region":"横浜市","license_mode":"website-rss","commercial_redistribution":"link-and-signal-only-review-before-paid-launch"},
+    {"id":"yokohama_open_data","name":"横浜市オープンデータ","type":"ckan","url":"https://data.city.yokohama.lg.jp/api/3/action/package_search?rows=1000","region":"横浜市","license_mode":"cc-by-4.0","commercial_redistribution":"allowed-with-attribution"},
+    {"id":"kanagawa_pref_news","name":"神奈川県 新着情報","type":"rss","url":"https://www.pref.kanagawa.jp/news/news.xml","region":"神奈川県","license_mode":"website-rss","commercial_redistribution":"link-and-signal-only-review-before-paid-launch","bootstrap_mode":"baseline","baseline_limit":30},
+    {"id":"kawasaki_business","name":"川崎市 事業者情報","type":"rss","url":"https://www.city.kawasaki.jp/jigyou/rss/rss.xml","region":"川崎市","license_mode":"website-rss","commercial_redistribution":"link-and-signal-only-review-before-paid-launch","bootstrap_mode":"baseline","baseline_limit":30},
+    {"id":"sagamihara_news","name":"相模原市 新着更新情報","type":"rss","url":"https://www.city.sagamihara.kanagawa.jp/rss.rss","region":"相模原市","license_mode":"website-rss","commercial_redistribution":"link-and-signal-only-review-before-paid-launch","bootstrap_mode":"baseline","baseline_limit":30},
+    {"id":"fujisawa_news","name":"藤沢市 新着情報","type":"rss","url":"https://www.city.fujisawa.kanagawa.jp/shinchaku/shinchaku.xml","region":"藤沢市","license_mode":"website-rss","commercial_redistribution":"link-and-signal-only-review-before-paid-launch","bootstrap_mode":"baseline","baseline_limit":30},
+    {"id":"chigasaki_news","name":"茅ヶ崎市 更新情報","type":"rss","url":"https://www.city.chigasaki.kanagawa.jp/news.rss","region":"茅ヶ崎市","license_mode":"website-rss","commercial_redistribution":"link-and-signal-only-review-before-paid-launch","bootstrap_mode":"baseline","baseline_limit":30},
+    {"id":"yokosuka_business","name":"横須賀市 産業・まちづくり新着情報","type":"rss","url":"https://www.city.yokosuka.kanagawa.jp/sangyo/shinchaku/sangyou.xml","region":"横須賀市","license_mode":"website-rss","commercial_redistribution":"link-and-signal-only-review-before-paid-launch","bootstrap_mode":"baseline","baseline_limit":30},
+    {"id":"kamakura_news","name":"鎌倉市 新着情報","type":"rss","url":"https://www.city.kamakura.kanagawa.jp/oshirase/oshirase.xml","region":"鎌倉市","license_mode":"website-rss","commercial_redistribution":"link-and-signal-only-review-before-paid-launch","bootstrap_mode":"baseline","baseline_limit":30}
   ]
 }
