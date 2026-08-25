@@ -5,8 +5,10 @@
   const result = document.querySelector('#myFitResult');
   const saveButton = document.querySelector('#myFitSave');
   const clearButton = document.querySelector('#myFitClear');
-  const STORAGE_KEY = 'yokohama-change-alert-profile-v1';
+  const STORAGE_KEY = 'yokohama-change-alert-profile-v2';
+  const LEGACY_STORAGE_KEY = 'yokohama-change-alert-profile-v1';
   let snapshot = {data:{items:[]}, status:{}, quality:{}};
+  let profileRestored = false;
 
   const esc = (s='') => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const checked = (name) => [...root.querySelectorAll(`input[name="${name}"]:checked`)].map(x => x.value);
@@ -31,13 +33,20 @@
     return quality.health === 'good' && noProblems && sourcesHealthy && checksHealthy && status.state_preserved === false && freshEnough;
   }
 
-  function formatDeadline(iso){
+  function formatDeadline(item){
     try {
-      return new Intl.DateTimeFormat('ja-JP',{month:'numeric',day:'numeric',weekday:'short',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Tokyo'}).format(new Date(iso));
-    } catch { return iso || '—'; }
+      if (item.deadline_time_exact === true && item.participation_deadline_at) {
+        return new Intl.DateTimeFormat('ja-JP',{month:'numeric',day:'numeric',weekday:'short',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Tokyo'}).format(new Date(item.participation_deadline_at));
+      }
+      return new Intl.DateTimeFormat('ja-JP',{month:'numeric',day:'numeric',weekday:'short',timeZone:'Asia/Tokyo'}).format(new Date(`${item.participation_deadline}T12:00:00+09:00`)) + '・時刻未確認';
+    } catch { return item.participation_deadline || '—'; }
   }
 
-  function remaining(deadline){
+  function remaining(item, deadline){
+    if (item.deadline_time_exact !== true) {
+      const days = Number(item.days_left);
+      return Number.isFinite(days) ? `残り${Math.max(0, days)}日` : '締切日を確認';
+    }
     const ms = deadline - Date.now();
     if (ms <= 0) return '締切済み';
     const hours = Math.ceil(ms / 3600000);
@@ -46,21 +55,70 @@
   }
 
   function readProfile(){
-    return {segments: checked('fitSegment'), opportunities: checked('fitOpportunity')};
+    return {
+      segments: checked('fitSegment'),
+      opportunities: checked('fitOpportunity'),
+      regions: checked('fitRegion')
+    };
   }
 
   function saveProfile(profile){
-    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(profile)); } catch {}
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(profile));
+      localStorage.removeItem(LEGACY_STORAGE_KEY);
+    } catch {}
+  }
+
+  function loadStoredProfile(){
+    try {
+      const current = JSON.parse(localStorage.getItem(STORAGE_KEY) || 'null');
+      if (current) return current;
+      const legacy = JSON.parse(localStorage.getItem(LEGACY_STORAGE_KEY) || 'null');
+      if (legacy) return {...legacy, regions: []};
+    } catch {}
+    return null;
   }
 
   function restoreProfile(){
-    let profile = null;
-    try { profile = JSON.parse(localStorage.getItem(STORAGE_KEY) || 'null'); } catch {}
+    if (profileRestored) return;
+    const profile = loadStoredProfile();
+    profileRestored = true;
     if (!profile) return;
     for (const input of root.querySelectorAll('input[type="checkbox"]')) {
-      const list = input.name === 'fitSegment' ? profile.segments : profile.opportunities;
+      let list = [];
+      if (input.name === 'fitSegment') list = profile.segments;
+      if (input.name === 'fitOpportunity') list = profile.opportunities;
+      if (input.name === 'fitRegion') list = profile.regions;
       input.checked = Array.isArray(list) && list.includes(input.value);
     }
+  }
+
+  function bindInput(input){
+    if (input.dataset.fitBound) return;
+    input.dataset.fitBound = '1';
+    input.addEventListener('change', render);
+  }
+
+  function buildRegionOptions(){
+    const form = root.querySelector('.my-fit-form');
+    if (!form) return;
+    let field = root.querySelector('#myFitRegionField');
+    if (!field) {
+      field = document.createElement('fieldset');
+      field.id = 'myFitRegionField';
+      field.className = 'my-fit-field';
+      field.innerHTML = '<legend>希望地域（任意）</legend><div id="myFitRegionOptions" class="my-fit-options"></div>';
+      form.appendChild(field);
+    }
+    const target = root.querySelector('#myFitRegionOptions');
+    if (!target) return;
+    const configured = Array.isArray(snapshot.status.coverage_regions) ? snapshot.status.coverage_regions : [];
+    const observed = [...new Set((snapshot.data.items || []).map(x => String(x.region || '').trim()).filter(Boolean))];
+    const regions = [...new Set([...configured, ...observed])];
+    const selected = new Set(checked('fitRegion'));
+    target.innerHTML = regions.map(region => `
+      <label class="my-fit-choice"><input type="checkbox" name="fitRegion" value="${esc(region)}" ${selected.has(region)?'checked':''}><span>${esc(region)}</span></label>`).join('');
+    target.querySelectorAll('input').forEach(bindInput);
   }
 
   function eligibleItems(){
@@ -77,6 +135,7 @@
     const dimensions = [];
     if (profile.segments.length) dimensions.push(profile.segments.some(v => (item.x.buyer_segments || []).includes(v)));
     if (profile.opportunities.length) dimensions.push(profile.opportunities.includes(item.x.opportunity_type));
+    if (profile.regions.length) dimensions.push(profile.regions.includes(item.x.region));
     if (!dimensions.length) return null;
     const matched = dimensions.filter(Boolean).length;
     if (!matched) return null;
@@ -90,8 +149,8 @@
       result.innerHTML = '<div class="my-fit-empty my-fit-unhealthy">現在は品質条件を満たしていないため、フィット判定を停止しています。データ正常化後に自動で再開します。</div>';
       return;
     }
-    if (!profile.segments.length && !profile.opportunities.length) {
-      result.innerHTML = '<div class="my-fit-empty">自社タイプまたは欲しい機会を1つ以上選ぶと、現在の商用70+・受付中案件から一致案件だけを表示します。</div>';
+    if (!profile.segments.length && !profile.opportunities.length && !profile.regions.length) {
+      result.innerHTML = '<div class="my-fit-empty">自社タイプ・欲しい機会・希望地域のいずれかを選ぶと、現在の商用70+・受付中案件から一致案件だけを表示します。</div>';
       return;
     }
 
@@ -102,24 +161,24 @@
       a.deadline - b.deadline
     );
 
-    const profileLabel = [...profile.segments, ...profile.opportunities].join(' × ');
+    const profileLabel = [...profile.segments, ...profile.opportunities, ...profile.regions].join(' × ');
     if (!matches.length) {
       result.innerHTML = `
         <div class="my-fit-summary"><strong>MY FIT 0件</strong><span>${esc(profileLabel)}</span></div>
-        <div class="my-fit-empty">現在の「商用70+・受付中・confidence high」案件には一致がありません。条件を緩めて水増しせず、該当案件が出たときだけ通知対象にする設計です。</div>`;
+        <div class="my-fit-empty">現在の「商用70+・受付中・confidence high」案件には一致がありません。条件を緩めて水増しせず、該当案件が出たときだけ表示します。</div>`;
       return;
     }
 
     result.innerHTML = `
       <div class="my-fit-summary"><strong>MY FIT ${matches.length}件</strong><span>${esc(profileLabel)}</span></div>
-      <div class="my-fit-cards">${matches.slice(0,3).map(({x,deadline,grade,matched,total}) => `
+      <div class="my-fit-cards">${matches.slice(0,5).map(({x,deadline,grade,matched,total}) => `
         <article class="my-fit-card">
           <div class="my-fit-grade ${grade === 'B' ? 'b' : ''}">MY FIT<br>${grade}</div>
           <div class="my-fit-main">
             <a class="my-fit-title" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>
-            <div class="my-fit-meta"><span>商用 ${esc(x.commercial_score)}</span><span>${esc(x.opportunity_type || '')}</span><span>一致 ${matched}/${total}</span></div>
+            <div class="my-fit-meta"><span>${esc(x.region || '地域未設定')}</span><span>商用 ${esc(x.commercial_score)}</span><span>${esc(x.opportunity_type || '')}</span><span>一致 ${matched}/${total}</span></div>
           </div>
-          <div class="my-fit-deadline"><strong>${esc(remaining(deadline))}</strong><small>${esc(formatDeadline(x.participation_deadline_at))}</small></div>
+          <div class="my-fit-deadline"><strong>${esc(remaining(x,deadline))}</strong><small>${esc(formatDeadline(x))}</small></div>
         </article>`).join('')}</div>`;
   }
 
@@ -130,6 +189,9 @@
       if (responses.some(r => !r.ok)) throw new Error('fit data unavailable');
       const [data,status,quality] = await Promise.all(responses.map(r => r.json()));
       snapshot = {data,status,quality};
+      buildRegionOptions();
+      restoreProfile();
+      root.querySelectorAll('input[type="checkbox"]').forEach(bindInput);
       render();
     } catch {
       result.innerHTML = '<div class="my-fit-empty my-fit-unhealthy">データを確認できないため、フィット判定を停止しています。</div>';
@@ -144,12 +206,14 @@
   });
   clearButton?.addEventListener('click', () => {
     for (const input of root.querySelectorAll('input[type="checkbox"]')) input.checked = false;
-    try { localStorage.removeItem(STORAGE_KEY); } catch {}
+    try {
+      localStorage.removeItem(STORAGE_KEY);
+      localStorage.removeItem(LEGACY_STORAGE_KEY);
+    } catch {}
     render();
   });
-  root.querySelectorAll('input[type="checkbox"]').forEach(input => input.addEventListener('change', render));
+  root.querySelectorAll('input[type="checkbox"]').forEach(bindInput);
 
-  restoreProfile();
   load();
   setInterval(load, 15 * 60 * 1000);
 })();
