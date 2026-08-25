@@ -53,6 +53,10 @@ jobs:
         run: |
           python scripts/enrich_support_periods.py
 
+      - name: Regionalize public outputs
+        run: |
+          python scripts/regionalize_outputs.py
+
       - name: Collect gBizINFO sales signals
         env:
           GBIZINFO_API_TOKEN: ${{ secrets.GBIZINFO_API_TOKEN }}
@@ -65,7 +69,7 @@ jobs:
 
       - name: Generate crawlable opportunity pages
         run: |
-          python scripts/generate_opportunity_pages.py
+          python scripts/generate_opportunity_pages_multi.py
 
       - name: Clean Python cache
         run: |
