@@ -11,6 +11,7 @@ core.SLUGS.update({
     "茅ヶ崎市": "chigasaki",
     "横須賀市": "yokosuka",
     "鎌倉市": "kamakura",
+    "平塚市": "hiratsuka",
 })
 
 _original_render_region = core.render_region
@@ -24,7 +25,9 @@ def render_region(region, items, generated_at):
     page = _original_render_region(region, items, generated_at)
 
     for item in items:
-        if item.get("is_open_now") is not True:
+        # Region pages are generated from open_now.json, which is already the verified
+        # current-open feed and does not redundantly carry is_open_now=true on each row.
+        if item.get("application_status") != "受付中" or item.get("status_confidence") != "high":
             continue
         start = str(item.get("preparation_start_date") or "").strip()
         status = str(item.get("preparation_status") or "").strip()
