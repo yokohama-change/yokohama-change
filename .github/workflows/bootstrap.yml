@@ -58,7 +58,7 @@ jobs:
 
       - name: Regionalize public outputs
         run: |
-          python scripts/regionalize_outputs.py
+          python scripts/regionalize_outputs_extended.py
 
       - name: Collect gBizINFO sales signals
         env:
@@ -76,7 +76,7 @@ jobs:
 
       - name: Generate regional SEO landing pages
         run: |
-          python scripts/generate_region_pages.py
+          python scripts/generate_region_pages_extended.py
 
       - name: Clean Python cache
         run: |
