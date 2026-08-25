@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-08-25T05:47:16+00:00",
+  "updated_at": "2026-08-25T05:48:17+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -1075,6 +1075,21 @@
       "url": "https://www.city.kamakura.kanagawa.jp/chousya-seibi/r08shinchousya-propo01.html",
       "source_updated": "2026-08-24T14:12:51+09:00",
       "fetched_at": "2026-08-25T04:06:02+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "2e21d9de934e2420ef74": {
+      "url": "https://www.pref.kanagawa.jp/docs/m2w/tokubetsukoatsu2023.html",
+      "source_updated": "2026-08-25T00:00:00+09:00",
+      "fetched_at": "2026-08-25T05:48:17+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
