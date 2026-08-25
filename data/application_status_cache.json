@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-08-25T15:42:38+00:00",
+  "updated_at": "2026-08-25T15:49:18+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -1440,6 +1440,34 @@
         "result_hit": false,
         "closed_hit": false,
         "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "e5a773c70205f464a007": {
+      "url": "https://www.town.oiso.kanagawa.jp/soshiki/seisaku/seisaku/tantou/dx/25078.html",
+      "source_updated": "2026-08-17T11:00:00+09:00",
+      "fetched_at": "2026-08-25T15:49:18+00:00",
+      "facts": {
+        "participation_deadline": "2026-09-08",
+        "participation_deadline_at": "2026-09-08T12:00+09:00",
+        "participation_source": "申込期限",
+        "downstream_dates": [
+          "2026-08-18",
+          "2026-08-28",
+          "2026-09-02",
+          "2026-09-08",
+          "2026-09-11",
+          "2026-09-14",
+          "2026-09-15",
+          "2026-09-18",
+          "2026-09-28",
+          "2026-10-02"
+        ],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [
+          "2026-09-08"
+        ],
         "generic_dates": []
       }
     }

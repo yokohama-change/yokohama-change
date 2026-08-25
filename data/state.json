@@ -1,7 +1,7 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-08-25T15:42:34+00:00",
+  "updated_at": "2026-08-25T15:49:17+00:00",
   "items": {
     "027cc0c593f31c74cb82": {
       "fingerprint": "22a974bb951c39c32d9bc759033fe40c005edc0c1cea2d7b122f0184eae26b5d",
@@ -7346,6 +7346,206 @@
     "8e8235f803a9a1d666f6": {
       "fingerprint": "dba06306867f0727c9fc9de112b7e64404e3b548cf1b91bfb53a0bb5e77f0015",
       "source_id": "zama_news"
+    },
+    "b7c09977f6d01062a6b8": {
+      "fingerprint": "d31f3704b1a83f684e0bce4e27708e78c6d02c3ae4ed78341672e401983093cd",
+      "source_id": "oiso_news"
+    },
+    "aaa7e121d2595affed40": {
+      "fingerprint": "6334db66076483f737c276ea2ae10db3e08dec497eeda86cb115fe36bcdc094a",
+      "source_id": "oiso_news"
+    },
+    "04adee200a2dd7a7c46d": {
+      "fingerprint": "12e877e6a3060fc1cd7228392734ed6f55e47d66e2c28f6531a1ea576b7efbe8",
+      "source_id": "oiso_news"
+    },
+    "1602f890a2fd9c4a9de9": {
+      "fingerprint": "2d7b05cda20fab3ad3e07ac2cf42c0c52d8a765d4d5903b42d23c124b8147f49",
+      "source_id": "oiso_news"
+    },
+    "ba83cb3cbe2ec3063bc8": {
+      "fingerprint": "3cbbc778878aed64ba40bb4d99e3d9254d5dca9059cec5e07f12dd6aa1f16561",
+      "source_id": "oiso_news"
+    },
+    "d719580fd55f74023bb0": {
+      "fingerprint": "bbb7dc5cf7ea4eb24a5b55cfb0346e2700bea9cb5dbc0a3cb54226bdbef7d97a",
+      "source_id": "oiso_news"
+    },
+    "4b88c2744a0382af00db": {
+      "fingerprint": "7c4756ec32e51391ab97ea4160510b6ff42722f74551a506265eb50886ad964d",
+      "source_id": "oiso_news"
+    },
+    "ec873428a2eef3b76b5b": {
+      "fingerprint": "1decc309ce8c4f05689a039c98fd2b7ac9e63671b45537c846cef26893459a94",
+      "source_id": "oiso_news"
+    },
+    "e5a773c70205f464a007": {
+      "fingerprint": "3c69c018d3371bda7f1a21a702ab45c039bfe99f37563f108f7d17057c809d81",
+      "source_id": "oiso_news"
+    },
+    "82d6df08241127fe0757": {
+      "fingerprint": "48f0d096767eb5665d7910d5c1623f995fbdd5fb54622525f0e0c0cd5e531f02",
+      "source_id": "oiso_news"
+    },
+    "261e114761ffc9beefd7": {
+      "fingerprint": "e4ee2ddfe29b53ee01bbf6146ef9fa059c3396bf4f3409607d495a0a4fbf1ab4",
+      "source_id": "oiso_news"
+    },
+    "e569c4e15388247937d1": {
+      "fingerprint": "92e4198c7cd37463648239dd3de277f06675f4c324692486a4865a90287e71f5",
+      "source_id": "oiso_news"
+    },
+    "cfea813ca94470fe474b": {
+      "fingerprint": "6dad543dcb86ad64682be9112c59dbe4e14de4858f2306f3ffec8113c865b15d",
+      "source_id": "oiso_news"
+    },
+    "16cb916a51aca1ece82e": {
+      "fingerprint": "f63b956605978cb6fe00052d7fba02e9d566318fbe1360131f1ade849e4ea9cf",
+      "source_id": "oiso_news"
+    },
+    "a8b1d691e30b267ec826": {
+      "fingerprint": "b2c5233fd3c56d78d15250c5e07fd182f9f7d6c3564901a526c5ba5c8145b859",
+      "source_id": "oiso_news"
+    },
+    "73800aaa6c11582ead9a": {
+      "fingerprint": "a2377e38685e8df786e40f323db9387eae67bbdd67a83ae826761b9b542b4eb7",
+      "source_id": "oiso_news"
+    },
+    "dda2117f1b9207e956cb": {
+      "fingerprint": "0cf79175b860e66c82abeceb8908d260da27fb7c296482ea7f199028f91ea3e0",
+      "source_id": "oiso_news"
+    },
+    "1874cb7e32a06f4c1f1d": {
+      "fingerprint": "364213a0bf1775e3a4a2a6092f2833d9ef7a8e882f8331617d65e6f42cfcb820",
+      "source_id": "oiso_news"
+    },
+    "f1e14b5ac283b2acfd70": {
+      "fingerprint": "75489f60064ed70a6b01933cf87d3c2c288335b9564537b664965bbdab2dd555",
+      "source_id": "oiso_news"
+    },
+    "5266ce7efe028e2a5567": {
+      "fingerprint": "0a0ee9865c57af1bb128e8d69265c076f29a7a7e2a258a078862388c181b6232",
+      "source_id": "oiso_news"
+    },
+    "898f0f33a76781c573f9": {
+      "fingerprint": "d116486398d5f5ded3b742f200b7cf7feb13d23ca6fa1b6d07a1d2f1b3de4379",
+      "source_id": "ninomiya_news"
+    },
+    "c1e19f6d4d818be689ce": {
+      "fingerprint": "af20efb54e1beff7a3d530e6a82a22c0f99d6884eb256194ee91806881f880bf",
+      "source_id": "ninomiya_news"
+    },
+    "1ab1c16610034e301388": {
+      "fingerprint": "ac41eec61c20afcf4731f3fab8f6b4a99a913cb070cdf3461bc85063369a0cf0",
+      "source_id": "ninomiya_news"
+    },
+    "d3a7f2bb2f545ff76795": {
+      "fingerprint": "d2b03f981f7beb77ed898fb035b06fee4e9672f199af2ec3b8d1ac94ee38d060",
+      "source_id": "ninomiya_news"
+    },
+    "102267037012601e9583": {
+      "fingerprint": "fbd1573ba0343e245bfb64ec4e9eb3ce6c86539bcf0c789f6888977926d97659",
+      "source_id": "ninomiya_news"
+    },
+    "1c6d7c26638d2c106dbe": {
+      "fingerprint": "b436ad5683542c923ad276d9c74b80d23481f596323bbcc0cecb546208827ab4",
+      "source_id": "ninomiya_news"
+    },
+    "aa038ee11143a8afb753": {
+      "fingerprint": "c252bb79b7c3fdb2b3bf1cf399570907ff0165b40b2ba76f0f2faf83cb83757e",
+      "source_id": "ninomiya_news"
+    },
+    "684f6a86db8a03773eb1": {
+      "fingerprint": "8065e5a4e943e67e4972bd2f3e649536bbf0f59a7aae5405d1a6beba2e9846e8",
+      "source_id": "ninomiya_news"
+    },
+    "285f67ea0d0c4cc3c1ab": {
+      "fingerprint": "6baf64975048ce29bba8fa015c4b1083c87ca3ffcc177bfcd5e5fdb6cab1c182",
+      "source_id": "ninomiya_news"
+    },
+    "b186e33cf7a4164d9382": {
+      "fingerprint": "6e158cd2333849061f5318349af71fd0a22a25225d2fa3243e6940840ddc579c",
+      "source_id": "ninomiya_news"
+    },
+    "8658caa46ec0aa8a929d": {
+      "fingerprint": "1746c30e6dbfc7d8a1a90aff161169931e365896e9aa8cb7d325276205f1f19f",
+      "source_id": "ninomiya_news"
+    },
+    "32359db327b4117a3918": {
+      "fingerprint": "7b6d4057e6ca09e6b8efbc4cf48ef97d7b7e0b8e33a7a0e3016c44eacfacf331",
+      "source_id": "ninomiya_news"
+    },
+    "7fd9df64d2a2be66a11e": {
+      "fingerprint": "eda0eb10fc5bce74d0ee7b91ea7ec7bf6ca37eca38f9c4e267bf79005674ae18",
+      "source_id": "ninomiya_news"
+    },
+    "a13637d568c108664b5d": {
+      "fingerprint": "b7b866097203d7db70e1aa69b2dfd00a4d3262dea3665ae5f30017f37cb44b4f",
+      "source_id": "ninomiya_news"
+    },
+    "4bf072c4b31183f83627": {
+      "fingerprint": "a9dfb7d1f505cab61e03766cea57dd31c771f73801e731027c1fb42f76ded0a7",
+      "source_id": "ninomiya_news"
+    },
+    "4e56537414ea959d8f73": {
+      "fingerprint": "7c5a67d37bca61e89dceb157535899535849745ea4c9c94873dd5425a54d06ba",
+      "source_id": "ninomiya_news"
+    },
+    "f91008d63a1eaecd6fc6": {
+      "fingerprint": "ba67e0f8490f27308117f599130918905d81d59e71c89439786c5ff8bf35c0c9",
+      "source_id": "ninomiya_news"
+    },
+    "89a389df151a2346a597": {
+      "fingerprint": "cb999fdd7f393c38e2e294a1c286c35e9b5ed703ecd9f3225c44d8af0a9dea93",
+      "source_id": "ninomiya_news"
+    },
+    "a568fcd389c133e2e148": {
+      "fingerprint": "7c94ee5ce050e40fab24bbcdb2945f049e83e36e8645f131717a775542b5c837",
+      "source_id": "ninomiya_news"
+    },
+    "4f61c55ab6fa3b969108": {
+      "fingerprint": "5b44cbe42c040ae259b2ed3e2cd9cc03ab1d8a10ff249c40b3574fcaeb347027",
+      "source_id": "ninomiya_news"
+    },
+    "e62d6dc3c755821e9b53": {
+      "fingerprint": "fbc3744dc47e0d224a066611734fc37207fba854dd60d82b38ec1a4e41607357",
+      "source_id": "ninomiya_news"
+    },
+    "6559abebc49d607df28e": {
+      "fingerprint": "e510255891bdbe8906b7f7e95187e8a4a2517365819a6e379a74837b430aeb87",
+      "source_id": "ninomiya_news"
+    },
+    "61f55dc5bc37629dbe00": {
+      "fingerprint": "7d2a2946cd36d1d72818dd193e316f3386f55c013b19d5ce3868efebbc22c0a3",
+      "source_id": "ninomiya_news"
+    },
+    "16dd21274b371fd71305": {
+      "fingerprint": "653b3eefda118f1dd195db7a4499c4b7e1997a40a25aa0bdcb16ea91638060ce",
+      "source_id": "ninomiya_news"
+    },
+    "377c0d00a78a4715779f": {
+      "fingerprint": "be9b07fead0000b2b541101023face0eff6671fb52c28366251ebbd5b675b1d4",
+      "source_id": "ninomiya_news"
+    },
+    "686ac27a6473b7c576b0": {
+      "fingerprint": "048d9fe254e2d403b17fa37e502a30b0521cb5750650da450b46cd8369b959eb",
+      "source_id": "ninomiya_news"
+    },
+    "7376e33710d78c09af4a": {
+      "fingerprint": "9d60e9799ef214763a62352443dfc92e24766cdcddbcef6591e7dcf67d65eada",
+      "source_id": "ninomiya_news"
+    },
+    "cfb22ae4487ee55f2055": {
+      "fingerprint": "785403233b4453683000eca3d7eff0144aacc9c447e9a6e0dcd1cab713475a00",
+      "source_id": "ninomiya_news"
+    },
+    "6cd8bc9607494989d653": {
+      "fingerprint": "37ebe69e129182da526085694702bf3cb88a554aad4edd57046f819da8430133",
+      "source_id": "ninomiya_news"
+    },
+    "c82b8cba9066eb8ef706": {
+      "fingerprint": "ab9251c9885fb2d1c4a02b66c6fdb11eb56dbc9b81ec19745fcd69266d2f8cd7",
+      "source_id": "ninomiya_news"
     }
   }
 }
