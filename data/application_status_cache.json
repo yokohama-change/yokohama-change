@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-08-25T06:26:29+00:00",
+  "updated_at": "2026-08-25T06:30:05+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -1113,6 +1113,27 @@
         "result_hit": false,
         "closed_hit": false,
         "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "ae09f821185c5c286e93": {
+      "url": "https://www.city.odawara.kanagawa.jp/field/envi/envi_topics/p41866.html",
+      "source_updated": "Tue, 25 Aug 2026 15:18:29 +0900",
+      "fetched_at": "2026-08-25T06:30:05+00:00",
+      "facts": {
+        "participation_deadline": "2026-07-28",
+        "participation_deadline_at": "2026-07-28T16:00+09:00",
+        "participation_source": "参加申込",
+        "downstream_dates": [
+          "2026-08-17",
+          "2026-08-20",
+          "2026-08-28"
+        ],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [
+          "2026-07-28"
+        ],
         "generic_dates": []
       }
     }
