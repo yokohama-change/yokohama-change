@@ -55,6 +55,28 @@
       "commercial_redistribution": "link-and-signal-only-review-before-paid-launch",
       "bootstrap_mode": "baseline",
       "baseline_limit": 30
+    },
+    {
+      "id": "kawasaki_business",
+      "name": "川崎市 事業者情報",
+      "type": "rss",
+      "url": "https://www.city.kawasaki.jp/jigyou/rss/rss.xml",
+      "region": "川崎市",
+      "license_mode": "website-rss",
+      "commercial_redistribution": "link-and-signal-only-review-before-paid-launch",
+      "bootstrap_mode": "baseline",
+      "baseline_limit": 30
+    },
+    {
+      "id": "sagamihara_news",
+      "name": "相模原市 新着更新情報",
+      "type": "rss",
+      "url": "https://www.city.sagamihara.kanagawa.jp/rss.rss",
+      "region": "相模原市",
+      "license_mode": "website-rss",
+      "commercial_redistribution": "link-and-signal-only-review-before-paid-launch",
+      "bootstrap_mode": "baseline",
+      "baseline_limit": 30
     }
   ]
 }
