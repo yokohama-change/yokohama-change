@@ -84,9 +84,17 @@ jobs:
         run: |
           python scripts/quality_gate.py
 
+      - name: Require explainable open-status evidence
+        run: |
+          python scripts/explainability_gate.py
+
       - name: Generate crawlable opportunity pages
         run: |
           python scripts/generate_opportunity_pages_multi.py
+
+      - name: Inject open-status verification traces
+        run: |
+          python scripts/inject_opportunity_trace.py
 
       - name: Generate regional SEO landing pages
         run: |
