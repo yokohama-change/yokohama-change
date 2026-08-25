@@ -1,4 +1,46 @@
 (() => {
+  function mountPreparationFeature(){
+    if (!document.querySelector('link[data-preparation-style]')) {
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = 'preparation.css';
+      link.dataset.preparationStyle = '1';
+      document.head.appendChild(link);
+    }
+
+    if (!document.querySelector('#preparationShell')) {
+      const priority = document.querySelector('.priority-shell');
+      if (priority) {
+        const section = document.createElement('section');
+        section.id = 'preparationShell';
+        section.className = 'preparation-shell';
+        section.hidden = true;
+        section.setAttribute('aria-labelledby','preparationTitle');
+        section.innerHTML = `
+          <div class="preparation-head">
+            <div>
+              <span class="preparation-kicker">START PREPARING · YOKOHAMA CHANGE GUIDE</span>
+              <h2 id="preparationTitle">もう準備を始めたい案件</h2>
+            </div>
+            <div class="preparation-count"><b id="preparationCount">—</b><span>準備開始目安</span></div>
+          </div>
+          <p class="preparation-note">公式締切とは別に、案件種別ごとの標準準備日数から「準備を始める目安」を表示します。入札・調達は原則10日前、補助金・支援は7日前、指定管理・開発系は14日前を目安にしています。</p>
+          <div id="preparationCards" class="preparation-cards" aria-live="polite"></div>
+          <div class="preparation-legal"><strong>独自目安：</strong>この表示は公式期限・応募要件・専門的助言ではありません。実際の準備期間、必要書類、応募可否は必ず公式情報を確認し、利用者ご自身で判断してください。 <a href="disclaimer.html">免責事項</a></div>`;
+        priority.insertAdjacentElement('afterend', section);
+      }
+    }
+
+    if (!document.querySelector('script[data-preparation-script]') && document.querySelector('#preparationShell')) {
+      const script = document.createElement('script');
+      script.src = 'preparation.js';
+      script.dataset.preparationScript = '1';
+      document.body.appendChild(script);
+    }
+  }
+
+  mountPreparationFeature();
+
   const shell = document.querySelector('#nextHighValueShell');
   const target = document.querySelector('#nextHighValueCard');
   if (!shell || !target) return;
@@ -66,6 +108,7 @@
       x.is_open_now === true &&
       x.status_confidence === 'high' &&
       Number(x.commercial_score || 0) >= 70 &&
+      x.deadline_time_exact === true &&
       Number.isFinite(deadline) &&
       ms > 0
     );
@@ -91,12 +134,13 @@
       </div>
       <div class="next-high-value-main">
         <div class="next-high-value-topline">
+          <span>${safe(x.region || '')}</span>
           <span>商用 ${safe(x.commercial_score ?? 0)}</span>
           <span>受付中</span>
           <span>confidence high</span>
         </div>
         <a class="next-high-value-title" href="${safe(x.url)}" target="_blank" rel="noopener">${safe(x.title)}</a>
-        <p>48時間アラート前の高商用案件を1件だけ予告しています。条件を緩めて案件数を増やすことはしません。</p>
+        <p>48時間アラート前の高商用案件を1件だけ予告しています。公式締切時刻を確認できた案件に限定し、条件を緩めて案件数を増やしません。</p>
       </div>
       <a class="next-high-value-link" href="${safe(x.url)}" target="_blank" rel="noopener">公式情報 →</a>`;
   }
