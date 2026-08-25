@@ -44,6 +44,17 @@
       "region": "横浜市",
       "license_mode": "cc-by-4.0",
       "commercial_redistribution": "allowed-with-attribution"
+    },
+    {
+      "id": "kanagawa_pref_news",
+      "name": "神奈川県 新着情報",
+      "type": "rss",
+      "url": "https://www.pref.kanagawa.jp/news/news.xml",
+      "region": "神奈川県",
+      "license_mode": "website-rss",
+      "commercial_redistribution": "link-and-signal-only-review-before-paid-launch",
+      "bootstrap_mode": "baseline",
+      "baseline_limit": 30
     }
   ]
 }
