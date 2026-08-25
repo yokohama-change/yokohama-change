@@ -22,12 +22,14 @@
         <div><b id="qualityAuditSources">—</b><span>非空の公式ソース / 設定数</span></div>
         <div><b id="qualityAuditChecks">—</b><span>品質チェック通過</span></div>
         <div><b id="qualityAuditOpen">—</b><span>受付中案件</span></div>
+        <div><b id="qualityAuditExplainable">—</b><span>根拠を説明できる受付中</span></div>
+        <div><b id="qualityAuditExactTime">—</b><span>締切時刻まで確認済み</span></div>
         <div><b id="qualityAuditDuplicates">—</b><span>残存する重複URL</span></div>
       </div>
       <div id="qualityAuditChips" class="quality-audit-chips" aria-live="polite"></div>
       <div class="quality-audit-foot">
         <span>最終監査 <b id="qualityAuditUpdated">—</b> · 自動品質検査であり、公式情報の正確性を保証するものではありません。</span>
-        <a href="data/quality.json">品質データを確認 →</a>
+        <span class="quality-audit-links"><a href="data/quality.json">品質データ</a><a href="data/explainability.json">説明可能性データ</a></span>
       </div>`;
     main.prepend(shell);
   }
@@ -62,37 +64,53 @@
     open_feed_ids_consistent: '公開案件ID整合',
     high_value_counts_consistent: '高商用件数整合',
     unique_ids: '重複IDなし',
-    unique_public_urls: '重複URLなし'
+    unique_public_urls: '重複URLなし',
+    all_open_items_explainable: '受付中の根拠説明',
+    explicit_participation_reason_required: '新規参加期限の明示確認'
   };
+
+  async function getJson(url) {
+    const response = await fetch(url, {cache: 'no-store'});
+    if (!response.ok) throw new Error(`${url} HTTP ${response.status}`);
+    return response.json();
+  }
 
   async function load() {
     try {
-      const response = await fetch('data/quality.json', {cache: 'no-store'});
-      if (!response.ok) throw new Error(`quality HTTP ${response.status}`);
-      const quality = await response.json();
+      const [quality, explainability] = await Promise.all([
+        getJson('data/quality.json'),
+        getJson('data/explainability.json')
+      ]);
       const inventory = quality.source_inventory || {};
       const dedupe = quality.dedupe || {};
-      const checks = quality.checks && typeof quality.checks === 'object' ? quality.checks : {};
-      const entries = Object.entries(checks);
+      const qualityChecks = quality.checks && typeof quality.checks === 'object' ? quality.checks : {};
+      const explainChecks = explainability.checks && typeof explainability.checks === 'object' ? explainability.checks : {};
+      const entries = [...Object.entries(qualityChecks), ...Object.entries(explainChecks)];
       const passed = entries.filter(([, ok]) => ok === true).length;
       const total = entries.length;
-      const good = quality.health === 'good' && total > 0 && passed === total;
+      const openNow = Number(quality.open_now ?? explainability.open_now ?? 0);
+      const explainable = Number(explainability.explainable_open_now ?? -1);
+      const exactTime = Number(explainability.deadline_time_exact ?? -1);
+      const explainabilityAligned = explainability.health === 'good' && explainable === openNow;
+      const good = quality.health === 'good' && explainabilityAligned && total > 0 && passed === total;
 
       shell.hidden = false;
       shell.classList.toggle('is-good', good);
       shell.classList.toggle('is-warning', !good);
-      put('#qualityAuditState', good ? '全チェック PASS' : (quality.health_label || '要確認'));
+      put('#qualityAuditState', good ? '全チェック PASS' : (quality.health_label || explainability.health_label || '要確認'));
       put('#qualityAuditSources', `${inventory.nonempty_sources ?? '—'}/${inventory.configured_sources ?? '—'}`);
       put('#qualityAuditChecks', `${passed}/${total}`);
-      put('#qualityAuditOpen', quality.open_now ?? '—');
+      put('#qualityAuditOpen', openNow);
+      put('#qualityAuditExplainable', explainable >= 0 ? `${explainable}/${openNow}` : '—');
+      put('#qualityAuditExactTime', exactTime >= 0 ? `${exactTime}/${openNow}` : '—');
       put('#qualityAuditDuplicates', dedupe.remaining_duplicate_urls ?? '—');
-      put('#qualityAuditUpdated', fmt(quality.checked_at));
+      put('#qualityAuditUpdated', fmt(explainability.checked_at || quality.checked_at));
 
       const copy = document.querySelector('#qualityAuditCopy');
       if (copy) {
         copy.textContent = good
-          ? '公式ソース・出典・締切・件数・重複を公開前に自動検査し、すべて通過したデータを表示しています。'
-          : '品質検査に注意項目があります。高優先表示は安全側で抑制されます。詳細をご確認ください。';
+          ? '公式ソース・出典・締切・件数・重複に加え、「なぜ受付中なのか」まで公開前に自動検査し、すべて通過したデータを表示しています。'
+          : '品質または説明可能性の検査に注意項目があります。高優先表示は安全側で抑制されます。詳細をご確認ください。';
       }
 
       const chips = document.querySelector('#qualityAuditChips');
@@ -102,7 +120,7 @@
         ).join('');
       }
     } catch {
-      // Never leave a stale-looking PASS visible if the audit file cannot be read.
+      // Never leave a stale-looking PASS visible if either audit file cannot be read.
       shell.hidden = true;
     }
   }
