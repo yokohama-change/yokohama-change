@@ -33,7 +33,11 @@ jobs:
         run: |
           python -m unittest discover -s tests -v
 
-      - name: Collect Yokohama public changes
+      - name: Seed newly added official sources as baseline
+        run: |
+          python scripts/seed_new_sources.py
+
+      - name: Collect Kanagawa public changes
         run: |
           python scripts/collect.py
 
@@ -41,9 +45,9 @@ jobs:
         run: |
           python scripts/normalize_public.py
 
-      - name: Enrich application status
+      - name: Enrich application status across approved official domains
         run: |
-          python scripts/enrich_status.py
+          python scripts/enrich_status_multi.py
 
       - name: Enrich active support periods
         run: |
