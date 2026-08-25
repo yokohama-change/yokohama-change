@@ -18,6 +18,8 @@ core.SLUGS.update({
     "海老名市": "ebina",
     "伊勢原市": "isehara",
     "座間市": "zama",
+    "大磯町": "oiso",
+    "二宮町": "ninomiya",
 })
 
 _original_render_region = core.render_region
