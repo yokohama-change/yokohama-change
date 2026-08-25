@@ -22,7 +22,9 @@ class CategoryPageTests(unittest.TestCase):
             "days_left": 10,
             "deadline_label": "残り10日",
             "deadline_time_exact": True,
-            "is_open_now": True,
+            "application_status": "受付中",
+            "status_confidence": "high",
+            "participation_deadline": "2026-09-04",
             "preparation_status": "準備開始推奨",
             "preparation_start_date": "2026-08-25",
             "preparation_days": 10,
@@ -31,6 +33,27 @@ class CategoryPageTests(unittest.TestCase):
         self.assertIn("独自目安", html)
         self.assertIn("公式期限・応募要件ではありません", html)
         self.assertIn("法令上認められる範囲で責任を負いません", html)
+
+    def test_real_open_feed_schema_does_not_require_redundant_is_open_now(self):
+        item = {
+            "id": "abcdef123456",
+            "url": "https://example.invalid/item",
+            "application_status": "受付中",
+            "status_confidence": "high",
+            "participation_deadline": "2026-09-04",
+        }
+        self.assertTrue(pages.verified_open_feed_item(item))
+
+    def test_explicit_false_open_flag_is_rejected_defensively(self):
+        item = {
+            "id": "abcdef123456",
+            "url": "https://example.invalid/item",
+            "application_status": "受付中",
+            "status_confidence": "high",
+            "participation_deadline": "2026-09-04",
+            "is_open_now": False,
+        }
+        self.assertFalse(pages.verified_open_feed_item(item))
 
     def test_only_configured_categories_are_index_targets(self):
         self.assertIn("入札・調達", pages.CATEGORY_CONFIG)
