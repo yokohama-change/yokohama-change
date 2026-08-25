@@ -1,30 +1,31 @@
 {
-  "generated_at": "2026-08-25T03:55:16+00:00",
-  "commercial_50_plus": 60,
+  "generated_at": "2026-08-25T03:57:31+00:00",
+  "commercial_50_plus": 66,
   "commercial_70_plus": 33,
   "commercial_85_plus": 29,
   "by_buyer_segment": {
-    "入札・公共調達": 52,
-    "士業・補助金支援": 42,
+    "入札・公共調達": 56,
+    "士業・補助金支援": 46,
     "地域メディア": 11,
     "法人営業": 9,
     "不動産・建設": 8
   },
   "by_opportunity_type": {
-    "受注機会": 52,
-    "資金・支援": 4,
-    "開発・不動産": 4
+    "受注機会": 56,
+    "資金・支援": 5,
+    "開発・不動産": 4,
+    "制度対応": 1
   },
   "status_engine_version": 3,
-  "open_now": 9,
+  "open_now": 8,
   "open_now_commercial_70_plus": 2,
   "application_status_counts": {
-    "受付中": 9,
-    "参加締切済": 8,
+    "受付中": 8,
+    "参加締切済": 9,
     "資格者のみ進行中": 4,
-    "結果掲載済": 17,
-    "判定不可": 13,
-    "案件外": 202
+    "結果掲載済": 16,
+    "判定不可": 15,
+    "案件外": 242
   },
   "scope": "神奈川 β（神奈川県・横浜市・川崎市・相模原市）",
   "coverage_regions": [
@@ -35,16 +36,16 @@
   ],
   "by_region": {
     "神奈川県": 30,
-    "横浜市": 164,
+    "横浜市": 155,
     "川崎市": 29,
     "相模原市": 30
   },
   "open_now_by_region": {
     "神奈川県": 0,
-    "横浜市": 2,
+    "横浜市": 1,
     "川崎市": 0,
     "相模原市": 7
   },
-  "open_now_exact_time": 5,
+  "open_now_exact_time": 4,
   "open_now_high_value_exact_time": 2
 }
