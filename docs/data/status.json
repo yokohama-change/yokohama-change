@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T03:44:38+00:00",
+  "generated_at": "2026-08-25T03:45:27+00:00",
   "sources_total": 6,
   "sources_ok": 6,
   "items_seen": 990,
@@ -9,16 +9,25 @@
   "public_items": 194,
   "public_duplicate_revisions_removed": 6,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-08-25T03:44:39+00:00",
+  "application_status_checked_at": "2026-08-25T03:45:27+00:00",
   "application_status_candidates": 35,
   "application_status_open_now": 2,
-  "application_status_fetches": 1,
+  "application_status_fetches": 0,
   "application_status_errors": [],
   "application_status_warnings": [],
   "employment_notices_excluded": 38,
   "support_period_candidates_checked": 3,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
+  "scope": "神奈川県 β（横浜市＋県公式情報）",
+  "regions_seen": [
+    "横浜市",
+    "神奈川県"
+  ],
+  "open_now_by_region": {
+    "横浜市": 2,
+    "神奈川県": 0
+  },
   "gbiz_enabled": true,
   "gbiz_period": {
     "from": "20260823",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T03:44:38+00:00",
+  "generated_at": "2026-08-25T03:45:27+00:00",
   "count": 2,
   "high_value_count": 1,
   "items": [
@@ -26,7 +26,8 @@
       "status_confidence": "high",
       "status_reason": "明示された新規参加期限（申込期限+申込欄:提出期間）を確認",
       "detected_at": "2026-08-17T08:10:13+00:00",
-      "source_updated": "Mon, 17 Aug 2026 04:00:00 GMT"
+      "source_updated": "Mon, 17 Aug 2026 04:00:00 GMT",
+      "region": "横浜市"
     },
     {
       "id": "e0833ebb6d40551fc623",
@@ -51,8 +52,10 @@
       "status_confidence": "high",
       "status_reason": "明示された新規参加期限（支援制度:申請期間）を確認",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "source_updated": "Wed, 12 Aug 2026 07:00:00 GMT"
+      "source_updated": "Wed, 12 Aug 2026 07:00:00 GMT",
+      "region": "横浜市"
     }
   ],
-  "note": "公式ページで新規参加期限を明示的に確認でき、現時点で受付中と判定した案件のみ。応募前に原典確認が必要です。"
+  "note": "神奈川県内の公式ページで新規参加期限を明示的に確認でき、現時点で受付中と判定した案件のみ。応募前に原典確認が必要です。",
+  "scope": "神奈川県 β（横浜市＋県公式情報）"
 }
