@@ -19,6 +19,7 @@ APPROVED_OFFICIAL_HOSTS = {
     "www.city.fujisawa.kanagawa.jp",
     "www.city.chigasaki.kanagawa.jp",
     "www.city.yokosuka.kanagawa.jp",
+    "www.city.kamakura.kanagawa.jp",
 }
 
 
@@ -32,7 +33,7 @@ def approved_detail_url(url: str) -> bool:
 
 def main() -> int:
     core.official_detail_url = approved_detail_url
-    core.USER_AGENT = "KanagawaChange/0.9 (+deadline-status; respectful-fetching)"
+    core.USER_AGENT = "KanagawaChange/1.0 (+deadline-status; respectful-fetching)"
     return core.main()
 
 
