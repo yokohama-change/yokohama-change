@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T04:40:06+00:00",
+  "generated_at": "2026-08-25T05:47:15+00:00",
   "count": 9,
   "high_value_count": 2,
   "items": [
@@ -28,7 +28,11 @@
       "detected_at": "2026-08-17T08:10:13+00:00",
       "source_updated": "Mon, 17 Aug 2026 04:00:00 GMT",
       "region": "横浜市",
-      "deadline_time_exact": true
+      "deadline_time_exact": true,
+      "preparation_days": 10,
+      "preparation_start_date": "2026-08-23",
+      "preparation_status": "準備開始推奨",
+      "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
     },
     {
       "id": "8cc1bf238a44a5b856fc",
@@ -55,7 +59,11 @@
       "detected_at": "2026-08-25T03:49:44+00:00",
       "source_updated": "Mon, 24 Aug 2026 00:05:03 +0900",
       "region": "相模原市",
-      "deadline_time_exact": true
+      "deadline_time_exact": true,
+      "preparation_days": 10,
+      "preparation_start_date": "2026-08-25",
+      "preparation_status": "準備開始推奨",
+      "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
     },
     {
       "id": "9898a8cd344782a1a0bf",
@@ -81,7 +89,11 @@
       "detected_at": "2026-08-25T03:49:44+00:00",
       "source_updated": "Thu, 20 Aug 2026 00:05:04 +0900",
       "region": "相模原市",
-      "deadline_time_exact": false
+      "deadline_time_exact": false,
+      "preparation_days": 10,
+      "preparation_start_date": "2026-08-17",
+      "preparation_status": "準備開始推奨",
+      "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
     },
     {
       "id": "7afce92bb77d9590b934",
@@ -107,7 +119,11 @@
       "detected_at": "2026-08-25T03:49:44+00:00",
       "source_updated": "Fri, 21 Aug 2026 00:05:03 +0900",
       "region": "相模原市",
-      "deadline_time_exact": false
+      "deadline_time_exact": false,
+      "preparation_days": 10,
+      "preparation_start_date": "2026-08-17",
+      "preparation_status": "準備開始推奨",
+      "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
     },
     {
       "id": "0cc2ada12233d51fe608",
@@ -134,7 +150,11 @@
       "detected_at": "2026-08-25T03:49:44+00:00",
       "source_updated": "Mon, 17 Aug 2026 11:50:01 +0900",
       "region": "相模原市",
-      "deadline_time_exact": true
+      "deadline_time_exact": true,
+      "preparation_days": 14,
+      "preparation_start_date": "2026-08-17",
+      "preparation_status": "準備開始推奨",
+      "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
     },
     {
       "id": "ca3a3fcf485ee0a56bcb",
@@ -161,7 +181,11 @@
       "detected_at": "2026-08-25T03:49:44+00:00",
       "source_updated": "Mon, 17 Aug 2026 11:50:10 +0900",
       "region": "相模原市",
-      "deadline_time_exact": true
+      "deadline_time_exact": true,
+      "preparation_days": 14,
+      "preparation_start_date": "2026-08-17",
+      "preparation_status": "準備開始推奨",
+      "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
     },
     {
       "id": "525f79045914f6319e15",
@@ -187,7 +211,11 @@
       "detected_at": "2026-08-25T03:49:44+00:00",
       "source_updated": "Fri, 21 Aug 2026 00:05:03 +0900",
       "region": "相模原市",
-      "deadline_time_exact": false
+      "deadline_time_exact": false,
+      "preparation_days": 10,
+      "preparation_start_date": "2026-08-22",
+      "preparation_status": "準備開始推奨",
+      "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
     },
     {
       "id": "b8d669f2bbd28198e77a",
@@ -213,7 +241,11 @@
       "detected_at": "2026-08-25T03:49:44+00:00",
       "source_updated": "Mon, 24 Aug 2026 00:05:03 +0900",
       "region": "相模原市",
-      "deadline_time_exact": false
+      "deadline_time_exact": false,
+      "preparation_days": 10,
+      "preparation_start_date": "2026-08-23",
+      "preparation_status": "準備開始推奨",
+      "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
     },
     {
       "id": "e0833ebb6d40551fc623",
@@ -240,10 +272,14 @@
       "detected_at": "2026-08-12T19:21:36+00:00",
       "source_updated": "Wed, 12 Aug 2026 07:00:00 GMT",
       "region": "横浜市",
-      "deadline_time_exact": true
+      "deadline_time_exact": true,
+      "preparation_days": 7,
+      "preparation_start_date": "2026-08-24",
+      "preparation_status": "準備開始推奨",
+      "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
     }
   ],
-  "note": "神奈川県・横浜市・川崎市・相模原市の公式ページで新規参加期限を明示的に確認でき、現時点で受付中と判定した案件のみ。48H/TODAYはdeadline_time_exact=trueの案件だけを対象にします。県内全自治体の網羅ではありません。応募前に原典確認が必要です。",
+  "note": "神奈川県 / 横浜市 / 川崎市 / 相模原市 / 藤沢市 / 茅ヶ崎市 / 横須賀市 / 鎌倉市 の公式ページで新規参加期限を明示的に確認でき、現時点で受付中と判定した案件のみ。48H/TODAYはdeadline_time_exact=trueの案件だけを対象にします。preparation_* は独自の準備目安で公式期限ではありません。県内全自治体の網羅ではなく、応募前に原典確認が必要です。",
   "scope": "神奈川 β（県＋7市の公式情報）",
   "coverage_regions": [
     "神奈川県",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T04:40:06+00:00",
+  "generated_at": "2026-08-25T05:47:15+00:00",
   "commercial_50_plus": 67,
   "commercial_70_plus": 34,
   "commercial_85_plus": 30,
@@ -25,7 +25,7 @@
     "資格者のみ進行中": 4,
     "結果掲載済": 17,
     "判定不可": 18,
-    "案件外": 269
+    "案件外": 279
   },
   "scope": "神奈川 β（県＋7市の公式情報）",
   "coverage_regions": [
@@ -39,12 +39,12 @@
     "鎌倉市"
   ],
   "by_region": {
-    "神奈川県": 45,
-    "横浜市": 162,
+    "神奈川県": 78,
+    "横浜市": 133,
     "川崎市": 29,
     "相模原市": 30,
     "藤沢市": 10,
-    "茅ヶ崎市": 30,
+    "茅ヶ崎市": 36,
     "横須賀市": 10,
     "鎌倉市": 10
   },
@@ -59,5 +59,7 @@
     "鎌倉市": 0
   },
   "open_now_exact_time": 5,
-  "open_now_high_value_exact_time": 2
+  "open_now_high_value_exact_time": 2,
+  "preparation_due_now": 9,
+  "preparation_due_now_high_value": 2
 }
