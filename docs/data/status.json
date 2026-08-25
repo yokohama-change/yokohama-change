@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-25T04:01:21+00:00",
-  "sources_total": 11,
-  "sources_ok": 11,
-  "items_seen": 1549,
+  "generated_at": "2026-08-25T04:06:01+00:00",
+  "sources_total": 12,
+  "sources_ok": 12,
+  "items_seen": 1559,
   "changes_this_run": 0,
   "errors": [],
   "state_preserved": false,
-  "public_items": 301,
-  "public_duplicate_revisions_removed": 6,
+  "public_items": 311,
+  "public_duplicate_revisions_removed": 4,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-08-25T04:01:22+00:00",
-  "application_status_candidates": 56,
+  "application_status_checked_at": "2026-08-25T04:06:02+00:00",
+  "application_status_candidates": 57,
   "application_status_open_now": 9,
-  "application_status_fetches": 0,
+  "application_status_fetches": 1,
   "application_status_errors": [],
   "application_status_warnings": [],
-  "employment_notices_excluded": 41,
+  "employment_notices_excluded": 42,
   "support_period_candidates_checked": 3,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
-  "scope": "神奈川 β（県＋6市の公式情報）",
+  "scope": "神奈川 β（県＋7市の公式情報）",
   "coverage_regions": [
     "神奈川県",
     "横浜市",
@@ -27,7 +27,8 @@
     "相模原市",
     "藤沢市",
     "茅ヶ崎市",
-    "横須賀市"
+    "横須賀市",
+    "鎌倉市"
   ],
   "regions_seen": [
     "川崎市",
@@ -36,7 +37,8 @@
     "相模原市",
     "神奈川県",
     "茅ヶ崎市",
-    "藤沢市"
+    "藤沢市",
+    "鎌倉市"
   ],
   "open_now_by_region": {
     "神奈川県": 0,
@@ -45,7 +47,8 @@
     "相模原市": 7,
     "藤沢市": 0,
     "茅ヶ崎市": 0,
-    "横須賀市": 0
+    "横須賀市": 0,
+    "鎌倉市": 0
   },
   "open_now_exact_time": 5,
   "open_now_high_value_exact_time": 2,

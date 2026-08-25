@@ -1,7 +1,7 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-08-25T04:01:21+00:00",
+  "updated_at": "2026-08-25T04:06:01+00:00",
   "items": {
     "8ea0d1c650d0c28fa5bd": {
       "fingerprint": "c4909169a452ac5870711ac8f9d011a941e295cfd670e6941f1dc2b2102217a1",
@@ -6198,6 +6198,46 @@
     "e469273bd4e99c6a4184": {
       "fingerprint": "a3d84a00b4dd3971bcdd49c70db3bc67a6cb59bc6c59de8d5d338861e52fd8b7",
       "source_id": "yokosuka_business"
+    },
+    "d5e53da63cbf022c7a01": {
+      "fingerprint": "7ed470dbb06a1b04e54e71caff816f2e984d4d44c7a716106b43666286e5e557",
+      "source_id": "kamakura_news"
+    },
+    "0e38acde06cd532ebf35": {
+      "fingerprint": "933e2a57f04ad4077157bf5388c2db7f62ee04e8ab9396e0cbf4423ecdc47046",
+      "source_id": "kamakura_news"
+    },
+    "13f6b25208431d5febbd": {
+      "fingerprint": "5c9c273ab87d781976ecdd61585e6ff608a2e93440db0ad2f54ce0aa0df9cd0b",
+      "source_id": "kamakura_news"
+    },
+    "4fea904407685835cbb4": {
+      "fingerprint": "adade44397d1b614af982be383d695413d4006214345dedc88b2d55747798a20",
+      "source_id": "kamakura_news"
+    },
+    "910844c102c9b4acfe1e": {
+      "fingerprint": "9238e2b6e1067c53aec7dcf57d3416dadf3e7c0b9fd0cd304dab6769704317d5",
+      "source_id": "kamakura_news"
+    },
+    "82a60870b20e3364e6fb": {
+      "fingerprint": "409147a95a16d2372310432f0538912ee6b1162d1f07b9b117cf166054441471",
+      "source_id": "kamakura_news"
+    },
+    "4ef52da86e09ea51233f": {
+      "fingerprint": "d3d415f55723ec0df47382327fccf4add4544428fa9b83332e16cd79e8189781",
+      "source_id": "kamakura_news"
+    },
+    "714885a74da2b9dbaf98": {
+      "fingerprint": "18579c008665c37aa5faac694a407b3603a9468ebe185b9d2fd0ee9aab971a09",
+      "source_id": "kamakura_news"
+    },
+    "6013b76e1868dd5aabb2": {
+      "fingerprint": "315edecb226e8f662dce5a08ab63153f4db85aff39b6e9c36199397f900e00cd",
+      "source_id": "kamakura_news"
+    },
+    "953cd983ae681e83886c": {
+      "fingerprint": "a5b69f4ba7ae08b82970d76b579698e05a2d84b8fad934f19dee2eed479935bb",
+      "source_id": "kamakura_news"
     }
   }
 }
