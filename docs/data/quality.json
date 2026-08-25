@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-25T16:02:02+00:00",
+  "checked_at": "2026-08-25T16:04:55+00:00",
   "health": "good",
   "health_label": "正常",
   "errors": [],
@@ -16,6 +16,7 @@
   },
   "checks": {
     "source_inventory_healthy": true,
+    "official_provenance_consistent": true,
     "open_deadlines_not_past": true,
     "deadline_fields_consistent": true,
     "employment_excluded": true,
