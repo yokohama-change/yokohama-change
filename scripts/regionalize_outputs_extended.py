@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import regionalize_outputs as core
 
-core.SCOPE = "神奈川 β（県＋6市の公式情報）"
+core.SCOPE = "神奈川 β（県＋7市の公式情報）"
 core.PLANNED_REGIONS = [
     "神奈川県",
     "横浜市",
@@ -13,6 +13,7 @@ core.PLANNED_REGIONS = [
     "藤沢市",
     "茅ヶ崎市",
     "横須賀市",
+    "鎌倉市",
 ]
 
 
