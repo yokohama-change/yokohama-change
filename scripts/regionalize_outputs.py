@@ -3,12 +3,14 @@
 
 The beta expands source by source. Public metadata therefore names the municipalities
 currently collected instead of implying that every municipality in Kanagawa is already
-covered.
+covered. For urgent alerts, date-only deadlines are deliberately distinguished from
+officially explicit clock times.
 """
 from __future__ import annotations
 
 import csv
 import json
+import re
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any
@@ -31,16 +33,36 @@ def load_json(path: Path, default: Any) -> Any:
         return default
 
 
+def deadline_time_exact(item: dict[str, Any]) -> bool:
+    """Conservative proxy for an explicitly stated clock time.
+
+    The legacy status engine fills date-only deadlines with 23:59. We therefore treat
+    23:59 as *not exact*. A genuinely official 23:59 deadline will also be suppressed
+    from 48H/TODAY, which is intentionally safer than sending a false precise alert.
+    """
+    raw = str(item.get("participation_deadline_at", "") or "")
+    match = re.search(r"T(\d{2}):(\d{2})", raw)
+    if not match:
+        return False
+    return (match.group(1), match.group(2)) != ("23", "59")
+
+
 def main() -> int:
     latest = load_json(LATEST, {})
     items = latest.get("items", []) if isinstance(latest, dict) else []
     if not isinstance(items, list):
         items = []
+
+    for item in items:
+        if isinstance(item, dict):
+            item["deadline_time_exact"] = deadline_time_exact(item)
+
     latest["scope"] = SCOPE
     latest["coverage_regions"] = PLANNED_REGIONS
     latest["disclaimer"] = (
         "無料βでは神奈川県・横浜市・川崎市・相模原市の公式公開情報から段階的に収集しています。"
         "『受付中』は公式ページで新規参加期限を明示的に特定した案件だけです。"
+        "48H/TODAYは締切時刻まで明示確認できた案件だけを対象にします。"
         "県内全自治体を網羅済みという意味ではありません。応募・契約・商用判断は必ずリンク先の公式情報を確認してください。"
     )
     LATEST.write_text(json.dumps(latest, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -55,16 +77,17 @@ def main() -> int:
     for item in open_items:
         original = by_id.get(str(item.get("id", "")), {})
         item["region"] = original.get("region", "")
+        item["deadline_time_exact"] = bool(original.get("deadline_time_exact", False))
     open_feed["scope"] = SCOPE
     open_feed["coverage_regions"] = PLANNED_REGIONS
     open_feed["items"] = open_items
     open_feed["note"] = (
         "神奈川県・横浜市・川崎市・相模原市の公式ページで新規参加期限を明示的に確認でき、現時点で受付中と判定した案件のみ。"
-        "県内全自治体の網羅ではありません。応募前に原典確認が必要です。"
+        "48H/TODAYはdeadline_time_exact=trueの案件だけを対象にします。県内全自治体の網羅ではありません。応募前に原典確認が必要です。"
     )
     OPEN_JSON.write_text(json.dumps(open_feed, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    csv_fields = ["region", "priority_tier", "deadline_label", "participation_deadline", "days_left", "commercial_score",
+    csv_fields = ["region", "deadline_time_exact", "priority_tier", "deadline_label", "participation_deadline", "days_left", "commercial_score",
                   "urgency", "opportunity_type", "category", "buyer_segments", "title", "source_name", "url"]
     with OPEN_CSV.open("w", encoding="utf-8-sig", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=csv_fields)
@@ -99,6 +122,15 @@ def main() -> int:
         region: sum(1 for x in items if x.get("is_open_now") is True and x.get("region") == region)
         for region in PLANNED_REGIONS
     }
+    status["open_now_exact_time"] = sum(
+        1 for x in items if x.get("is_open_now") is True and x.get("deadline_time_exact") is True
+    )
+    status["open_now_high_value_exact_time"] = sum(
+        1 for x in items
+        if x.get("is_open_now") is True
+        and int(x.get("commercial_score", 0) or 0) >= 70
+        and x.get("deadline_time_exact") is True
+    )
     STATUS.write_text(json.dumps(status, ensure_ascii=False, indent=2), encoding="utf-8")
 
     summary = load_json(SUMMARY, {})
@@ -111,9 +143,17 @@ def main() -> int:
         for region in PLANNED_REGIONS
     }
     summary["open_now_by_region"] = status["open_now_by_region"]
+    summary["open_now_exact_time"] = status["open_now_exact_time"]
+    summary["open_now_high_value_exact_time"] = status["open_now_high_value_exact_time"]
     SUMMARY.write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    print(json.dumps({"scope": SCOPE, "regions_seen": regions, "open_now_by_region": status["open_now_by_region"]}, ensure_ascii=False))
+    print(json.dumps({
+        "scope": SCOPE,
+        "regions_seen": regions,
+        "open_now_by_region": status["open_now_by_region"],
+        "open_now_exact_time": status["open_now_exact_time"],
+        "open_now_high_value_exact_time": status["open_now_high_value_exact_time"],
+    }, ensure_ascii=False))
     return 0
 
 
