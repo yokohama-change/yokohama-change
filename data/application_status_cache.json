@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-08-25T05:52:37+00:00",
+  "updated_at": "2026-08-25T05:53:55+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -563,11 +563,11 @@
     "f3b4f0c4877a4c711310": {
       "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2026/syuzen/keizai/seika_okugaisyoumei.html",
       "source_updated": "Thu, 06 Aug 2026 22:00:00 GMT",
-      "fetched_at": "2026-08-15T13:47:24+00:00",
+      "fetched_at": "2026-08-25T05:53:55+00:00",
       "facts": {
         "participation_deadline": "2026-08-13",
-        "participation_deadline_at": "2026-08-13T17:00+09:00",
-        "participation_source": "申込期限+申込欄:提出期間",
+        "participation_deadline_at": "2026-08-13T23:59+09:00",
+        "participation_source": "申込期限",
         "downstream_dates": [
           "2026-08-13",
           "2026-08-18",
@@ -1090,6 +1090,21 @@
       "url": "https://www.pref.kanagawa.jp/docs/m2w/tokubetsukoatsu2023.html",
       "source_updated": "2026-08-25T00:00:00+09:00",
       "fetched_at": "2026-08-25T05:48:17+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "5bf38440637f0c84e000": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/keyaku/page28_00024.html",
+      "source_updated": "Fri, 13 Mar 2026 18:04:00 +0900",
+      "fetched_at": "2026-08-25T05:53:54+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",

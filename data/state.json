@@ -1,7 +1,7 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-08-25T05:52:37+00:00",
+  "updated_at": "2026-08-25T05:53:53+00:00",
   "items": {
     "fbbd3368b526668c4a65": {
       "fingerprint": "042eb23b20ac81232fa03152f11ccaead4ed52f0c6ed7cf7ec4c36edbe823db6",
@@ -6238,6 +6238,126 @@
     "953cd983ae681e83886c": {
       "fingerprint": "a5b69f4ba7ae08b82970d76b579698e05a2d84b8fad934f19dee2eed479935bb",
       "source_id": "kamakura_news"
+    },
+    "ccf6d27d153a8b6e9061": {
+      "fingerprint": "da93fbf944622daef73b981c2829f2bbaa186643b60f0b72df58c78d357502f5",
+      "source_id": "hiratsuka_business"
+    },
+    "712a551f7e7be10e2414": {
+      "fingerprint": "d76d6c40354dd1188e2843271c09ea61a0ae771ebd7bcd213f5260766e084015",
+      "source_id": "hiratsuka_business"
+    },
+    "d7b048c3a4eba8aa8d6e": {
+      "fingerprint": "52d376ac0fa8da1e1df2502b3138c01ccf7817926391f110a64c198b696cfe0a",
+      "source_id": "hiratsuka_business"
+    },
+    "3fbcc2aa742a373c10e4": {
+      "fingerprint": "86f2fc3a509dc26913e6a4b9f5aed352cee7e9dd481dea7bbb3ef7eae2f9a0a9",
+      "source_id": "hiratsuka_business"
+    },
+    "c00830994ae1d97c53fe": {
+      "fingerprint": "f85fa047925521033ae224760961fc0175445cfecef97a5a040ffa860a251f9f",
+      "source_id": "hiratsuka_business"
+    },
+    "ca533ae07313528ffdbb": {
+      "fingerprint": "4b307443f22587af9018a217cf6258aea888acb482767078da377f715c115a42",
+      "source_id": "hiratsuka_business"
+    },
+    "5a09048d5463912a1ef5": {
+      "fingerprint": "d302786b1f8f81644f27a573f484aede78c6c3becea5dbd125d6f6bed823dbe8",
+      "source_id": "hiratsuka_business"
+    },
+    "567e217fe2d51e037d31": {
+      "fingerprint": "3859de31622e5dc003ce4810a109057b2d86dd0089c6ce1f5227c8846ce1e6aa",
+      "source_id": "hiratsuka_business"
+    },
+    "645650695ecc116237c0": {
+      "fingerprint": "6323e335652936739a3a9bf9699d0d63961ee748fab73ce44ea46417cd3ba753",
+      "source_id": "hiratsuka_business"
+    },
+    "d41c12410d81c52fba25": {
+      "fingerprint": "e95a456e60c28c801367bf0eb2f90369c7ec5e31a13db6de9c4b90a941b5cac0",
+      "source_id": "hiratsuka_business"
+    },
+    "d5a99d4169a27df570e2": {
+      "fingerprint": "dae21c5339cb8bfa3763b8d0565d01191f5f2519322d2668fbf40688823a555b",
+      "source_id": "hiratsuka_business"
+    },
+    "772728d49306c03c6aa6": {
+      "fingerprint": "95748610166721db1ded474c5ffee4d83583b30b9a886ab1bcb7e75010df5e66",
+      "source_id": "hiratsuka_business"
+    },
+    "b4199d7dcfd2b6d31a29": {
+      "fingerprint": "961ed0e11cb8e91dad2777f5e896efe2e510a44607e884df6889d560e80c3d0e",
+      "source_id": "hiratsuka_business"
+    },
+    "4346218c42672c82667e": {
+      "fingerprint": "090f706d4d1b94ffa1ed175cf36d0df5be23a2f53f19d7e4e809f75a3af9d0ea",
+      "source_id": "hiratsuka_business"
+    },
+    "5bf38440637f0c84e000": {
+      "fingerprint": "eeda3680938f8ccaaf1439217449a4b07c4438c165dd2c2880fc4215c2603172",
+      "source_id": "hiratsuka_business"
+    },
+    "d507010434bc8faf655d": {
+      "fingerprint": "0834aa852ac8c3f4df28b8258d789fb118228c20b193cfab425ef62178dcffdb",
+      "source_id": "hiratsuka_business"
+    },
+    "fb45cecf7726fc654f0b": {
+      "fingerprint": "46e23b08ded6278916a3a479e48a25e5e231f4a0af59626c907075d28fe28b78",
+      "source_id": "hiratsuka_business"
+    },
+    "d7762bb641913b4a4afc": {
+      "fingerprint": "61092803e078b29e8a77604aeaafb13b6f25629ebdb6cf02ceb1e9b94612140a",
+      "source_id": "hiratsuka_business"
+    },
+    "d2a04fdbb7f9b348e736": {
+      "fingerprint": "cbe618804b6de65f438e9035a318fcd9f3ca3490e899d9be8465fa10121085cd",
+      "source_id": "hiratsuka_business"
+    },
+    "b5359a5056a04011be7f": {
+      "fingerprint": "7e27ddab6ceca54a0082c8b5ba635912f72de7b6b6bc35a08101ac108c360c35",
+      "source_id": "hiratsuka_business"
+    },
+    "6442444032b72a84b1b8": {
+      "fingerprint": "cde6f6ffac479cf5606140b70915c5ce0f1cdae32f18bb1a800bc901b457fbf9",
+      "source_id": "hiratsuka_business"
+    },
+    "8d3132a19ad1515ce439": {
+      "fingerprint": "a3dcb69726e51ccaf6a9b58ce07aff25775afdcf6ae1d8a627c98452ce043bce",
+      "source_id": "hiratsuka_business"
+    },
+    "ed433bd1bdedfa52358d": {
+      "fingerprint": "fc1f6aedc8675712f83da06b750e7f30272d604aed44d187fa17e88ad17bcd2f",
+      "source_id": "hiratsuka_business"
+    },
+    "712ccbae3c1bfd095be0": {
+      "fingerprint": "21b020a2f4be9489df5655f09889e4a7cd8e0824c3c665d2eaf4710ddab5e549",
+      "source_id": "hiratsuka_business"
+    },
+    "7dc11bb560288f1ae132": {
+      "fingerprint": "23bf86b6a5960dbe37cd764476882f65e3822831312434fb99c22d862bc2e60a",
+      "source_id": "hiratsuka_business"
+    },
+    "aaa07be364ca9c24077f": {
+      "fingerprint": "953d9a519204d9647130049c5aef66c7a8212f44eea6d751e0555c9b81469b19",
+      "source_id": "hiratsuka_business"
+    },
+    "4eec0cf2f21b23a05988": {
+      "fingerprint": "67e1b51ee8705a0cba3af2df91928d5e799a757ef1ad69f56a65cf390420f432",
+      "source_id": "hiratsuka_business"
+    },
+    "2e7a5204144eacfe0db4": {
+      "fingerprint": "2ff1a390f86783f4eaa9e06190551c42bef64dd407266df61f43f7e23da808d4",
+      "source_id": "hiratsuka_business"
+    },
+    "d94e997451234052dfdd": {
+      "fingerprint": "90a68dca71f23c28ab6ab46f8194fa89258acb645d8dd7ada3b4de2c137dcf9d",
+      "source_id": "hiratsuka_business"
+    },
+    "e82ea490ab6bd19d5c40": {
+      "fingerprint": "646318835b293e762efd1e7bc87532e0d9c332838fa3b19b14f3a641ae69e368",
+      "source_id": "hiratsuka_business"
     }
   }
 }
