@@ -59,20 +59,19 @@ def trace_block(item: dict[str, Any]) -> str:
     exact = item.get("deadline_time_exact") is True
     precision = "公式ページ上の締切時刻まで確認済み" if exact else "締切日を確認・締切時刻は未確認"
     deadline_display = fmt_jst(cutoff) if exact else fmt_date(deadline_date)
-    confidence = str(item.get("status_confidence") or "").strip()
     checked_at = str(item.get("status_checked_at") or "").strip()
 
-    return f'''      <section class="opportunity-trace" aria-label="受付中判定の証跡">
-        <span class="opportunity-trace-kicker">VERIFICATION TRACE · EXPLAINABLE STATUS</span>
-        <h2>受付中判定の証跡</h2>
+    return f'''      <section class="opportunity-trace" aria-label="受付中判定の確認内容">
+        <span class="opportunity-trace-kicker">YOKOHAMA CHANGEの確認内容</span>
+        <h2>なぜ「受付中」と表示しているの？</h2>
         <div class="opportunity-trace-grid">
-          <div><span>公式ソース</span><b>{e(region)} · {e(source_name)}</b></div>
+          <div><span>確認した公式情報</span><b>{e(region)} · {e(source_name)}</b></div>
           <div><span>参加期限</span><b>{e(deadline_display)}</b><small>{e(precision)}</small></div>
-          <div><span>判定根拠</span><b>{e(reason)}</b></div>
-          <div><span>判定信頼度</span><b>{e(confidence)} / 公開基準を通過</b></div>
+          <div><span>受付中とした理由</span><b>{e(reason)}</b></div>
+          <div><span>公開チェック</span><b>公開基準を通過</b></div>
         </div>
-        {f'<p class="opportunity-trace-checked">状態確認: {e(fmt_jst(checked_at))}</p>' if checked_at else ''}
-        <p class="opportunity-trace-note">この証跡はYOKOHAMA CHANGEによる機械判定の説明です。応募資格・提出物・期限変更等を保証するものではないため、最終判断は必ず公式ページで確認してください。</p>
+        {f'<p class="opportunity-trace-checked">状態を確認した時刻: {e(fmt_jst(checked_at))}</p>' if checked_at else ''}
+        <p class="opportunity-trace-note">ここはYOKOHAMA CHANGEによる機械判定の説明です。応募資格・提出物・期限変更などを保証するものではありません。応募前には必ず自治体の公式ページをご確認ください。</p>
       </section>'''
 
 
@@ -122,11 +121,7 @@ def main() -> int:
             path.write_text(after, encoding="utf-8")
             injected += 1
 
-    result = {
-        "open_items": len(open_items),
-        "trace_pages_injected": injected,
-        "missing_pages": missing_pages,
-    }
+    result = {"open_items": len(open_items), "trace_pages_injected": injected, "missing_pages": missing_pages}
     print(json.dumps(result, ensure_ascii=False))
     return 1 if missing_pages else 0
 

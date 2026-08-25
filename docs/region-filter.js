@@ -4,24 +4,12 @@
   if (!select || !cards) return;
 
   let populated = false;
-
   const safe = (s='') => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const dateLabel = (iso) => {
-    try {
-      return new Intl.DateTimeFormat('ja-JP',{month:'numeric',day:'numeric',weekday:'short',timeZone:'Asia/Tokyo'}).format(new Date(`${iso}T12:00:00+09:00`));
-    } catch { return iso || '—'; }
-  };
-  const dateTimeLabel = (iso) => {
-    try {
-      return new Intl.DateTimeFormat('ja-JP',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Tokyo'}).format(new Date(iso));
-    } catch { return iso || '—'; }
-  };
+  const dateLabel = (iso) => { try { return new Intl.DateTimeFormat('ja-JP',{month:'numeric',day:'numeric',weekday:'short',timeZone:'Asia/Tokyo'}).format(new Date(`${iso}T12:00:00+09:00`)); } catch { return iso || '—'; } };
+  const dateTimeLabel = (iso) => { try { return new Intl.DateTimeFormat('ja-JP',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Tokyo'}).format(new Date(iso)); } catch { return iso || '—'; } };
 
-  /*
-   * Safety override: the status engine historically fills date-only deadlines with
-   * 23:59. `regionalize_outputs.py` now marks only safely explicit clock times as
-   * deadline_time_exact=true. 48H/TODAY must never use a date-only inferred time.
-   */
+  // Safety override kept here as defense-in-depth. Date-only deadlines must never
+  // masquerade as exact times in 48H/TODAY UI.
   try {
     if (typeof deadlineMs === 'function') {
       const originalDeadlineMs = deadlineMs;
@@ -31,9 +19,7 @@
       deadlineBlock = (item) => {
         if (!item?.participation_deadline) return '';
         const label = item.deadline_label || `締切 ${dateLabel(item.participation_deadline)}`;
-        const exact = item.deadline_time_exact === true && item.participation_deadline_at
-          ? ` · ${dateTimeLabel(item.participation_deadline_at)}`
-          : '';
+        const exact = item.deadline_time_exact === true && item.participation_deadline_at ? ` · ${dateTimeLabel(item.participation_deadline_at)}` : '';
         const timeNote = item.deadline_time_exact === true ? '' : ' · 時刻未確認';
         return `<div class="deadline ${item.is_open_now===true?'live':''}"><strong>${safe(label)}</strong><span>参加期限 ${safe(dateLabel(item.participation_deadline))}${safe(exact)}${safe(timeNote)}</span></div>`;
       };
@@ -41,19 +27,12 @@
   } catch {}
 
   function items(){
-    try {
-      return typeof state !== 'undefined' && Array.isArray(state.items) ? state.items : [];
-    } catch {
-      return [];
-    }
+    try { return typeof state !== 'undefined' && Array.isArray(state.items) ? state.items : []; }
+    catch { return []; }
   }
-
   function statusData(){
-    try {
-      return typeof state !== 'undefined' && state.status ? state.status : {};
-    } catch {
-      return {};
-    }
+    try { return typeof state !== 'undefined' && state.status ? state.status : {}; }
+    catch { return {}; }
   }
 
   function populate(){
@@ -70,27 +49,27 @@
 
   function renderCoverage(){
     const status = statusData();
-    const regions = Array.isArray(status.coverage_regions) && status.coverage_regions.length
-      ? status.coverage_regions
-      : ['神奈川県','横浜市','川崎市','相模原市'];
+    const regions = Array.isArray(status.coverage_regions) ? status.coverage_regions : [];
+    if (!regions.length) return;
     let strip = document.querySelector('#coverageStrip');
     if (!strip) {
-      strip = document.createElement('aside');
+      strip = document.createElement('details');
       strip.id = 'coverageStrip';
-      strip.setAttribute('aria-label','現在の収集範囲');
-      strip.style.cssText = 'max-width:1180px;margin:14px auto 0;padding:11px 16px;border:1px solid #334b69;border-radius:12px;background:#0e1723;color:#b8c7d9;font-size:12px;line-height:1.65';
+      strip.className = 'coverage-strip';
+      strip.setAttribute('aria-label','現在の対応地域');
       const main = document.querySelector('main');
-      if (main) main.prepend(strip);
+      const quick = document.querySelector('#quickStart');
+      if (quick) quick.insertAdjacentElement('afterend', strip);
+      else if (main) main.prepend(strip);
     }
-    const health = Number(status.sources_total) > 0 && Number(status.sources_ok) === Number(status.sources_total)
-      ? ` · 公式ソース ${safe(status.sources_ok)}/${safe(status.sources_total)} 正常`
-      : '';
-    strip.innerHTML = `<strong style="color:#e7edf3">無料βの収集範囲：</strong> ${regions.map(safe).join(' / ')}${health}<br><span style="color:#8fa2b5">県内全自治体を網羅済みではありません。公式情報を確認できる地域から順次拡大しています。</span>`;
+    const health = Number(status.sources_total) > 0 && Number(status.sources_ok) === Number(status.sources_total);
+    const healthText = health ? `公式ソース ${status.sources_ok}/${status.sources_total} 正常` : '公式ソースを確認中';
+    strip.innerHTML = `
+      <summary><strong>対応地域 ${regions.length}地域</strong><span>${safe(healthText)}</span><em>地域を見る</em></summary>
+      <div class="coverage-strip-body">${regions.map(region => `<span>${safe(region)}</span>`).join('')}<p>神奈川県内すべてを網羅済みではありません。公式情報を安全に取得できる地域から順次拡大しています。</p></div>`;
   }
 
-  function normalizeHref(value){
-    try { return new URL(value, location.href).href; } catch { return value || ''; }
-  }
+  function normalizeHref(value){ try { return new URL(value, location.href).href; } catch { return value || ''; } }
 
   function apply(){
     if (!populated) populate();
@@ -101,18 +80,12 @@
     let visible = 0;
 
     cards.querySelectorAll('.card').forEach(card => {
-      const link = card.querySelector('a.title');
+      const link = card.querySelector('a.external-link') || card.querySelector('a.title');
       const item = link ? byUrl.get(normalizeHref(link.getAttribute('href'))) : null;
       const itemRegion = String(item?.region || '').trim();
       const show = !region || itemRegion === region;
       card.hidden = !show;
       if (show) visible += 1;
-
-      const meta = card.querySelector('.meta');
-      if (meta && itemRegion && !meta.dataset.regionDecorated) {
-        meta.textContent = `${itemRegion} · ${meta.textContent}`;
-        meta.dataset.regionDecorated = '1';
-      }
     });
 
     let empty = document.querySelector('#regionEmpty');
@@ -127,35 +100,12 @@
   }
 
   select.addEventListener('change', apply);
-  const observer = new MutationObserver(() => {
-    populate();
-    apply();
-  });
+  const observer = new MutationObserver(() => { populate(); apply(); });
   observer.observe(cards, {childList:true});
 
   const timer = setInterval(() => {
     if (items().length) {
-      populate();
-      apply();
-      clearInterval(timer);
+      populate(); apply(); clearInterval(timer);
     }
   }, 250);
-})();
-
-// Load the quality-transparency panel independently from the main application.
-(() => {
-  if (!document.querySelector('link[data-quality-audit]')) {
-    const css = document.createElement('link');
-    css.rel = 'stylesheet';
-    css.href = 'quality-audit.css';
-    css.dataset.qualityAudit = '1';
-    document.head.append(css);
-  }
-  if (!document.querySelector('script[data-quality-audit]')) {
-    const script = document.createElement('script');
-    script.src = 'quality-audit.js';
-    script.defer = true;
-    script.dataset.qualityAudit = '1';
-    document.body.append(script);
-  }
 })();

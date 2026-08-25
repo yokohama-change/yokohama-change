@@ -3,24 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="横浜発。神奈川県内の公式公開情報から、今応募できる入札・調達・補助金を締切付きで自動整理。商用スコア、MY FIT、48H/TODAYで今見るべきビジネス機会を無料で確認できます。">
+  <meta name="description" content="横浜発。神奈川県内の公式公開情報から、今応募できる入札・調達・補助金を締切付きで自動整理。はじめての方でも、地域・種類からかんたんに探せます。">
   <meta name="theme-color" content="#090b10">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://yokohama-change.github.io/yokohama-change/">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ja_JP">
   <meta property="og:site_name" content="YOKOHAMA CHANGE">
-  <meta property="og:title" content="YOKOHAMA CHANGE — 神奈川の入札・補助金・ビジネス機会レーダー">
-  <meta property="og:description" content="横浜発。神奈川県内の公式情報から、今応募できる案件だけを安全側で判定。商用70+、MY FIT、締切48H/TODAYを無料βで公開中。">
+  <meta property="og:title" content="YOKOHAMA CHANGE — 神奈川の入札・補助金をかんたんに探す">
+  <meta property="og:description" content="神奈川県内の公式情報から、今応募できる入札・調達・補助金を見やすく整理。無料β公開中。">
   <meta property="og:url" content="https://yokohama-change.github.io/yokohama-change/">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="YOKOHAMA CHANGE — 神奈川のビジネス機会レーダー">
-  <meta name="twitter:description" content="神奈川県内の入札・調達・補助金を、受付中・締切・商用スコアで整理。無料β公開中。">
-  <title>神奈川の入札・補助金・ビジネス機会レーダー | YOKOHAMA CHANGE</title>
+  <title>神奈川の入札・補助金をかんたんに探す | YOKOHAMA CHANGE</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="today.css">
   <link rel="stylesheet" href="monetization.css">
   <link rel="stylesheet" href="next-deadline.css">
+  <link rel="stylesheet" href="quality-audit.css">
+  <link rel="stylesheet" href="beginner.css">
   <link rel="alternate" type="application/rss+xml" title="YOKOHAMA CHANGE 受付中案件" href="data/open_now.rss">
   <script type="application/ld+json">
   {
@@ -28,41 +28,55 @@
     "@type":"WebSite",
     "name":"YOKOHAMA CHANGE",
     "url":"https://yokohama-change.github.io/yokohama-change/",
-    "description":"横浜発。神奈川県内の公式公開情報から、今応募できる入札・調達・補助金を締切付きで自動整理する無料ビジネス機会レーダー",
+    "description":"横浜発。神奈川県内の公式公開情報から、今応募できる入札・調達・補助金を締切付きで整理する無料サービス",
     "inLanguage":"ja-JP"
   }
   </script>
 </head>
 <body>
   <header class="hero">
-    <div class="eyebrow">PUBLIC SIGNAL INTELLIGENCE · KANAGAWA</div>
+    <div class="eyebrow">神奈川の入札・補助金を、わかりやすく</div>
     <h1>YOKOHAMA <span>CHANGE</span></h1>
-    <p>横浜発。神奈川県内の公式公開情報を自動巡回し、<strong>「何が変わったか」</strong>だけでなく、<strong>「今から応募できるか」「締切まで何日か」</strong>まで安全側で判定します。</p>
-    <div class="metrics">
+    <p>自治体の公式情報から、<strong>「今から応募できるもの」</strong>を見つけやすく整理しています。難しい設定は不要。気になる案件を見つけたら、最後に自治体の公式ページで確認してください。</p>
+    <div class="metrics" aria-label="現在の状況">
       <div class="metric primary"><b id="openCount">—</b><small>今、応募できる案件</small></div>
-      <div><b id="hotCount">—</b><small>受付中・商用70+</small></div>
-      <div><b id="runCount">—</b><small>今回の新規・更新</small></div>
-      <div><b id="qualityLabel">—</b><small>データ品質</small></div>
+      <div><b id="hotCount">—</b><small>優先して見る案件</small></div>
+      <div><b id="qualityLabel">—</b><small>データチェック</small></div>
       <div><b id="updated">—</b><small>最終更新</small></div>
+      <div class="metric-technical" hidden><b id="runCount">—</b><small>今回の新規・更新</small></div>
     </div>
   </header>
 
   <main>
+    <section id="quickStart" class="quick-start" aria-labelledby="quickStartTitle">
+      <div class="quick-start-head">
+        <span>はじめての方へ</span>
+        <h2 id="quickStartTitle">まずは、やりたいことを選んでください</h2>
+        <p>会員登録はありません。見るだけなら無料です。</p>
+      </div>
+      <div class="quick-start-actions">
+        <button type="button" class="quick-action primary" data-quick-action="open"><b>今の募集を見る</b><span>現在応募できる案件から確認</span></button>
+        <button type="button" class="quick-action" data-quick-action="support"><b>補助金・支援を探す</b><span>補助金や助成金を中心に表示</span></button>
+        <a class="quick-action" href="alert.html"><b>自分向けに絞る</b><span>仕事・地域を選ぶだけ</span></a>
+      </div>
+      <div class="quick-start-note">迷ったら「今の募集を見る」からで大丈夫です。掲載内容は参考情報のため、応募前には必ず公式ページをご確認ください。</div>
+    </section>
+
     <section id="urgentShell" class="urgent-shell" aria-labelledby="urgentTitle" hidden>
       <div class="urgent-heading">
-        <span class="urgent-kicker">ACTION REQUIRED · 48H</span>
-        <h2 id="urgentTitle">締切48時間以内の高商用案件</h2>
+        <span class="urgent-kicker">締切が近い案件</span>
+        <h2 id="urgentTitle">締切48時間以内の優先案件</h2>
       </div>
-      <p class="urgent-note">商用スコア70以上・受付中・公式締切時刻を確認できた案件だけを表示します。</p>
+      <p class="urgent-note">見る優先度70以上・受付中・公式の締切時刻まで確認できた案件だけを表示します。</p>
       <div id="urgentCards" class="urgent-cards" aria-live="polite"></div>
     </section>
 
     <section id="nextHighValueShell" class="next-high-value" aria-labelledby="nextHighValueTitle" hidden>
       <div class="next-high-value-head">
         <div>
-          <span class="next-high-value-kicker">FREE PREVIEW · NEXT HIGH-VALUE DEADLINE</span>
-          <h2 id="nextHighValueTitle">次の高商用締切</h2>
-          <p>48時間以内の緊急案件がないときだけ、商用70+・受付中・confidence high・公式締切時刻確認済みの次案件を1件だけ予告します。条件を緩めて件数を増やしません。</p>
+          <span class="next-high-value-kicker">次に確認しておきたい案件</span>
+          <h2 id="nextHighValueTitle">次の優先案件の締切</h2>
+          <p>締切48時間以内の案件がないときに、見る優先度70以上・受付中・公式の締切時刻まで確認できた次の案件を1件だけ表示します。</p>
         </div>
       </div>
       <div id="nextHighValueCard" class="next-high-value-card" aria-live="polite"></div>
@@ -71,26 +85,29 @@
     <section class="priority-shell" aria-labelledby="priorityTitle">
       <div class="section-head">
         <div>
-          <span class="section-kicker">TODAY'S TARGETS</span>
-          <h2 id="priorityTitle">今、狙える案件</h2>
+          <span class="section-kicker">まずここを確認</span>
+          <h2 id="priorityTitle">今、応募できる案件</h2>
         </div>
-        <div class="feed-links">
-          <a href="opportunities/">一覧</a>
-          <a href="data/open_now.json">JSON</a>
-          <a href="data/open_now.csv">CSV</a>
-          <a href="data/open_now.rss">RSS</a>
-        </div>
+        <details class="advanced-data">
+          <summary>データ連携</summary>
+          <div class="feed-links">
+            <a href="opportunities/">一覧</a>
+            <a href="data/open_now.json">JSON</a>
+            <a href="data/open_now.csv">CSV</a>
+            <a href="data/open_now.rss">RSS</a>
+          </div>
+        </details>
       </div>
-      <p class="section-note">新規参加期限を公式ページで明示確認できた案件だけを表示。地域を広げても、高スコアでも締切済みならここには出しません。</p>
+      <p class="section-note">上から「見る優先度」が高い順です。案件名を押すと、締切や判定根拠をわかりやすく確認できます。</p>
       <div id="priorityCards" class="priority-cards" aria-live="polite"></div>
     </section>
 
     <section id="qualityProof" class="quality-proof" aria-labelledby="qualityProofTitle" hidden>
       <div class="quality-proof-head">
         <div>
-          <span class="quality-proof-kicker">QUALITY PROOF · AUTO EXCLUSION</span>
-          <h2 id="qualityProofTitle">締切後の高商用案件を残さない</h2>
-          <p>直近36時間に締切を迎えた商用70+案件のうち、現在「受付中」ではないことを確認できた案件だけを品質実績として表示します。</p>
+          <span class="quality-proof-kicker">自動チェック</span>
+          <h2 id="qualityProofTitle">締切後の案件を受付中に残さない</h2>
+          <p>直近36時間に締切を迎えた優先案件のうち、現在は受付中ではないことを確認できた案件だけを表示します。</p>
         </div>
         <div class="quality-proof-summary"><b id="qualityProofCount">—</b><span>件を除外確認</span></div>
       </div>
@@ -99,68 +116,84 @@
 
     <section class="alert-promo" aria-labelledby="alertPromoTitle">
       <div class="alert-promo-copy">
-        <span class="alert-promo-kicker">YOKOHAMA CHANGE ALERT · FREE BETA</span>
-        <h2 id="alertPromoTitle">高価値案件を、自社向けだけ見つける。</h2>
-        <p>現在は無料βとして公開中です。商用70+・受付中・confidence highを土台に、自社タイプと欲しい機会が合う案件だけをMY FITで絞り込みます。十分なアクセスと継続利用が集まり、「通知なら有料でも使いたい」と思える価値まで育つまでは課金しません。</p>
-        <div class="alert-promo-tags"><span>無料β</span><span>神奈川へ拡大</span><span>MY FIT</span><span>受付中のみ</span><span>品質優先</span></div>
+        <span class="alert-promo-kicker">かんたん絞り込み · 無料β</span>
+        <h2 id="alertPromoTitle">自分に合う案件だけ見たい方へ</h2>
+        <p>仕事の種類・探したいもの・希望地域を選ぶだけで、関係しそうな優先案件を絞り込めます。氏名やメールアドレスの入力はありません。</p>
+        <div class="alert-promo-tags"><span>無料</span><span>登録不要</span><span>端末内保存</span><span>地域で絞れる</span></div>
       </div>
       <div class="alert-promo-offer">
         <small>現在の利用料金</small>
         <strong>無料</strong>
-        <p>まず使ってもらい、アクセス・継続利用・品質を積み上げます。有料化は日付で決めず、価値が十分に証明されてから検討します。</p>
-        <a class="alert-promo-cta" href="alert.html">無料でMY FITを試す →</a>
+        <p>まずは気軽に試してください。将来の有料化は、十分な利用価値が確認できてから検討します。</p>
+        <a class="alert-promo-cta" href="alert.html">かんたん絞り込みを試す →</a>
       </div>
     </section>
 
     <section class="explore-shell" aria-labelledby="exploreTitle">
       <div class="section-head compact">
         <div>
-          <span class="section-kicker">EXPLORE · KANAGAWA BETA</span>
-          <h2 id="exploreTitle">公開情報を探す</h2>
+          <span class="section-kicker">条件から探す</span>
+          <h2 id="exploreTitle">もう少し絞り込む</h2>
+          <p class="section-note">キーワード・地域・種類だけでも探せます。細かい条件は「詳しい条件」を開いてください。</p>
         </div>
       </div>
-      <section class="controls" aria-label="絞り込み">
-        <input id="search" type="search" placeholder="補助金、DX、プロポーザル…">
-        <select id="region"><option value="">すべての地域</option></select>
-        <select id="applicationStatus">
-          <option value="open" selected>今から応募できる案件</option>
-          <option value="all">募集状態すべて</option>
-          <option value="closed">締切・結果掲載済</option>
-          <option value="unknown">判定不可</option>
-        </select>
-        <select id="category"><option value="">すべての分類</option></select>
-        <select id="buyer"><option value="">すべての想定利用者</option></select>
-        <select id="commercial">
-          <option value="0">商用スコアすべて</option>
-          <option value="50">商用スコア 50+</option>
-          <option value="70">商用スコア 70+</option>
-          <option value="85">商用スコア 85+</option>
-        </select>
-      </section>
+
+      <div class="simple-controls" aria-label="基本の絞り込み">
+        <label><span>キーワード</span><input id="search" type="search" placeholder="例：補助金、DX、清掃"></label>
+        <label><span>地域</span><select id="region"><option value="">すべての地域</option></select></label>
+        <label><span>種類</span><select id="category"><option value="">すべての種類</option></select></label>
+        <button id="resetFilters" class="reset-filters" type="button">条件を元に戻す</button>
+      </div>
+
+      <details id="advancedFilters" class="advanced-filters">
+        <summary>詳しい条件を指定する</summary>
+        <div class="advanced-filter-grid">
+          <label><span>募集状態</span><select id="applicationStatus">
+            <option value="open" selected>今から応募できる案件</option>
+            <option value="all">募集状態すべて</option>
+            <option value="closed">締切・結果掲載済</option>
+            <option value="unknown">判定できないもの</option>
+          </select></label>
+          <label><span>利用者の種類</span><select id="buyer"><option value="">すべて</option></select></label>
+          <label><span>見る優先度</span><select id="commercial">
+            <option value="0">すべて</option>
+            <option value="50">50以上</option>
+            <option value="70">70以上</option>
+            <option value="85">85以上</option>
+          </select></label>
+        </div>
+        <p class="filter-help">「見る優先度」はYOKOHAMA CHANGE独自の目安で、自治体の公式評価ではありません。</p>
+      </details>
+
+      <div id="resultSummary" class="result-summary" aria-live="polite">案件を読み込んでいます…</div>
       <div id="notice" class="notice" hidden></div>
       <section id="cards" class="cards" aria-live="polite"></section>
     </section>
 
-    <section class="signal-shell" aria-labelledby="signalTitle">
-      <div class="section-head compact">
-        <div>
-          <span class="section-kicker">SALES SIGNALS · gBizINFO</span>
-          <h2 id="signalTitle">法人更新シグナル</h2>
+    <details class="advanced-section">
+      <summary>法人営業向けの参考情報を見る（上級者向け）</summary>
+      <section class="signal-shell" aria-labelledby="signalTitle">
+        <div class="section-head compact">
+          <div>
+            <span class="section-kicker">法人情報の更新</span>
+            <h2 id="signalTitle">法人更新シグナル</h2>
+          </div>
         </div>
-      </div>
-      <p class="section-note"><strong>ここは募集案件ではありません。</strong> 法人更新シグナルは現時点では横浜市内企業を対象にした営業先探索の補助情報で、神奈川県の受付中案件には混ぜません。</p>
-      <div id="gbizSignals" class="signal-list"></div>
-    </section>
+        <p class="section-note"><strong>ここは募集案件ではありません。</strong> 法人情報の更新を営業先探索の参考として分けて表示しています。</p>
+        <div id="gbizSignals" class="signal-list"></div>
+      </section>
+    </details>
   </main>
 
   <footer>
-    <p><strong>重要：</strong>YOKOHAMA CHANGEは参考情報を提供する独立サービスです。掲載情報の正確性・完全性・最新性を保証するものではありません。応募・申請・契約その他の最終判断は必ず公式情報を確認のうえ、利用者ご自身の責任で行ってください。本サービスの利用等により生じた損害・損失・機会損失等について、運営者は法令上認められる範囲で責任を負いません。 <a href="disclaimer.html">免責事項を確認</a></p>
-    <p>「受付中」は神奈川県内の公式ページで新規参加期限を明示確認できた案件だけを機械判定しています。時刻表記がある場合は締切時刻まで考慮します。応募・契約前には必ず公式情報をご確認ください。</p>
-    <p><a href="opportunities/">受付中案件一覧</a> · <a href="data/open_now.json">受付中JSON</a> · <a href="data/open_now.csv">受付中CSV</a> · <a href="data/open_now.rss">受付中RSS</a> · <a href="data/leads.csv">全候補CSV</a> · <a href="data/summary.json">集計</a> · <a href="data/quality.json">品質</a> · <a href="data/status.json">収集状態</a> · <a href="alert.html">ALERT 無料β</a> · <a href="disclaimer.html">免責事項</a></p>
-    <p>横浜市オープンデータ等を利用する場合は各データセットのライセンス条件に従います。gBizINFOは法人更新シグナルとして利用しています。本サービスは神奈川県・県内各自治体・Gビズインフォの公式サービスではありません。</p>
+    <p><strong>重要：</strong>YOKOHAMA CHANGEは参考情報を提供する独立サービスです。応募・申請・契約その他の最終判断は、必ず自治体等の公式情報を確認のうえ利用者ご自身の責任で行ってください。本サービスの利用等により生じた損害・損失・機会損失等について、運営者は法令上認められる範囲で責任を負いません。 <a href="disclaimer.html">免責事項を確認</a></p>
+    <details class="footer-advanced"><summary>データ・開発者向けリンク</summary><p><a href="opportunities/">受付中案件一覧</a> · <a href="data/open_now.json">JSON</a> · <a href="data/open_now.csv">CSV</a> · <a href="data/open_now.rss">RSS</a> · <a href="data/leads.csv">全候補CSV</a> · <a href="data/summary.json">集計</a> · <a href="data/quality.json">品質</a> · <a href="data/status.json">収集状態</a></p></details>
+    <p>本サービスは神奈川県・県内各自治体・Gビズインフォの公式サービスではありません。</p>
   </footer>
   <script src="app.js"></script>
   <script src="next-deadline.js"></script>
   <script src="region-filter.js"></script>
+  <script src="quality-audit.js"></script>
+  <script src="beginner.js"></script>
 </body>
 </html>
