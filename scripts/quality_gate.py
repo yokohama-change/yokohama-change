@@ -7,6 +7,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
+import enrich_status_multi
 import source_gate
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -62,11 +63,19 @@ def main() -> int:
     errors.extend(f"公式ソース整合性: {problem}" for problem in source_problems)
     inventory = source_gate.inventory_summary(config, state)
 
+    configured_sources = config.get("sources", []) if isinstance(config, dict) else []
+    source_map = {
+        str(source.get("id", "")).strip(): source
+        for source in configured_sources
+        if isinstance(source, dict) and str(source.get("id", "")).strip()
+    }
+
     ids = [str(x.get("id", "")) for x in items if isinstance(x, dict) and x.get("id")]
     if len(ids) != len(set(ids)):
         errors.append("latest.json に重複IDがあります")
 
     deadline_field_errors = 0
+    provenance_errors = 0
     for item in open_items:
         title = str(item.get("title", ""))
         if item.get("application_status") != "受付中":
@@ -75,9 +84,26 @@ def main() -> int:
             errors.append(f"受付中なのに信頼度highではありません: {title[:70]}")
         if any(term in title for term in EMPLOYMENT_TERMS):
             errors.append(f"採用情報が受付中案件に混入: {title[:70]}")
+
+        source_id = str(item.get("source_id", "") or "").strip()
+        source_cfg = source_map.get(source_id)
+        if not source_cfg:
+            errors.append(f"受付中案件のsource_idが設定に存在しません: {title[:70]}")
+            provenance_errors += 1
+        else:
+            expected_region = str(source_cfg.get("region", "") or "").strip()
+            expected_name = str(source_cfg.get("name", "") or "").strip()
+            if str(item.get("region", "") or "").strip() != expected_region:
+                errors.append(f"受付中案件の地域が公式ソース設定と不一致: {title[:70]}")
+                provenance_errors += 1
+            if str(item.get("source_name", "") or "").strip() != expected_name:
+                errors.append(f"受付中案件のソース名が公式ソース設定と不一致: {title[:70]}")
+                provenance_errors += 1
+
         url = str(item.get("url", "") or "")
-        if not url.startswith("https://"):
-            errors.append(f"受付中案件の公式URLがHTTPSではありません: {title[:70]}")
+        if not enrich_status_multi.approved_detail_url(url):
+            errors.append(f"受付中案件のURLが許可済み公式ドメインではありません: {title[:70]}")
+            provenance_errors += 1
 
         cutoff_raw = str(item.get("participation_deadline_at", "") or "")
         deadline_raw = str(item.get("participation_deadline", "") or "")
@@ -180,6 +206,7 @@ def main() -> int:
         },
         "checks": {
             "source_inventory_healthy": not source_problems,
+            "official_provenance_consistent": provenance_errors == 0,
             "open_deadlines_not_past": not any("過去締切" in e for e in errors),
             "deadline_fields_consistent": deadline_field_errors == 0,
             "employment_excluded": not any("採用情報" in e for e in errors),
