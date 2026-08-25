@@ -51,6 +51,25 @@ def esc(value: Any) -> str:
     return html.escape(str(value or ""), quote=True)
 
 
+def verified_open_feed_item(item: dict[str, Any]) -> bool:
+    """Re-check the essential open-now invariants without requiring a redundant flag.
+
+    `open_now.json` is already the dedicated current-open feed and historically omits
+    `is_open_now:true` from each row. We still require the status engine's explicit
+    `受付中`, high confidence and a participation deadline before indexing the row.
+    If a future schema explicitly carries `is_open_now:false`, reject it defensively.
+    """
+    if item.get("is_open_now") is False:
+        return False
+    return bool(
+        item.get("application_status") == "受付中"
+        and item.get("status_confidence") == "high"
+        and str(item.get("participation_deadline") or "").strip()
+        and str(item.get("url") or "").strip()
+        and str(item.get("id") or "").strip()
+    )
+
+
 def prep_copy(item: dict[str, Any]) -> str:
     start = str(item.get("preparation_start_date") or "").strip()
     status = str(item.get("preparation_status") or "").strip()
@@ -179,7 +198,7 @@ def main() -> int:
 
     groups: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for item in items:
-        if not isinstance(item, dict) or item.get("is_open_now") is not True:
+        if not isinstance(item, dict) or not verified_open_feed_item(item):
             continue
         category = str(item.get("category") or "").strip()
         if category in CATEGORY_CONFIG:
