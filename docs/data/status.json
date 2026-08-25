@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T03:49:56+00:00",
+  "generated_at": "2026-08-25T03:52:25+00:00",
   "sources_total": 8,
   "sources_ok": 8,
   "items_seen": 1274,
@@ -9,10 +9,10 @@
   "public_items": 253,
   "public_duplicate_revisions_removed": 6,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-08-25T03:50:06+00:00",
+  "application_status_checked_at": "2026-08-25T03:52:25+00:00",
   "application_status_candidates": 51,
   "application_status_open_now": 9,
-  "application_status_fetches": 16,
+  "application_status_fetches": 0,
   "application_status_errors": [],
   "application_status_warnings": [],
   "employment_notices_excluded": 38,
@@ -38,6 +38,8 @@
     "川崎市": 0,
     "相模原市": 7
   },
+  "open_now_exact_time": 5,
+  "open_now_high_value_exact_time": 2,
   "gbiz_enabled": true,
   "gbiz_period": {
     "from": "20260823",

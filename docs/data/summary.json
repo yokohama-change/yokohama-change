@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T03:49:56+00:00",
+  "generated_at": "2026-08-25T03:52:25+00:00",
   "commercial_50_plus": 60,
   "commercial_70_plus": 33,
   "commercial_85_plus": 29,
@@ -44,5 +44,7 @@
     "横浜市": 2,
     "川崎市": 0,
     "相模原市": 7
-  }
+  },
+  "open_now_exact_time": 5,
+  "open_now_high_value_exact_time": 2
 }

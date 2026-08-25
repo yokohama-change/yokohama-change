@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T03:49:56+00:00",
+  "generated_at": "2026-08-25T03:52:25+00:00",
   "scope": "神奈川 β（神奈川県・横浜市・川崎市・相模原市）",
   "count": 253,
   "changes_this_run": 0,
@@ -34,8 +34,8 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:49:56+00:00",
-      "status_source_state": "fetched",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
+      "status_source_state": "cache",
       "participation_deadline": "2026-09-04",
       "participation_deadline_at": "2026-09-04T17:00+09:00",
       "application_status": "受付中",
@@ -45,7 +45,8 @@
       "status_reason": "明示された新規参加期限（参加申込）を確認",
       "days_left": 10,
       "deadline_label": "残り10日",
-      "priority_tier": "高優先"
+      "priority_tier": "高優先",
+      "deadline_time_exact": true
     },
     {
       "id": "772a6572f3f6a946541a",
@@ -77,8 +78,8 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:49:57+00:00",
-      "status_source_state": "fetched",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
+      "status_source_state": "cache",
       "participation_deadline": "",
       "participation_deadline_at": "",
       "application_status": "判定不可",
@@ -88,7 +89,8 @@
       "status_reason": "新規参加期限を明示的に特定できないため、安全側で受付中にしません",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "a0583e718fd70062c15b",
@@ -119,8 +121,8 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:49:58+00:00",
-      "status_source_state": "fetched",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
+      "status_source_state": "cache",
       "participation_deadline": "",
       "participation_deadline_at": "",
       "application_status": "判定不可",
@@ -130,7 +132,8 @@
       "status_reason": "新規参加期限を明示的に特定できないため、安全側で受付中にしません",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "525f79045914f6319e15",
@@ -160,8 +163,8 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:49:58+00:00",
-      "status_source_state": "fetched",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
+      "status_source_state": "cache",
       "participation_deadline": "2026-09-01",
       "participation_deadline_at": "2026-09-01T23:59+09:00",
       "application_status": "受付中",
@@ -171,7 +174,8 @@
       "status_reason": "明示された新規参加期限（受付期間）を確認",
       "days_left": 7,
       "deadline_label": "残り7日",
-      "priority_tier": "受付中"
+      "priority_tier": "受付中",
+      "deadline_time_exact": false
     },
     {
       "id": "c94973145fa2ebb2dcc0",
@@ -200,8 +204,8 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:49:59+00:00",
-      "status_source_state": "fetched",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
+      "status_source_state": "cache",
       "participation_deadline": "",
       "participation_deadline_at": "",
       "application_status": "判定不可",
@@ -211,7 +215,8 @@
       "status_reason": "新規参加期限を明示的に特定できないため、安全側で受付中にしません",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "489670e534cd11cddf4c",
@@ -240,8 +245,8 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:00+00:00",
-      "status_source_state": "fetched",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
+      "status_source_state": "cache",
       "participation_deadline": "",
       "participation_deadline_at": "",
       "application_status": "判定不可",
@@ -251,7 +256,8 @@
       "status_reason": "新規参加期限を明示的に特定できないため、安全側で受付中にしません",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "b8d669f2bbd28198e77a",
@@ -280,8 +286,8 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:00+00:00",
-      "status_source_state": "fetched",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
+      "status_source_state": "cache",
       "participation_deadline": "2026-09-02",
       "participation_deadline_at": "2026-09-02T23:59+09:00",
       "application_status": "受付中",
@@ -291,7 +297,8 @@
       "status_reason": "明示された新規参加期限（受付期間）を確認",
       "days_left": 8,
       "deadline_label": "残り8日",
-      "priority_tier": "受付中"
+      "priority_tier": "受付中",
+      "deadline_time_exact": false
     },
     {
       "id": "9898a8cd344782a1a0bf",
@@ -320,8 +327,8 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:01+00:00",
-      "status_source_state": "fetched",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
+      "status_source_state": "cache",
       "participation_deadline": "2026-08-27",
       "participation_deadline_at": "2026-08-27T23:59+09:00",
       "application_status": "受付中",
@@ -331,7 +338,8 @@
       "status_reason": "明示された新規参加期限（受付期間）を確認",
       "days_left": 2,
       "deadline_label": "残り2日",
-      "priority_tier": "受付中"
+      "priority_tier": "受付中",
+      "deadline_time_exact": false
     },
     {
       "id": "7afce92bb77d9590b934",
@@ -360,8 +368,8 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:01+00:00",
-      "status_source_state": "fetched",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
+      "status_source_state": "cache",
       "participation_deadline": "2026-08-27",
       "participation_deadline_at": "2026-08-27T23:59+09:00",
       "application_status": "受付中",
@@ -371,7 +379,8 @@
       "status_reason": "明示された新規参加期限（受付期間）を確認",
       "days_left": 2,
       "deadline_label": "残り2日",
-      "priority_tier": "受付中"
+      "priority_tier": "受付中",
+      "deadline_time_exact": false
     },
     {
       "id": "15b9db90db7a0b043e74",
@@ -400,8 +409,8 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:02+00:00",
-      "status_source_state": "fetched",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
+      "status_source_state": "cache",
       "participation_deadline": "",
       "participation_deadline_at": "",
       "application_status": "判定不可",
@@ -411,7 +420,8 @@
       "status_reason": "新規参加期限を明示的に特定できないため、安全側で受付中にしません",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "8992a84297b8448014a4",
@@ -440,8 +450,8 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:03+00:00",
-      "status_source_state": "fetched",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
+      "status_source_state": "cache",
       "participation_deadline": "2026-08-21",
       "participation_deadline_at": "2026-08-21T23:59+09:00",
       "application_status": "参加締切済",
@@ -451,7 +461,8 @@
       "status_reason": "明示された新規参加期限を経過",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "c4b8c3613cb07b4ea54b",
@@ -480,8 +491,8 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:03+00:00",
-      "status_source_state": "fetched",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
+      "status_source_state": "cache",
       "participation_deadline": "",
       "participation_deadline_at": "",
       "application_status": "判定不可",
@@ -491,7 +502,8 @@
       "status_reason": "新規参加期限を明示的に特定できないため、安全側で受付中にしません",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "0cc2ada12233d51fe608",
@@ -521,8 +533,8 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:04+00:00",
-      "status_source_state": "fetched",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
+      "status_source_state": "cache",
       "participation_deadline": "2026-08-31",
       "participation_deadline_at": "2026-08-31T17:00+09:00",
       "application_status": "受付中",
@@ -532,7 +544,8 @@
       "status_reason": "明示された新規参加期限（申込期限）を確認",
       "days_left": 6,
       "deadline_label": "残り6日",
-      "priority_tier": "受付中"
+      "priority_tier": "受付中",
+      "deadline_time_exact": true
     },
     {
       "id": "ca3a3fcf485ee0a56bcb",
@@ -562,8 +575,8 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:05+00:00",
-      "status_source_state": "fetched",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
+      "status_source_state": "cache",
       "participation_deadline": "2026-08-31",
       "participation_deadline_at": "2026-08-31T17:00+09:00",
       "application_status": "受付中",
@@ -573,7 +586,8 @@
       "status_reason": "明示された新規参加期限（申込期限）を確認",
       "days_left": 6,
       "deadline_label": "残り6日",
-      "priority_tier": "受付中"
+      "priority_tier": "受付中",
+      "deadline_time_exact": true
     },
     {
       "id": "5ea4e70f41c9ed1ec9db",
@@ -603,8 +617,8 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:05+00:00",
-      "status_source_state": "fetched",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
+      "status_source_state": "cache",
       "participation_deadline": "2026-08-24",
       "participation_deadline_at": "2026-08-24T23:59+09:00",
       "application_status": "参加締切済",
@@ -614,7 +628,8 @@
       "status_reason": "明示された新規参加期限を経過",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "3c732d8ab3696d63dfef",
@@ -644,8 +659,8 @@
       "why_it_matters": "補助・助成等の利用可能性があり、対象事業者や支援者にとって確認価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
-      "status_source_state": "fetched",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
+      "status_source_state": "cache",
       "participation_deadline": "",
       "participation_deadline_at": "",
       "application_status": "判定不可",
@@ -655,7 +670,8 @@
       "status_reason": "新規参加期限を明示的に特定できないため、安全側で受付中にしません",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "5d306e14a560c2f94931",
@@ -684,7 +700,7 @@
       "why_it_matters": "開発・土地利用・周辺環境に影響する可能性があり、不動産・建設事業者の先行確認に向きます。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -695,7 +711,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "1e3149ff2b054f94a271",
@@ -723,7 +740,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -734,7 +751,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "cc510938e8440ad90f73",
@@ -762,7 +780,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -773,7 +791,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "0f4c5b6404971a4704cf",
@@ -801,7 +820,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -812,7 +831,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "c126bbf56eebb7a4eb55",
@@ -840,7 +860,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -851,7 +871,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "2d8926cff41b6f8aa3bd",
@@ -879,7 +900,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -890,7 +911,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "b1e6809d3ab421e96dce",
@@ -918,7 +940,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -929,7 +951,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "1ee6b7b27f9f2d31158b",
@@ -957,7 +980,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -968,7 +991,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "be89ec88dd37e59037e4",
@@ -996,7 +1020,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1007,7 +1031,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "58406ba44e0c8e112abb",
@@ -1035,7 +1060,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1046,7 +1071,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "c15a94fd8f219d4c8ac7",
@@ -1074,7 +1100,7 @@
       "why_it_matters": "補助・助成等の利用可能性があり、対象事業者や支援者にとって確認価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1085,7 +1111,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "8f277a9c64b55322ad40",
@@ -1113,7 +1140,7 @@
       "why_it_matters": "開発・土地利用・周辺環境に影響する可能性があり、不動産・建設事業者の先行確認に向きます。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1124,7 +1151,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "8db8b06ddd5c3a5ded52",
@@ -1155,7 +1183,7 @@
       "why_it_matters": "補助・助成等の利用可能性があり、対象事業者や支援者にとって確認価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1166,7 +1194,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "c78c546d4d0731a843e1",
@@ -1196,7 +1225,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:44+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1207,7 +1236,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "52ba5fdc17e600d2ac6e",
@@ -1239,7 +1269,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1250,7 +1280,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "ac7d389a28138fa86fb3",
@@ -1280,7 +1311,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1291,7 +1322,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "cda4ed7ae5dcc4858d97",
@@ -1321,7 +1353,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1332,7 +1364,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "a3cd1995d2caf2c7f3d6",
@@ -1361,7 +1394,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1372,7 +1405,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "6517c22eb6998903e76c",
@@ -1401,7 +1435,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1412,7 +1446,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "761f6a3653061ff12ba5",
@@ -1441,7 +1476,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1452,7 +1487,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "b4d0ad0f0187009adab4",
@@ -1482,7 +1518,7 @@
       "why_it_matters": "制度・許認可・手続の変更可能性があり、対象事業者の対応確認に向きます。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1493,7 +1529,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "24bb99f34575564ab69c",
@@ -1523,7 +1560,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1534,7 +1571,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "7411a1237c06755315e1",
@@ -1563,7 +1601,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1574,7 +1612,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "601bf5b5156653b85a31",
@@ -1603,7 +1642,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1614,7 +1653,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "7cb42122f47b9b01ed15",
@@ -1643,7 +1683,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1654,7 +1694,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "933284aac0d02e4773bc",
@@ -1683,7 +1724,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1694,7 +1735,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "c985814b92ce76a6d0c9",
@@ -1723,7 +1765,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1734,7 +1776,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "30f9c205e398f1f24d8c",
@@ -1762,7 +1805,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1773,7 +1816,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "25e7eea0c41dd29d98f3",
@@ -1801,7 +1845,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1812,7 +1856,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "c57ef9132c18c53686ff",
@@ -1840,7 +1885,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1851,7 +1896,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "9409c3dfac4da35b3ddc",
@@ -1879,7 +1925,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1890,7 +1936,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "879dd0ec1ce35dc1ef6d",
@@ -1918,7 +1965,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1929,7 +1976,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "270c130746b510f6af37",
@@ -1955,7 +2003,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -1966,7 +2014,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "cbf6e0776902167b80f5",
@@ -1992,7 +2041,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2003,7 +2052,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "573d867a5a060356bb4e",
@@ -2029,7 +2079,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2040,7 +2090,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "46874be23b0c3d7ed881",
@@ -2064,7 +2115,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2075,7 +2126,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "ad9d68f5ab417f2e8f0e",
@@ -2099,7 +2151,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2110,7 +2162,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "50d9872afa643897d6a5",
@@ -2134,7 +2187,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2145,7 +2198,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "35b97943bc1ca5381645",
@@ -2169,7 +2223,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2180,7 +2234,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "94e9040cc4f05799c940",
@@ -2204,7 +2259,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2215,7 +2270,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "54f1efbfefc507b727da",
@@ -2239,7 +2295,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2250,7 +2306,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "d0cfcbb9545c13438f26",
@@ -2274,7 +2331,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2285,7 +2342,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "6d852fccc2458f4c3047",
@@ -2309,7 +2367,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:49:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2320,7 +2378,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "d9c4c723f9df6602c0ab",
@@ -2351,7 +2410,7 @@
       "why_it_matters": "補助・助成等の利用可能性があり、対象事業者や支援者にとって確認価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-12-04",
       "participation_deadline_at": "2026-12-04T23:59+09:00",
@@ -2362,7 +2421,8 @@
       "status_reason": "明示された新規参加期限を経過",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "b219d2c8d828f4d61351",
@@ -2391,7 +2451,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2402,7 +2462,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "2952aef528c9453deb71",
@@ -2431,7 +2492,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2442,7 +2503,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "7d26cfcaa421f99cdaaf",
@@ -2471,7 +2533,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2482,7 +2544,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "4167aac901857e06d490",
@@ -2510,7 +2573,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2521,7 +2584,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "0e0fd4baf7ab59f53356",
@@ -2549,7 +2613,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2560,7 +2624,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "4f80a7dfebf58982ebfd",
@@ -2588,7 +2653,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2599,7 +2664,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "4c9a5b362f348b6abf86",
@@ -2628,7 +2694,7 @@
       "why_it_matters": "制度・許認可・手続の変更可能性があり、対象事業者の対応確認に向きます。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2639,7 +2705,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "e31366b10674bfc75b8f",
@@ -2667,7 +2734,7 @@
       "why_it_matters": "制度・許認可・手続の変更可能性があり、対象事業者の対応確認に向きます。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2678,7 +2745,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "d74e178abeca4530bc51",
@@ -2707,7 +2775,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2718,7 +2786,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "255f4dd822f619269068",
@@ -2746,7 +2815,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2757,7 +2826,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "44a25a5873799e79e6dd",
@@ -2785,7 +2855,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2796,7 +2866,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "d20b8c715b86c71270e6",
@@ -2824,7 +2895,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2835,7 +2906,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "9b8a4b831944adc6ba8a",
@@ -2863,7 +2935,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2874,7 +2946,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "339614aef4ae3b79f64d",
@@ -2902,7 +2975,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2913,7 +2986,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "dbee4b4a2e063260f2c5",
@@ -2941,7 +3015,7 @@
       "why_it_matters": "制度・許認可・手続の変更可能性があり、対象事業者の対応確認に向きます。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2952,7 +3026,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "41f77f1eb2020f88615a",
@@ -2980,7 +3055,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -2991,7 +3066,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "640c263189e1f60f6355",
@@ -3019,7 +3095,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3030,7 +3106,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "c1d8cc1e87a6c99fd5f4",
@@ -3058,7 +3135,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3069,7 +3146,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "c71d6e350598348ca3d3",
@@ -3097,7 +3175,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3108,7 +3186,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "063ca0cdbbe4ec4df123",
@@ -3136,7 +3215,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3147,7 +3226,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "defd200403f9e24b44c8",
@@ -3175,7 +3255,7 @@
       "why_it_matters": "制度・許認可・手続の変更可能性があり、対象事業者の対応確認に向きます。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3186,7 +3266,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "a35783748117b7dbe38d",
@@ -3214,7 +3295,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3225,7 +3306,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "630f66ec6f06ec84c905",
@@ -3251,7 +3333,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3262,7 +3344,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "6bea9269d21f421a32a7",
@@ -3288,7 +3371,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3299,7 +3382,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "96ffbab69bd2e54dddd5",
@@ -3325,7 +3409,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3336,7 +3420,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "8c5059447b8d91ac98f0",
@@ -3362,7 +3447,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3373,7 +3458,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "78cbac774ae37dc45a37",
@@ -3399,7 +3485,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3410,7 +3496,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "08f17873c91ccb9573fd",
@@ -3436,7 +3523,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3447,7 +3534,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "048448771f8f9b9d0e95",
@@ -3473,7 +3561,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "baseline",
       "detected_at": "2026-08-25T03:44:28+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3484,7 +3572,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "b01898898cf474ca2b1c",
@@ -3517,7 +3606,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "added",
       "detected_at": "2026-08-25T03:27:45+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "",
       "participation_deadline_at": "",
@@ -3528,7 +3617,8 @@
       "status_reason": "新規参加期限を明示的に特定できないため、安全側で受付中にしません",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "45cf8b67c6bf946bb4fd",
@@ -3560,7 +3650,7 @@
       "why_it_matters": "施設・道路・地域環境への影響があり、地域事業者やメディアの確認対象になり得ます。",
       "change_type": "added",
       "detected_at": "2026-08-25T03:27:45+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3571,7 +3661,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "819833f1950422c035a6",
@@ -3599,7 +3690,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-25T03:27:45+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3610,7 +3701,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "120f38bfd03691c528d5",
@@ -3640,7 +3732,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-25T03:27:45+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3651,7 +3743,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "8ea0d1c650d0c28fa5bd",
@@ -3681,7 +3774,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-25T03:27:45+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3692,7 +3785,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "027cc0c593f31c74cb82",
@@ -3721,7 +3815,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-25T03:27:45+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3732,7 +3826,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "83fc71b0f560681df36c",
@@ -3761,7 +3856,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-25T03:27:45+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3772,7 +3867,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "6318dbfe3122864fb6df",
@@ -3800,7 +3896,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-25T03:27:45+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3811,7 +3907,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "e3ce827e8e237a5e5db0",
@@ -3835,7 +3932,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-25T03:27:45+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3846,7 +3943,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "1f6cc8ca50363db54c65",
@@ -3870,7 +3968,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-25T03:27:45+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3881,7 +3979,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "fe376171b0891699599d",
@@ -3911,7 +4010,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-24T08:31:18+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3922,7 +4021,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "b77e2d323e0719ed921c",
@@ -3952,7 +4052,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-24T08:31:18+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -3963,7 +4063,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "cf032a8c96957be52159",
@@ -3989,7 +4090,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-24T08:31:18+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4000,7 +4101,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "fd1fe34412437d9c16fa",
@@ -4024,7 +4126,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-24T08:31:18+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4035,7 +4137,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "eb92063b180c12ce2694",
@@ -4059,7 +4162,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "updated",
       "detected_at": "2026-08-24T08:31:18+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4070,7 +4173,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "29fdf82a19bfddcfcbd7",
@@ -4098,7 +4202,7 @@
       "why_it_matters": "施設・道路・地域環境への影響があり、地域事業者やメディアの確認対象になり得ます。",
       "change_type": "added",
       "detected_at": "2026-08-24T03:36:52+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4109,7 +4213,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "6d6949090c68e094c6b8",
@@ -4137,7 +4242,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-24T03:36:52+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4148,7 +4253,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "72330fc4862b335bda86",
@@ -4178,7 +4284,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-24T03:36:52+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4189,7 +4295,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "d6b0b222a72b44e32fd0",
@@ -4219,7 +4326,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-24T03:36:52+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4230,7 +4337,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "a23d858e73d80511f9da",
@@ -4256,7 +4364,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-24T03:36:52+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4267,7 +4375,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "aae5cdae3ad58427c99e",
@@ -4291,7 +4400,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-24T03:36:52+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4302,7 +4411,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "68e4c32f0a32e5c8662b",
@@ -4326,7 +4436,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-24T03:36:52+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4337,7 +4447,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "0efa2415324f0eb715cb",
@@ -4361,7 +4472,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-24T03:36:52+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4372,7 +4483,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "9f7c24902a9d9cddd3c3",
@@ -4396,7 +4508,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-24T03:36:52+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4407,7 +4519,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "a57ed57271fcafff2d32",
@@ -4431,7 +4544,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-24T03:36:52+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4442,7 +4555,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "e88c7685f1aa73c28ab0",
@@ -4466,7 +4580,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-24T03:36:52+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4477,7 +4591,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "c01b9dda33531bd36f3f",
@@ -4501,7 +4616,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-24T03:36:52+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4512,7 +4627,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "973d6084637cdf36d81e",
@@ -4536,7 +4652,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-24T03:36:52+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4547,7 +4663,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "f4cd25898dd313994fe4",
@@ -4571,7 +4688,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-24T03:36:52+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4582,7 +4699,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "bc26f23cf9d933cb4766",
@@ -4612,7 +4730,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-21T08:09:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4623,7 +4741,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "0563887518fbc2279586",
@@ -4652,7 +4771,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-21T08:09:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4663,7 +4782,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "f6a88060aad1899425f0",
@@ -4691,7 +4811,7 @@
       "why_it_matters": "施設・道路・地域環境への影響があり、地域事業者やメディアの確認対象になり得ます。",
       "change_type": "added",
       "detected_at": "2026-08-21T08:09:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4702,7 +4822,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "4c0be9da64b6fb9ef21c",
@@ -4730,7 +4851,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-21T08:09:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4741,7 +4862,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "6eb27a25a8e47cf2fba2",
@@ -4769,7 +4891,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-21T08:09:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4780,7 +4902,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "97b48b89ab87cd0ae712",
@@ -4807,7 +4930,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-21T08:09:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4818,7 +4941,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "b0d85cf27d128840d6b9",
@@ -4845,7 +4969,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-21T08:09:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4856,7 +4980,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "5924eb5a6eb411d93105",
@@ -4880,7 +5005,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-21T08:09:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4891,7 +5016,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "d8bf7128db204ffbea73",
@@ -4915,7 +5041,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-21T08:09:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4926,7 +5052,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "6bb06ffb298613947215",
@@ -4954,7 +5081,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-21T03:33:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -4965,7 +5092,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "e62debed53e9a334706c",
@@ -4993,7 +5121,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-21T03:33:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5004,7 +5132,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "75d6a6d9adf5b7a4b667",
@@ -5032,7 +5161,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-21T03:33:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5043,7 +5172,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "6853b80086810e9247ab",
@@ -5069,7 +5199,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "updated",
       "detected_at": "2026-08-21T03:33:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5080,7 +5210,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "2eb899f4217aee7795ea",
@@ -5106,7 +5237,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "updated",
       "detected_at": "2026-08-21T03:33:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5117,7 +5248,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "35f60db09bb4d9238f34",
@@ -5143,7 +5275,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "updated",
       "detected_at": "2026-08-21T03:33:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5154,7 +5286,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "29508623bcc01ef950e4",
@@ -5180,7 +5313,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "updated",
       "detected_at": "2026-08-21T03:33:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5191,7 +5324,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "241cf79e48abb586e7be",
@@ -5217,7 +5351,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "updated",
       "detected_at": "2026-08-21T03:33:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5228,7 +5362,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "283fb3954721bccc54b3",
@@ -5254,7 +5389,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "updated",
       "detected_at": "2026-08-21T03:33:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5265,7 +5400,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "630c0d71a0e2b932d094",
@@ -5291,7 +5427,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "updated",
       "detected_at": "2026-08-21T03:33:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5302,7 +5438,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "fb78ef2623fd5050fa18",
@@ -5328,7 +5465,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "updated",
       "detected_at": "2026-08-21T03:33:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5339,7 +5476,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "8fff8ca0f96db78d8df7",
@@ -5365,7 +5503,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "updated",
       "detected_at": "2026-08-21T03:33:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5376,7 +5514,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "5929b3f83bce79de9961",
@@ -5402,7 +5541,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "updated",
       "detected_at": "2026-08-21T03:33:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5413,7 +5552,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "486efb0ebec1ca56bc6f",
@@ -5439,7 +5579,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "updated",
       "detected_at": "2026-08-21T03:33:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5450,7 +5590,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "c506fbd7aaec97867cb0",
@@ -5476,7 +5617,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "updated",
       "detected_at": "2026-08-21T03:33:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5487,7 +5628,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "860d998c7a12b31fa14d",
@@ -5513,7 +5655,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "updated",
       "detected_at": "2026-08-21T03:33:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5524,7 +5666,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "b696d8a9dfcad7f45cd1",
@@ -5548,7 +5691,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-20T10:52:43+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5559,7 +5702,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "c485fe23f861f13cfecf",
@@ -5583,7 +5727,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-20T08:07:40+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5594,7 +5738,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "f3b4f0c4877a4c711310",
@@ -5622,7 +5767,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "updated",
       "detected_at": "2026-08-20T05:06:23+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5633,7 +5778,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "2a1767cbabdc3db0dd17",
@@ -5657,7 +5803,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-20T05:06:23+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5668,7 +5814,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "653f6837983244cf4bf3",
@@ -5696,7 +5843,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-20T03:14:57+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5707,7 +5854,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "5583ce8512ed0afd3844",
@@ -5736,7 +5884,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-20T03:14:57+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5747,7 +5895,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "52bc7c1e2160a8e7c696",
@@ -5774,7 +5923,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-20T03:14:57+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5785,7 +5934,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "de7eb9f51b22e32eb935",
@@ -5812,7 +5962,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-20T03:14:57+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5823,7 +5973,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "47d6fb41cd1bfcb65274",
@@ -5849,7 +6000,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-20T03:14:57+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5860,7 +6011,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "d6f176acff3b854b7cf6",
@@ -5886,7 +6038,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-20T03:14:57+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5897,7 +6049,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "b2f6ae9224de05bce06c",
@@ -5921,7 +6074,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-20T03:14:57+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5932,7 +6085,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "8cce368228a99178b8f3",
@@ -5956,7 +6110,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-20T03:14:57+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -5967,7 +6121,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "6d4d3db1525314e47961",
@@ -5991,7 +6146,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-20T03:14:57+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6002,7 +6157,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "a19d1b9efa64ad4c6e37",
@@ -6028,7 +6184,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "updated",
       "detected_at": "2026-08-20T03:14:57+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6039,7 +6195,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "9eab52c58a7cbfe96933",
@@ -6065,7 +6222,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "updated",
       "detected_at": "2026-08-20T03:14:57+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6076,7 +6233,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "a47aab78fb7211866f8f",
@@ -6102,7 +6260,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-19T08:05:21+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6113,7 +6271,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "b2bc65b89d22e5ab7219",
@@ -6137,7 +6296,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-19T08:05:21+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6148,7 +6307,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "9fd68b265932a6daebeb",
@@ -6177,7 +6337,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-19T03:26:02+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6188,7 +6348,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "56254a12574801cdcc0d",
@@ -6217,7 +6378,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-19T03:26:02+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6228,7 +6389,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "24d947948f096cfe7d0f",
@@ -6257,7 +6419,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-19T03:26:02+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6268,7 +6430,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "d2f1a702061f182404b5",
@@ -6297,7 +6460,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-19T03:26:02+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6308,7 +6471,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "b0855c73cb996e643c5c",
@@ -6336,7 +6500,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-19T03:26:02+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6347,7 +6511,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "be0cb764ef71d0001805",
@@ -6371,7 +6536,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-19T03:26:02+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6382,7 +6547,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "972d37eb595ba5a42f5e",
@@ -6412,7 +6578,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-18T10:04:17+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6423,7 +6589,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "adf1d6b3560aeb24b890",
@@ -6452,7 +6619,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-18T08:04:21+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6463,7 +6630,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "8e7a43f52326ecdda78f",
@@ -6487,7 +6655,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "updated",
       "detected_at": "2026-08-18T05:02:47+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6498,7 +6666,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "d5f3e3f2a670eeb95604",
@@ -6533,7 +6702,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "updated",
       "detected_at": "2026-08-18T03:12:55+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-08-03",
       "participation_deadline_at": "2026-08-03T23:59+09:00",
@@ -6544,7 +6713,8 @@
       "status_reason": "新規参加期限を経過し、最終結果掲載を検出",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "db5ebc4a2572a438a77f",
@@ -6572,7 +6742,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "added",
       "detected_at": "2026-08-18T03:12:55+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6583,7 +6753,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "f69bf1c055940d5f0713",
@@ -6614,7 +6785,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-18T03:12:55+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6625,7 +6796,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "c1fbfd196e2a698922ea",
@@ -6656,7 +6828,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-18T03:12:55+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6667,7 +6839,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "a897337065a0328b4927",
@@ -6697,7 +6870,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-18T03:12:55+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6708,7 +6881,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "c9e1ecf012814dd5825e",
@@ -6738,7 +6912,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-18T03:12:55+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6749,7 +6923,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "5b983150bcc12e6c9721",
@@ -6777,7 +6952,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "updated",
       "detected_at": "2026-08-18T03:12:55+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6788,7 +6963,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "0d8ec39d0a9b87ecc106",
@@ -6816,7 +6992,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-18T03:12:55+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6827,7 +7003,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "e7703286a4ef60dae14c",
@@ -6853,7 +7030,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-18T03:12:55+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6864,7 +7041,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "9686646eb7c9d36741f9",
@@ -6890,7 +7068,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-18T03:12:55+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6901,7 +7079,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "0196b9827f4aa1e52068",
@@ -6925,7 +7104,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-18T03:12:55+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6936,7 +7115,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "34b9d9cb7ead9836e5d7",
@@ -6960,7 +7140,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-18T03:12:55+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -6971,7 +7151,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "e097900693ae1a1b0300",
@@ -6995,7 +7176,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-18T03:12:55+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7006,7 +7187,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "695f12af8683936e94f9",
@@ -7030,7 +7212,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-18T03:12:55+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7041,7 +7223,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "37ad4a227ee12cdf93c3",
@@ -7065,7 +7248,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-18T03:12:55+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7076,7 +7259,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "4150c56fed385961fe9a",
@@ -7107,7 +7291,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-17T10:52:40+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7118,7 +7302,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "7d24fc4c2cb05cc0592f",
@@ -7148,7 +7333,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-17T10:52:40+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7159,7 +7344,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "61dcfe507a375a81cc45",
@@ -7191,7 +7377,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "added",
       "detected_at": "2026-08-17T08:10:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-09-02",
       "participation_deadline_at": "2026-09-02T17:00+09:00",
@@ -7202,7 +7388,8 @@
       "status_reason": "明示された新規参加期限（申込期限+申込欄:提出期間）を確認",
       "days_left": 8,
       "deadline_label": "残り8日",
-      "priority_tier": "高優先"
+      "priority_tier": "高優先",
+      "deadline_time_exact": true
     },
     {
       "id": "0edca55f4899c30ed20a",
@@ -7234,7 +7421,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-17T08:10:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7245,7 +7432,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "a439968e9f9da6784ef0",
@@ -7269,7 +7457,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-17T08:10:13+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7280,7 +7468,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "2cf19976fac471acdcd0",
@@ -7310,7 +7499,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-17T03:29:37+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7321,7 +7510,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "fcbe28c3f08ed04527a3",
@@ -7350,7 +7540,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-17T03:29:37+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7361,7 +7551,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "a5ce7ef00eef0bd39670",
@@ -7390,7 +7581,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-17T03:29:37+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7401,7 +7592,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "e249c2cae39061249508",
@@ -7430,7 +7622,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-17T03:29:37+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7441,7 +7633,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "cb5d7801c7652483119c",
@@ -7470,7 +7663,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-17T03:29:37+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7481,7 +7674,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "f22d7b269a23acebe2a7",
@@ -7510,7 +7704,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-17T03:29:37+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7521,7 +7715,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "9a2db0ab0b5afc8501a4",
@@ -7549,7 +7744,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-17T03:29:37+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7560,7 +7755,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "2262d7049a82c804df6f",
@@ -7584,7 +7780,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-17T03:29:37+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7595,7 +7791,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "ecb74265ead412967a82",
@@ -7619,7 +7816,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-17T03:29:37+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7630,7 +7827,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "25421e0db074548c6489",
@@ -7654,7 +7852,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-15T21:53:10+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7665,7 +7863,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "4948c8b19fce17aabcad",
@@ -7689,7 +7888,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-14T15:10:47+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7700,7 +7899,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "3e661dcc993e867268c9",
@@ -7735,7 +7935,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "added",
       "detected_at": "2026-08-14T09:44:46+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "",
       "participation_deadline_at": "",
@@ -7746,7 +7946,8 @@
       "status_reason": "新規参加期限を明示的に特定できないため、安全側で受付中にしません",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "85b2049340d29330f227",
@@ -7775,7 +7976,7 @@
       "why_it_matters": "施設・道路・地域環境への影響があり、地域事業者やメディアの確認対象になり得ます。",
       "change_type": "added",
       "detected_at": "2026-08-14T09:44:46+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7786,7 +7987,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "8d75c8bdbdb9984c0458",
@@ -7815,7 +8017,7 @@
       "why_it_matters": "制度・許認可・手続の変更可能性があり、対象事業者の対応確認に向きます。",
       "change_type": "added",
       "detected_at": "2026-08-14T09:44:46+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7826,7 +8028,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "83191ee457461bed6c18",
@@ -7850,7 +8053,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "updated",
       "detected_at": "2026-08-14T09:44:46+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7861,7 +8064,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "07e545059af1f292a77a",
@@ -7890,7 +8094,7 @@
       "why_it_matters": "施設・道路・地域環境への影響があり、地域事業者やメディアの確認対象になり得ます。",
       "change_type": "added",
       "detected_at": "2026-08-14T05:49:55+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7901,7 +8105,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "e36f66f5ad8b5450551c",
@@ -7930,7 +8135,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-14T05:49:55+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7941,7 +8146,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "6fc8b352df4d4e8a0c3c",
@@ -7969,7 +8175,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-14T01:32:40+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -7980,7 +8186,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "fe99e1cfff93e7d7bfec",
@@ -8008,7 +8215,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-14T01:32:40+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -8019,7 +8226,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "454e8bbb15fe1e650ce9",
@@ -8043,7 +8251,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-14T01:32:40+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -8054,7 +8262,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "647d2806365bbb42c70e",
@@ -8080,7 +8289,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-14T00:30:26+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -8091,7 +8300,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "bdcbdf4a717c086eaf57",
@@ -8120,7 +8330,7 @@
       "why_it_matters": "設備・採用・出店等の企業活動シグナルを含む可能性があり、法人営業の探索材料になります。",
       "change_type": "added",
       "detected_at": "2026-08-13T09:50:12+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -8131,7 +8341,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "36b2ec03108a54d7d91c",
@@ -8159,7 +8370,7 @@
       "why_it_matters": "施設・道路・地域環境への影響があり、地域事業者やメディアの確認対象になり得ます。",
       "change_type": "updated",
       "detected_at": "2026-08-13T09:50:12+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -8170,7 +8381,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "21394989119ad85fa991",
@@ -8198,7 +8410,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-13T05:52:41+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -8209,7 +8421,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "2663bd956e3af7583eb0",
@@ -8237,7 +8450,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-13T05:52:41+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -8248,7 +8461,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "54877a0446b94e1e122a",
@@ -8276,7 +8490,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-13T05:52:41+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -8287,7 +8501,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "80521eaea9e70588b719",
@@ -8311,7 +8526,7 @@
       "why_it_matters": "公開情報の更新です。商用判断には原典の内容確認が必要です。",
       "change_type": "added",
       "detected_at": "2026-08-13T05:52:41+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -8322,7 +8537,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "26bc2ed14ac3dcb5066e",
@@ -8358,7 +8574,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-07-28",
       "participation_deadline_at": "2026-07-28T17:00+09:00",
@@ -8369,7 +8585,8 @@
       "status_reason": "新規参加期限を経過し、最終結果掲載を検出",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": true
     },
     {
       "id": "b877597b84c9b060e656",
@@ -8404,7 +8621,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-07-31",
       "participation_deadline_at": "2026-07-31T17:00+09:00",
@@ -8415,7 +8632,8 @@
       "status_reason": "新規参加期限は終了。質問・提案・入札・ヒアリング等の後続日程あり",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": true
     },
     {
       "id": "b935dd9b1e818910b0e8",
@@ -8448,7 +8666,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-06-05",
       "participation_deadline_at": "2026-06-05T17:00+09:00",
@@ -8459,7 +8677,8 @@
       "status_reason": "明示された新規参加期限を経過",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": true
     },
     {
       "id": "c7df71dff7965176ec12",
@@ -8493,7 +8712,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-06-12",
       "participation_deadline_at": "2026-06-12T17:00+09:00",
@@ -8504,7 +8723,8 @@
       "status_reason": "明示された新規参加期限を経過",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": true
     },
     {
       "id": "131ec49de4937b452189",
@@ -8537,7 +8757,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-08-04",
       "participation_deadline_at": "2026-08-04T17:00+09:00",
@@ -8548,7 +8768,8 @@
       "status_reason": "新規参加期限を経過し、最終結果掲載を検出",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": true
     },
     {
       "id": "ae766e4a9ce81ecfd3de",
@@ -8581,7 +8802,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-04-16",
       "participation_deadline_at": "2026-04-16T17:00+09:00",
@@ -8592,7 +8813,8 @@
       "status_reason": "新規参加期限を経過し、最終結果掲載を検出",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": true
     },
     {
       "id": "566523d09fb0aa60568f",
@@ -8625,7 +8847,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "",
       "participation_deadline_at": "",
@@ -8636,7 +8858,8 @@
       "status_reason": "最終結果掲載を検出。新規参加期限は特定できず",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "dd9c71fbaf7479ecfc93",
@@ -8668,7 +8891,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-08-17",
       "participation_deadline_at": "2026-08-17T17:00+09:00",
@@ -8679,7 +8902,8 @@
       "status_reason": "新規参加期限を経過し、最終結果掲載を検出",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": true
     },
     {
       "id": "2dc9d6542db23d89392e",
@@ -8711,7 +8935,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-04-23",
       "participation_deadline_at": "2026-04-23T23:59+09:00",
@@ -8722,7 +8946,8 @@
       "status_reason": "新規参加期限を経過し、最終結果掲載を検出",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "4bcd1c3b41b54d62cdd7",
@@ -8754,7 +8979,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-07-28",
       "participation_deadline_at": "2026-07-28T17:00+09:00",
@@ -8765,7 +8990,8 @@
       "status_reason": "新規参加期限を経過し、最終結果掲載を検出",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": true
     },
     {
       "id": "7cf9ec0b9bf702eaf198",
@@ -8797,7 +9023,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-08-07",
       "participation_deadline_at": "2026-08-07T23:59+09:00",
@@ -8808,7 +9034,8 @@
       "status_reason": "新規参加期限は終了。質問・提案・入札・ヒアリング等の後続日程あり",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "19a61eb72877e6251b8a",
@@ -8840,7 +9067,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-08-18",
       "participation_deadline_at": "2026-08-18T17:00+09:00",
@@ -8851,7 +9078,8 @@
       "status_reason": "新規参加期限を経過し、最終結果掲載を検出",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": true
     },
     {
       "id": "1ee6318574af9587ab38",
@@ -8883,7 +9111,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-06-05",
       "participation_deadline_at": "2026-06-05T17:00+09:00",
@@ -8894,7 +9122,8 @@
       "status_reason": "明示された新規参加期限を経過",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": true
     },
     {
       "id": "ed71172d5d67b70c1c3c",
@@ -8926,7 +9155,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-06-05",
       "participation_deadline_at": "2026-06-05T17:00+09:00",
@@ -8937,7 +9166,8 @@
       "status_reason": "明示された新規参加期限を経過",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": true
     },
     {
       "id": "1797d8e12f8ad1a9add0",
@@ -8969,7 +9199,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-06-05",
       "participation_deadline_at": "2026-06-05T17:00+09:00",
@@ -8980,7 +9210,8 @@
       "status_reason": "明示された新規参加期限を経過",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": true
     },
     {
       "id": "902e6decab00d5467a49",
@@ -9012,7 +9243,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-04-30",
       "participation_deadline_at": "2026-04-30T17:00+09:00",
@@ -9023,7 +9254,8 @@
       "status_reason": "新規参加期限を経過し、最終結果掲載を検出",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": true
     },
     {
       "id": "e81a3f4f46ac6568e817",
@@ -9055,7 +9287,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "",
       "participation_deadline_at": "",
@@ -9066,7 +9298,8 @@
       "status_reason": "最終結果掲載を検出。新規参加期限は特定できず",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "4629785b8032dd5ba121",
@@ -9098,7 +9331,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-07-01",
       "participation_deadline_at": "2026-07-01T23:59+09:00",
@@ -9109,7 +9342,8 @@
       "status_reason": "新規参加期限を経過し、最終結果掲載を検出",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "024042f6997641c3471c",
@@ -9141,7 +9375,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-06-23",
       "participation_deadline_at": "2026-06-23T17:00+09:00",
@@ -9152,7 +9386,8 @@
       "status_reason": "新規参加期限は終了。質問・提案・入札・ヒアリング等の後続日程あり",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": true
     },
     {
       "id": "b64112d18c01bd955dc1",
@@ -9184,7 +9419,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-08-07",
       "participation_deadline_at": "2026-08-07T17:00+09:00",
@@ -9195,7 +9430,8 @@
       "status_reason": "新規参加期限を経過し、最終結果掲載を検出",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": true
     },
     {
       "id": "6c952ee9cecff868ae38",
@@ -9227,7 +9463,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-06-19",
       "participation_deadline_at": "2026-06-19T17:00+09:00",
@@ -9238,7 +9474,8 @@
       "status_reason": "新規参加期限を経過し、最終結果掲載を検出",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": true
     },
     {
       "id": "e7de75141316511ddbc7",
@@ -9273,7 +9510,7 @@
       "why_it_matters": "開発・土地利用・周辺環境に影響する可能性があり、不動産・建設事業者の先行確認に向きます。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -9284,7 +9521,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "4fcca73f72e2bad0c3b7",
@@ -9319,7 +9557,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "判定不可",
       "is_open_now": null,
@@ -9330,7 +9568,8 @@
       "status_reason": "公式ページの新規参加期限を確認できませんでした。原典確認が必要です",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "2b289775c0968147368a",
@@ -9362,7 +9601,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "",
       "participation_deadline_at": "",
@@ -9373,7 +9612,8 @@
       "status_reason": "新規参加期限を明示的に特定できないため、安全側で受付中にしません",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "a9c094bc373d933e102b",
@@ -9404,7 +9644,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-06-25",
       "participation_deadline_at": "2026-06-25T23:59+09:00",
@@ -9415,7 +9655,8 @@
       "status_reason": "新規参加期限を経過し、最終結果掲載を検出",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "e9afab10bdb8196e5d1d",
@@ -9446,7 +9687,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-06-25",
       "participation_deadline_at": "2026-06-25T23:59+09:00",
@@ -9457,7 +9698,8 @@
       "status_reason": "新規参加期限を経過し、最終結果掲載を検出",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "b7f0242408d8ba94e4de",
@@ -9488,7 +9730,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-06-29",
       "participation_deadline_at": "2026-06-29T17:00+09:00",
@@ -9499,7 +9741,8 @@
       "status_reason": "新規参加期限は終了。質問・提案・入札・ヒアリング等の後続日程あり",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": true
     },
     {
       "id": "ab277f9833daa5332a15",
@@ -9529,7 +9772,7 @@
       "why_it_matters": "開発・土地利用・周辺環境に影響する可能性があり、不動産・建設事業者の先行確認に向きます。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -9540,7 +9783,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "e0833ebb6d40551fc623",
@@ -9572,7 +9816,7 @@
       "why_it_matters": "補助・助成等の利用可能性があり、対象事業者や支援者にとって確認価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "support_period_fetched",
       "participation_deadline": "2026-08-31",
       "participation_deadline_at": "2026-08-31T17:00+09:00",
@@ -9583,7 +9827,8 @@
       "status_reason": "明示された新規参加期限（支援制度:申請期間）を確認",
       "days_left": 6,
       "deadline_label": "残り6日",
-      "priority_tier": "受付中"
+      "priority_tier": "受付中",
+      "deadline_time_exact": true
     },
     {
       "id": "b5d44edb4590e63293c6",
@@ -9613,7 +9858,7 @@
       "why_it_matters": "開発・土地利用・周辺環境に影響する可能性があり、不動産・建設事業者の先行確認に向きます。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -9624,7 +9869,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "19d26dc75a7815fdd7bb",
@@ -9653,7 +9899,7 @@
       "why_it_matters": "補助・助成等の利用可能性があり、対象事業者や支援者にとって確認価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "",
       "participation_deadline_at": "",
@@ -9664,7 +9910,8 @@
       "status_reason": "新規参加期限を明示的に特定できないため、安全側で受付中にしません",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "718422da9391b77c2961",
@@ -9694,7 +9941,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -9705,7 +9952,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "56552e43543676b31eda",
@@ -9735,7 +9983,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -9746,7 +9994,8 @@
       "status_reason": "採用・求人情報のため公共案件判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "fd1c7f37c18b19ce349a",
@@ -9775,7 +10024,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "2026-02-09",
       "participation_deadline_at": "2026-02-09T23:59+09:00",
@@ -9786,7 +10035,8 @@
       "status_reason": "新規参加期限を経過し、最終結果掲載を検出",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "8ff14e2f221cf97715a3",
@@ -9815,7 +10065,7 @@
       "why_it_matters": "公共案件・事業者募集の可能性があり、受注候補企業が早期確認する価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "cache",
       "participation_deadline": "",
       "participation_deadline_at": "",
@@ -9826,7 +10076,8 @@
       "status_reason": "新規参加期限を明示的に特定できないため、安全側で受付中にしません",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "fefc6d5c73ff73aa45ce",
@@ -9857,7 +10108,7 @@
       "why_it_matters": "補助・助成等の利用可能性があり、対象事業者や支援者にとって確認価値があります。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -9868,7 +10119,8 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     },
     {
       "id": "74b4e7598d03cb4940d2",
@@ -9898,7 +10150,7 @@
       "why_it_matters": "施設・道路・地域環境への影響があり、地域事業者やメディアの確認対象になり得ます。",
       "change_type": "baseline",
       "detected_at": "2026-08-12T19:21:36+00:00",
-      "status_checked_at": "2026-08-25T03:50:06+00:00",
+      "status_checked_at": "2026-08-25T03:52:25+00:00",
       "status_source_state": "not_applicable",
       "application_status": "案件外",
       "is_open_now": null,
@@ -9909,15 +10161,16 @@
       "status_reason": "応募型案件の自動判定対象外",
       "days_left": null,
       "deadline_label": "",
-      "priority_tier": ""
+      "priority_tier": "",
+      "deadline_time_exact": false
     }
   ],
-  "disclaimer": "無料βでは神奈川県・横浜市・川崎市・相模原市の公式公開情報から段階的に収集しています。『受付中』は公式ページで新規参加期限を明示的に特定した案件だけです。県内全自治体を網羅済みという意味ではありません。応募・契約・商用判断は必ずリンク先の公式情報を確認してください。",
+  "disclaimer": "無料βでは神奈川県・横浜市・川崎市・相模原市の公式公開情報から段階的に収集しています。『受付中』は公式ページで新規参加期限を明示的に特定した案件だけです。48H/TODAYは締切時刻まで明示確認できた案件だけを対象にします。県内全自治体を網羅済みという意味ではありません。応募・契約・商用判断は必ずリンク先の公式情報を確認してください。",
   "history_events_in_public_window": 259,
   "duplicate_revisions_removed": 6,
   "open_now_count": 9,
   "open_now_high_value_count": 2,
-  "application_status_checked_at": "2026-08-25T03:50:06+00:00",
+  "application_status_checked_at": "2026-08-25T03:52:25+00:00",
   "status_engine_version": 3,
   "coverage_regions": [
     "神奈川県",
