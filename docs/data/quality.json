@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-25T15:49:22+00:00",
+  "checked_at": "2026-08-25T16:02:02+00:00",
   "health": "good",
   "health_label": "正常",
   "errors": [],
@@ -7,10 +7,21 @@
   "freshness_minutes": 0,
   "open_now": 13,
   "open_now_high_value": 5,
+  "source_inventory": {
+    "configured_sources": 21,
+    "nonempty_sources": 21,
+    "state_items": 1886,
+    "zero_item_source_ids": [],
+    "orphan_source_ids": []
+  },
   "checks": {
+    "source_inventory_healthy": true,
     "open_deadlines_not_past": true,
+    "deadline_fields_consistent": true,
     "employment_excluded": true,
     "counts_consistent": true,
+    "open_feed_ids_consistent": true,
+    "high_value_counts_consistent": true,
     "unique_ids": true
   }
 }
