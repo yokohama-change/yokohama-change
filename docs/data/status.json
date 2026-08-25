@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-25T06:31:47+00:00",
-  "sources_total": 15,
-  "sources_ok": 15,
-  "items_seen": 1629,
-  "changes_this_run": 2,
+  "generated_at": "2026-08-25T06:35:29+00:00",
+  "sources_total": 16,
+  "sources_ok": 16,
+  "items_seen": 1666,
+  "changes_this_run": 0,
   "errors": [],
   "state_preserved": false,
-  "public_items": 326,
-  "public_duplicate_revisions_removed": 14,
+  "public_items": 330,
+  "public_duplicate_revisions_removed": 11,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-08-25T06:31:49+00:00",
+  "application_status_checked_at": "2026-08-25T06:35:29+00:00",
   "application_status_candidates": 64,
   "application_status_open_now": 9,
-  "application_status_fetches": 3,
+  "application_status_fetches": 0,
   "application_status_errors": [],
   "application_status_warnings": [],
   "employment_notices_excluded": 7,
   "support_period_candidates_checked": 3,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
-  "scope": "神奈川 β（県＋10市の公式情報）",
+  "scope": "神奈川 β（県＋11市の公式情報）",
   "coverage_regions": [
     "神奈川県",
     "横浜市",
@@ -31,7 +31,8 @@
     "鎌倉市",
     "平塚市",
     "小田原市",
-    "三浦市"
+    "三浦市",
+    "逗子市"
   ],
   "regions_seen": [
     "三浦市",
@@ -44,6 +45,7 @@
     "神奈川県",
     "茅ヶ崎市",
     "藤沢市",
+    "逗子市",
     "鎌倉市"
   ],
   "open_now_by_region": {
@@ -57,7 +59,8 @@
     "鎌倉市": 0,
     "平塚市": 0,
     "小田原市": 0,
-    "三浦市": 0
+    "三浦市": 0,
+    "逗子市": 0
   },
   "open_now_exact_time": 5,
   "open_now_high_value_exact_time": 2,
