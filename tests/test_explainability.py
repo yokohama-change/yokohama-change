@@ -63,7 +63,7 @@ class OpportunityTraceTests(unittest.TestCase):
       <section class="opportunity-section">
         <h2>判定根拠</h2>
       </section>
-      <a class="opportunity-official" href="https://example.invalid">公式</a>
+      <a class="opportunity-official" href="#">公式</a>
 </body></html>'''
 
     def test_trace_is_injected_with_jst_and_exact_time_label(self):
@@ -74,8 +74,17 @@ class OpportunityTraceTests(unittest.TestCase):
         self.assertIn("opportunity-trace.css", page)
         self.assertIn("明示された新規参加期限", page)
 
-    def test_date_only_precision_is_disclosed(self):
-        page = trace.inject_page(self.base_page(), good_open(deadline_time_exact=False))
+    def test_date_only_precision_hides_internal_end_of_day_time(self):
+        page = trace.inject_page(
+            self.base_page(),
+            good_open(
+                deadline_time_exact=False,
+                participation_deadline="2026-09-03",
+                participation_deadline_at="2026-09-03T23:59+09:00",
+            ),
+        )
+        self.assertIn("2026/09/03", page)
+        self.assertNotIn("2026/09/03 23:59", page)
         self.assertIn("締切日を確認・締切時刻は未確認", page)
 
     def test_injection_is_idempotent(self):

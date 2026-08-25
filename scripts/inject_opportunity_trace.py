@@ -40,13 +40,25 @@ def fmt_jst(iso: str) -> str:
         return raw
 
 
+def fmt_date(value: str) -> str:
+    raw = str(value or "").strip()
+    if not raw:
+        return "—"
+    try:
+        return datetime.fromisoformat(raw).strftime("%Y/%m/%d")
+    except ValueError:
+        return raw
+
+
 def trace_block(item: dict[str, Any]) -> str:
     reason = str(item.get("status_reason") or "").strip()
     region = str(item.get("region") or "神奈川県内").strip()
     source_name = str(item.get("source_name") or "公式情報").strip()
     cutoff = str(item.get("participation_deadline_at") or "").strip()
+    deadline_date = str(item.get("participation_deadline") or "").strip()
     exact = item.get("deadline_time_exact") is True
     precision = "公式ページ上の締切時刻まで確認済み" if exact else "締切日を確認・締切時刻は未確認"
+    deadline_display = fmt_jst(cutoff) if exact else fmt_date(deadline_date)
     confidence = str(item.get("status_confidence") or "").strip()
     checked_at = str(item.get("status_checked_at") or "").strip()
 
@@ -55,7 +67,7 @@ def trace_block(item: dict[str, Any]) -> str:
         <h2>受付中判定の証跡</h2>
         <div class="opportunity-trace-grid">
           <div><span>公式ソース</span><b>{e(region)} · {e(source_name)}</b></div>
-          <div><span>参加期限</span><b>{e(fmt_jst(cutoff))}</b><small>{e(precision)}</small></div>
+          <div><span>参加期限</span><b>{e(deadline_display)}</b><small>{e(precision)}</small></div>
           <div><span>判定根拠</span><b>{e(reason)}</b></div>
           <div><span>判定信頼度</span><b>{e(confidence)} / 公開基準を通過</b></div>
         </div>
