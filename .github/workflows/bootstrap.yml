@@ -27,6 +27,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Sync to latest main
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
+          echo "SYNC_BASE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -111,18 +117,17 @@ jobs:
 
           git commit -m "auto: refresh YOKOHAMA CHANGE"
 
-          for attempt in 1 2 3; do
-            if git push origin HEAD:main; then
-              exit 0
-            fi
-            echo "Push raced with a newer main commit; rebasing (attempt ${attempt}/3)..."
-            git fetch origin main
-            if ! git rebase origin/main; then
-              git rebase --abort || true
-              echo "Automatic rebase conflicted; refusing to overwrite newer main."
-              exit 1
-            fi
-          done
+          if git push origin HEAD:main; then
+            exit 0
+          fi
 
-          echo "Push failed after 3 attempts."
+          echo "Push did not fast-forward; checking whether main advanced during this run..."
+          git fetch origin main
+          REMOTE_SHA=$(git rev-parse origin/main)
+          if [ "$REMOTE_SHA" != "$SYNC_BASE_SHA" ]; then
+            echo "main advanced from $SYNC_BASE_SHA to $REMOTE_SHA. Refusing to merge generated snapshots; a newer run or the next schedule will refresh safely."
+            exit 0
+          fi
+
+          echo "Push failed even though main did not advance; treating this as a real write failure."
           exit 1
