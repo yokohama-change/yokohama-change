@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-08-25T22:16:52+00:00",
+  "health": "good",
+  "health_label": "正常",
+  "open_now": 13,
+  "explainable_open_now": 13,
+  "deadline_time_exact": 8,
+  "deadline_date_only": 5,
+  "errors": [],
+  "checks": {
+    "all_open_items_explainable": true,
+    "explicit_participation_reason_required": true
+  }
+}
