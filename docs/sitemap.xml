@@ -72,4 +72,10 @@
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://yokohama-change.github.io/yokohama-change/disclaimer.html</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
 <url><loc>https://yokohama-change.github.io/yokohama-change/opportunities/regions/sagamihara/</loc><lastmod>2026-08-25</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url><url><loc>https://yokohama-change.github.io/yokohama-change/opportunities/regions/yokohama/</loc><lastmod>2026-08-25</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url></urlset>
