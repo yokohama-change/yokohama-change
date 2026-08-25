@@ -1,32 +1,42 @@
 {
-  "generated_at": "2026-08-25T03:45:27+00:00",
-  "sources_total": 6,
-  "sources_ok": 6,
-  "items_seen": 990,
+  "generated_at": "2026-08-25T03:49:56+00:00",
+  "sources_total": 8,
+  "sources_ok": 8,
+  "items_seen": 1274,
   "changes_this_run": 0,
   "errors": [],
   "state_preserved": false,
-  "public_items": 194,
+  "public_items": 253,
   "public_duplicate_revisions_removed": 6,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-08-25T03:45:27+00:00",
-  "application_status_candidates": 35,
-  "application_status_open_now": 2,
-  "application_status_fetches": 0,
+  "application_status_checked_at": "2026-08-25T03:50:06+00:00",
+  "application_status_candidates": 51,
+  "application_status_open_now": 9,
+  "application_status_fetches": 16,
   "application_status_errors": [],
   "application_status_warnings": [],
   "employment_notices_excluded": 38,
   "support_period_candidates_checked": 3,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
-  "scope": "神奈川県 β（横浜市＋県公式情報）",
-  "regions_seen": [
+  "scope": "神奈川 β（神奈川県・横浜市・川崎市・相模原市）",
+  "coverage_regions": [
+    "神奈川県",
     "横浜市",
+    "川崎市",
+    "相模原市"
+  ],
+  "regions_seen": [
+    "川崎市",
+    "横浜市",
+    "相模原市",
     "神奈川県"
   ],
   "open_now_by_region": {
+    "神奈川県": 0,
     "横浜市": 2,
-    "神奈川県": 0
+    "川崎市": 0,
+    "相模原市": 7
   },
   "gbiz_enabled": true,
   "gbiz_period": {
