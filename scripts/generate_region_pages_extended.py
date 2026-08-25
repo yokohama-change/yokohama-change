@@ -15,7 +15,6 @@ core.SLUGS.update({
     "小田原市": "odawara",
     "三浦市": "miura",
     "逗子市": "zushi",
-    "秦野市": "hadano",
     "海老名市": "ebina",
 })
 
