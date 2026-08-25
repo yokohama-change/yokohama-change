@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-08-25T15:34:41+00:00",
+  "updated_at": "2026-08-25T15:38:23+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -1344,6 +1344,21 @@
       "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kyouiku/1026614/1036085.html",
       "source_updated": "Wed, 26 Aug 2026 00:05:04 +0900",
       "fetched_at": "2026-08-25T15:34:41+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "f1e518e8f922c58b1896": {
+      "url": "https://www.city.isehara.kanagawa.jp/docs/2026080300135/",
+      "source_updated": "Thu, 20 Aug 2026 11:36:00 +0900",
+      "fetched_at": "2026-08-25T15:38:23+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",

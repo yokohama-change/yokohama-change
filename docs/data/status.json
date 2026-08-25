@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-25T15:34:37+00:00",
+  "generated_at": "2026-08-25T15:38:23+00:00",
   "sources_total": 18,
   "sources_ok": 18,
   "items_seen": 1746,
-  "changes_this_run": 55,
+  "changes_this_run": 0,
   "errors": [],
   "state_preserved": false,
   "public_items": 364,
   "public_duplicate_revisions_removed": 1,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-08-25T15:34:41+00:00",
+  "application_status_checked_at": "2026-08-25T15:38:24+00:00",
   "application_status_candidates": 74,
   "application_status_open_now": 12,
-  "application_status_fetches": 6,
+  "application_status_fetches": 1,
   "application_status_errors": [],
   "application_status_warnings": [],
   "employment_notices_excluded": 5,
   "support_period_candidates_checked": 3,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
-  "scope": "神奈川 β（県＋12市の公式情報）",
+  "scope": "神奈川 β（県＋13市の公式情報）",
   "coverage_regions": [
     "神奈川県",
     "横浜市",
@@ -33,7 +33,8 @@
     "小田原市",
     "三浦市",
     "逗子市",
-    "海老名市"
+    "海老名市",
+    "伊勢原市"
   ],
   "regions_seen": [
     "三浦市",
@@ -62,7 +63,8 @@
     "小田原市": 0,
     "三浦市": 0,
     "逗子市": 0,
-    "海老名市": 0
+    "海老名市": 0,
+    "伊勢原市": 0
   },
   "open_now_exact_time": 7,
   "open_now_high_value_exact_time": 4,
