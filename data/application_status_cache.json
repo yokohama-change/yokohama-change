@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-08-25T03:37:36+00:00",
+  "updated_at": "2026-08-25T03:44:39+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -701,6 +701,23 @@
         "result_hit": false,
         "closed_hit": false,
         "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "d9c4c723f9df6602c0ab": {
+      "url": "https://www.pref.kanagawa.jp/docs/m2w/premiumshien/kanatoku.html",
+      "source_updated": "2026-08-25T00:00:00+09:00",
+      "fetched_at": "2026-08-25T03:44:39+00:00",
+      "facts": {
+        "participation_deadline": "2026-12-04",
+        "participation_deadline_at": "2026-12-04T23:59+09:00",
+        "participation_source": "申請期限",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": true,
+        "participation_dates": [
+          "2026-12-04"
+        ],
         "generic_dates": []
       }
     }
