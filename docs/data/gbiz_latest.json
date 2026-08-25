@@ -1,77 +1,13 @@
 {
-  "generated_at": "2026-08-25T16:07:14+00:00",
+  "generated_at": "2026-08-25T16:12:58+00:00",
   "enabled": true,
   "stale": false,
   "period": {
     "from": "20260824",
     "to": "20260826"
   },
-  "count": 7,
-  "items": [
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001004229",
-      "name": "株式会社常盤石材（閉鎖）",
-      "location": "神奈川県横浜市港南区日野中央１丁目１２番３号",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001040802",
-      "name": "エム・エス・イー株式会社（閉鎖）",
-      "location": "神奈川県横浜市金沢区幸浦２丁目１２番２０",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001058233",
-      "name": "株式会社セラグレーズ",
-      "location": "神奈川県横浜市港南区上永谷６丁目３番１０号",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001168833",
-      "name": "株式会社新里工業",
-      "location": "神奈川県横浜市鶴見区鶴見中央４丁目２８番１７号",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001170087",
-      "name": "株式会社Ｋ．Ｕリアルエステート",
-      "location": "神奈川県横浜市神奈川区鶴屋町２丁目９番２２号日興パレス横浜２０６",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001170095",
-      "name": "株式会社オークバリュー",
-      "location": "神奈川県横浜市都筑区北山田１丁目１０番５号ヴィ・ド・カンパーニュ港北ル・ソレイユ２Ｆ－１２",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020002001778",
-      "name": "有限会社トシ・メンテナンス",
-      "location": "神奈川県横浜市瀬谷区阿久和東２丁目６０番地１",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    }
-  ],
+  "count": 0,
+  "items": [],
   "errors": [],
   "endpoint_mode": "v2-period-corporate-update-only",
   "note": "法人情報の更新シグナルです。現在募集中の調達・補助金ではありません。",

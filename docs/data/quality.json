@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-25T16:07:15+00:00",
+  "checked_at": "2026-08-25T16:12:58+00:00",
   "health": "good",
   "health_label": "正常",
   "errors": [],
@@ -14,6 +14,11 @@
     "zero_item_source_ids": [],
     "orphan_source_ids": []
   },
+  "dedupe": {
+    "duplicate_revisions_removed": 1,
+    "duplicate_urls_removed": 0,
+    "remaining_duplicate_urls": 0
+  },
   "checks": {
     "source_inventory_healthy": true,
     "official_provenance_consistent": true,
@@ -23,6 +28,7 @@
     "counts_consistent": true,
     "open_feed_ids_consistent": true,
     "high_value_counts_consistent": true,
-    "unique_ids": true
+    "unique_ids": true,
+    "unique_public_urls": true
   }
 }
