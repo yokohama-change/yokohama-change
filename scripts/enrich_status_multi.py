@@ -20,6 +20,7 @@ APPROVED_OFFICIAL_HOSTS = {
     "www.city.chigasaki.kanagawa.jp",
     "www.city.yokosuka.kanagawa.jp",
     "www.city.kamakura.kanagawa.jp",
+    "www.city.hiratsuka.kanagawa.jp",
 }
 
 
