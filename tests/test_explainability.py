@@ -68,11 +68,12 @@ class OpportunityTraceTests(unittest.TestCase):
 
     def test_trace_is_injected_with_jst_and_exact_time_label(self):
         page = trace.inject_page(self.base_page(), good_open())
-        self.assertIn("受付中判定の証跡", page)
+        self.assertIn('なぜ「受付中」と表示しているの？', page)
         self.assertIn("2026/09/08 12:00", page)
         self.assertIn("公式ページ上の締切時刻まで確認済み", page)
         self.assertIn("opportunity-trace.css", page)
         self.assertIn("明示された新規参加期限", page)
+        self.assertIn("公開基準を通過", page)
 
     def test_date_only_precision_hides_internal_end_of_day_time(self):
         page = trace.inject_page(
