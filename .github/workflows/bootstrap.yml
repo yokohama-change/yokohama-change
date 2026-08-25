@@ -74,6 +74,10 @@ jobs:
         run: |
           python scripts/generate_opportunity_pages_multi.py
 
+      - name: Generate regional SEO landing pages
+        run: |
+          python scripts/generate_region_pages.py
+
       - name: Clean Python cache
         run: |
           find . -type f -name '*.pyc' -delete
