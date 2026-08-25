@@ -12,7 +12,7 @@ import shutil
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Callable
+from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
@@ -22,18 +22,34 @@ INDEX = OPPORTUNITIES / "index.html"
 SITEMAP = DOCS / "sitemap.xml"
 BASE = "https://yokohama-change.github.io/yokohama-change/"
 
+
+def int_value(value: Any, default: int) -> int:
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return default
+
+
+def score(item: dict[str, Any]) -> int:
+    return int_value(item.get("commercial_score"), 0)
+
+
+def days_left(item: dict[str, Any]) -> int:
+    return int_value(item.get("days_left"), 9999)
+
+
 FOCUS = {
     "high-value": {
         "title": "神奈川県内の高商用案件（商用70+）",
         "description": "神奈川県内で現在受付中と確認できた案件のうち、YOKOHAMA CHANGE商用スコア70以上の案件",
         "nav": "高商用70+",
-        "filter": lambda x: int(x.get("commercial_score", 0) or 0) >= 70,
+        "filter": lambda x: score(x) >= 70,
     },
     "deadline-soon": {
         "title": "神奈川県内の締切7日以内案件",
         "description": "神奈川県内で現在受付中と確認でき、参加・申請締切まで7日以内の案件",
         "nav": "締切7日以内",
-        "filter": lambda x: 0 <= int(x.get("days_left", 9999) or 9999) <= 7,
+        "filter": lambda x: 0 <= days_left(x) <= 7,
     },
 }
 
@@ -56,10 +72,7 @@ def verified_open(item: dict[str, Any]) -> bool:
         return False
     if not str(item.get("participation_deadline") or "").strip():
         return False
-    try:
-        return int(item.get("days_left", -1)) >= 0
-    except (TypeError, ValueError):
-        return False
+    return days_left(item) >= 0 and days_left(item) < 9999
 
 
 def prep_copy(item: dict[str, Any]) -> str:
@@ -80,13 +93,13 @@ def render_page(slug: str, items: list[dict[str, Any]], generated_at: str) -> st
     title = str(cfg["title"])
     description = f"{cfg['description']}を{len(items)}件掲載。公式期限、地域、商用スコア、準備開始目安を確認できます。"
     canonical = f"{BASE}opportunities/{slug}/"
-    high = sum(1 for x in items if int(x.get("commercial_score", 0) or 0) >= 70)
+    high = sum(1 for x in items if score(x) >= 70)
 
     cards = []
-    for item in sorted(items, key=lambda x: (int(x.get("days_left", 9999) or 9999), -int(x.get("commercial_score", 0) or 0))):
+    for item in sorted(items, key=lambda x: (days_left(x), -score(x))):
         exact = "時刻確認済" if item.get("deadline_time_exact") is True else "締切日確認済・時刻未確認"
         cards.append(f'''<article class="opportunity-list-card">
-  <div class="opportunity-list-top"><span>受付中</span><b>商用 {esc(item.get('commercial_score', 0))}</b></div>
+  <div class="opportunity-list-top"><span>受付中</span><b>商用 {esc(score(item))}</b></div>
   <a href="../{esc(item.get('id'))}.html">{esc(item.get('title'))}</a>
   {prep_copy(item)}
   <p>{esc(item.get('region'))} · {esc(item.get('source_name'))} · {esc(item.get('opportunity_type'))}</p>
@@ -166,9 +179,10 @@ def update_sitemap(counts: list[tuple[str, int]]) -> None:
     ns = "http://www.sitemaps.org/schemas/sitemap/0.9"
     ET.register_namespace("", ns)
     wanted = {f"{BASE}opportunities/{slug}/" for slug, _ in counts}
+    focus_urls = {f"{BASE}opportunities/{slug}/" for slug in FOCUS}
     for node in list(root.findall(f"{{{ns}}}url")):
         loc = node.find(f"{{{ns}}}loc")
-        if loc is not None and loc.text and "/opportunities/" in loc.text and any(f"/opportunities/{slug}/" in loc.text for slug in FOCUS):
+        if loc is not None and loc.text in focus_urls:
             root.remove(node)
     today = datetime.now(timezone.utc).date().isoformat()
     for loc in sorted(wanted):
