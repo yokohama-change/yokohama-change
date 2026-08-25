@@ -4,6 +4,9 @@ on:
   push:
     paths:
       - ".github/workflows/bootstrap.yml"
+      - "config/**"
+      - "scripts/**"
+      - "tests/**"
   workflow_dispatch:
   schedule:
     - cron: "17 */3 * * *"
