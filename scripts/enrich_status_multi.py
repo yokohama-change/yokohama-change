@@ -14,10 +14,11 @@ import enrich_status as core
 APPROVED_OFFICIAL_HOSTS = {
     "www.city.yokohama.lg.jp",
     "www.pref.kanagawa.jp",
-    # Reserved for staged municipal expansion. Merely allowing the official host does
-    # not publish anything unless a configured source produces a candidate item.
     "www.city.kawasaki.jp",
     "www.city.sagamihara.kanagawa.jp",
+    "www.city.fujisawa.kanagawa.jp",
+    "www.city.chigasaki.kanagawa.jp",
+    "www.city.yokosuka.kanagawa.jp",
 }
 
 
@@ -31,7 +32,7 @@ def approved_detail_url(url: str) -> bool:
 
 def main() -> int:
     core.official_detail_url = approved_detail_url
-    core.USER_AGENT = "KanagawaChange/0.8 (+deadline-status; respectful-fetching)"
+    core.USER_AGENT = "KanagawaChange/0.9 (+deadline-status; respectful-fetching)"
     return core.main()
 
 
