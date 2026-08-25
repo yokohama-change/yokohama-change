@@ -17,6 +17,7 @@ core.SLUGS.update({
     "逗子市": "zushi",
     "海老名市": "ebina",
     "伊勢原市": "isehara",
+    "座間市": "zama",
 })
 
 _original_render_region = core.render_region
