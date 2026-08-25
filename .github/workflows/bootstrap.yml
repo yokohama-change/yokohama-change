@@ -44,6 +44,10 @@ jobs:
         run: |
           python scripts/collect.py
 
+      - name: Require all official sources healthy
+        run: |
+          python scripts/source_gate.py
+
       - name: Restore known opportunity candidates
         run: |
           python scripts/preserve_candidate_history.py
