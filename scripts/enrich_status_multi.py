@@ -25,6 +25,7 @@ APPROVED_OFFICIAL_HOSTS = {
     "www.city.miura.kanagawa.jp",
     "www.city.zushi.kanagawa.jp",
     "www.city.ebina.kanagawa.jp",
+    "www.city.isehara.kanagawa.jp",
 }
 
 
