@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Add region-aware metadata after status enrichment.
 
-This keeps the existing conservative status engine intact while making public exports
-clear about the expanded Kanagawa beta scope.
+The beta expands source by source. Public metadata therefore names the municipalities
+currently collected instead of implying that every municipality in Kanagawa is already
+covered.
 """
 from __future__ import annotations
 
@@ -19,7 +20,8 @@ SUMMARY = ROOT / "docs" / "data" / "summary.json"
 OPEN_JSON = ROOT / "docs" / "data" / "open_now.json"
 OPEN_CSV = ROOT / "docs" / "data" / "open_now.csv"
 OPEN_RSS = ROOT / "docs" / "data" / "open_now.rss"
-SCOPE = "神奈川県 β（横浜市＋県公式情報）"
+SCOPE = "神奈川 β（神奈川県・横浜市・川崎市・相模原市）"
+PLANNED_REGIONS = ["神奈川県", "横浜市", "川崎市", "相模原市"]
 
 
 def load_json(path: Path, default: Any) -> Any:
@@ -35,9 +37,11 @@ def main() -> int:
     if not isinstance(items, list):
         items = []
     latest["scope"] = SCOPE
+    latest["coverage_regions"] = PLANNED_REGIONS
     latest["disclaimer"] = (
-        "神奈川県内の公式公開情報を自動整理しています。『受付中』は公式ページで新規参加期限を明示的に特定した案件だけです。"
-        "応募・契約・商用判断は必ずリンク先の公式情報を確認してください。"
+        "無料βでは神奈川県・横浜市・川崎市・相模原市の公式公開情報から段階的に収集しています。"
+        "『受付中』は公式ページで新規参加期限を明示的に特定した案件だけです。"
+        "県内全自治体を網羅済みという意味ではありません。応募・契約・商用判断は必ずリンク先の公式情報を確認してください。"
     )
     LATEST.write_text(json.dumps(latest, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -52,9 +56,11 @@ def main() -> int:
         original = by_id.get(str(item.get("id", "")), {})
         item["region"] = original.get("region", "")
     open_feed["scope"] = SCOPE
+    open_feed["coverage_regions"] = PLANNED_REGIONS
     open_feed["items"] = open_items
     open_feed["note"] = (
-        "神奈川県内の公式ページで新規参加期限を明示的に確認でき、現時点で受付中と判定した案件のみ。応募前に原典確認が必要です。"
+        "神奈川県・横浜市・川崎市・相模原市の公式ページで新規参加期限を明示的に確認でき、現時点で受付中と判定した案件のみ。"
+        "県内全自治体の網羅ではありません。応募前に原典確認が必要です。"
     )
     OPEN_JSON.write_text(json.dumps(open_feed, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -76,9 +82,9 @@ def main() -> int:
             title = channel.find("title")
             desc = channel.find("description")
             if title is not None:
-                title.text = "YOKOHAMA CHANGE | 神奈川県内の今、応募できる案件"
+                title.text = "YOKOHAMA CHANGE | 神奈川の今、応募できる案件"
             if desc is not None:
-                desc.text = "神奈川県内の公式情報から新規参加期限を確認できた受付中案件"
+                desc.text = "神奈川県・横浜市・川崎市・相模原市の公式情報から新規参加期限を確認できた受付中案件"
         tree.write(OPEN_RSS, encoding="utf-8", xml_declaration=True)
     except (FileNotFoundError, ET.ParseError):
         pass
@@ -87,10 +93,11 @@ def main() -> int:
     if not isinstance(status, dict):
         status = {}
     status["scope"] = SCOPE
+    status["coverage_regions"] = PLANNED_REGIONS
     status["regions_seen"] = regions
     status["open_now_by_region"] = {
         region: sum(1 for x in items if x.get("is_open_now") is True and x.get("region") == region)
-        for region in regions
+        for region in PLANNED_REGIONS
     }
     STATUS.write_text(json.dumps(status, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -98,14 +105,15 @@ def main() -> int:
     if not isinstance(summary, dict):
         summary = {}
     summary["scope"] = SCOPE
+    summary["coverage_regions"] = PLANNED_REGIONS
     summary["by_region"] = {
         region: sum(1 for x in items if x.get("region") == region)
-        for region in regions
+        for region in PLANNED_REGIONS
     }
     summary["open_now_by_region"] = status["open_now_by_region"]
     SUMMARY.write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    print(json.dumps({"scope": SCOPE, "regions": regions, "open_now_by_region": status["open_now_by_region"]}, ensure_ascii=False))
+    print(json.dumps({"scope": SCOPE, "regions_seen": regions, "open_now_by_region": status["open_now_by_region"]}, ensure_ascii=False))
     return 0
 
 
