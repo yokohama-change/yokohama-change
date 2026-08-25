@@ -141,3 +141,21 @@
     }
   }, 250);
 })();
+
+// Load the quality-transparency panel independently from the main application.
+(() => {
+  if (!document.querySelector('link[data-quality-audit]')) {
+    const css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = 'quality-audit.css';
+    css.dataset.qualityAudit = '1';
+    document.head.append(css);
+  }
+  if (!document.querySelector('script[data-quality-audit]')) {
+    const script = document.createElement('script');
+    script.src = 'quality-audit.js';
+    script.defer = true;
+    script.dataset.qualityAudit = '1';
+    document.body.append(script);
+  }
+})();
