@@ -12,6 +12,7 @@ core.SLUGS.update({
     "横須賀市": "yokosuka",
     "鎌倉市": "kamakura",
     "平塚市": "hiratsuka",
+    "小田原市": "odawara",
 })
 
 _original_render_region = core.render_region
