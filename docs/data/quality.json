@@ -1,9 +1,11 @@
 {
-  "checked_at": "2026-08-25T06:35:32+00:00",
-  "health": "good",
-  "health_label": "正常",
+  "checked_at": "2026-08-25T06:37:57+00:00",
+  "health": "warning",
+  "health_label": "注意",
   "errors": [],
-  "warnings": [],
+  "warnings": [
+    "公式ソース成功 17/18"
+  ],
   "freshness_minutes": 0,
   "open_now": 9,
   "open_now_high_value": 2,

@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-08-25T06:35:29+00:00",
+  "updated_at": "2026-08-25T06:37:53+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -1174,6 +1174,54 @@
       "url": "https://www.city.miura.kanagawa.jp/shigoto_sangyo_machizukuri/nyusatsu_keiyaku/12018.html",
       "source_updated": "2026-08-14T14:15:00+09:00",
       "fetched_at": "2026-08-25T06:31:49+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "781a3dccf1af74128465": {
+      "url": "https://www.city.ebina.kanagawa.jp/shisei/nyusatsu/proposal/1018949.html",
+      "source_updated": "Fri, 31 Jul 2026 16:00:04 +0900",
+      "fetched_at": "2026-08-25T06:37:52+00:00",
+      "facts": {
+        "participation_deadline": "2026-05-27",
+        "participation_deadline_at": "2026-05-27T23:59+09:00",
+        "participation_source": "参加意向申出書",
+        "downstream_dates": [
+          "2026-05-13",
+          "2026-05-20",
+          "2026-05-27",
+          "2026-06-02",
+          "2026-06-10",
+          "2026-06-17",
+          "2026-06-26",
+          "2026-07-10",
+          "2026-07-13",
+          "2026-07-21",
+          "2026-07-24",
+          "2026-07-31",
+          "2026-10-02",
+          "2026-10-19",
+          "2026-10-23"
+        ],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [
+          "2026-05-27"
+        ],
+        "generic_dates": []
+      }
+    },
+    "d09c8ea6ad008520e470": {
+      "url": "https://www.city.ebina.kanagawa.jp/shisei/nyusatsu/proposal/1018992.html",
+      "source_updated": "Fri, 07 Aug 2026 12:00:04 +0900",
+      "fetched_at": "2026-08-25T06:37:53+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
