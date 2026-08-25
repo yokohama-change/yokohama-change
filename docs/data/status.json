@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T06:40:01+00:00",
+  "generated_at": "2026-08-25T06:42:20+00:00",
   "sources_total": 17,
   "sources_ok": 17,
   "items_seen": 1729,
@@ -9,7 +9,7 @@
   "public_items": 335,
   "public_duplicate_revisions_removed": 11,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-08-25T06:40:01+00:00",
+  "application_status_checked_at": "2026-08-25T06:42:20+00:00",
   "application_status_candidates": 66,
   "application_status_open_now": 9,
   "application_status_fetches": 0,
