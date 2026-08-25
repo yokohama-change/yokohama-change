@@ -82,6 +82,10 @@ jobs:
         run: |
           python scripts/generate_region_pages_extended.py
 
+      - name: Generate category SEO landing pages
+        run: |
+          python scripts/generate_category_pages.py
+
       - name: Clean Python cache
         run: |
           find . -type f -name '*.pyc' -delete
