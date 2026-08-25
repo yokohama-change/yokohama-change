@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-08-25T06:30:05+00:00",
+  "updated_at": "2026-08-25T06:31:49+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -1134,6 +1134,54 @@
         "participation_dates": [
           "2026-07-28"
         ],
+        "generic_dates": []
+      }
+    },
+    "155296253d1b7656c48e": {
+      "url": "https://www.city.miura.kanagawa.jp/shigoto_sangyo_machizukuri/sangyoshinko/5/11422.html",
+      "source_updated": "2025-08-29T11:36:28+09:00",
+      "fetched_at": "2026-08-25T06:31:48+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [
+          "2025-07-29",
+          "2025-07-30"
+        ],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "9fbd98d8721bd5e8b678": {
+      "url": "https://www.city.miura.kanagawa.jp/shigoto_sangyo_machizukuri/sangyoshinko/5/12642.html",
+      "source_updated": "2026-08-21T16:46:14+09:00",
+      "fetched_at": "2026-08-25T06:31:49+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "dc7e7217c7cc13e4d8c0": {
+      "url": "https://www.city.miura.kanagawa.jp/shigoto_sangyo_machizukuri/nyusatsu_keiyaku/12018.html",
+      "source_updated": "2026-08-14T14:15:00+09:00",
+      "fetched_at": "2026-08-25T06:31:49+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
         "generic_dates": []
       }
     }
