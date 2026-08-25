@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Any
 
 import enrich_status_multi
+import normalize_public
 import source_gate
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -73,6 +74,15 @@ def main() -> int:
     ids = [str(x.get("id", "")) for x in items if isinstance(x, dict) and x.get("id")]
     if len(ids) != len(set(ids)):
         errors.append("latest.json に重複IDがあります")
+
+    public_urls = [
+        normalize_public.canonical_url(x.get("url"))
+        for x in items
+        if isinstance(x, dict) and normalize_public.canonical_url(x.get("url"))
+    ]
+    duplicate_url_count = len(public_urls) - len(set(public_urls))
+    if duplicate_url_count:
+        errors.append(f"latest.json に同一公式URLの重複が{duplicate_url_count}件あります")
 
     deadline_field_errors = 0
     provenance_errors = 0
@@ -204,6 +214,11 @@ def main() -> int:
             "zero_item_source_ids": inventory.get("zero_item_source_ids", []),
             "orphan_source_ids": inventory.get("orphan_source_ids", []),
         },
+        "dedupe": {
+            "duplicate_revisions_removed": safe_int(status.get("public_duplicate_revisions_removed"), 0),
+            "duplicate_urls_removed": safe_int(status.get("public_duplicate_urls_removed"), 0),
+            "remaining_duplicate_urls": duplicate_url_count,
+        },
         "checks": {
             "source_inventory_healthy": not source_problems,
             "official_provenance_consistent": provenance_errors == 0,
@@ -217,6 +232,7 @@ def main() -> int:
                 and safe_int(open_feed.get("high_value_count")) == expected_high
             ),
             "unique_ids": len(ids) == len(set(ids)),
+            "unique_public_urls": duplicate_url_count == 0,
         },
     }
     QUALITY.parent.mkdir(parents=True, exist_ok=True)
