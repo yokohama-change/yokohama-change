@@ -13,28 +13,39 @@
     el.dispatchEvent(new Event(type, {bubbles:true}));
   }
 
-  function setOpenOnly(){
-    const status = $('#applicationStatus');
-    if (status) {
-      status.value = 'open';
-      dispatch(status, 'input');
-    }
+  function applyValues(values){
+    Object.entries(values).forEach(([id,value]) => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.value = value;
+      dispatch(el, id === 'region' ? 'change' : 'input');
+    });
+  }
+
+  function resetForQuickAction(){
+    applyValues({
+      search: '',
+      region: '',
+      category: '',
+      buyer: '',
+      commercial: '0',
+      applicationStatus: 'open'
+    });
+    const details = $('#advancedFilters');
+    if (details) details.open = false;
   }
 
   function chooseSupport(){
-    setOpenOnly();
+    resetForQuickAction();
     const category = $('#category');
     const search = $('#search');
-    if (category) {
-      const option = [...category.options].find(o => /補助|助成|支援/.test(o.textContent || ''));
-      if (option) {
-        category.value = option.value;
-        dispatch(category, 'input');
-        if (search) search.value = '';
-      } else if (search) {
-        search.value = '補助金';
-        dispatch(search, 'input');
-      }
+    const option = category ? [...category.options].find(o => /補助|助成|支援/.test(o.textContent || '')) : null;
+    if (option && category) {
+      category.value = option.value;
+      dispatch(category, 'input');
+    } else if (search) {
+      search.value = '補助金';
+      dispatch(search, 'input');
     }
     scrollToId('#exploreTitle');
   }
@@ -43,7 +54,7 @@
     button.addEventListener('click', () => {
       const action = button.dataset.quickAction;
       if (action === 'open') {
-        setOpenOnly();
+        resetForQuickAction();
         scrollToId('#priorityTitle');
       }
       if (action === 'support') chooseSupport();
@@ -51,17 +62,7 @@
   });
 
   $('#resetFilters')?.addEventListener('click', () => {
-    const values = {
-      search: '', region: '', category: '', buyer: '', commercial: '0', applicationStatus: 'open'
-    };
-    Object.entries(values).forEach(([id,value]) => {
-      const el = document.getElementById(id);
-      if (!el) return;
-      el.value = value;
-      dispatch(el, id === 'region' ? 'change' : 'input');
-    });
-    const details = $('#advancedFilters');
-    if (details) details.open = false;
+    resetForQuickAction();
     updateResultSummary();
   });
 

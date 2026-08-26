@@ -16,6 +16,7 @@ class BeginnerUXTests(unittest.TestCase):
         cls.app = (ROOT / "docs" / "app.js").read_text(encoding="utf-8")
         cls.alert = (ROOT / "docs" / "alert.html").read_text(encoding="utf-8")
         cls.beginner_css = (ROOT / "docs" / "beginner.css").read_text(encoding="utf-8")
+        cls.beginner_js = (ROOT / "docs" / "beginner.js").read_text(encoding="utf-8")
         cls.region_filter = (ROOT / "docs" / "region-filter.js").read_text(encoding="utf-8")
 
     def test_home_starts_with_three_clear_actions(self):
@@ -29,6 +30,14 @@ class BeginnerUXTests(unittest.TestCase):
         self.assertIn('id="advancedFilters"', self.index)
         self.assertIn('<details class="advanced-data">', self.index)
         self.assertIn('<details class="advanced-section">', self.index)
+
+    def test_quick_actions_clear_stale_filters_before_applying_intent(self):
+        self.assertIn('function resetForQuickAction()', self.beginner_js)
+        for token in ["search: ''", "region: ''", "category: ''", "buyer: ''", "commercial: '0'", "applicationStatus: 'open'"]:
+            self.assertIn(token, self.beginner_js)
+        self.assertIn("if (action === 'open')", self.beginner_js)
+        self.assertIn('resetForQuickAction();', self.beginner_js)
+        self.assertIn('function chooseSupport()', self.beginner_js)
 
     def test_quality_audit_is_actually_loaded(self):
         self.assertIn('quality-audit.css', self.index)
