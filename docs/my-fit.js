@@ -3,8 +3,10 @@
   if (!root) return;
 
   const result = document.querySelector('#myFitResult');
+  const showButton = document.querySelector('#myFitShowResults');
   const saveButton = document.querySelector('#myFitSave');
   const clearButton = document.querySelector('#myFitClear');
+  const saveStatus = document.querySelector('#myFitSaveStatus');
   const STORAGE_KEY = 'yokohama-change-alert-profile-v2';
   const LEGACY_STORAGE_KEY = 'yokohama-change-alert-profile-v1';
   let snapshot = {data:{items:[]}, status:{}, quality:{}};
@@ -74,10 +76,10 @@
   }
 
   function restoreProfile(){
-    if (profileRestored) return;
+    if (profileRestored) return false;
     const profile = loadStoredProfile();
     profileRestored = true;
-    if (!profile) return;
+    if (!profile) return false;
     for (const input of root.querySelectorAll('input[type="checkbox"]')) {
       let list = [];
       if (input.name === 'fitSegment') list = profile.segments;
@@ -85,6 +87,7 @@
       if (input.name === 'fitRegion') list = profile.regions;
       input.checked = Array.isArray(list) && list.includes(input.value);
     }
+    return true;
   }
 
   function bindInput(input){
@@ -169,6 +172,15 @@
       }).join('')}</div>`;
   }
 
+  function showResults(){
+    render();
+    result?.focus({preventScroll:true});
+    result?.scrollIntoView({
+      behavior: window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+      block: 'start'
+    });
+  }
+
   async function load(){
     try {
       const urls = ['./data/latest.json','./data/status.json','./data/quality.json'];
@@ -177,24 +189,28 @@
       const [data,status,quality] = await Promise.all(responses.map(r => r.json()));
       snapshot = {data,status,quality};
       buildRegionOptions();
-      restoreProfile();
+      const restored = restoreProfile();
       root.querySelectorAll('input[type="checkbox"]').forEach(bindInput);
       render();
+      if (restored && saveStatus) saveStatus.textContent = '前回保存した条件を復元しました。';
     } catch {
       result.innerHTML = '<div class="my-fit-empty my-fit-unhealthy">案件データを確認できません。時間をおいてもう一度お試しください。</div>';
     }
   }
 
+  showButton?.addEventListener('click', showResults);
   saveButton?.addEventListener('click', () => {
     saveProfile(readProfile());
     render();
-    const original = '選んだ条件をこの端末に保存';
+    const original = '条件を保存（任意）';
     saveButton.textContent = '保存しました ✓';
+    if (saveStatus) saveStatus.textContent = 'この端末に条件を保存しました。';
     setTimeout(() => { saveButton.textContent = original; }, 1400);
   });
   clearButton?.addEventListener('click', () => {
     for (const input of root.querySelectorAll('input[type="checkbox"]')) input.checked = false;
     try { localStorage.removeItem(STORAGE_KEY); localStorage.removeItem(LEGACY_STORAGE_KEY); } catch {}
+    if (saveStatus) saveStatus.textContent = '選択と保存済み条件を消しました。';
     render();
   });
   root.querySelectorAll('input[type="checkbox"]').forEach(bindInput);
