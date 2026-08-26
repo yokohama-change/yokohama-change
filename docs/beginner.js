@@ -61,7 +61,7 @@
   }
 
   document.querySelectorAll('[data-quick-action]').forEach(control => {
-    control.addEventListener('click', event => {
+    control.addEventListener('click', () => {
       if (criticalFailure) return;
       const action = control.dataset.quickAction;
       if (action === 'open') {
@@ -206,4 +206,60 @@
     if (updatePurposeCounts() || countTries > 40) clearInterval(countTimer);
   }, 250);
   setTimeout(updateResultSummary, 700);
+})();
+
+// Lightweight progressive motion: visual polish without external libraries.
+(() => {
+  const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches === true;
+  if (reduceMotion) return;
+  document.documentElement.classList.add('motion-enhanced');
+
+  const revealObserver = 'IntersectionObserver' in window ? new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('is-visible');
+      revealObserver.unobserve(entry.target);
+    });
+  }, {rootMargin:'0px 0px -8% 0px',threshold:.08}) : null;
+
+  const decorate = (root=document) => {
+    const selectors = [
+      '.purpose-card','.priority-card','.find-shell','.how-steps article',
+      '.alert-promo','.trust-section','.urgent-card','.next-high-value'
+    ];
+    const nodes = root.querySelectorAll?.(selectors.join(',')) || [];
+    nodes.forEach((node,index) => {
+      if (node.dataset.revealBound === '1') return;
+      node.dataset.revealBound = '1';
+      node.setAttribute('data-reveal','');
+      if (index % 4) node.setAttribute('data-reveal-delay',String(index % 4));
+      if (revealObserver) revealObserver.observe(node);
+      else node.classList.add('is-visible');
+    });
+  };
+  decorate();
+
+  const dynamicRoots = ['#priorityCards','#cards','#urgentCards','#nextHighValueCard'];
+  dynamicRoots.forEach(selector => {
+    const root = document.querySelector(selector);
+    if (!root) return;
+    new MutationObserver(() => decorate(root)).observe(root,{childList:true,subtree:true});
+  });
+
+  const header = document.querySelector('.site-header');
+  if (header) {
+    const onScroll = () => header.classList.toggle('is-scrolled',window.scrollY > 10);
+    onScroll();
+    window.addEventListener('scroll',onScroll,{passive:true});
+  }
+
+  const live = document.querySelector('.hero-live');
+  const openCount = document.querySelector('#openCount');
+  if (live && openCount) {
+    new MutationObserver(() => {
+      live.classList.remove('is-counting');
+      requestAnimationFrame(() => live.classList.add('is-counting'));
+      setTimeout(() => live.classList.remove('is-counting'),360);
+    }).observe(openCount,{childList:true,characterData:true,subtree:true});
+  }
 })();
