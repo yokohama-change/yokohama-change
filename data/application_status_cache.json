@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-08-26T06:08:59+00:00",
+  "updated_at": "2026-08-26T08:24:57+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -1488,6 +1488,21 @@
         "participation_dates": [
           "2026-09-09"
         ],
+        "generic_dates": []
+      }
+    },
+    "2d391c3a7961f2f1e170": {
+      "url": "https://www.pref.kanagawa.jp/docs/v3e/jyosei/gakuhisien/syougakukyuuhukinn.html",
+      "source_updated": "2026-08-26T17:00:00+09:00",
+      "fetched_at": "2026-08-26T08:24:57+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
         "generic_dates": []
       }
     }
