@@ -98,8 +98,8 @@
   function updatePurposeCounts(){
     const open = openItems();
     if (!open.length && !rows().length) return false;
-    const procurement = open.filter(x => /入札|調達/.test(`${x.category || ''} ${x.opportunity_type || ''} ${x.title || ''}`)).length;
-    const support = open.filter(x => /補助|助成|支援/.test(`${x.category || ''} ${x.opportunity_type || ''} ${x.title || ''}`)).length;
+    const procurement = open.filter(x => x?.category === '入札・調達').length;
+    const support = open.filter(x => x?.category === '補助金・支援').length;
     const p = $('#quickProcurementCount');
     const s = $('#quickSupportCount');
     if (p) p.textContent = `${procurement}件`;
