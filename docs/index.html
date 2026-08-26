@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="神奈川県内の公式情報から、今応募できる入札・調達・補助金をわかりやすく整理。無料・登録不要。地域やキーワードから簡単に探せます。">
+  <meta name="description" content="神奈川県内の公式情報から、今応募できる入札・調達・補助金をわかりやすく整理。まずは目的を3つから選ぶだけ。無料・登録不要。">
   <meta name="theme-color" content="#ffffff">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://yokohama-change.github.io/yokohama-change/">
@@ -11,7 +11,7 @@
   <meta property="og:locale" content="ja_JP">
   <meta property="og:site_name" content="YOKOHAMA CHANGE">
   <meta property="og:title" content="YOKOHAMA CHANGE — 神奈川の入札・補助金をかんたんに探す">
-  <meta property="og:description" content="神奈川県内の公式情報から、今応募できる入札・調達・補助金を見やすく整理。無料β公開中。">
+  <meta property="og:description" content="仕事を受注したい、補助金を探したい、自分向けに絞りたい。3つから選ぶだけ。無料β公開中。">
   <meta property="og:url" content="https://yokohama-change.github.io/yokohama-change/">
   <meta name="twitter:card" content="summary">
   <title>神奈川の入札・補助金をかんたんに探す | YOKOHAMA CHANGE</title>
@@ -23,74 +23,50 @@
   <link rel="stylesheet" href="beginner.css">
   <link rel="stylesheet" href="home-v2.css">
   <link rel="alternate" type="application/rss+xml" title="YOKOHAMA CHANGE 受付中案件" href="data/open_now.rss">
-  <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebSite","name":"YOKOHAMA CHANGE","url":"https://yokohama-change.github.io/yokohama-change/","description":"神奈川県内の公式情報から、今応募できる入札・調達・補助金を整理する無料サービス","inLanguage":"ja-JP"}
-  </script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"YOKOHAMA CHANGE","url":"https://yokohama-change.github.io/yokohama-change/","description":"神奈川県内の公式情報から、今応募できる入札・調達・補助金を整理する無料サービス","inLanguage":"ja-JP"}</script>
 </head>
-<body class="home-v2">
+<body class="home-v2 gateway-home">
   <header class="site-header">
     <a class="site-brand" href="./" aria-label="YOKOHAMA CHANGE トップ">YOKOHAMA <strong>CHANGE</strong></a>
     <nav class="site-nav" aria-label="メインメニュー">
-      <a href="#find">案件を探す</a>
-      <a href="alert.html">自分向けに絞る</a>
-      <a href="#howToUse">使い方</a>
+      <a href="#quickStart">探し方を選ぶ</a>
+      <a href="alert.html">MY FIT</a>
+      <a href="#find">キーワード検索</a>
     </nav>
   </header>
 
-  <section class="hero" aria-labelledby="heroTitle">
+  <section class="hero gateway-hero" aria-labelledby="heroTitle">
     <div class="hero-copy">
       <div class="eyebrow">神奈川県内の事業者向け · 無料・登録不要</div>
-      <h1 id="heroTitle">今応募できる<br><span>入札・補助金</span>を、迷わず探す。</h1>
-      <p>自治体の公式情報を自動で集め、締切や募集状況を見やすく整理しています。まずはキーワードを入れるか、下の目的から選ぶだけです。</p>
-
-      <form id="heroSearchForm" class="hero-search" role="search">
-        <label class="sr-only" for="heroSearch">案件を検索</label>
-        <input id="heroSearch" type="search" inputmode="search" autocomplete="off" placeholder="例：DX、清掃、補助金、システム">
-        <button type="submit">検索する</button>
-      </form>
-      <div class="hero-examples" aria-label="検索例">
-        <span>検索例：</span>
-        <button type="button" data-hero-query="DX">DX</button>
-        <button type="button" data-hero-query="清掃">清掃</button>
-        <button type="button" data-hero-query="補助金">補助金</button>
+      <h1 id="heroTitle">まず、<span>何を探しますか？</span></h1>
+      <p>難しい検索は必要ありません。下の3つから、いちばん近いものを選んでください。</p>
+      <div class="gateway-live" aria-label="現在の掲載状況">
+        <strong><b id="openCount">—</b>件</strong><span>現在受付中</span>
+        <span class="gateway-dot">•</span><span>公式情報から自動更新</span>
       </div>
-
-      <div class="hero-actions">
-        <button type="button" class="hero-primary" data-quick-action="open">受付中を全部見る</button>
-        <a href="alert.html" class="hero-secondary">自分向けに絞る</a>
-      </div>
-      <p class="hero-reassurance">✓ 無料　✓ 会員登録なし　✓ 公式情報へのリンク付き　✓ 自動更新</p>
+      <div hidden><b id="hotCount">—</b><b id="qualityLabel">—</b><b id="updated">—</b><b id="runCount">—</b></div>
     </div>
-
-    <aside class="hero-live" aria-label="現在の掲載状況">
-      <span>現在</span>
-      <b id="openCount">—</b>
-      <strong>件が受付中</strong>
-      <div class="hero-live-row"><span>優先して見る案件</span><b id="hotCount">—</b></div>
-      <div class="hero-live-row"><span>データチェック</span><b id="qualityLabel">—</b></div>
-      <div class="hero-live-row"><span>最終更新</span><b id="updated">—</b></div>
-      <div hidden><b id="runCount">—</b></div>
-    </aside>
   </section>
 
   <main>
-    <section id="quickStart" class="quick-start purpose-start" aria-labelledby="quickStartTitle">
-      <div class="quick-start-head">
-        <span>STEP 1</span>
-        <h2 id="quickStartTitle">何を探していますか？</h2>
-        <p>難しい条件設定は不要です。近いものを1つ選んでください。</p>
+    <section id="quickStart" class="quick-start purpose-start gateway-choices" aria-labelledby="quickStartTitle">
+      <div class="quick-start-head gateway-choice-head">
+        <span>START</span>
+        <h2 id="quickStartTitle">目的を1つ選んでください</h2>
+        <p>選んだ内容だけを見られる専用ページへ進みます。あとからいつでも戻れます。</p>
       </div>
-      <div class="purpose-grid">
-        <button type="button" class="purpose-card purpose-primary" data-quick-action="procurement">
-          <span class="purpose-number">01</span><b>仕事を受注したい</b><small>入札・業務委託・プロポーザル</small><em id="quickProcurementCount">—件</em>
-        </button>
-        <button type="button" class="purpose-card" data-quick-action="support">
-          <span class="purpose-number">02</span><b>補助金・支援を探したい</b><small>補助金・助成金・事業者支援</small><em id="quickSupportCount">—件</em>
-        </button>
-        <a class="purpose-card" href="alert.html">
-          <span class="purpose-number">03</span><b>自分に合うものだけ見たい</b><small>仕事・希望地域からかんたん絞り込み</small><em>MY FIT →</em>
+      <div class="purpose-grid gateway-purpose-grid">
+        <a class="purpose-card purpose-primary gateway-purpose-card" href="opportunities/categories/procurement/">
+          <span class="purpose-number">01</span><b>仕事を受注したい</b><small>入札・業務委託・プロポーザル</small><em><span id="quickProcurementCount">—件</span>を見る →</em>
+        </a>
+        <a class="purpose-card gateway-purpose-card" href="opportunities/categories/support/">
+          <span class="purpose-number">02</span><b>補助金・支援を探したい</b><small>補助金・助成金・事業者支援</small><em><span id="quickSupportCount">—件</span>を見る →</em>
+        </a>
+        <a class="purpose-card gateway-purpose-card" href="alert.html">
+          <span class="purpose-number">03</span><b>自分に合うものだけ見たい</b><small>仕事・希望地域からかんたん絞り込み</small><em>MY FITを使う →</em>
         </a>
       </div>
+      <div class="gateway-other-way"><span>どれを選べばいいか迷う方は</span><a href="#find">キーワード・地域から探す ↓</a></div>
     </section>
 
     <section id="urgentShell" class="urgent-shell" aria-labelledby="urgentTitle" hidden>
@@ -100,12 +76,10 @@
     </section>
 
     <section class="priority-shell" aria-labelledby="priorityTitle">
-      <div class="section-head">
-        <div><span class="section-kicker">STEP 2 · 迷ったらここだけ</span><h2 id="priorityTitle">まず確認したい案件</h2></div>
-      </div>
-      <p class="section-note">現在受付中の中から、見る優先度が高いものを最大4件だけ表示します。案件名を押すと、締切と「なぜ受付中と判断したか」を確認できます。</p>
+      <div class="section-head"><div><span class="section-kicker">参考</span><h2 id="priorityTitle">今、まず確認したい案件</h2></div></div>
+      <p class="section-note">まだ探し方を決めていない方向けに、現在受付中の中から見る優先度が高いものを最大4件だけ表示します。</p>
       <div id="priorityCards" class="priority-cards" aria-live="polite"></div>
-      <button type="button" class="see-all-button" data-quick-action="open">受付中をすべて見る ↓</button>
+      <a class="see-all-button" href="opportunities/">受付中をすべて見る →</a>
     </section>
 
     <section id="nextHighValueShell" class="next-high-value" aria-labelledby="nextHighValueTitle" hidden>
@@ -114,17 +88,13 @@
     </section>
 
     <section id="find" class="explore-shell find-shell" aria-labelledby="exploreTitle">
-      <div class="section-head compact">
-        <div><span class="section-kicker">STEP 3</span><h2 id="exploreTitle">地域・キーワードから探す</h2><p class="section-note">ここだけ使えば十分です。さらに細かく探したい時だけ「詳しい条件」を開いてください。</p></div>
-      </div>
-
+      <div class="section-head compact"><div><span class="section-kicker">別の探し方</span><h2 id="exploreTitle">キーワード・地域から探す</h2><p class="section-note">3つの入口で迷った時はこちら。条件を入れなければ受付中をすべて表示します。</p></div></div>
       <div class="simple-controls" aria-label="基本の絞り込み">
         <label class="search-control"><span>キーワード</span><input id="search" type="search" placeholder="例：補助金、DX、清掃"></label>
         <label><span>地域</span><select id="region"><option value="">すべての地域</option></select></label>
         <label><span>種類</span><select id="category"><option value="">すべての種類</option></select></label>
         <button id="resetFilters" class="reset-filters" type="button">条件をクリア</button>
       </div>
-
       <details id="advancedFilters" class="advanced-filters">
         <summary>もっと細かく絞り込む</summary>
         <div class="advanced-filter-grid">
@@ -134,7 +104,6 @@
         </div>
         <p class="filter-help">「見る優先度」はYOKOHAMA CHANGE独自の目安で、自治体の公式評価ではありません。</p>
       </details>
-
       <div id="resultSummary" class="result-summary" aria-live="polite">案件を読み込んでいます…</div>
       <div id="notice" class="notice" hidden></div>
       <section id="cards" class="cards" aria-live="polite"></section>
@@ -143,9 +112,9 @@
     <section id="howToUse" class="how-to-use" aria-labelledby="howToUseTitle">
       <div class="section-head compact"><div><span class="section-kicker">はじめてでも大丈夫</span><h2 id="howToUseTitle">使い方は3つだけ</h2></div></div>
       <div class="how-steps">
-        <article><b>1</b><div><strong>探す</strong><p>目的・キーワード・地域から気になる案件を見つけます。</p></div></article>
-        <article><b>2</b><div><strong>かんたん詳細を見る</strong><p>締切、対象、受付中と判断した根拠をYOKOHAMA CHANGE上で確認します。</p></div></article>
-        <article><b>3</b><div><strong>公式サイトで最終確認</strong><p>応募条件・提出物・最新の変更は、必ず自治体の公式ページで確認します。</p></div></article>
+        <article><b>1</b><div><strong>目的を選ぶ</strong><p>受注、補助金、自分向けの3つから選びます。</p></div></article>
+        <article><b>2</b><div><strong>気になる案件を見る</strong><p>締切、地域、受付中と判断した根拠を確認します。</p></div></article>
+        <article><b>3</b><div><strong>公式サイトで最終確認</strong><p>応募条件・提出物・最新変更は、必ず自治体の公式ページで確認します。</p></div></article>
       </div>
     </section>
 
@@ -163,13 +132,10 @@
       </section>
     </section>
 
-    <details class="advanced-section">
-      <summary>上級者・データ利用者向け</summary>
-      <div class="advanced-home-content">
-        <div class="feed-links"><a href="opportunities/">受付中一覧</a><a href="data/open_now.json">JSON</a><a href="data/open_now.csv">CSV</a><a href="data/open_now.rss">RSS</a></div>
-        <section class="signal-shell" aria-labelledby="signalTitle"><div class="section-head compact"><div><span class="section-kicker">募集案件とは別情報</span><h2 id="signalTitle">法人更新シグナル</h2></div></div><p class="section-note"><strong>ここは募集案件ではありません。</strong> 法人情報の更新を営業先探索の参考として分けて表示しています。</p><div id="gbizSignals" class="signal-list"></div></section>
-      </div>
-    </details>
+    <details class="advanced-section"><summary>上級者・データ利用者向け</summary><div class="advanced-home-content">
+      <div class="feed-links"><a href="opportunities/">受付中一覧</a><a href="data/open_now.json">JSON</a><a href="data/open_now.csv">CSV</a><a href="data/open_now.rss">RSS</a></div>
+      <section class="signal-shell" aria-labelledby="signalTitle"><div class="section-head compact"><div><span class="section-kicker">募集案件とは別情報</span><h2 id="signalTitle">法人更新シグナル</h2></div></div><p class="section-note"><strong>ここは募集案件ではありません。</strong> 法人情報の更新を営業先探索の参考として分けて表示しています。</p><div id="gbizSignals" class="signal-list"></div></section>
+    </div></details>
   </main>
 
   <footer>
