@@ -30,7 +30,7 @@ class VisualQualityTests(unittest.TestCase):
         self.assertIn("data-reveal", js)
 
     def test_premium_polish_does_not_pull_remote_fonts_or_frameworks(self):
-        for name in ["home-v2.css", "home-polish.css", "preparation.css", "monetization.css", "my-fit.css"]:
+        for name in ["home-v2.css", "home-polish.css", "preparation.css", "next-deadline.css", "monetization.css", "my-fit.css"]:
             content = (DOCS / name).read_text(encoding="utf-8").lower()
             self.assertNotIn("@import", content)
             self.assertNotIn("fonts.googleapis.com", content)
@@ -60,6 +60,15 @@ class VisualQualityTests(unittest.TestCase):
         self.assertIn("home-polish.css", js)
         self.assertIn("data-home-polish-style", js)
         self.assertIn("#667487", polish)
+        self.assertIn(".home-v2 .why", polish)
+        self.assertIn("background:#f1f8f5", polish)
+
+    def test_next_deadline_uses_light_shell_and_deep_green_accent(self):
+        css = (DOCS / "next-deadline.css").read_text(encoding="utf-8")
+        self.assertIn("background:linear-gradient(145deg,#fbfdfc,#fff", css)
+        self.assertIn("background:linear-gradient(145deg,#164438,#17392f)", css)
+        self.assertIn("color:#172033", css)
+        self.assertNotIn("background:#0d1b17", css)
 
 
 if __name__ == "__main__":
