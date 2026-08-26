@@ -32,12 +32,21 @@ class CategoryPageTests(unittest.TestCase):
         self.assertIn('id="categoryRegion"', html)
         self.assertIn('data-category-card', html)
         self.assertIn("案件名を押すと", html)
+        self.assertIn('content="index,follow,max-image-preview:large"', html)
 
     def test_support_page_has_support_specific_journey_title(self):
         item = self.sample_item() | {"category": "補助金・支援", "title": "テスト補助金", "opportunity_type": "資金・支援"}
         html = pages.render_page("補助金・支援", [item], "2026-08-25T00:00:00+00:00")
         self.assertIn("補助金・支援を探したい", html)
         self.assertNotIn("仕事を受注したい", html)
+
+    def test_zero_result_journey_page_remains_available_but_noindexed(self):
+        html = pages.render_page("補助金・支援", [], "2026-08-25T00:00:00+00:00")
+        self.assertIn("補助金・支援を探したい", html)
+        self.assertIn("現在、この条件で受付中と確認できた案件はありません", html)
+        self.assertIn('content="noindex,follow"', html)
+        self.assertIn("新しい案件が公式情報で確認でき次第、自動で追加します", html)
+        self.assertIn("← 3つの入口に戻る", html)
 
     def test_real_open_feed_schema_does_not_require_redundant_is_open_now(self):
         item = {"id":"abcdef123456","url":"https://example.invalid/item","application_status":"受付中","status_confidence":"high","participation_deadline":"2026-09-04"}
