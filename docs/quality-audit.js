@@ -26,7 +26,7 @@
         </div>
         <div id="qualityAuditChips" class="quality-audit-chips" aria-live="polite"></div>
         <div class="quality-audit-foot">
-          <span>最終監査 <b id="qualityAuditUpdated">—</b> · 自動検査であり、公式情報の正確性を保証するものではありません。</span>
+          <span>最終監査 <b id="qualityAuditUpdated">—</b> · 自動検査であり、公式情報を保証するものではありません。正確性・最新性は必ず公式ページでご確認ください。</span>
           <span class="quality-audit-links"><a href="data/quality.json">品質データ</a><a href="data/explainability.json">判定根拠データ</a></span>
         </div>
       </div>`;
