@@ -48,9 +48,9 @@
         <div>
           <span class="my-fit-kicker">かんたん絞り込み</span>
           <h2 id="myFitTitle">条件を選んでください</h2>
-          <p>1つだけでも使えます。迷った項目は選ばなくて大丈夫です。</p>
+          <p>1つだけでも使えます。迷った項目は選ばなくて大丈夫です。選ぶたびに結果は自動で更新されます。</p>
         </div>
-        <span class="my-fit-privacy">この端末だけに保存</span>
+        <span class="my-fit-privacy">条件はこの端末に保存できます</span>
       </div>
 
       <div class="my-fit-form">
@@ -75,11 +75,13 @@
       </div>
 
       <div class="my-fit-actions">
-        <button id="myFitSave" class="my-fit-save" type="button">選んだ条件をこの端末に保存</button>
+        <button id="myFitShowResults" class="my-fit-show" type="button">結果を見る</button>
+        <button id="myFitSave" class="my-fit-save" type="button">条件を保存（任意）</button>
         <button id="myFitClear" class="my-fit-clear" type="button">選択をすべて外す</button>
-        <span class="my-fit-note">名前やメールアドレスは保存しません。</span>
+        <span class="my-fit-note">選ぶだけで結果は更新されます。保存すると次回も同じ条件から始められます。名前やメールアドレスは保存しません。</span>
+        <span id="myFitSaveStatus" class="my-fit-save-status" aria-live="polite"></span>
       </div>
-      <div id="myFitResult" class="my-fit-result" aria-live="polite"><div class="my-fit-empty">案件を確認しています…</div></div>
+      <div id="myFitResult" class="my-fit-result" aria-live="polite" tabindex="-1"><div class="my-fit-empty">案件を確認しています…</div></div>
       <div class="my-fit-product-note"><strong>結果は参考情報です。</strong> 「合う・合わない」は条件の一致から機械的に判定しています。応募できるかどうかの最終確認は自治体の公式ページで行ってください。</div>
     </section>
 
