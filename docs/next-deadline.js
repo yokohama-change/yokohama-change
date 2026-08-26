@@ -1,5 +1,13 @@
 (() => {
   function mountPreparationFeature(){
+    if (!document.querySelector('link[data-home-polish-style]')) {
+      const polish = document.createElement('link');
+      polish.rel = 'stylesheet';
+      polish.href = 'home-polish.css';
+      polish.dataset.homePolishStyle = '1';
+      document.head.appendChild(polish);
+    }
+
     if (!document.querySelector('link[data-preparation-style]')) {
       const link = document.createElement('link');
       link.rel = 'stylesheet';
