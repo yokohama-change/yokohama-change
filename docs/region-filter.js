@@ -60,20 +60,21 @@
       <div class="coverage-strip-body">${regions.map(region => `<span>${safe(region)}</span>`).join('')}<p>神奈川県内すべてを網羅済みではありません。公式情報を安全に取得できる地域から順次拡大しています。</p></div>`;
   }
 
-  function normalizeHref(value){ try { return new URL(value, location.href).href; } catch { return value || ''; } }
+  function cardRegion(card){
+    const meta = String(card.querySelector('.meta')?.textContent || '');
+    const separator = meta.indexOf('·');
+    return (separator >= 0 ? meta.slice(0, separator) : meta).trim();
+  }
 
   function apply(){
     if (!populated) populate();
     renderCoverage();
     const region = select.value;
-    const rows = items();
-    const byUrl = new Map(rows.map(x => [normalizeHref(x.url), x]));
     let visible = 0;
     cards.querySelectorAll('.card').forEach(card => {
-      const link = card.querySelector('a.external-link') || card.querySelector('a.title');
-      const item = link ? byUrl.get(normalizeHref(link.getAttribute('href'))) : null;
-      const itemRegion = String(item?.region || '').trim();
-      const show = !region || itemRegion === region;
+      // Read the region rendered on the card itself. Do not identify a card by source URL:
+      // one official page can legitimately contain multiple opportunities from different regions.
+      const show = !region || cardRegion(card) === region;
       card.hidden = !show;
       if (show) visible += 1;
     });
@@ -82,10 +83,11 @@
       empty = document.createElement('div');
       empty.id = 'regionEmpty';
       empty.className = 'empty';
+      empty.setAttribute('aria-live','polite');
       cards.after(empty);
     }
     empty.hidden = !region || visible > 0;
-    empty.textContent = region && visible === 0 ? `${region}で現在の条件に一致する案件はありません。` : '';
+    empty.textContent = region && visible === 0 ? `${region}で現在の条件に一致する案件はありません。条件をクリアすると、もう一度すべて確認できます。` : '';
   }
 
   select.addEventListener('change', apply);
