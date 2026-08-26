@@ -43,7 +43,7 @@ class VisualQualityTests(unittest.TestCase):
         self.assertIn("#f6f8fa", css)
         self.assertIn("border-radius:28px", css)
         self.assertIn("#0f7a5b", fit)
-        self.assertIn("min-height:44px", fit)
+        self.assertIn("min-height:48px", fit)
         self.assertIn("prefers-reduced-motion:reduce", fit)
 
     def test_opportunity_pages_match_light_visual_system(self):
