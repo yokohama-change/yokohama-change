@@ -84,6 +84,8 @@ def render_page(category: str, items: list[dict[str, Any]], generated_at: str) -
     regions = sorted({str(x.get("region") or "").strip() for x in items if str(x.get("region") or "").strip()})
     title = f"{journey_title}｜神奈川県内の{search_name} 現在受付中 {count}件 | YOKOHAMA CHANGE"
     description = f"{cfg['description']}を{count}件掲載。締切・地域・公式情報へのリンクを分かりやすく確認できます。"
+    robots = "index,follow,max-image-preview:large" if count else "noindex,follow"
+    lead = journey_lead if count else "現在、この条件で受付中と確認できた案件はありません。新しい案件が確認でき次第、自動で反映します。"
 
     cards = []
     for item in sorted(items, key=lambda x: (-int(x.get("commercial_score", 0) or 0), int(x.get("days_left", 9999) or 9999))):
@@ -103,6 +105,7 @@ def render_page(category: str, items: list[dict[str, Any]], generated_at: str) -
     }, ensure_ascii=False).replace("</", "<\\/")
 
     region_options = ''.join(f'<option value="{esc(region)}">{esc(region)}</option>' for region in regions)
+    initial_empty = "" if count else ' style="display:block"'
     script = r'''<script>
 (() => {
   const cards = [...document.querySelectorAll('[data-category-card]')];
@@ -131,13 +134,14 @@ def render_page(category: str, items: list[dict[str, Any]], generated_at: str) -
 })();
 </script>'''
 
+    empty_copy = "現在受付中の案件はありません。新しい案件が公式情報で確認でき次第、自動で追加します。" if not count else "この条件に一致する案件はありません。条件をクリアしてもう一度ご確認ください。"
     return f'''<!doctype html>
 <html lang="ja">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="{esc(description)}">
-  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="robots" content="{esc(robots)}">
   <link rel="canonical" href="{esc(canonical)}">
   <meta property="og:type" content="website"><meta property="og:locale" content="ja_JP"><meta property="og:site_name" content="YOKOHAMA CHANGE">
   <meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{esc(canonical)}">
@@ -152,7 +156,7 @@ def render_page(category: str, items: list[dict[str, Any]], generated_at: str) -
       <span>あなたが選んだ探し方</span>
       <div class="journey-chip">{esc(category)}</div>
       <h1>{esc(journey_title)}</h1>
-      <p>{esc(journey_lead)} 案件名を押すと、締切と「なぜ受付中と判断したか」を確認できます。</p>
+      <p>{esc(lead)}{(' 案件名を押すと、締切と「なぜ受付中と判断したか」を確認できます。' if count else '')}</p>
       <small>現在受付中 {count}件 · 優先して見る案件 {high}件 · {esc(generated_at)}</small>
     </header>
     <section class="category-tools" aria-label="このページ内で絞り込む">
@@ -162,7 +166,7 @@ def render_page(category: str, items: list[dict[str, Any]], generated_at: str) -
     </section>
     <div id="categoryResultSummary" class="category-result-summary"><strong>{count}件</strong> 表示中</div>
     <section class="opportunity-list">{''.join(cards)}</section>
-    <div id="categoryEmpty" class="category-empty">この条件に一致する案件はありません。条件をクリアしてもう一度ご確認ください。</div>
+    <div id="categoryEmpty" class="category-empty"{initial_empty}>{esc(empty_copy)}</div>
     <div class="opportunity-warning"><strong>重要：</strong>掲載情報・見る優先度・準備開始目安は参考情報です。応募・申請・契約等の最終判断は必ず公式情報を確認し、利用者ご自身の責任で行ってください。本サービスの利用等により生じた損害等について、運営者は法令上認められる範囲で責任を負いません。 <a href="../../../disclaimer.html">免責事項</a></div>
   </main>
   {script}
@@ -193,13 +197,15 @@ def update_sitemap(category_counts: list[tuple[str, str, int]]) -> None:
     except (FileNotFoundError, ET.ParseError):
         return
     ns = "http://www.sitemaps.org/schemas/sitemap/0.9"; ET.register_namespace("", ns)
+    category_urls = {f"{BASE}opportunities/categories/{cfg['slug']}/" for cfg in CATEGORY_CONFIG.values()}
+    for node in list(root.findall(f"{{{ns}}}url")):
+        loc = node.find(f"{{{ns}}}loc")
+        if loc is not None and loc.text in category_urls:
+            root.remove(node)
     today = datetime.now(timezone.utc).date().isoformat()
-    existing = {node.text for node in root.findall(f"{{{ns}}}url/{{{ns}}}loc") if node.text}
     for _, slug, _ in category_counts:
-        loc = f"{BASE}opportunities/categories/{slug}/"
-        if loc in existing: continue
         node = ET.SubElement(root, f"{{{ns}}}url")
-        ET.SubElement(node, f"{{{ns}}}loc").text = loc
+        ET.SubElement(node, f"{{{ns}}}loc").text = f"{BASE}opportunities/categories/{slug}/"
         ET.SubElement(node, f"{{{ns}}}lastmod").text = today
         ET.SubElement(node, f"{{{ns}}}changefreq").text = "daily"
         ET.SubElement(node, f"{{{ns}}}priority").text = "0.85"
@@ -219,15 +225,21 @@ def main() -> int:
     if CATEGORIES_DIR.exists(): shutil.rmtree(CATEGORIES_DIR)
     CATEGORIES_DIR.mkdir(parents=True, exist_ok=True)
     category_counts: list[tuple[str, str, int]] = []
-    for category, category_items in groups.items():
-        if not category_items: continue
-        slug = CATEGORY_CONFIG[category]["slug"]
+    all_page_counts: list[tuple[str, str, int]] = []
+    for category, cfg in CATEGORY_CONFIG.items():
+        category_items = groups.get(category, [])
+        slug = cfg["slug"]
         target = CATEGORIES_DIR / slug; target.mkdir(parents=True, exist_ok=True)
         (target / "index.html").write_text(render_page(category, category_items, generated_at), encoding="utf-8")
-        category_counts.append((category, slug, len(category_items)))
+        all_page_counts.append((category, slug, len(category_items)))
+        if category_items:
+            category_counts.append((category, slug, len(category_items)))
     category_counts.sort(key=lambda x: (-x[2], x[0]))
     update_index(category_counts); update_sitemap(category_counts)
-    print(json.dumps({"indexed_categories": [{"category": c, "slug": s, "open": n} for c,s,n in category_counts]}, ensure_ascii=False))
+    print(json.dumps({
+        "journey_pages": [{"category": c, "slug": s, "open": n} for c,s,n in all_page_counts],
+        "indexed_categories": [{"category": c, "slug": s, "open": n} for c,s,n in category_counts],
+    }, ensure_ascii=False))
     return 0
 
 if __name__ == "__main__":
