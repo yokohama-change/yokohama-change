@@ -58,6 +58,10 @@ jobs:
         run: |
           python scripts/preserve_candidate_history.py
 
+      - name: Normalize user-facing categories
+        run: |
+          python scripts/normalize_classification.py
+
       - name: Normalize public latest view
         run: |
           python scripts/normalize_public.py
