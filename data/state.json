@@ -1,7 +1,7 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-08-26T01:34:38+00:00",
+  "updated_at": "2026-08-26T02:02:43+00:00",
   "items": {
     "97e5b829a9de374f0a76": {
       "fingerprint": "7ce2805fd8ae6d62fb8b274075117081d464abc1d0eb87678c79802715ab7c83",
@@ -3587,6 +3587,14 @@
       "fingerprint": "41669035ddc9c342f3ed4f5dbbeb536bcb2114145a5d0e5edfe60bec5334ec2a",
       "source_id": "kanagawa_pref_news"
     },
+    "a75d16d8963847306d20": {
+      "fingerprint": "d2532e0c727af31744fd301e00aaac843dff24de6b029d40f737ce2a6a867292",
+      "source_id": "kanagawa_pref_news"
+    },
+    "23fac098edf9b5bd144b": {
+      "fingerprint": "3409a2e04a2164dc66d0e1f61966c1b2569be9161c015393effe9eacc1cbd07f",
+      "source_id": "kanagawa_pref_news"
+    },
     "c52d4673a1d2f7e99f69": {
       "fingerprint": "5fa2911abfe920e3d888bd19fd805b6c5f5c68ec90e1f97b4bd29690da5e2f2b",
       "source_id": "kanagawa_pref_news"
@@ -3635,6 +3643,26 @@
       "fingerprint": "ff6aa565627c6f1f54d55a35c77ad5a0c76797c725bd67bcf5b4d629bb76fac0",
       "source_id": "kanagawa_pref_news"
     },
+    "acf42e93f2ef2e610905": {
+      "fingerprint": "fd88de8eb4fdab82e2128edf0e789b3ae95e75737c0149b202a8ce14ee7ca3ec",
+      "source_id": "kanagawa_pref_news"
+    },
+    "dfad5d629e8d501b5d95": {
+      "fingerprint": "655cb91c6db18ca2a9981cb8cd573ac13fb79be9e44c3f907be97a32b91f5d0f",
+      "source_id": "kanagawa_pref_news"
+    },
+    "6e0c8efe36a06acf723e": {
+      "fingerprint": "11c420925d594eb5286b086f2bf83d99e2abd34f02485a4887784346225bb363",
+      "source_id": "kanagawa_pref_news"
+    },
+    "aa3ea65a7a6055d35fd1": {
+      "fingerprint": "5b303476d64f8971c167c73894928460fb683d4234f8033de4b1a39d0d6c4fe8",
+      "source_id": "kanagawa_pref_news"
+    },
+    "d8c0105532ce84a0a79c": {
+      "fingerprint": "25b1a1534634ac46e04e98c2073ddfc3e4f2af77165f17a4c56349e06691c477",
+      "source_id": "kanagawa_pref_news"
+    },
     "ba7db272a4192087a869": {
       "fingerprint": "e78f7fc102163a01f8a7c1b22c8344bc9218b666b2c89f315fa4fb4343af7160",
       "source_id": "kanagawa_pref_news"
@@ -3665,6 +3693,10 @@
     },
     "91d879b9b38941a8cccb": {
       "fingerprint": "4d0ed4b753624fc4be0c324e13dab1183049d4165ed4abaecaa60b2dc3bf08c0",
+      "source_id": "kanagawa_pref_news"
+    },
+    "0a96a92a7fda7af1ac68": {
+      "fingerprint": "6fdb2ce6f2269bcd59ca6e96049d9ac0a03e93568aef78209c0f49d21a4b0293",
       "source_id": "kanagawa_pref_news"
     },
     "c8924663e94f34bb3df3": {
@@ -3933,38 +3965,6 @@
     },
     "debc9fae2fbc93707342": {
       "fingerprint": "50cccc4d601b81c82c64edd03c82186447e9743e273ca44b68ed5c06ad2194f0",
-      "source_id": "kanagawa_pref_news"
-    },
-    "194245e82b79acf0ba48": {
-      "fingerprint": "50cccc4d601b81c82c64edd03c82186447e9743e273ca44b68ed5c06ad2194f0",
-      "source_id": "kanagawa_pref_news"
-    },
-    "2af68fa5ca32b6c514eb": {
-      "fingerprint": "50cccc4d601b81c82c64edd03c82186447e9743e273ca44b68ed5c06ad2194f0",
-      "source_id": "kanagawa_pref_news"
-    },
-    "37472e3d2cfbd9651b0c": {
-      "fingerprint": "50cccc4d601b81c82c64edd03c82186447e9743e273ca44b68ed5c06ad2194f0",
-      "source_id": "kanagawa_pref_news"
-    },
-    "f4725cea7ec7d8517e0e": {
-      "fingerprint": "50cccc4d601b81c82c64edd03c82186447e9743e273ca44b68ed5c06ad2194f0",
-      "source_id": "kanagawa_pref_news"
-    },
-    "9482f94c66db336b7e6a": {
-      "fingerprint": "50cccc4d601b81c82c64edd03c82186447e9743e273ca44b68ed5c06ad2194f0",
-      "source_id": "kanagawa_pref_news"
-    },
-    "493d5c175f944554db77": {
-      "fingerprint": "50cccc4d601b81c82c64edd03c82186447e9743e273ca44b68ed5c06ad2194f0",
-      "source_id": "kanagawa_pref_news"
-    },
-    "2483f482c0882544163c": {
-      "fingerprint": "50cccc4d601b81c82c64edd03c82186447e9743e273ca44b68ed5c06ad2194f0",
-      "source_id": "kanagawa_pref_news"
-    },
-    "e250ddcae9e138326112": {
-      "fingerprint": "755c1722ef6b48ac0e8316be5a31808d681082606845f6a3f5244a8438319711",
       "source_id": "kanagawa_pref_news"
     },
     "94e9040cc4f05799c940": {
