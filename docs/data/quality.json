@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-26T02:02:46+00:00",
+  "checked_at": "2026-08-26T02:12:51+00:00",
   "health": "good",
   "health_label": "正常",
   "errors": [],
@@ -15,7 +15,7 @@
     "orphan_source_ids": []
   },
   "dedupe": {
-    "duplicate_revisions_removed": 12,
+    "duplicate_revisions_removed": 11,
     "duplicate_urls_removed": 0,
     "remaining_duplicate_urls": 0
   },
