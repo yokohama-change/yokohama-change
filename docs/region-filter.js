@@ -8,8 +8,6 @@
   const dateLabel = (iso) => { try { return new Intl.DateTimeFormat('ja-JP',{month:'numeric',day:'numeric',weekday:'short',timeZone:'Asia/Tokyo'}).format(new Date(`${iso}T12:00:00+09:00`)); } catch { return iso || '—'; } };
   const dateTimeLabel = (iso) => { try { return new Intl.DateTimeFormat('ja-JP',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Tokyo'}).format(new Date(iso)); } catch { return iso || '—'; } };
 
-  // Safety override kept here as defense-in-depth. Date-only deadlines must never
-  // masquerade as exact times in 48H/TODAY UI.
   try {
     if (typeof deadlineMs === 'function') {
       const originalDeadlineMs = deadlineMs;
@@ -26,14 +24,8 @@
     }
   } catch {}
 
-  function items(){
-    try { return typeof state !== 'undefined' && Array.isArray(state.items) ? state.items : []; }
-    catch { return []; }
-  }
-  function statusData(){
-    try { return typeof state !== 'undefined' && state.status ? state.status : {}; }
-    catch { return {}; }
-  }
+  function items(){ try { return typeof state !== 'undefined' && Array.isArray(state.items) ? state.items : []; } catch { return []; } }
+  function statusData(){ try { return typeof state !== 'undefined' && state.status ? state.status : {}; } catch { return {}; } }
 
   function populate(){
     const rows = items();
@@ -57,15 +49,14 @@
       strip.id = 'coverageStrip';
       strip.className = 'coverage-strip';
       strip.setAttribute('aria-label','現在の対応地域');
-      const main = document.querySelector('main');
-      const quick = document.querySelector('#quickStart');
-      if (quick) quick.insertAdjacentElement('afterend', strip);
-      else if (main) main.prepend(strip);
+      const trustArea = document.querySelector('#trustArea');
+      if (trustArea) trustArea.appendChild(strip);
+      else document.querySelector('main')?.appendChild(strip);
     }
     const health = Number(status.sources_total) > 0 && Number(status.sources_ok) === Number(status.sources_total);
     const healthText = health ? `公式ソース ${status.sources_ok}/${status.sources_total} 正常` : '公式ソースを確認中';
     strip.innerHTML = `
-      <summary><strong>対応地域 ${regions.length}地域</strong><span>${safe(healthText)}</span><em>地域を見る</em></summary>
+      <summary><strong>現在の対応地域 ${regions.length}地域</strong><span>${safe(healthText)}</span><em>地域を見る</em></summary>
       <div class="coverage-strip-body">${regions.map(region => `<span>${safe(region)}</span>`).join('')}<p>神奈川県内すべてを網羅済みではありません。公式情報を安全に取得できる地域から順次拡大しています。</p></div>`;
   }
 
@@ -78,7 +69,6 @@
     const rows = items();
     const byUrl = new Map(rows.map(x => [normalizeHref(x.url), x]));
     let visible = 0;
-
     cards.querySelectorAll('.card').forEach(card => {
       const link = card.querySelector('a.external-link') || card.querySelector('a.title');
       const item = link ? byUrl.get(normalizeHref(link.getAttribute('href'))) : null;
@@ -87,7 +77,6 @@
       card.hidden = !show;
       if (show) visible += 1;
     });
-
     let empty = document.querySelector('#regionEmpty');
     if (!empty) {
       empty = document.createElement('div');
@@ -102,10 +91,7 @@
   select.addEventListener('change', apply);
   const observer = new MutationObserver(() => { populate(); apply(); });
   observer.observe(cards, {childList:true});
-
   const timer = setInterval(() => {
-    if (items().length) {
-      populate(); apply(); clearInterval(timer);
-    }
+    if (items().length) { populate(); apply(); clearInterval(timer); }
   }, 250);
 })();

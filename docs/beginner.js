@@ -4,6 +4,11 @@
   const summary = $('#resultSummary');
   let criticalFailure = false;
 
+  function rows(){
+    try { return typeof state !== 'undefined' && Array.isArray(state.items) ? state.items : []; }
+    catch { return []; }
+  }
+
   function scrollToId(id){
     const el = document.querySelector(id);
     if (el) el.scrollIntoView({behavior:'smooth', block:'start'});
@@ -24,50 +29,83 @@
   }
 
   function resetForQuickAction(){
-    applyValues({
-      search: '',
-      region: '',
-      category: '',
-      buyer: '',
-      commercial: '0',
-      applicationStatus: 'open'
-    });
+    applyValues({search:'',region:'',category:'',buyer:'',commercial:'0',applicationStatus:'open'});
     const details = $('#advancedFilters');
     if (details) details.open = false;
   }
 
-  function chooseSupport(){
+  function chooseCategory(pattern, fallbackQuery=''){
     resetForQuickAction();
     const category = $('#category');
     const search = $('#search');
-    const option = category ? [...category.options].find(o => /補助|助成|支援/.test(o.textContent || '')) : null;
+    const option = category ? [...category.options].find(o => pattern.test(o.textContent || '')) : null;
     if (option && category) {
       category.value = option.value;
       dispatch(category, 'input');
-    } else if (search) {
-      search.value = '補助金';
+    } else if (fallbackQuery && search) {
+      search.value = fallbackQuery;
       dispatch(search, 'input');
     }
-    scrollToId('#exploreTitle');
+    scrollToId('#find');
   }
 
-  document.querySelectorAll('[data-quick-action]').forEach(button => {
-    button.addEventListener('click', () => {
+  function performSearch(query){
+    if (criticalFailure) return;
+    resetForQuickAction();
+    const search = $('#search');
+    if (search) {
+      search.value = String(query || '').trim();
+      dispatch(search, 'input');
+    }
+    scrollToId('#find');
+  }
+
+  document.querySelectorAll('[data-quick-action]').forEach(control => {
+    control.addEventListener('click', event => {
       if (criticalFailure) return;
-      const action = button.dataset.quickAction;
+      const action = control.dataset.quickAction;
       if (action === 'open') {
         resetForQuickAction();
-        scrollToId('#priorityTitle');
+        scrollToId('#find');
       }
-      if (action === 'support') chooseSupport();
+      if (action === 'procurement') chooseCategory(/入札|調達/, '入札');
+      if (action === 'support') chooseCategory(/補助|助成|支援/, '補助金');
+    });
+  });
+
+  $('#heroSearchForm')?.addEventListener('submit', event => {
+    event.preventDefault();
+    performSearch($('#heroSearch')?.value || '');
+  });
+  document.querySelectorAll('[data-hero-query]').forEach(button => {
+    button.addEventListener('click', () => {
+      const query = button.dataset.heroQuery || '';
+      const heroSearch = $('#heroSearch');
+      if (heroSearch) heroSearch.value = query;
+      performSearch(query);
     });
   });
 
   $('#resetFilters')?.addEventListener('click', () => {
     if (criticalFailure) return;
     resetForQuickAction();
+    const heroSearch = $('#heroSearch');
+    if (heroSearch) heroSearch.value = '';
     updateResultSummary();
   });
+
+  function openItems(){ return rows().filter(x => x?.is_open_now === true); }
+  function updatePurposeCounts(){
+    const open = openItems();
+    if (!open.length && !rows().length) return false;
+    const procurement = open.filter(x => /入札|調達/.test(`${x.category || ''} ${x.opportunity_type || ''} ${x.title || ''}`)).length;
+    const support = open.filter(x => /補助|助成|支援/.test(`${x.category || ''} ${x.opportunity_type || ''} ${x.title || ''}`)).length;
+    const p = $('#quickProcurementCount');
+    const s = $('#quickSupportCount');
+    if (p) p.textContent = `${procurement}件`;
+    if (s) s.textContent = `${support}件`;
+    return true;
+  }
 
   function updateResultSummary(){
     if (!summary || !cards || criticalFailure) return;
@@ -82,7 +120,10 @@
   }
 
   if (cards) {
-    const observer = new MutationObserver(() => requestAnimationFrame(updateResultSummary));
+    const observer = new MutationObserver(() => requestAnimationFrame(() => {
+      updateResultSummary();
+      updatePurposeCounts();
+    }));
     observer.observe(cards, {childList:true, subtree:true, attributes:true, attributeFilter:['hidden']});
   }
   ['search','region','category','buyer','commercial','applicationStatus'].forEach(id => {
@@ -91,8 +132,8 @@
   });
 
   function disableInteractiveSearch(){
-    document.querySelectorAll('#quickStart button, #search, #region, #category, #buyer, #commercial, #applicationStatus, #resetFilters').forEach(el => {
-      el.disabled = true;
+    document.querySelectorAll('[data-quick-action], #heroSearch, #heroSearchForm button, [data-hero-query], #search, #region, #category, #buyer, #commercial, #applicationStatus, #resetFilters').forEach(el => {
+      if ('disabled' in el) el.disabled = true;
       el.setAttribute('aria-disabled','true');
     });
   }
@@ -101,14 +142,11 @@
     if (criticalFailure) return;
     criticalFailure = true;
     disableInteractiveSearch();
-
-    ['#openCount','#hotCount','#qualityLabel','#updated'].forEach(selector => {
-      const node = $(selector);
-      if (node) node.textContent = '—';
+    ['#openCount','#hotCount','#qualityLabel','#updated','#quickProcurementCount','#quickSupportCount'].forEach(selector => {
+      const node = $(selector); if (node) node.textContent = '—';
     });
     ['#urgentShell','#nextHighValueShell','#preparationShell','#qualityProof'].forEach(selector => {
-      const node = $(selector);
-      if (node) node.hidden = true;
+      const node = $(selector); if (node) node.hidden = true;
     });
     const priority = document.querySelector('.priority-shell');
     if (priority) priority.hidden = true;
@@ -117,15 +155,14 @@
     if (!notice) {
       notice = document.createElement('div');
       notice.id = 'loadGuardNotice';
-      notice.className = 'notice';
+      notice.className = 'notice load-guard-notice';
       const quick = $('#quickStart');
-      if (quick) quick.insertAdjacentElement('afterend', notice);
+      if (quick) quick.insertAdjacentElement('beforebegin', notice);
       else document.querySelector('main')?.prepend(notice);
     }
     notice.hidden = false;
     notice.innerHTML = '<strong>案件データを正しく読み込めませんでした。</strong><br>「0件」という意味ではありません。通信状況をご確認のうえ、もう一度読み込んでください。 <button id="reloadData" class="reset-filters" type="button">再読み込み</button>';
     $('#reloadData')?.addEventListener('click', () => location.reload());
-
     if (cards) cards.innerHTML = '<div class="empty">現在は案件一覧を表示していません。再読み込みしてご確認ください。</div>';
     if (summary) summary.textContent = 'データ読込エラー';
   }
@@ -143,9 +180,7 @@
         fetchRequiredJson('./data/status.json'),
         fetchRequiredJson('./data/quality.json')
       ]);
-      if (!data || !Array.isArray(data.items) || !status || typeof status !== 'object' || !quality || typeof quality !== 'object') {
-        throw new Error('critical payload invalid');
-      }
+      if (!data || !Array.isArray(data.items) || !status || typeof status !== 'object' || !quality || typeof quality !== 'object') throw new Error('critical payload invalid');
       const expectedOpen = data.items.filter(item => item?.is_open_now === true).length;
       setTimeout(() => {
         if (criticalFailure) return;
@@ -153,17 +188,22 @@
         const priorityCards = document.querySelectorAll('#priorityCards .priority-card').length;
         const renderMismatch = !Number.isFinite(shown) || shown !== expectedOpen || (expectedOpen > 0 && priorityCards === 0);
         if (renderMismatch) showCriticalLoadFailure();
+        else updatePurposeCounts();
       }, 1400);
     } catch {
       showCriticalLoadFailure();
     }
   }
 
-  // Make keyboard focus obvious for people who do not use a mouse often.
   document.addEventListener('keydown', event => {
     if (event.key === 'Tab') document.documentElement.classList.add('using-keyboard');
   }, {once:true});
 
   verifyCriticalData();
+  let countTries = 0;
+  const countTimer = setInterval(() => {
+    countTries += 1;
+    if (updatePurposeCounts() || countTries > 40) clearInterval(countTimer);
+  }, 250);
   setTimeout(updateResultSummary, 700);
 })();
