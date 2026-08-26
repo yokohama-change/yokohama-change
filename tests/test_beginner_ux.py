@@ -39,6 +39,16 @@ class BeginnerUXTests(unittest.TestCase):
         self.assertIn('resetForQuickAction();', self.beginner_js)
         self.assertIn('function chooseSupport()', self.beginner_js)
 
+    def test_critical_data_failure_never_looks_like_real_zero_results(self):
+        self.assertIn('function verifyCriticalData()', self.beginner_js)
+        self.assertIn("fetchRequiredJson('./data/latest.json')", self.beginner_js)
+        self.assertIn("fetchRequiredJson('./data/status.json')", self.beginner_js)
+        self.assertIn("fetchRequiredJson('./data/quality.json')", self.beginner_js)
+        self.assertIn('「0件」という意味ではありません', self.beginner_js)
+        self.assertIn('showCriticalLoadFailure()', self.beginner_js)
+        self.assertIn('priority.hidden = true', self.beginner_js)
+        self.assertIn("cache:'no-store'", self.beginner_js.replace(' ', ''))
+
     def test_quality_audit_is_actually_loaded(self):
         self.assertIn('quality-audit.css', self.index)
         self.assertIn('quality-audit.js', self.index)
