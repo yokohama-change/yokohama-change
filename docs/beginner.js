@@ -173,23 +173,49 @@
     return response.json();
   }
 
+  function expectedOpenCount(status, quality){
+    const candidates = [quality?.open_now, status?.application_status_open_now];
+    for (const value of candidates) {
+      const count = Number(value);
+      if (Number.isInteger(count) && count >= 0) return count;
+    }
+    return null;
+  }
+
   async function verifyCriticalData(){
     try {
-      const [data,status,quality] = await Promise.all([
-        fetchRequiredJson('./data/latest.json'),
+      // latest.json is already loaded by app.js and is comparatively large.
+      // Re-fetch only the small health manifests, then compare them with app.js state.
+      const [status, quality] = await Promise.all([
         fetchRequiredJson('./data/status.json'),
         fetchRequiredJson('./data/quality.json')
       ]);
-      if (!data || !Array.isArray(data.items) || !status || typeof status !== 'object' || !quality || typeof quality !== 'object') throw new Error('critical payload invalid');
-      const expectedOpen = data.items.filter(item => item?.is_open_now === true).length;
-      setTimeout(() => {
+      if (!status || typeof status !== 'object' || !quality || typeof quality !== 'object') throw new Error('critical payload invalid');
+      const expectedOpen = expectedOpenCount(status, quality);
+      if (expectedOpen == null) throw new Error('open count missing');
+
+      // Slow mobile connections can legitimately need several seconds to parse/render latest.json.
+      // Poll until the app and quality manifest agree instead of failing on a fixed 1.4s race.
+      const deadline = Date.now() + 10000;
+      const verifyRendered = () => {
         if (criticalFailure) return;
+        const stateRows = rows();
+        const actualOpen = stateRows.filter(item => item?.is_open_now === true).length;
         const shown = Number.parseInt($('#openCount')?.textContent || '', 10);
         const priorityCards = document.querySelectorAll('#priorityCards .priority-card').length;
-        const renderMismatch = !Number.isFinite(shown) || shown !== expectedOpen || (expectedOpen > 0 && priorityCards === 0);
-        if (renderMismatch) showCriticalLoadFailure();
-        else updatePurposeCounts();
-      }, 1400);
+        const stateReady = stateRows.length > 0 || expectedOpen === 0;
+        const renderMatches = stateReady && actualOpen === expectedOpen && shown === expectedOpen && (expectedOpen === 0 || priorityCards > 0);
+        if (renderMatches) {
+          updatePurposeCounts();
+          return;
+        }
+        if (Date.now() >= deadline) {
+          showCriticalLoadFailure();
+          return;
+        }
+        setTimeout(verifyRendered, 250);
+      };
+      verifyRendered();
     } catch {
       showCriticalLoadFailure();
     }
