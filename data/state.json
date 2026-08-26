@@ -1,7 +1,7 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-08-26T03:56:45+00:00",
+  "updated_at": "2026-08-26T04:05:26+00:00",
   "items": {
     "552663d3808cfc91a957": {
       "fingerprint": "ad1b20eaede4d876f2d20c898d2917cd5a0c941d3cb5d3309b7d31954f6b95ad",
@@ -7447,6 +7447,10 @@
       "fingerprint": "0a0ee9865c57af1bb128e8d69265c076f29a7a7e2a258a078862388c181b6232",
       "source_id": "oiso_news"
     },
+    "5457a36f7c03551a4c81": {
+      "fingerprint": "a019d8ec00c509fbaa2b566fb1cb4fe23f93ede5db3615f6e0eaf48ecb20fa92",
+      "source_id": "ninomiya_news"
+    },
     "c0e3419042ad5fa0c7f7": {
       "fingerprint": "285bd810182138c1cb520833941db0a5c7652ebeb275efdf4ca251ba73ba16f0",
       "source_id": "ninomiya_news"
@@ -7511,12 +7515,12 @@
       "fingerprint": "7b6d4057e6ca09e6b8efbc4cf48ef97d7b7e0b8e33a7a0e3016c44eacfacf331",
       "source_id": "ninomiya_news"
     },
-    "e62d6dc3c755821e9b53": {
-      "fingerprint": "fbc3744dc47e0d224a066611734fc37207fba854dd60d82b38ec1a4e41607357",
+    "a568fcd389c133e2e148": {
+      "fingerprint": "7c94ee5ce050e40fab24bbcdb2945f049e83e36e8645f131717a775542b5c837",
       "source_id": "ninomiya_news"
     },
-    "4f61c55ab6fa3b969108": {
-      "fingerprint": "5b44cbe42c040ae259b2ed3e2cd9cc03ab1d8a10ff249c40b3574fcaeb347027",
+    "a13637d568c108664b5d": {
+      "fingerprint": "b7b866097203d7db70e1aa69b2dfd00a4d3262dea3665ae5f30017f37cb44b4f",
       "source_id": "ninomiya_news"
     },
     "f91008d63a1eaecd6fc6": {
@@ -7527,24 +7531,24 @@
       "fingerprint": "7c5a67d37bca61e89dceb157535899535849745ea4c9c94873dd5425a54d06ba",
       "source_id": "ninomiya_news"
     },
-    "a568fcd389c133e2e148": {
-      "fingerprint": "7c94ee5ce050e40fab24bbcdb2945f049e83e36e8645f131717a775542b5c837",
-      "source_id": "ninomiya_news"
-    },
-    "a13637d568c108664b5d": {
-      "fingerprint": "b7b866097203d7db70e1aa69b2dfd00a4d3262dea3665ae5f30017f37cb44b4f",
+    "7fd9df64d2a2be66a11e": {
+      "fingerprint": "eda0eb10fc5bce74d0ee7b91ea7ec7bf6ca37eca38f9c4e267bf79005674ae18",
       "source_id": "ninomiya_news"
     },
     "89a389df151a2346a597": {
       "fingerprint": "cb999fdd7f393c38e2e294a1c286c35e9b5ed703ecd9f3225c44d8af0a9dea93",
       "source_id": "ninomiya_news"
     },
-    "7fd9df64d2a2be66a11e": {
-      "fingerprint": "eda0eb10fc5bce74d0ee7b91ea7ec7bf6ca37eca38f9c4e267bf79005674ae18",
+    "e62d6dc3c755821e9b53": {
+      "fingerprint": "fbc3744dc47e0d224a066611734fc37207fba854dd60d82b38ec1a4e41607357",
       "source_id": "ninomiya_news"
     },
     "4bf072c4b31183f83627": {
       "fingerprint": "a9dfb7d1f505cab61e03766cea57dd31c771f73801e731027c1fb42f76ded0a7",
+      "source_id": "ninomiya_news"
+    },
+    "4f61c55ab6fa3b969108": {
+      "fingerprint": "5b44cbe42c040ae259b2ed3e2cd9cc03ab1d8a10ff249c40b3574fcaeb347027",
       "source_id": "ninomiya_news"
     },
     "6559abebc49d607df28e": {
@@ -7561,10 +7565,6 @@
     },
     "686ac27a6473b7c576b0": {
       "fingerprint": "048d9fe254e2d403b17fa37e502a30b0521cb5750650da450b46cd8369b959eb",
-      "source_id": "ninomiya_news"
-    },
-    "377c0d00a78a4715779f": {
-      "fingerprint": "be9b07fead0000b2b541101023face0eff6671fb52c28366251ebbd5b675b1d4",
       "source_id": "ninomiya_news"
     }
   }
