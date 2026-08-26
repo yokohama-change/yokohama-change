@@ -108,6 +108,10 @@ jobs:
         run: |
           python scripts/generate_focus_pages.py
 
+      - name: Simplify generated page language
+        run: |
+          python scripts/plain_language_pages.py
+
       - name: Clean Python cache
         run: |
           find . -type f -name '*.pyc' -delete
