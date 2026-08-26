@@ -8,11 +8,17 @@ DOCS = ROOT / "docs"
 class VisualQualityTests(unittest.TestCase):
     def test_home_has_desktop_tablet_and_small_mobile_tuning(self):
         css = (DOCS / "home-v2.css").read_text(encoding="utf-8")
+        polish = (DOCS / "home-polish.css").read_text(encoding="utf-8")
         self.assertIn("@media(max-width:980px)", css)
         self.assertIn("@media(max-width:700px)", css)
         self.assertIn("@media(max-width:390px)", css)
         self.assertIn("clamp(48px", css)
         self.assertIn("max-width:1200px", css)
+        self.assertIn("@media(max-width:980px) and (min-width:701px)", polish)
+        self.assertIn("grid-template-columns:repeat(3,minmax(0,1fr))", polish)
+        self.assertIn(".home-v2 .hero h1 span{display:block}", polish)
+        self.assertIn(".hero-live-row:nth-of-type(2)", polish)
+        self.assertIn(".hero-live-row:nth-of-type(3)", polish)
 
     def test_motion_is_progressive_and_respects_reduced_motion(self):
         css = (DOCS / "home-v2.css").read_text(encoding="utf-8")
@@ -24,7 +30,7 @@ class VisualQualityTests(unittest.TestCase):
         self.assertIn("data-reveal", js)
 
     def test_premium_polish_does_not_pull_remote_fonts_or_frameworks(self):
-        for name in ["home-v2.css", "monetization.css", "my-fit.css"]:
+        for name in ["home-v2.css", "home-polish.css", "preparation.css", "monetization.css", "my-fit.css"]:
             content = (DOCS / name).read_text(encoding="utf-8").lower()
             self.assertNotIn("@import", content)
             self.assertNotIn("fonts.googleapis.com", content)
@@ -39,6 +45,21 @@ class VisualQualityTests(unittest.TestCase):
         self.assertIn("#0f7a5b", fit)
         self.assertIn("min-height:44px", fit)
         self.assertIn("prefers-reduced-motion:reduce", fit)
+
+    def test_preparation_guidance_matches_light_premium_system(self):
+        css = (DOCS / "preparation.css").read_text(encoding="utf-8")
+        self.assertIn("background:linear-gradient(145deg,#fffdf8,#fff", css)
+        self.assertIn("color:#172033", css)
+        self.assertIn("background:#fff", css)
+        self.assertNotIn("background:#11151d", css)
+        self.assertNotIn("background:#211a0e", css)
+
+    def test_second_pass_polish_is_loaded_without_remote_dependency(self):
+        js = (DOCS / "next-deadline.js").read_text(encoding="utf-8")
+        polish = (DOCS / "home-polish.css").read_text(encoding="utf-8")
+        self.assertIn("home-polish.css", js)
+        self.assertIn("data-home-polish-style", js)
+        self.assertIn("#667487", polish)
 
 
 if __name__ == "__main__":
