@@ -20,17 +20,27 @@ class BeginnerUXTests(unittest.TestCase):
         cls.beginner_js = (ROOT / "docs" / "beginner.js").read_text(encoding="utf-8")
         cls.region_filter = (ROOT / "docs" / "region-filter.js").read_text(encoding="utf-8")
 
-    def test_home_has_search_and_three_plain_purpose_choices(self):
-        self.assertIn('id="heroSearchForm"', self.index)
+    def test_home_is_a_three_choice_gateway(self):
+        self.assertIn('目的を1つ選んでください', self.index)
         self.assertIn('仕事を受注したい', self.index)
         self.assertIn('補助金・支援を探したい', self.index)
         self.assertIn('自分に合うものだけ見たい', self.index)
-        self.assertIn('data-quick-action="procurement"', self.index)
-        self.assertIn('data-quick-action="support"', self.index)
+        self.assertIn('href="opportunities/categories/procurement/"', self.index)
+        self.assertIn('href="opportunities/categories/support/"', self.index)
+        self.assertIn('href="alert.html"', self.index)
+        self.assertNotIn('data-quick-action="procurement"', self.index)
+        self.assertNotIn('data-quick-action="support"', self.index)
+
+    def test_home_keeps_keyword_search_as_secondary_path(self):
+        self.assertIn('id="find"', self.index)
+        self.assertIn('別の探し方', self.index)
+        self.assertIn('キーワード・地域から探す', self.index)
+        self.assertNotIn('id="heroSearchForm"', self.index)
 
     def test_home_explains_a_simple_three_step_journey(self):
         self.assertIn('id="howToUse"', self.index)
         self.assertIn('使い方は3つだけ', self.index)
+        self.assertIn('目的を選ぶ', self.index)
         self.assertIn('公式サイトで最終確認', self.index)
 
     def test_filters_have_recovery_path_and_advanced_options_are_collapsed(self):
@@ -73,17 +83,6 @@ class BeginnerUXTests(unittest.TestCase):
         combined = self.beginner_css + self.home_css
         self.assertIn('min-height:48px', combined)
         self.assertIn('.purpose-card', self.home_css)
-        self.assertIn('.hero-search', self.home_css)
-
-    def test_quick_actions_clear_stale_filters(self):
-        self.assertIn('resetForQuickAction()', self.beginner_js)
-        self.assertIn("action === 'procurement'", self.beginner_js)
-        self.assertIn("action === 'support'", self.beginner_js)
-
-    def test_hero_search_reuses_the_main_results(self):
-        self.assertIn("$('#heroSearchForm')", self.beginner_js)
-        self.assertIn("scrollToId('#find')", self.beginner_js)
-        self.assertIn("search.value = String(query", self.beginner_js)
 
     def test_coverage_is_collapsed_instead_of_long_always_visible_list(self):
         self.assertIn("document.createElement('details')", self.region_filter)
