@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-08-28T01:05:26+00:00",
+  "updated_at": "2026-08-28T21:55:56+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -706,8 +706,8 @@
     },
     "d9c4c723f9df6602c0ab": {
       "url": "https://www.pref.kanagawa.jp/docs/m2w/premiumshien/kanatoku.html",
-      "source_updated": "2026-08-25T00:00:00+09:00",
-      "fetched_at": "2026-08-25T03:44:39+00:00",
+      "source_updated": "2026-08-28T00:00:00+09:00",
+      "fetched_at": "2026-08-28T21:55:53+00:00",
       "facts": {
         "participation_deadline": "2026-12-04",
         "participation_deadline_at": "2026-12-04T23:59+09:00",
@@ -1759,6 +1759,81 @@
       "url": "https://www.pref.kanagawa.jp/docs/hy8/cnt/f5586/1231662.html",
       "source_updated": "2026-08-27T00:00:00+09:00",
       "fetched_at": "2026-08-28T01:05:26+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "5c23b19e4ba7580f9696": {
+      "url": "https://www.city.fujisawa.kanagawa.jp/gesui-ka/wppp-proposal.html",
+      "source_updated": "2026-08-28T18:00:00+09:00",
+      "fetched_at": "2026-08-28T21:55:52+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "8db8b4fe76c65b616e8c": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026766/seido/1026770/shiteikanri/1035526.html",
+      "source_updated": "Sat, 29 Aug 2026 00:05:03 +0900",
+      "fetched_at": "2026-08-28T21:55:52+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "09176e3705935a80ef4a": {
+      "url": "https://www.pref.kanagawa.jp/docs/m2w/shokibo_digital/r8.html",
+      "source_updated": "2026-08-29T00:00:00+09:00",
+      "fetched_at": "2026-08-28T21:55:54+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "afdac7ac86f7416c28d1": {
+      "url": "https://www.pref.kanagawa.jp/docs/m2w/shokibo_digital/soudankikan.html",
+      "source_updated": "2026-08-29T00:00:00+09:00",
+      "fetched_at": "2026-08-28T21:55:55+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "660247859566c04a14c6": {
+      "url": "https://www.pref.kanagawa.jp/docs/n8f/cnt/f4253/index.html",
+      "source_updated": "2026-08-28T00:00:00+09:00",
+      "fetched_at": "2026-08-28T21:55:56+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
