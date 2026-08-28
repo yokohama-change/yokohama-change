@@ -1,13 +1,23 @@
 {
-  "generated_at": "2026-08-26T14:30:03+00:00",
+  "generated_at": "2026-08-28T01:05:30+00:00",
   "enabled": true,
   "stale": false,
   "period": {
-    "from": "20260824",
-    "to": "20260826"
+    "from": "20260826",
+    "to": "20260828"
   },
-  "count": 0,
-  "items": [],
+  "count": 1,
+  "items": [
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1010401139889",
+      "name": "パシフィックパートナーズ株式会社",
+      "location": "神奈川県横浜市青葉区荏田西３丁目１７番１２",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    }
+  ],
   "errors": [],
   "endpoint_mode": "v2-period-corporate-update-only",
   "note": "法人情報の更新シグナルです。現在募集中の調達・補助金ではありません。",
