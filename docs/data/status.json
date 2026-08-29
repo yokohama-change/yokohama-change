@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-29T09:20:22+00:00",
+  "generated_at": "2026-08-29T12:20:20+00:00",
   "sources_total": 21,
   "sources_ok": 21,
   "items_seen": 1906,
-  "changes_this_run": 8,
+  "changes_this_run": 0,
   "errors": [],
   "state_preserved": false,
   "public_items": 383,
   "public_duplicate_revisions_removed": 6,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-08-29T09:20:22+00:00",
+  "application_status_checked_at": "2026-08-29T12:20:20+00:00",
   "application_status_candidates": 100,
   "application_status_open_now": 19,
   "application_status_fetches": 0,
@@ -87,11 +87,6 @@
     "to": "20260829"
   },
   "gbiz_items_seen": 1,
-  "gbiz_errors": [
-    {
-      "source": "法人情報更新",
-      "error": "HTTPError: HTTP Error 403: Forbidden"
-    }
-  ],
+  "gbiz_errors": [],
   "gbiz_endpoint_mode": "v2-period-corporate-update-only"
 }
