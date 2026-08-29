@@ -1,7 +1,7 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-08-28T21:55:50+00:00",
+  "updated_at": "2026-08-29T00:20:06+00:00",
   "items": {
     "b1ef5750031f07ef8d14": {
       "fingerprint": "0558e3dfc275908493029e882e788f19ff7483a37b05f2f139ac10d98597a93a",
@@ -6523,6 +6523,10 @@
       "fingerprint": "c041df03d86feecd318258f56855e2920629e673a3c52db3a2df36bbde289ca4",
       "source_id": "miura_business"
     },
+    "c94dbab03f6108ae02ca": {
+      "fingerprint": "b6967574601148a3c3f24e1f1dadc5f1dfc159835acda10c1a9aac8964df06ce",
+      "source_id": "zushi_news"
+    },
     "69c67064ff7109431303": {
       "fingerprint": "3f5cbf1028921a7e78659f2af55f9993a7378204f36b919cd208d2d70c56bf41",
       "source_id": "zushi_news"
@@ -6537,10 +6541,6 @@
     },
     "8b353c11c0497f0e853a": {
       "fingerprint": "dbb1de14a58f5590d23cde75820b0dba3379b282ec540186f4619af50622ebd8",
-      "source_id": "zushi_news"
-    },
-    "c94dbab03f6108ae02ca": {
-      "fingerprint": "d448a3526090f446d4101c98e24a9f805f70f3506dc2f478f7af0530c02f720d",
       "source_id": "zushi_news"
     },
     "fc9131e6c69ca4563620": {
