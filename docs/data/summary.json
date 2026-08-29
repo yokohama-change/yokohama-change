@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T12:20:20+00:00",
+  "generated_at": "2026-08-29T15:20:21+00:00",
   "commercial_50_plus": 24,
   "commercial_70_plus": 3,
   "commercial_85_plus": 3,
@@ -24,7 +24,7 @@
     "資格者のみ進行中": 4,
     "結果掲載済": 19,
     "判定不可": 43,
-    "案件外": 283
+    "案件外": 284
   },
   "scope": "神奈川 β（県＋16市町の公式情報）",
   "coverage_regions": [
@@ -47,10 +47,10 @@
     "二宮町"
   ],
   "by_region": {
-    "神奈川県": 120,
+    "神奈川県": 122,
     "横浜市": 92,
     "川崎市": 0,
-    "相模原市": 52,
+    "相模原市": 53,
     "藤沢市": 8,
     "茅ヶ崎市": 45,
     "横須賀市": 4,
@@ -61,8 +61,8 @@
     "逗子市": 3,
     "海老名市": 10,
     "伊勢原市": 8,
-    "座間市": 13,
-    "大磯町": 6,
+    "座間市": 12,
+    "大磯町": 5,
     "二宮町": 10
   },
   "open_now_by_region": {
@@ -86,6 +86,6 @@
   },
   "open_now_exact_time": 9,
   "open_now_high_value_exact_time": 6,
-  "preparation_due_now": 14,
-  "preparation_due_now_high_value": 6
+  "preparation_due_now": 15,
+  "preparation_due_now_high_value": 7
 }

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-29T12:20:24+00:00",
+  "checked_at": "2026-08-29T15:20:26+00:00",
   "health": "good",
   "health_label": "正常",
   "errors": [],
@@ -10,12 +10,12 @@
   "source_inventory": {
     "configured_sources": 21,
     "nonempty_sources": 21,
-    "state_items": 1906,
+    "state_items": 1902,
     "zero_item_source_ids": [],
     "orphan_source_ids": []
   },
   "dedupe": {
-    "duplicate_revisions_removed": 6,
+    "duplicate_revisions_removed": 5,
     "duplicate_urls_removed": 0,
     "remaining_duplicate_urls": 0
   },
