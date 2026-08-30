@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-08-30T12:20:13+00:00",
+  "updated_at": "2026-08-30T15:20:14+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -1832,6 +1832,21 @@
       "url": "https://www.pref.kanagawa.jp/docs/n8f/cnt/f4253/index.html",
       "source_updated": "2026-08-28T00:00:00+09:00",
       "fetched_at": "2026-08-28T21:55:56+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "6f4a650a0a53a38d98ef": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1018656/1018779.html",
+      "source_updated": "Mon, 31 Aug 2026 00:05:03 +0900",
+      "fetched_at": "2026-08-30T15:20:14+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
