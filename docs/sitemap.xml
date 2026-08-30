@@ -109,12 +109,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yokohama-change.github.io/yokohama-change/opportunities/3f797c60d2d7376cc367.html</loc>
-    <lastmod>2026-08-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://yokohama-change.github.io/yokohama-change/opportunities/36358923dcc4383016ff.html</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>daily</changefreq>
@@ -128,6 +122,12 @@
   </url>
   <url>
     <loc>https://yokohama-change.github.io/yokohama-change/opportunities/0fd0c37725c3dccc2407.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yokohama-change.github.io/yokohama-change/opportunities/3f797c60d2d7376cc367.html</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
