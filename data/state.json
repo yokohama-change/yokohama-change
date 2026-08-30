@@ -1,7 +1,7 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-08-30T06:20:12+00:00",
+  "updated_at": "2026-08-30T09:20:13+00:00",
   "items": {
     "b1ef5750031f07ef8d14": {
       "fingerprint": "0558e3dfc275908493029e882e788f19ff7483a37b05f2f139ac10d98597a93a",
@@ -3575,6 +3575,10 @@
       "fingerprint": "3aadd021841ae8e55f503252a98790e229256493670bcd0976f517d98ab7c114",
       "source_id": "kanagawa_pref_news"
     },
+    "95b9981c2e667b117cf4": {
+      "fingerprint": "cf22b7975cb6ea328bbe3274a46ff9805be9860eafb69ce35e36a9dbfee826a9",
+      "source_id": "kanagawa_pref_news"
+    },
     "f3b5089ff8361341e32c": {
       "fingerprint": "319aa8d1f2dadfe3dc9993efe2fb536af63b561f70c96f63286911197ea73ebe",
       "source_id": "kanagawa_pref_news"
@@ -3957,10 +3961,6 @@
     },
     "c4ae97937b8b3c4843eb": {
       "fingerprint": "8f00505e5b431e8dbb059db9f7a04ec0f663903afb910c7bc575587a0cf9f625",
-      "source_id": "kanagawa_pref_news"
-    },
-    "15fee40be808b0f1577e": {
-      "fingerprint": "31c234ad144de945f3ae87a75be5d20d9d89dc52de340a15b3579bb02e60c021",
       "source_id": "kanagawa_pref_news"
     },
     "51182ac8b2eab52d5e65": {
@@ -5099,6 +5099,10 @@
       "fingerprint": "3928c57f8b95374a72795c87f63b6b089a2a350f8ce69d84b9a71c486a9bebb4",
       "source_id": "sagamihara_news"
     },
+    "aaa7649d20dd04465d64": {
+      "fingerprint": "0cc44604b9ff3ede0a7f6b49c8fb3b42c772d1efc47632ad5e6305da5d7803b9",
+      "source_id": "fujisawa_news"
+    },
     "5c23b19e4ba7580f9696": {
       "fingerprint": "cdc6b7c422389376422b5b30a8b814e2a656247d19de5424e9f4040c42ead162",
       "source_id": "fujisawa_news"
@@ -5133,10 +5137,6 @@
     },
     "eabec363f56b92ae2c5a": {
       "fingerprint": "acf2661a3de6569ffa2bd2c2435b780942f5b96f70536da7d62b51aef21f22c5",
-      "source_id": "fujisawa_news"
-    },
-    "9f038355753ead0a1298": {
-      "fingerprint": "1aca0f7d7960b0bc28ac064a354a2da70a164fc95fa57c8652e668fd740d5e06",
       "source_id": "fujisawa_news"
     },
     "cb1c8f6734599f65b2fe": {
