@@ -1,7 +1,7 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-08-31T18:20:13+00:00",
+  "updated_at": "2026-08-31T21:20:21+00:00",
   "items": {
     "e5f7c51a095c7590f070": {
       "fingerprint": "959ee557b8959302df2360379bed8f0a7122bcf06b8722b5a8032f2dc706de6c",
@@ -6979,6 +6979,10 @@
       "fingerprint": "0b6d07bb57eff9ffa0c8bc8c8b75a42d32178ff45e9d74cfefb4a1b67e6f09fa",
       "source_id": "ebina_news"
     },
+    "2987a9b533ce12dd313b": {
+      "fingerprint": "3832ac18e6285c44efcae6eeaf294e6597d0c81bce4ca042ded2606307efa0e8",
+      "source_id": "isehara_news"
+    },
     "d95fb2a85d7bdd34facd": {
       "fingerprint": "0f9dec8201b94cb9f84008e012bdf1ce591d720f2c50cd5f92a4f98ad4b1d8ad",
       "source_id": "isehara_news"
@@ -7013,10 +7017,6 @@
     },
     "3e7db695ea045f5b77bf": {
       "fingerprint": "de81d35a58c9f167a8a6b7f0f69b1707f92747b0a75ff623ef34924600ea3f33",
-      "source_id": "isehara_news"
-    },
-    "ec3da0f5512a3de2af65": {
-      "fingerprint": "d8b64ebee11a5104484e39f470b11fc6809857019d45238f4fc9782db6e2ca99",
       "source_id": "isehara_news"
     },
     "031d9c24484ab6285b7e": {
