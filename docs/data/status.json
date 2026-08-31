@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-31T12:20:14+00:00",
+  "generated_at": "2026-08-31T15:20:31+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1891,
-  "changes_this_run": 8,
+  "items_seen": 1893,
+  "changes_this_run": 244,
   "errors": [],
   "state_preserved": false,
-  "public_items": 407,
-  "public_duplicate_revisions_removed": 5,
+  "public_items": 415,
+  "public_duplicate_revisions_removed": 0,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-08-31T12:20:14+00:00",
-  "application_status_candidates": 103,
-  "application_status_open_now": 17,
-  "application_status_fetches": 0,
+  "application_status_checked_at": "2026-08-31T15:20:36+00:00",
+  "application_status_candidates": 109,
+  "application_status_open_now": 22,
+  "application_status_fetches": 6,
   "application_status_errors": [],
   "application_status_warnings": [],
   "employment_notices_excluded": 8,
@@ -60,10 +60,10 @@
     "鎌倉市"
   ],
   "open_now_by_region": {
-    "神奈川県": 0,
+    "神奈川県": 1,
     "横浜市": 9,
     "川崎市": 0,
-    "相模原市": 7,
+    "相模原市": 11,
     "藤沢市": 0,
     "茅ヶ崎市": 0,
     "横須賀市": 0,
@@ -78,16 +78,21 @@
     "大磯町": 1,
     "二宮町": 0
   },
-  "open_now_exact_time": 6,
-  "open_now_high_value_exact_time": 6,
+  "open_now_exact_time": 7,
+  "open_now_high_value_exact_time": 7,
   "preparation_due_now": 16,
   "preparation_due_now_high_value": 7,
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20260829",
-    "to": "20260831"
+    "from": "20260830",
+    "to": "20260901"
   },
   "gbiz_items_seen": 4,
-  "gbiz_errors": [],
+  "gbiz_errors": [
+    {
+      "source": "法人情報更新",
+      "error": "HTTPError: HTTP Error 404: "
+    }
+  ],
   "gbiz_endpoint_mode": "v2-period-corporate-update-only"
 }
