@@ -1,13 +1,6 @@
 {
-  "normalized_items": 7,
+  "normalized_items": 6,
   "changes": [
-    {
-      "id": "332e25abe066f464835b",
-      "title": "令和8年度神奈川県ネット・ゼロ・エネルギー・ハウス導入費補助金",
-      "from": "事業・雇用",
-      "to": "補助金・支援",
-      "opportunity_type": "資金・支援"
-    },
     {
       "id": "4fcca73f72e2bad0c3b7",
       "title": "横浜市公共建築物マネジメント白書",
