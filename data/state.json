@@ -1,7 +1,7 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-08-31T09:20:24+00:00",
+  "updated_at": "2026-08-31T12:20:14+00:00",
   "items": {
     "e5f7c51a095c7590f070": {
       "fingerprint": "959ee557b8959302df2360379bed8f0a7122bcf06b8722b5a8032f2dc706de6c",
@@ -3951,6 +3951,10 @@
       "fingerprint": "e7963fe649634e3934242da32ae2ac29529d0a8e31cd3fae9dc5a9ed176644c0",
       "source_id": "kanagawa_pref_news"
     },
+    "18b8ad42f8533c11b403": {
+      "fingerprint": "69d03841a3c680654519ae5d4ab782f313d871a9f469db15558d4a11500a9531",
+      "source_id": "kanagawa_pref_news"
+    },
     "16b6c3a3485b998fb0b7": {
       "fingerprint": "f811ec695fcfffd8c6f7c17bc5c9e15f3ae4332732fd76b7b19be7decb06b38b",
       "source_id": "kanagawa_pref_news"
@@ -3961,10 +3965,6 @@
     },
     "ea09480c049845bfeca7": {
       "fingerprint": "2a3e8561b2b64d6e63a52e76374b2aab66e7069c12c46835a2cb10febcf9b96c",
-      "source_id": "kanagawa_pref_news"
-    },
-    "4a21ae997679ecbca3d8": {
-      "fingerprint": "0095a0ac4982b7f9b41f5d6ef7cb01073e6079cdebd9174b27d9431effdaf60e",
       "source_id": "kanagawa_pref_news"
     },
     "51182ac8b2eab52d5e65": {
@@ -5143,6 +5143,34 @@
       "fingerprint": "ce4aaf6081151e20825bfc4ab29652cdb6ef5c2a07784e42d9af7d45758ade7c",
       "source_id": "fujisawa_news"
     },
+    "f8f359de1b22f4cb6625": {
+      "fingerprint": "ee8a1abcaa7cd6477d001de682a12f2048c1b5cb0a64c95e598d31e1d89f22e4",
+      "source_id": "chigasaki_news"
+    },
+    "d5f35442fd3cdbe70bb6": {
+      "fingerprint": "bd81cbdd53aa94d7b8030509bfcd6b77a562e25ad5794b56567f9cc2bef615d1",
+      "source_id": "chigasaki_news"
+    },
+    "2823878e38956f3884f6": {
+      "fingerprint": "2a7957b1f664598b0af41860cf534e8cc516da1a5e5c8c737ee0f76a47d99d39",
+      "source_id": "chigasaki_news"
+    },
+    "358e6c126dd7b3c0dd13": {
+      "fingerprint": "8f222aed36b30e44624050786229c143c76bb9e5e318b576fe5be347dd7f5985",
+      "source_id": "chigasaki_news"
+    },
+    "423088518321105aa2db": {
+      "fingerprint": "254bb3b25cb5cb524f2e37ce71c1fa121f168c4385c9121bc6c102e080798d07",
+      "source_id": "chigasaki_news"
+    },
+    "3612fe14469a82d53ef0": {
+      "fingerprint": "4cd6178f9e616e9209c24dba25a745044737690885b1af339d3d3ae5b4406e61",
+      "source_id": "chigasaki_news"
+    },
+    "f088b4d50fa01aa9fa5c": {
+      "fingerprint": "96d2fd4ba73f94e80989d7c9aa4e3810f6ecf6c043c66c712555260f2928abed",
+      "source_id": "chigasaki_news"
+    },
     "cf905ad7ad0170338fc3": {
       "fingerprint": "b59095a1f9c007b2f812643d84a17a0ce5a6aefa2f2b8d591f540cc3e06510cb",
       "source_id": "chigasaki_news"
@@ -5171,20 +5199,8 @@
       "fingerprint": "0f1a947164bbbd4047701c5cc7904cd260fee9689c3ef887fcfa48bca435ed41",
       "source_id": "chigasaki_news"
     },
-    "423088518321105aa2db": {
-      "fingerprint": "cf81e9f267b471e5f4ab685e5172a3e5b32209ca4e9703c1fc92de99b1fa6693",
-      "source_id": "chigasaki_news"
-    },
-    "3612fe14469a82d53ef0": {
-      "fingerprint": "e816d6763433f9f68a26c250d2651227987facd17d8b6005e295f2208c46ffb2",
-      "source_id": "chigasaki_news"
-    },
     "74b18ffdd8a90bd6ec2a": {
       "fingerprint": "74175b80398f6beada40f5b14e85e8cffbf813f4dfd1d585ecd6301d08530629",
-      "source_id": "chigasaki_news"
-    },
-    "f088b4d50fa01aa9fa5c": {
-      "fingerprint": "9ddfba8b55a5e6729b504332c60094d5835b4fb1b8d3421101be3a65ee648b30",
       "source_id": "chigasaki_news"
     },
     "87e27b92d3c48c43b6c1": {
@@ -5803,10 +5819,6 @@
       "fingerprint": "02031e894ff048dc4e3646bfce6875421fa0bfb7a7c95075673cfd7a8287e2c4",
       "source_id": "chigasaki_news"
     },
-    "d5f35442fd3cdbe70bb6": {
-      "fingerprint": "528190ab0a1e5bc415a80a5db3ee634166f0548992ed713db4fa69931984a40e",
-      "source_id": "chigasaki_news"
-    },
     "3f31f4613fb0b9e005a0": {
       "fingerprint": "b72206f5dd27a9f56c65b3786b11fd344869fa310618722edf9a6f020fe213a4",
       "source_id": "chigasaki_news"
@@ -5921,10 +5933,6 @@
     },
     "3294fa92e5cd8cbcdc47": {
       "fingerprint": "35f8ba137e667d882f81b6e973d32c5bb3e59448ff7f08cfc5df91c3d83739b8",
-      "source_id": "chigasaki_news"
-    },
-    "f8f359de1b22f4cb6625": {
-      "fingerprint": "6f93d1f60cdb0fecd585bd5e094aaffcfcd4bdf2c7c867960b848868a00204b2",
       "source_id": "chigasaki_news"
     },
     "c82263414cc195908dcc": {
@@ -6153,14 +6161,6 @@
     },
     "ac18ca24407d47be2c29": {
       "fingerprint": "b4c0eda68f2f2799c208d63d7c61f17f35aabcc3d948fef622b2f0d01453344a",
-      "source_id": "chigasaki_news"
-    },
-    "a1939777a9b5af2ba44a": {
-      "fingerprint": "f0328ec84769d97c5f9f70d7a1f45ae1176cb8ecb49a02649e9fb1584794faab",
-      "source_id": "chigasaki_news"
-    },
-    "963991996667b9d0c879": {
-      "fingerprint": "3c3571eff96db6183ec954e8c341e2c151c61e79fcb4f379c2cb5d073d0b404e",
       "source_id": "chigasaki_news"
     },
     "fc982030e87fe87997cc": {
