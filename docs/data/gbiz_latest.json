@@ -1,58 +1,43 @@
 {
-  "generated_at": "2026-08-31T12:20:17+00:00",
+  "generated_at": "2026-08-31T18:20:16+00:00",
   "enabled": true,
-  "stale": true,
+  "stale": false,
   "period": {
     "from": "20260830",
     "to": "20260901"
   },
-  "count": 4,
+  "count": 3,
   "items": [
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001053655",
-      "name": "浅水建設株式会社",
-      "location": "神奈川県横浜市戸塚区原宿１丁目５番５号",
+      "corporate_number": "1020001048416",
+      "name": "ヒロテクノス株式会社",
+      "location": "神奈川県横浜市中区海岸通４丁目２０番２号ＹＴ馬車道ビル",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001099302",
-      "name": "株式会社エクリュ",
-      "location": "神奈川県横浜市都筑区荏田東１丁目９番７号",
+      "corporate_number": "1020001128985",
+      "name": "株式会社タクト（閉鎖）",
+      "location": "神奈川県横浜市都筑区荏田東４丁目２４番２３号",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001170054",
-      "name": "庄和株式会社",
-      "location": "神奈川県横浜市南区山谷７０番地６",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020002070195",
-      "name": "有限会社義興",
-      "location": "神奈川県横浜市都筑区茅ケ崎中央４０番２２－４０２号",
+      "corporate_number": "1020001170145",
+      "name": "株式会社Ｍａｋａｌａ",
+      "location": "神奈川県横浜市神奈川区金港町５番地１４クアドリフォリオ８階",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     }
   ],
-  "errors": [
-    {
-      "source": "法人情報更新",
-      "error": "HTTPError: HTTP Error 404: "
-    }
-  ],
+  "errors": [],
   "endpoint_mode": "v2-period-corporate-update-only",
-  "note": "gBizINFO更新取得に失敗したため、直前データを保持しています。現在募集中の案件とは分離されています。",
-  "signal_semantics": "営業先探索の補助情報。応募可能案件は YOKOHAMA CHANGE の受付中フィードを参照してください。",
-  "last_attempt_at": "2026-08-31T15:20:38+00:00"
+  "note": "法人情報の更新シグナルです。現在募集中の調達・補助金ではありません。",
+  "signal_semantics": "営業先探索の補助情報。応募可能案件は YOKOHAMA CHANGE の受付中フィードを参照してください。"
 }
