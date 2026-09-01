@@ -1,22 +1,31 @@
 {
-  "generated_at": "2026-09-01T03:26:48+00:00",
+  "generated_at": "2026-09-01T06:32:38+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1907,
-  "changes_this_run": 64,
+  "items_seen": 1909,
+  "changes_this_run": 46,
   "errors": [],
   "state_preserved": false,
   "public_items": 415,
   "public_duplicate_revisions_removed": 1,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-09-01T03:26:52+00:00",
-  "application_status_candidates": 116,
+  "application_status_checked_at": "2026-09-01T06:33:05+00:00",
+  "application_status_candidates": 118,
   "application_status_open_now": 23,
-  "application_status_fetches": 4,
+  "application_status_fetches": 32,
   "application_status_errors": [],
-  "application_status_warnings": [],
-  "employment_notices_excluded": 15,
+  "application_status_warnings": [
+    {
+      "title": "ミックスペーパー運搬業務委託（10月から3月）に係る条件付き一般競争入札の結果について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "浚渫等委託に係る条件付一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    }
+  ],
+  "employment_notices_excluded": 13,
   "support_period_candidates_checked": 2,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
