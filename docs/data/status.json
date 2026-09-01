@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-01T15:45:13+00:00",
+  "generated_at": "2026-09-01T18:29:54+00:00",
   "sources_total": 21,
   "sources_ok": 21,
   "items_seen": 1911,
-  "changes_this_run": 57,
+  "changes_this_run": 0,
   "errors": [],
   "state_preserved": false,
   "public_items": 423,
   "public_duplicate_revisions_removed": 3,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-09-01T15:45:25+00:00",
+  "application_status_checked_at": "2026-09-01T18:29:56+00:00",
   "application_status_candidates": 125,
   "application_status_open_now": 21,
-  "application_status_fetches": 20,
+  "application_status_fetches": 3,
   "application_status_errors": [],
   "application_status_warnings": [
     {
@@ -96,7 +96,7 @@
     "from": "20260831",
     "to": "20260902"
   },
-  "gbiz_items_seen": 3,
+  "gbiz_items_seen": 0,
   "gbiz_errors": [],
   "gbiz_endpoint_mode": "v2-period-corporate-update-only"
 }

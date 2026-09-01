@@ -1,41 +1,13 @@
 {
-  "generated_at": "2026-09-01T15:45:27+00:00",
+  "generated_at": "2026-09-01T18:29:59+00:00",
   "enabled": true,
   "stale": false,
   "period": {
     "from": "20260831",
     "to": "20260902"
   },
-  "count": 3,
-  "items": [
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001048416",
-      "name": "ヒロテクノス株式会社",
-      "location": "神奈川県横浜市中区海岸通４丁目２０番２号ＹＴ馬車道ビル",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001128985",
-      "name": "株式会社タクト（閉鎖）",
-      "location": "神奈川県横浜市都筑区荏田東４丁目２４番２３号",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001170145",
-      "name": "株式会社Ｍａｋａｌａ",
-      "location": "神奈川県横浜市神奈川区金港町５番地１４クアドリフォリオ８階",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    }
-  ],
+  "count": 0,
+  "items": [],
   "errors": [],
   "endpoint_mode": "v2-period-corporate-update-only",
   "note": "法人情報の更新シグナルです。現在募集中の調達・補助金ではありません。",
