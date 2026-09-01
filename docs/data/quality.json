@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-01T12:31:56+00:00",
+  "checked_at": "2026-09-01T15:45:27+00:00",
   "health": "warning",
   "health_label": "注意",
   "errors": [],
@@ -7,17 +7,17 @@
     "締切確認注意 2件"
   ],
   "freshness_minutes": 0,
-  "open_now": 23,
-  "open_now_high_value": 8,
+  "open_now": 21,
+  "open_now_high_value": 6,
   "source_inventory": {
     "configured_sources": 21,
     "nonempty_sources": 21,
-    "state_items": 1910,
+    "state_items": 1911,
     "zero_item_source_ids": [],
     "orphan_source_ids": []
   },
   "dedupe": {
-    "duplicate_revisions_removed": 4,
+    "duplicate_revisions_removed": 3,
     "duplicate_urls_removed": 0,
     "remaining_duplicate_urls": 0
   },

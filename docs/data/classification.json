@@ -2,13 +2,6 @@
   "normalized_items": 9,
   "changes": [
     {
-      "id": "2987a9b533ce12dd313b",
-      "title": "広報いせはら 令和8（2026）年9月1日号（No.1338）",
-      "from": "防災・安全",
-      "to": "入札・調達",
-      "opportunity_type": "受注機会"
-    },
-    {
       "id": "4fcca73f72e2bad0c3b7",
       "title": "横浜市公共建築物マネジメント白書",
       "from": "補助金・支援",
@@ -63,6 +56,13 @@
       "from": "制度・ルール",
       "to": "補助金・支援",
       "opportunity_type": "資金・支援"
+    },
+    {
+      "id": "2987a9b533ce12dd313b",
+      "title": "広報いせはら 令和8（2026）年9月1日号（No.1338）",
+      "from": "防災・安全",
+      "to": "入札・調達",
+      "opportunity_type": "受注機会"
     }
   ],
   "errors": [],

@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-01T12:31:49+00:00",
+  "generated_at": "2026-09-01T15:45:13+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1910,
-  "changes_this_run": 7,
+  "items_seen": 1911,
+  "changes_this_run": 57,
   "errors": [],
   "state_preserved": false,
-  "public_items": 421,
-  "public_duplicate_revisions_removed": 4,
+  "public_items": 423,
+  "public_duplicate_revisions_removed": 3,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-09-01T12:31:50+00:00",
-  "application_status_candidates": 118,
-  "application_status_open_now": 23,
-  "application_status_fetches": 3,
+  "application_status_checked_at": "2026-09-01T15:45:25+00:00",
+  "application_status_candidates": 125,
+  "application_status_open_now": 21,
+  "application_status_fetches": 20,
   "application_status_errors": [],
   "application_status_warnings": [
     {
@@ -25,7 +25,7 @@
       "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 15,
+  "employment_notices_excluded": 14,
   "support_period_candidates_checked": 2,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
@@ -69,8 +69,8 @@
     "鎌倉市"
   ],
   "open_now_by_region": {
-    "神奈川県": 1,
-    "横浜市": 9,
+    "神奈川県": 0,
+    "横浜市": 8,
     "川崎市": 0,
     "相模原市": 11,
     "藤沢市": 0,
@@ -87,14 +87,14 @@
     "大磯町": 1,
     "二宮町": 0
   },
-  "open_now_exact_time": 8,
-  "open_now_high_value_exact_time": 7,
-  "preparation_due_now": 16,
-  "preparation_due_now_high_value": 7,
+  "open_now_exact_time": 7,
+  "open_now_high_value_exact_time": 6,
+  "preparation_due_now": 14,
+  "preparation_due_now_high_value": 5,
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20260830",
-    "to": "20260901"
+    "from": "20260831",
+    "to": "20260902"
   },
   "gbiz_items_seen": 3,
   "gbiz_errors": [],
