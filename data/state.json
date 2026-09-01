@@ -1,7 +1,7 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-09-01T09:27:07+00:00",
+  "updated_at": "2026-09-01T12:31:49+00:00",
   "items": {
     "8e42174793f4d89d3c4c": {
       "fingerprint": "87b548557925d367cbfba02a4fce21f1c23430cd04c15cf8f7994bd03acf8563",
@@ -3871,6 +3871,18 @@
       "fingerprint": "09b7869f5e7c5a1e6ff18bc5a06b1e85fb5a43e5ded27be8c1140286793ad093",
       "source_id": "kanagawa_pref_news"
     },
+    "57df69c28de02f2f5bf6": {
+      "fingerprint": "4898660c42bb7f4691c93d6724af8cb804178dc332b16d2b353bf0af927a6e3c",
+      "source_id": "kanagawa_pref_news"
+    },
+    "569705d8a3fb37ecb76e": {
+      "fingerprint": "59338e666ddbe7c778bba593d1cbce8c3e5f173d16bdde45e9ffe8278e75e259",
+      "source_id": "kanagawa_pref_news"
+    },
+    "bb23792dbf7a337624a4": {
+      "fingerprint": "f82a7cd2d0845bfa0bb5cb0c21c5c4ad44065e7304e96df7865287b73ff49c8e",
+      "source_id": "kanagawa_pref_news"
+    },
     "57d3afdb1309fdc9f3a0": {
       "fingerprint": "2c6a6fa3b4785ca46892298ae6be2d5af640765fbf44a13cdb65fd6165cbebf1",
       "source_id": "kanagawa_pref_news"
@@ -3949,18 +3961,6 @@
     },
     "a6b0a972d3a690afe45c": {
       "fingerprint": "2d742b46e5b5be26cf9a290586b072c87bb1c38218f7f611f7adfac79c8ddfd6",
-      "source_id": "kanagawa_pref_news"
-    },
-    "673cdd7a2c09b9c867fe": {
-      "fingerprint": "98b1e14a29a76c1d3ce2c392fb3299e44dc6f9abf8760b224a6efa694e62d32b",
-      "source_id": "kanagawa_pref_news"
-    },
-    "85881104abb95aa0255d": {
-      "fingerprint": "713ecbe107b69ef807bbd26fc2e8f7958bd413e07e8ac4b35aabbf81f88b9f32",
-      "source_id": "kanagawa_pref_news"
-    },
-    "92c11d02cb179de65bdd": {
-      "fingerprint": "f405407be52fb22bf2a7a95b8126fbfb7869f1825c38a5348a4dd4d90679ecac",
       "source_id": "kanagawa_pref_news"
     },
     "c985814b92ce76a6d0c9": {
@@ -5139,6 +5139,18 @@
       "fingerprint": "77f6ce921cd89e0e99bf5201605131b5afcafb08a44d9d7567c1f1340d4e0e1f",
       "source_id": "fujisawa_news"
     },
+    "b64e708ecd97c5f847c5": {
+      "fingerprint": "aa824c26bcfcee324cf1d12371d30689cd0c1a6bf0d5f73e48d3d67dc66a5496",
+      "source_id": "chigasaki_news"
+    },
+    "c0427944fe71dc30f46b": {
+      "fingerprint": "484231f35044135956427bbfe1dd9a5a6fb8200f5d7ca6b68f7105d7e5452171",
+      "source_id": "chigasaki_news"
+    },
+    "f0c72cb09231f30e1344": {
+      "fingerprint": "9980919bac828a77a1868377ac54174793a2ef7e68a015f76c21b7f3dcd2d3b6",
+      "source_id": "chigasaki_news"
+    },
     "5508cea5b24644913648": {
       "fingerprint": "8584cee03e7ffbf6d28767e25bd5fc671e61f0ada259fa5a2887ea1660de48ef",
       "source_id": "chigasaki_news"
@@ -5297,10 +5309,6 @@
     },
     "cf905ad7ad0170338fc3": {
       "fingerprint": "b59095a1f9c007b2f812643d84a17a0ce5a6aefa2f2b8d591f540cc3e06510cb",
-      "source_id": "chigasaki_news"
-    },
-    "c0427944fe71dc30f46b": {
-      "fingerprint": "77b616daec11430d49ef65603ea44117e1376b0aef3509c31f7744b63b1401df",
       "source_id": "chigasaki_news"
     },
     "4d48d4e0a877ac2bbe03": {
@@ -5751,10 +5759,6 @@
       "fingerprint": "918095ca6f49172a9df2709090887ccf776f89ae1a52e3c795589ab3c278a3c0",
       "source_id": "chigasaki_news"
     },
-    "f0c72cb09231f30e1344": {
-      "fingerprint": "9195247c3b771d43e4117b812add02e5f337c90e1bec059a66676eb526d8adc6",
-      "source_id": "chigasaki_news"
-    },
     "dfefe8f251096c40bfc3": {
       "fingerprint": "50af4bf2e6b10de3141a432eb5dfed23a726f7c54cb17ff7d49e65fb5d6f547b",
       "source_id": "chigasaki_news"
@@ -6153,10 +6157,6 @@
     },
     "97a8c44cdd6db6bbde8a": {
       "fingerprint": "d852739cb48a8825a0d7ff2ee465a16a62f10128176ee12a0e56f75c512c20a8",
-      "source_id": "chigasaki_news"
-    },
-    "151004ea3cd1696837d9": {
-      "fingerprint": "277a8ce5386eb8d286ab30e825a7d077ddee780f89de460d032e203857093530",
       "source_id": "chigasaki_news"
     },
     "7e9cad98b0df4834bb4a": {
@@ -7444,7 +7444,7 @@
       "source_id": "zama_news"
     },
     "504763415f79365a2ee6": {
-      "fingerprint": "9dd32864daddecd9e99efcb7af2757dab355db580579ab55e3202b8421f45b60",
+      "fingerprint": "d6d19dffb42435a62fbc7c3401d1e0d765b566008342c0c497a41206736ee7c6",
       "source_id": "oiso_news"
     },
     "58adb0d855b92612bf6d": {
