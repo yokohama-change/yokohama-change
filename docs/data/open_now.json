@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-01T00:36:38+00:00",
-  "count": 22,
+  "generated_at": "2026-09-01T03:26:48+00:00",
+  "count": 23,
   "high_value_count": 8,
   "items": [
     {
@@ -556,6 +556,36 @@
       "preparation_days": 10,
       "preparation_start_date": "2026-08-29",
       "preparation_status": "準備開始推奨",
+      "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
+    },
+    {
+      "id": "947552e380388677b6a3",
+      "title": "鎌倉市ふるさと寄附金業務委託プロポーザルの実施について",
+      "url": "https://www.city.kamakura.kanagawa.jp/furusato/20260819puropo.html",
+      "source_name": "鎌倉市 新着情報",
+      "category": "入札・調達",
+      "opportunity_type": "受注機会",
+      "buyer_segments": [
+        "入札・公共調達"
+      ],
+      "commercial_score": 61,
+      "urgency": 34,
+      "importance": 56,
+      "application_status": "受付中",
+      "participation_deadline": "2026-09-30",
+      "participation_deadline_at": "2026-09-30T23:59+09:00",
+      "days_left": 29,
+      "deadline_label": "残り29日",
+      "priority_tier": "受付中",
+      "status_confidence": "high",
+      "status_reason": "明示された新規参加期限（参加申込）を確認",
+      "detected_at": "2026-09-01T03:26:48+00:00",
+      "source_updated": "2026-09-01T10:59:29+09:00",
+      "region": "鎌倉市",
+      "deadline_time_exact": false,
+      "preparation_days": 10,
+      "preparation_start_date": "2026-09-20",
+      "preparation_status": "準備開始前",
       "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
     },
     {
