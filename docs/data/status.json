@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-02T06:36:06+00:00",
+  "generated_at": "2026-09-02T09:26:42+00:00",
   "sources_total": 21,
   "sources_ok": 21,
   "items_seen": 1917,
-  "changes_this_run": 58,
+  "changes_this_run": 37,
   "errors": [],
   "state_preserved": false,
-  "public_items": 431,
-  "public_duplicate_revisions_removed": 2,
+  "public_items": 430,
+  "public_duplicate_revisions_removed": 5,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-09-02T06:36:08+00:00",
-  "application_status_candidates": 130,
-  "application_status_open_now": 21,
-  "application_status_fetches": 3,
+  "application_status_checked_at": "2026-09-02T09:26:45+00:00",
+  "application_status_candidates": 132,
+  "application_status_open_now": 20,
+  "application_status_fetches": 5,
   "application_status_errors": [],
   "application_status_warnings": [
     {
@@ -25,7 +25,7 @@
       "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 12,
+  "employment_notices_excluded": 13,
   "support_period_candidates_checked": 2,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
@@ -70,7 +70,7 @@
   ],
   "open_now_by_region": {
     "神奈川県": 0,
-    "横浜市": 8,
+    "横浜市": 7,
     "川崎市": 0,
     "相模原市": 11,
     "藤沢市": 0,
@@ -87,8 +87,8 @@
     "大磯町": 1,
     "二宮町": 0
   },
-  "open_now_exact_time": 7,
-  "open_now_high_value_exact_time": 6,
+  "open_now_exact_time": 6,
+  "open_now_high_value_exact_time": 5,
   "preparation_due_now": 14,
   "preparation_due_now_high_value": 5,
   "gbiz_enabled": true,

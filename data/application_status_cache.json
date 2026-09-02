@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-09-02T06:36:08+00:00",
+  "updated_at": "2026-09-02T09:26:45+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -1490,7 +1490,7 @@
     "2d391c3a7961f2f1e170": {
       "url": "https://www.pref.kanagawa.jp/docs/v3e/jyosei/gakuhisien/syougakukyuuhukinn.html",
       "source_updated": "2026-08-26T17:00:00+09:00",
-      "fetched_at": "2026-08-26T08:24:57+00:00",
+      "fetched_at": "2026-09-02T09:26:45+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2291,6 +2291,36 @@
       "url": "https://www.city.chigasaki.kanagawa.jp/keiyaku/1021844.html",
       "source_updated": "Wed, 02 Sep 2026 10:03:32 +0900",
       "fetched_at": "2026-09-02T03:26:12+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "2b603ce3dc3010859446": {
+      "url": "https://www.pref.kanagawa.jp/docs/nf5/cnt/f7214/p1067668.html",
+      "source_updated": "2026-09-02T00:00:00+09:00",
+      "fetched_at": "2026-09-02T09:26:43+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "2b42b49d55fb82f9f336": {
+      "url": "https://www.pref.kanagawa.jp/docs/m2w/miryokuappu/miryokuappukatsuyoujirei.html",
+      "source_updated": "2026-09-02T00:00:00+09:00",
+      "fetched_at": "2026-09-02T09:26:44+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
