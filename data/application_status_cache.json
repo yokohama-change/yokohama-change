@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-09-02T12:32:34+00:00",
+  "updated_at": "2026-09-02T15:30:26+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -2329,6 +2329,53 @@
         "result_hit": false,
         "closed_hit": false,
         "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "79b9e9b37e47c295a870": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/1036159.html",
+      "source_updated": "Thu, 03 Sep 2026 00:05:04 +0900",
+      "fetched_at": "2026-09-02T15:30:25+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "e7891b499d2141a4788e": {
+      "url": "https://www.pref.kanagawa.jp/docs/jf2/chusho/partnership.html",
+      "source_updated": "2026-09-03T00:00:00+09:00",
+      "fetched_at": "2026-09-02T15:30:25+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "f3b4155620aa61d9cba1": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/keiyaku/1006985.html",
+      "source_updated": "Thu, 03 Sep 2026 00:13:24 +0900",
+      "fetched_at": "2026-09-02T15:30:26+00:00",
+      "facts": {
+        "participation_deadline": "2026-12-01",
+        "participation_deadline_at": "2026-12-01T23:59+09:00",
+        "participation_source": "受付期間",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [
+          "2026-12-01"
+        ],
         "generic_dates": []
       }
     }
