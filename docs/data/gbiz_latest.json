@@ -1,13 +1,23 @@
 {
-  "generated_at": "2026-09-03T15:29:29+00:00",
+  "generated_at": "2026-09-03T18:30:01+00:00",
   "enabled": true,
   "stale": false,
   "period": {
     "from": "20260902",
     "to": "20260904"
   },
-  "count": 0,
-  "items": [],
+  "count": 1,
+  "items": [
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1010003046146",
+      "name": "青葉元石川開発合同会社",
+      "location": "神奈川県横浜市中区山下町９９番地",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    }
+  ],
   "errors": [],
   "endpoint_mode": "v2-period-corporate-update-only",
   "note": "法人情報の更新シグナルです。現在募集中の調達・補助金ではありません。",
