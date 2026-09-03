@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-09-03T12:32:50+00:00",
+  "updated_at": "2026-09-03T15:29:26+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -937,8 +937,8 @@
     },
     "ca3a3fcf485ee0a56bcb": {
       "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026766/seido/1026770/1026024/1035933.html",
-      "source_updated": "Mon, 17 Aug 2026 11:50:10 +0900",
-      "fetched_at": "2026-09-01T06:32:52+00:00",
+      "source_updated": "Thu, 03 Sep 2026 08:27:37 +0900",
+      "fetched_at": "2026-09-03T15:29:24+00:00",
       "facts": {
         "participation_deadline": "2026-08-31",
         "participation_deadline_at": "2026-08-31T17:00+09:00",
@@ -1783,8 +1783,8 @@
     },
     "8db8b4fe76c65b616e8c": {
       "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026766/seido/1026770/shiteikanri/1035526.html",
-      "source_updated": "Sat, 29 Aug 2026 00:05:03 +0900",
-      "fetched_at": "2026-08-28T21:55:52+00:00",
+      "source_updated": "Fri, 04 Sep 2026 00:05:04 +0900",
+      "fetched_at": "2026-09-03T15:29:25+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2407,6 +2407,121 @@
         "closed_hit": false,
         "participation_dates": [
           "2026-11-30"
+        ],
+        "generic_dates": []
+      }
+    },
+    "5ec0df6991ba876937d4": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/1036172.html",
+      "source_updated": "Fri, 04 Sep 2026 00:05:04 +0900",
+      "fetched_at": "2026-09-03T15:29:21+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "0ebdfbca5afc34707f12": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/1036173.html",
+      "source_updated": "Fri, 04 Sep 2026 00:05:04 +0900",
+      "fetched_at": "2026-09-03T15:29:22+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "a0f7f4018bd65a7bc7ba": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/1036167.html",
+      "source_updated": "Fri, 04 Sep 2026 00:05:04 +0900",
+      "fetched_at": "2026-09-03T15:29:23+00:00",
+      "facts": {
+        "participation_deadline": "2026-09-11",
+        "participation_deadline_at": "2026-09-11T23:59+09:00",
+        "participation_source": "受付期間",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [
+          "2026-09-11"
+        ],
+        "generic_dates": []
+      }
+    },
+    "048732875b6545e2103f": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/1036166.html",
+      "source_updated": "Fri, 04 Sep 2026 00:05:04 +0900",
+      "fetched_at": "2026-09-03T15:29:23+00:00",
+      "facts": {
+        "participation_deadline": "2026-09-11",
+        "participation_deadline_at": "2026-09-11T23:59+09:00",
+        "participation_source": "受付期間",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [
+          "2026-09-11"
+        ],
+        "generic_dates": []
+      }
+    },
+    "946bd97a5da58dfbd76e": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/1036168.html",
+      "source_updated": "Fri, 04 Sep 2026 00:05:04 +0900",
+      "fetched_at": "2026-09-03T15:29:24+00:00",
+      "facts": {
+        "participation_deadline": "2026-09-11",
+        "participation_deadline_at": "2026-09-11T23:59+09:00",
+        "participation_source": "受付期間",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [
+          "2026-09-11"
+        ],
+        "generic_dates": []
+      }
+    },
+    "1e1735c007bc4a94babd": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/1036165.html",
+      "source_updated": "Fri, 04 Sep 2026 00:05:04 +0900",
+      "fetched_at": "2026-09-03T15:29:25+00:00",
+      "facts": {
+        "participation_deadline": "2026-09-15",
+        "participation_deadline_at": "2026-09-15T23:59+09:00",
+        "participation_source": "受付期間",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [
+          "2026-09-15"
+        ],
+        "generic_dates": []
+      }
+    },
+    "5148158977b8f35f709d": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/1036162.html",
+      "source_updated": "Fri, 04 Sep 2026 00:05:04 +0900",
+      "fetched_at": "2026-09-03T15:29:26+00:00",
+      "facts": {
+        "participation_deadline": "2026-09-11",
+        "participation_deadline_at": "2026-09-11T23:59+09:00",
+        "participation_source": "受付期間",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [
+          "2026-09-11"
         ],
         "generic_dates": []
       }
