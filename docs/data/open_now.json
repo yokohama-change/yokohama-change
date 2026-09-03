@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-03T06:32:20+00:00",
-  "count": 20,
+  "generated_at": "2026-09-03T09:27:06+00:00",
+  "count": 21,
   "high_value_count": 5,
   "items": [
     {
@@ -586,6 +586,37 @@
       "deadline_time_exact": false,
       "preparation_days": 7,
       "preparation_start_date": "2026-09-23",
+      "preparation_status": "準備開始前",
+      "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
+    },
+    {
+      "id": "71ac8efa9e5495d5071b",
+      "title": "令和9・10年度競争入札参加資格定期申請について",
+      "url": "https://www.city.isehara.kanagawa.jp/docs/2026090200067/",
+      "source_name": "伊勢原市 新着情報",
+      "category": "入札・調達",
+      "opportunity_type": "受注機会",
+      "buyer_segments": [
+        "士業・補助金支援",
+        "入札・公共調達"
+      ],
+      "commercial_score": 51,
+      "urgency": 66,
+      "importance": 50,
+      "application_status": "受付中",
+      "participation_deadline": "2026-11-30",
+      "participation_deadline_at": "2026-11-30T23:59+09:00",
+      "days_left": 88,
+      "deadline_label": "残り88日",
+      "priority_tier": "受付中",
+      "status_confidence": "high",
+      "status_reason": "明示された新規参加期限（受付期間）を確認",
+      "detected_at": "2026-09-03T09:27:06+00:00",
+      "source_updated": "Thu, 03 Sep 2026 17:00:00 +0900",
+      "region": "伊勢原市",
+      "deadline_time_exact": false,
+      "preparation_days": 10,
+      "preparation_start_date": "2026-11-20",
       "preparation_status": "準備開始前",
       "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
     },
