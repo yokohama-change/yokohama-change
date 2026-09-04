@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-09-04T06:31:24+00:00",
+  "updated_at": "2026-09-04T09:26:50+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -104,8 +104,8 @@
     },
     "c7df71dff7965176ec12": {
       "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2026/sekkei/toshi/r8negishitochiriyou.html",
-      "source_updated": "Wed, 01 Jul 2026 02:00:00 GMT",
-      "fetched_at": "2026-08-29T18:20:18+00:00",
+      "source_updated": "Fri, 04 Sep 2026 06:00:00 GMT",
+      "fetched_at": "2026-09-04T09:26:49+00:00",
       "facts": {
         "participation_deadline": "2026-06-12",
         "participation_deadline_at": "2026-06-12T17:00+09:00",
