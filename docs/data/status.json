@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-04T09:26:48+00:00",
+  "generated_at": "2026-09-04T12:32:06+00:00",
   "sources_total": 21,
   "sources_ok": 21,
   "items_seen": 1910,
-  "changes_this_run": 27,
+  "changes_this_run": 8,
   "errors": [],
   "state_preserved": false,
   "public_items": 449,
   "public_duplicate_revisions_removed": 3,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-09-04T09:26:50+00:00",
+  "application_status_checked_at": "2026-09-04T12:32:07+00:00",
   "application_status_candidates": 146,
   "application_status_open_now": 24,
-  "application_status_fetches": 3,
+  "application_status_fetches": 2,
   "application_status_errors": [],
   "application_status_warnings": [
     {
