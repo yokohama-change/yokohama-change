@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-04T12:32:06+00:00",
+  "generated_at": "2026-09-04T15:27:02+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1910,
-  "changes_this_run": 8,
+  "items_seen": 1903,
+  "changes_this_run": 12,
   "errors": [],
   "state_preserved": false,
-  "public_items": 449,
-  "public_duplicate_revisions_removed": 3,
+  "public_items": 447,
+  "public_duplicate_revisions_removed": 5,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-09-04T12:32:07+00:00",
+  "application_status_checked_at": "2026-09-04T15:27:03+00:00",
   "application_status_candidates": 146,
   "application_status_open_now": 24,
   "application_status_fetches": 2,
@@ -25,7 +25,7 @@
       "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 27,
+  "employment_notices_excluded": 24,
   "support_period_candidates_checked": 2,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
@@ -89,12 +89,12 @@
   },
   "open_now_exact_time": 5,
   "open_now_high_value_exact_time": 4,
-  "preparation_due_now": 17,
+  "preparation_due_now": 18,
   "preparation_due_now_high_value": 4,
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20260902",
-    "to": "20260904"
+    "from": "20260903",
+    "to": "20260905"
   },
   "gbiz_items_seen": 1,
   "gbiz_errors": [],
