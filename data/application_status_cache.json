@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-09-03T21:25:01+00:00",
+  "updated_at": "2026-09-04T00:33:43+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -2522,6 +2522,28 @@
         "closed_hit": false,
         "participation_dates": [
           "2026-09-11"
+        ],
+        "generic_dates": []
+      }
+    },
+    "9bd785d2fb4b7c0991a4": {
+      "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2026/itaku/shimin/totsukahoukatsu.html",
+      "source_updated": "Fri, 04 Sep 2026 00:00:00 GMT",
+      "fetched_at": "2026-09-04T00:33:42+00:00",
+      "facts": {
+        "participation_deadline": "2026-10-30",
+        "participation_deadline_at": "2026-10-30T23:59+09:00",
+        "participation_source": "申込期限",
+        "downstream_dates": [
+          "2026-10-02",
+          "2026-10-16",
+          "2026-11-06",
+          "2026-11-20"
+        ],
+        "result_hit": false,
+        "closed_hit": true,
+        "participation_dates": [
+          "2026-10-30"
         ],
         "generic_dates": []
       }
