@@ -1,7 +1,7 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-09-05T00:34:58+00:00",
+  "updated_at": "2026-09-05T03:25:06+00:00",
   "items": {
     "b911e19a8392571316f1": {
       "fingerprint": "fa8e3ba857a20ec24ce0db4aad726c5c987976c766ab6d09846dbd3f458f9810",
@@ -3575,6 +3575,10 @@
       "fingerprint": "6106846244a7b124345ec0a86d88378259c07cd0148900b05ed0e725bc259674",
       "source_id": "kanagawa_pref_news"
     },
+    "fdcf61a9a7fe599d0c84": {
+      "fingerprint": "1e2d1331367059da7d2ca9f5c059d00b280211363f8fbe0fe06fb08952b27d82",
+      "source_id": "kanagawa_pref_news"
+    },
     "38cb5571c9222044612a": {
       "fingerprint": "acf9f41c59c2aec4b442c255be5c2bbb5f5e2a72a5d3bf4c14adcd4fa28876e6",
       "source_id": "kanagawa_pref_news"
@@ -3961,10 +3965,6 @@
     },
     "620f72df860105aa017c": {
       "fingerprint": "82ef2ba16e6a4b583f82bc87518977d410b7e4b48b21efffc417e5897cf29eeb",
-      "source_id": "kanagawa_pref_news"
-    },
-    "fac5e2cd513517d15b30": {
-      "fingerprint": "c40050167d9a8630483f73bd25aeeb6082c0a8b2f366d4efaa177eb1885038e9",
       "source_id": "kanagawa_pref_news"
     },
     "51182ac8b2eab52d5e65": {
@@ -5143,6 +5143,10 @@
       "fingerprint": "708877163e5c8e33d8b0b88007f87841f0337e66183d1bb6bd9cd8fb73453e3b",
       "source_id": "fujisawa_news"
     },
+    "cd6135fc70b4020f68d6": {
+      "fingerprint": "92d075a1f934b8046923a078e28574355edfa13f5c14fae9e59298e311b62325",
+      "source_id": "chigasaki_news"
+    },
     "12f082b93b23603c27c5": {
       "fingerprint": "31b66049d409a360ea49f079c5bfaf9462b6d5ec28cda7817a3c341c21267ce4",
       "source_id": "chigasaki_news"
@@ -6157,10 +6161,6 @@
     },
     "2c6bab251870f7252447": {
       "fingerprint": "996ddf4819b37abac599b60acd6f5e1b7fd4041daee6f6d22443684f6bbb4b36",
-      "source_id": "chigasaki_news"
-    },
-    "cdec6dc8fdc2c04c932a": {
-      "fingerprint": "6611f5249e7160ddcae97011217229efb5e8ca0772e3ac695791f688576b7c5d",
       "source_id": "chigasaki_news"
     },
     "c0bc59d193d4c6443538": {
