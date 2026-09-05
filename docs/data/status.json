@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T18:26:21+00:00",
+  "generated_at": "2026-09-05T21:23:37+00:00",
   "sources_total": 21,
   "sources_ok": 21,
   "items_seen": 1894,
@@ -10,10 +10,10 @@
   "public_duplicate_revisions_removed": 5,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-09-05T18:26:42+00:00",
+  "application_status_checked_at": "2026-09-05T21:23:39+00:00",
   "application_status_candidates": 146,
   "application_status_open_now": 24,
-  "application_status_fetches": 29,
+  "application_status_fetches": 3,
   "application_status_errors": [],
   "application_status_warnings": [
     {
