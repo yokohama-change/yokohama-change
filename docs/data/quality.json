@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-09-05T15:24:14+00:00",
+  "checked_at": "2026-09-05T18:26:45+00:00",
   "health": "warning",
   "health_label": "注意",
   "errors": [],
   "warnings": [
-    "締切確認注意 2件"
+    "締切確認注意 3件"
   ],
   "freshness_minutes": 0,
   "open_now": 24,

@@ -1,21 +1,25 @@
 {
-  "generated_at": "2026-09-05T15:24:10+00:00",
+  "generated_at": "2026-09-05T18:26:21+00:00",
   "sources_total": 21,
   "sources_ok": 21,
   "items_seen": 1894,
-  "changes_this_run": 4,
+  "changes_this_run": 0,
   "errors": [],
   "state_preserved": false,
   "public_items": 448,
   "public_duplicate_revisions_removed": 5,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-09-05T15:24:11+00:00",
+  "application_status_checked_at": "2026-09-05T18:26:42+00:00",
   "application_status_candidates": 146,
   "application_status_open_now": 24,
-  "application_status_fetches": 2,
+  "application_status_fetches": 29,
   "application_status_errors": [],
   "application_status_warnings": [
+    {
+      "title": "【公募型プロポーザル】事業評価制度推進支援業務委託",
+      "warning": "公式ページ404。受付中にはしません"
+    },
     {
       "title": "ミックスペーパー運搬業務委託（10月から3月）に係る条件付き一般競争入札の結果について",
       "warning": "公式ページ404。受付中にはしません"
