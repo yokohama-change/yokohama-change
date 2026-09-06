@@ -1,7 +1,7 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-09-06T15:24:49+00:00",
+  "updated_at": "2026-09-06T18:26:29+00:00",
   "items": {
     "b911e19a8392571316f1": {
       "fingerprint": "fa8e3ba857a20ec24ce0db4aad726c5c987976c766ab6d09846dbd3f458f9810",
@@ -3963,6 +3963,10 @@
       "fingerprint": "245c24015b18df27e6ad4cb2717ff81b4f772272b18b0cf8f4e12e1926af1539",
       "source_id": "kanagawa_pref_news"
     },
+    "9d906ce509ff4bd3098c": {
+      "fingerprint": "d8aa1ce12820ae87067df071e083edd0e659c4edb3f3e6f26955088d34d57238",
+      "source_id": "kawasaki_business"
+    },
     "c55691a7fa4ce9eb6761": {
       "fingerprint": "179d1aca95a7248a66d4626821a7d3dea9776b3d6824dc67fff5456458d9f711",
       "source_id": "kawasaki_business"
@@ -4073,10 +4077,6 @@
     },
     "6d852fccc2458f4c3047": {
       "fingerprint": "541da39c52d6fac11144224f7f3821064470f833c0345433ccff7bc2f3fc8790",
-      "source_id": "kawasaki_business"
-    },
-    "7cb42122f47b9b01ed15": {
-      "fingerprint": "7b75c64a02cbeb7a33d976f2bff60678347033ab5040a1829374e10414dcb921",
       "source_id": "kawasaki_business"
     },
     "0384ac794bff9d8d10a6": {
@@ -5139,6 +5139,10 @@
       "fingerprint": "0ed2e9f768834fe971321c4d9ab7d2f49a329e8c146a6805db85d96fc90fed0b",
       "source_id": "fujisawa_news"
     },
+    "fd6ee65c49d2271be68f": {
+      "fingerprint": "7244fe723eb0316d433a4aa875eb64c647dbc7768cbdc917c355e942aa692450",
+      "source_id": "chigasaki_news"
+    },
     "d9593d96901418569ded": {
       "fingerprint": "b3bfbe762d8322e82d18cd661d11232c9951e0b91dae9643831e9738411131cf",
       "source_id": "chigasaki_news"
@@ -6153,10 +6157,6 @@
     },
     "3ec2c4cb03c97d3e6a68": {
       "fingerprint": "f13b025fad1da2e4c9623bfd11e9951461b5da3e46adf8220bbf080ef3b4d278",
-      "source_id": "chigasaki_news"
-    },
-    "998687800225170732cf": {
-      "fingerprint": "3fce764bbd9a47199dc447849f8f2faa1824a83d89b01bca1887840b46a67917",
       "source_id": "chigasaki_news"
     },
     "9759f2bb163536eca938": {
@@ -7365,10 +7365,6 @@
     },
     "402fee0f468412c849fe": {
       "fingerprint": "c4578bdac467fd4f18d03330546ef353821cf39968ae493241008b51eec2d83d",
-      "source_id": "zama_news"
-    },
-    "f442ca5c4fb6060fa620": {
-      "fingerprint": "10dd92685cb6e186de006665fd0e75719943f7e81ae4ab276229e8a7eaec732f",
       "source_id": "zama_news"
     },
     "992a592f41b527b0aafb": {
