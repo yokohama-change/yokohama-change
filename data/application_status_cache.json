@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-09-07T00:37:43+00:00",
+  "updated_at": "2026-09-07T03:27:29+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -1070,7 +1070,7 @@
     "d5e53da63cbf022c7a01": {
       "url": "https://www.city.kamakura.kanagawa.jp/chousya-seibi/r08shinchousya-propo01.html",
       "source_updated": "2026-08-28T13:17:32+09:00",
-      "fetched_at": "2026-08-31T03:20:17+00:00",
+      "fetched_at": "2026-09-07T03:27:29+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -1153,8 +1153,8 @@
     },
     "9fbd98d8721bd5e8b678": {
       "url": "https://www.city.miura.kanagawa.jp/shigoto_sangyo_machizukuri/sangyoshinko/5/12642.html",
-      "source_updated": "2026-08-21T16:46:14+09:00",
-      "fetched_at": "2026-09-01T06:33:04+00:00",
+      "source_updated": "2026-09-07T11:29:26+09:00",
+      "fetched_at": "2026-09-07T03:27:26+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2597,6 +2597,62 @@
       "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/1036175.html",
       "source_updated": "Mon, 07 Sep 2026 00:05:04 +0900",
       "fetched_at": "2026-09-06T15:24:51+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "dd383ad45eac0e54ae4d": {
+      "url": "https://www.pref.kanagawa.jp/docs/yt7/top/2026_esco.html",
+      "source_updated": "2026-09-07T00:00:00+09:00",
+      "fetched_at": "2026-09-07T03:27:24+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [
+          "2026-06-24",
+          "2026-07-01",
+          "2026-07-08",
+          "2026-07-09",
+          "2026-08-07",
+          "2026-08-25",
+          "2027-04-01",
+          "2028-03-31",
+          "2028-04-01",
+          "2029-03-31"
+        ],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "e711aeef58eb4392be55": {
+      "url": "https://www.city.zama.kanagawa.jp/sangyo/keiyaku/proposal/1013952.html",
+      "source_updated": "Mon, 07 Sep 2026 10:00:04 +0900",
+      "fetched_at": "2026-09-07T03:27:25+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "2e745c5a3db2c59a039a": {
+      "url": "https://www.pref.kanagawa.jp/docs/n7t/dr.html",
+      "source_updated": "2026-09-07T00:00:00+09:00",
+      "fetched_at": "2026-09-07T03:27:27+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
