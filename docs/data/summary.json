@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T15:26:59+00:00",
+  "generated_at": "2026-09-07T18:29:08+00:00",
   "commercial_50_plus": 16,
   "commercial_70_plus": 4,
   "commercial_85_plus": 3,
@@ -16,14 +16,14 @@
     "地域影響": 2
   },
   "status_engine_version": 3,
-  "open_now": 23,
-  "open_now_commercial_70_plus": 4,
+  "open_now": 24,
+  "open_now_commercial_70_plus": 5,
   "application_status_counts": {
-    "受付中": 23,
+    "受付中": 24,
     "参加締切済": 24,
     "資格者のみ進行中": 7,
     "結果掲載済": 20,
-    "判定不可": 83,
+    "判定不可": 82,
     "案件外": 308
   },
   "scope": "神奈川 β（県＋16市町の公式情報）",
@@ -69,7 +69,7 @@
     "神奈川県": 0,
     "横浜市": 7,
     "川崎市": 0,
-    "相模原市": 12,
+    "相模原市": 13,
     "藤沢市": 0,
     "茅ヶ崎市": 1,
     "横須賀市": 0,
@@ -86,6 +86,6 @@
   },
   "open_now_exact_time": 5,
   "open_now_high_value_exact_time": 4,
-  "preparation_due_now": 15,
-  "preparation_due_now_high_value": 2
+  "preparation_due_now": 16,
+  "preparation_due_now_high_value": 3
 }

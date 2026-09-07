@@ -1,17 +1,14 @@
 {
-  "checked_at": "2026-09-07T15:27:11+00:00",
+  "checked_at": "2026-09-07T18:29:11+00:00",
   "health": "warning",
   "health_label": "注意",
   "errors": [],
   "warnings": [
-    "締切確認エラー 1件",
-    "締切確認注意 3件",
-    "gBizINFO注意 1件",
-    "gBizINFOデータがstaleです"
+    "締切確認注意 3件"
   ],
   "freshness_minutes": 0,
-  "open_now": 23,
-  "open_now_high_value": 4,
+  "open_now": 24,
+  "open_now_high_value": 5,
   "source_inventory": {
     "configured_sources": 21,
     "nonempty_sources": 21,

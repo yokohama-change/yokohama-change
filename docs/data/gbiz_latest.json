@@ -1,103 +1,70 @@
 {
-  "generated_at": "2026-09-07T12:33:03+00:00",
+  "generated_at": "2026-09-07T18:29:11+00:00",
   "enabled": true,
-  "stale": true,
+  "stale": false,
   "period": {
     "from": "20260906",
     "to": "20260908"
   },
-  "count": 9,
+  "count": 6,
   "items": [
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001022123",
-      "name": "和光産業株式会社",
-      "location": "神奈川県横浜市都筑区北山田２丁目２４番１５号",
+      "corporate_number": "1020001118961",
+      "name": "株式会社有成",
+      "location": "神奈川県横浜市戸塚区原宿２丁目３６番５－１号",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001055296",
-      "name": "株式会社ポリゴンハウス",
-      "location": "神奈川県横浜市瀬谷区北新２４番地１レオパレスルミエール１０２号室",
+      "corporate_number": "1020001169138",
+      "name": "株式会社集＆アソシエイツ",
+      "location": "神奈川県横浜市港北区新横浜１丁目１３番地６アイシスプラザⅢ６０４号室",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001113764",
-      "name": "株式会社リビングテック",
-      "location": "神奈川県横浜市神奈川区金港町５番地１４クアドリフォリオ８階",
+      "corporate_number": "1020001169674",
+      "name": "株式会社ＳＯＬ　ＩＮＴＥＲＩＯＲ",
+      "location": "神奈川県横浜市金沢区六浦４丁目３－１０－１０１",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001126262",
-      "name": "株式会社エイチ・アイ・エム",
-      "location": "神奈川県横浜市神奈川区金港町５番地１４クアドリフォリオ８階",
+      "corporate_number": "1020002045643",
+      "name": "有限会社山岸食品（閉鎖）",
+      "location": "神奈川県横浜市中区新山下２丁目９番１号",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001170260",
-      "name": "株式会社Ｂ‐ＲＡＤ",
-      "location": "神奈川県横浜市港北区新横浜２丁目１８－１１第二アモルビル３階",
+      "corporate_number": "1020005001057",
+      "name": "宗教法人般若寺",
+      "location": "神奈川県横浜市港南区下永谷１丁目３２番１１号",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020002031338",
-      "name": "有限会社プランドゥカンパニー",
-      "location": "神奈川県横浜市南区平楽１５５番地の２エクレール横浜三番館８０８号",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020003031139",
-      "name": "合同会社白い鳩",
-      "location": "神奈川県横浜市鶴見区鶴見中央４丁目３４－２６ニックハイム鶴見千代田ビル６１２号室",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020003031758",
-      "name": "Ｙ．Ｂ．Ｃ合同会社",
-      "location": "神奈川県横浜市神奈川区金港町２－１－２７０４",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020005005495",
-      "name": "特定非営利活動法人全国生涯学習支援機構",
-      "location": "神奈川県横浜市西区みなとみらい３丁目７番２－６０８号",
+      "corporate_number": "1020005017400",
+      "name": "一般社団法人日本ビューティーライセンス協会",
+      "location": "神奈川県横浜市磯子区杉田３丁目１２番Ｃ－３０１号",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     }
   ],
-  "errors": [
-    {
-      "source": "法人情報更新",
-      "error": "HTTPError: HTTP Error 404: "
-    }
-  ],
+  "errors": [],
   "endpoint_mode": "v2-period-corporate-update-only",
-  "note": "gBizINFO更新取得に失敗したため、直前データを保持しています。現在募集中の案件とは分離されています。",
-  "signal_semantics": "営業先探索の補助情報。応募可能案件は YOKOHAMA CHANGE の受付中フィードを参照してください。",
-  "last_attempt_at": "2026-09-07T15:27:11+00:00"
+  "note": "法人情報の更新シグナルです。現在募集中の調達・補助金ではありません。",
+  "signal_semantics": "営業先探索の補助情報。応募可能案件は YOKOHAMA CHANGE の受付中フィードを参照してください。"
 }
