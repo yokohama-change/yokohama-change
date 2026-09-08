@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-08T06:32:21+00:00",
+  "generated_at": "2026-09-08T09:28:07+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1895,
-  "changes_this_run": 60,
+  "items_seen": 1901,
+  "changes_this_run": 67,
   "errors": [],
   "state_preserved": false,
-  "public_items": 470,
-  "public_duplicate_revisions_removed": 5,
+  "public_items": 467,
+  "public_duplicate_revisions_removed": 6,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-09-08T06:32:24+00:00",
+  "application_status_checked_at": "2026-09-08T09:28:32+00:00",
   "application_status_candidates": 162,
-  "application_status_open_now": 25,
-  "application_status_fetches": 4,
+  "application_status_open_now": 24,
+  "application_status_fetches": 35,
   "application_status_errors": [],
   "application_status_warnings": [
     {
@@ -27,9 +27,29 @@
     {
       "title": "浚渫等委託に係る条件付一般競争入札の実施について",
       "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "産業廃棄物（廃蛍光管類）処理業務委託に係る条件付き一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "相模原市地域水道ビジョン改定業務委託に係る条件付一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "第1別館電算室非常用発電設備点検業務委託に係る条件付き一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "市立星が丘小学校外2校特別教室空調設備設置修繕に係る条件付一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "令和8年度茅ヶ崎市洪水・土砂災害・内水ハザードマップおよび製品プラスチック周知用チラシ封入・配布業務委託に関する一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 10,
+  "employment_notices_excluded": 9,
   "support_period_candidates_checked": 2,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
@@ -74,7 +94,7 @@
   ],
   "open_now_by_region": {
     "神奈川県": 0,
-    "横浜市": 7,
+    "横浜市": 6,
     "川崎市": 0,
     "相模原市": 13,
     "藤沢市": 0,
@@ -91,8 +111,8 @@
     "大磯町": 0,
     "二宮町": 0
   },
-  "open_now_exact_time": 4,
-  "open_now_high_value_exact_time": 3,
+  "open_now_exact_time": 3,
+  "open_now_high_value_exact_time": 2,
   "preparation_due_now": 16,
   "preparation_due_now_high_value": 3,
   "gbiz_enabled": true,
