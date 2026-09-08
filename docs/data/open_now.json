@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-08T03:27:14+00:00",
-  "count": 24,
+  "generated_at": "2026-09-08T06:32:21+00:00",
+  "count": 25,
   "high_value_count": 4,
   "items": [
     {
@@ -645,6 +645,37 @@
       "deadline_time_exact": false,
       "preparation_days": 7,
       "preparation_start_date": "2026-09-23",
+      "preparation_status": "準備開始前",
+      "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
+    },
+    {
+      "id": "23577e4844afa02f6537",
+      "title": "茅ヶ崎市商店街等プレミアム商品券支援事業費補助金",
+      "url": "https://www.city.chigasaki.kanagawa.jp/sangyo/1043316/1068418.html",
+      "source_name": "茅ヶ崎市 更新情報",
+      "category": "補助金・支援",
+      "opportunity_type": "資金・支援",
+      "buyer_segments": [
+        "士業・補助金支援",
+        "法人営業"
+      ],
+      "commercial_score": 51,
+      "urgency": 10,
+      "importance": 44,
+      "application_status": "受付中",
+      "participation_deadline": "2026-10-30",
+      "participation_deadline_at": "2026-10-30T23:59+09:00",
+      "days_left": 52,
+      "deadline_label": "残り52日",
+      "priority_tier": "受付中",
+      "status_confidence": "high",
+      "status_reason": "明示された新規参加期限（募集期間）を確認",
+      "detected_at": "2026-09-08T06:32:21+00:00",
+      "source_updated": "Tue, 08 Sep 2026 14:03:17 +0900",
+      "region": "茅ヶ崎市",
+      "deadline_time_exact": false,
+      "preparation_days": 7,
+      "preparation_start_date": "2026-10-23",
       "preparation_status": "準備開始前",
       "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
     },

@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-09-08T03:27:21+00:00",
+  "updated_at": "2026-09-08T06:32:24+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -2799,6 +2799,23 @@
         "closed_hit": false,
         "participation_dates": [
           "2026-11-30"
+        ],
+        "generic_dates": []
+      }
+    },
+    "23577e4844afa02f6537": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/sangyo/1043316/1068418.html",
+      "source_updated": "Tue, 08 Sep 2026 14:03:17 +0900",
+      "fetched_at": "2026-09-08T06:32:22+00:00",
+      "facts": {
+        "participation_deadline": "2026-10-30",
+        "participation_deadline_at": "2026-10-30T23:59+09:00",
+        "participation_source": "募集期間",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [
+          "2026-10-30"
         ],
         "generic_dates": []
       }
