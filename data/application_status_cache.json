@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-09-08T00:37:15+00:00",
+  "updated_at": "2026-09-08T03:27:21+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -2024,7 +2024,7 @@
     "947552e380388677b6a3": {
       "url": "https://www.city.kamakura.kanagawa.jp/furusato/20260819puropo.html",
       "source_updated": "2026-09-01T10:59:29+09:00",
-      "fetched_at": "2026-09-01T03:26:49+00:00",
+      "fetched_at": "2026-09-08T03:27:20+00:00",
       "facts": {
         "participation_deadline": "2026-09-30",
         "participation_deadline_at": "2026-09-30T23:59+09:00",
@@ -2044,7 +2044,7 @@
     "1ed137b51767d1c46381": {
       "url": "https://www.city.chigasaki.kanagawa.jp/kikaku_shiteikanrisha/1009684.html",
       "source_updated": "Tue, 01 Sep 2026 10:03:19 +0900",
-      "fetched_at": "2026-09-01T03:26:51+00:00",
+      "fetched_at": "2026-09-08T03:27:21+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2059,7 +2059,7 @@
     "81b481f1cb82248e365f": {
       "url": "https://www.city.yokosuka.kanagawa.jp/4421/yrp_hojo.html",
       "source_updated": "2026-08-04T17:10:30+09:00",
-      "fetched_at": "2026-09-01T03:26:51+00:00",
+      "fetched_at": "2026-09-08T03:27:21+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2753,6 +2753,53 @@
         "result_hit": false,
         "closed_hit": false,
         "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "c1ed589cd9c904408c91": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/keiyaku/buppin/1059879.html",
+      "source_updated": "Tue, 08 Sep 2026 10:03:24 +0900",
+      "fetched_at": "2026-09-08T03:27:16+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "6f72e43d7942be268c00": {
+      "url": "https://www.pref.kanagawa.jp/docs/u3x/jyosei/sonota.html",
+      "source_updated": "2026-09-08T00:00:00+09:00",
+      "fetched_at": "2026-09-08T03:27:17+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "9de5746e739116e93ccd": {
+      "url": "https://www.city.ebina.kanagawa.jp/shisei/nyusatsu/sanka/1011353.html",
+      "source_updated": "Tue, 08 Sep 2026 10:00:03 +0900",
+      "fetched_at": "2026-09-08T03:27:18+00:00",
+      "facts": {
+        "participation_deadline": "2026-11-30",
+        "participation_deadline_at": "2026-11-30T23:59+09:00",
+        "participation_source": "受付期間",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [
+          "2026-11-30"
+        ],
         "generic_dates": []
       }
     }
