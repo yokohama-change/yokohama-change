@@ -1,7 +1,7 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-09-08T09:28:07+00:00",
+  "updated_at": "2026-09-08T12:33:12+00:00",
   "items": {
     "d094f67a0c5fba400e5c": {
       "fingerprint": "a2fbd500df3ddf72a043a8f36762be73ccdc63f6fb270ad4451d472b52b81ac1",
@@ -6355,6 +6355,10 @@
       "fingerprint": "8cb8ed38be737bec5a386fb152d51b7bd70f67f47db7a8edb94daf7b4c1abf0c",
       "source_id": "hiratsuka_business"
     },
+    "a3bdb251ecf3bb690d3f": {
+      "fingerprint": "7abaae7d5605858eeccea759e11a4f43e8404ec7c4a0074c8c254ca1640753f4",
+      "source_id": "odawara_topics"
+    },
     "a5343f8c743ad011eb84": {
       "fingerprint": "6077d5e96a3514e37ba8d7de7f348c51ac1cafb2e91b6de2862ef1d0563600ba",
       "source_id": "odawara_topics"
@@ -6429,10 +6433,6 @@
     },
     "f5e31b69904e5c428188": {
       "fingerprint": "1d94c72ca3afcf8b579b01ff87b9e883f31cc502dc43efa76bb9f7a35f405362",
-      "source_id": "odawara_topics"
-    },
-    "cb931d407130c701a3a3": {
-      "fingerprint": "5c9c69235088db4600c9c2b9e638045172a492252b88bce78ee605b7f174d700",
       "source_id": "odawara_topics"
     },
     "9fbd98d8721bd5e8b678": {
@@ -6939,6 +6939,10 @@
       "fingerprint": "b6942fd8731881c2094423bd8e772fdc715a12b5e591bd904f7ff502c19c1daf",
       "source_id": "ebina_news"
     },
+    "ca3f4cc2492b88bbcef4": {
+      "fingerprint": "adc95292bd4a1bfce587c4deeaad6307b9d44b8dde7399d7f90ec0c1bf514772",
+      "source_id": "isehara_news"
+    },
     "033aa66a5a705f9b1be9": {
       "fingerprint": "3b82db943416683e24c8c38d1ae7150cccddb1cd5502c8d403e442320164b557",
       "source_id": "isehara_news"
@@ -6964,7 +6968,7 @@
       "source_id": "isehara_news"
     },
     "96b69ccb8b302cec3315": {
-      "fingerprint": "4b5885967ddb10906f3f4fdbc98b75a657020c98aeeaa88664ae88fd6e97cabc",
+      "fingerprint": "a91e2044bf94a9ecc2a3f040d7738f979fb9d93b033ee8fb8a11761d1905e529",
       "source_id": "isehara_news"
     },
     "267f5d4217e3e03550f6": {
@@ -6973,10 +6977,6 @@
     },
     "7274df710387c2dc370a": {
       "fingerprint": "0debef82588e5f4bd70529e6260de75b09d4e0dfaf6f71ddc65797b87f36083a",
-      "source_id": "isehara_news"
-    },
-    "b13849d18cac8fe8855e": {
-      "fingerprint": "b06cc5aba8cda541c1eca5db374cbefe298925d030cb5ad1257f6d279b25fa06",
       "source_id": "isehara_news"
     },
     "5042c6e71a0535010aac": {
