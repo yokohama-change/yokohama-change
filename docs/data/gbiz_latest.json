@@ -1,65 +1,29 @@
 {
-  "generated_at": "2026-09-08T15:29:22+00:00",
+  "generated_at": "2026-09-08T18:31:14+00:00",
   "enabled": true,
   "stale": false,
   "period": {
     "from": "20260907",
     "to": "20260909"
   },
-  "count": 6,
+  "count": 2,
   "items": [
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001118961",
-      "name": "株式会社有成",
-      "location": "神奈川県横浜市戸塚区原宿２丁目３６番５－１号",
+      "corporate_number": "1010401188564",
+      "name": "株式会社ＰＴＥホールディングス",
+      "location": "神奈川県横浜市西区南幸２丁目１５番２０号ＹＢＳ南幸ビル５階",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001169138",
-      "name": "株式会社集＆アソシエイツ",
-      "location": "神奈川県横浜市港北区新横浜１丁目１３番地６アイシスプラザⅢ６０４号室",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001169674",
-      "name": "株式会社ＳＯＬ　ＩＮＴＥＲＩＯＲ",
-      "location": "神奈川県横浜市金沢区六浦４丁目３－１０－１０１",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020002045643",
-      "name": "有限会社山岸食品（閉鎖）",
-      "location": "神奈川県横浜市中区新山下２丁目９番１号",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020005001057",
-      "name": "宗教法人般若寺",
-      "location": "神奈川県横浜市港南区下永谷１丁目３２番１１号",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020005017400",
-      "name": "一般社団法人日本ビューティーライセンス協会",
-      "location": "神奈川県横浜市磯子区杉田３丁目１２番Ｃ－３０１号",
+      "corporate_number": "1010701030021",
+      "name": "ジョイズ株式会社",
+      "location": "神奈川県横浜市西区みなとみらい４丁目４番２号",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     }
   ],

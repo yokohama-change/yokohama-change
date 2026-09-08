@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-08T15:29:13+00:00",
+  "generated_at": "2026-09-08T18:30:53+00:00",
   "sources_total": 21,
   "sources_ok": 21,
   "items_seen": 1901,
-  "changes_this_run": 52,
+  "changes_this_run": 0,
   "errors": [],
   "state_preserved": false,
   "public_items": 470,
   "public_duplicate_revisions_removed": 3,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-09-08T15:29:20+00:00",
+  "application_status_checked_at": "2026-09-08T18:31:11+00:00",
   "application_status_candidates": 170,
   "application_status_open_now": 30,
-  "application_status_fetches": 16,
+  "application_status_fetches": 27,
   "application_status_errors": [],
   "application_status_warnings": [
     {
@@ -46,6 +46,10 @@
     },
     {
       "title": "令和8年度茅ヶ崎市洪水・土砂災害・内水ハザードマップおよび製品プラスチック周知用チラシ封入・配布業務委託に関する一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "事業系一般廃棄物減量化に伴うごみ質実態調査及び減量化検討業務委託に係る条件付一般競争入札の結果について",
       "warning": "公式ページ404。受付中にはしません"
     }
   ],
@@ -120,7 +124,7 @@
     "from": "20260907",
     "to": "20260909"
   },
-  "gbiz_items_seen": 6,
+  "gbiz_items_seen": 2,
   "gbiz_errors": [],
   "gbiz_endpoint_mode": "v2-period-corporate-update-only"
 }
