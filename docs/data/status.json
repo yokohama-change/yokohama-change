@@ -1,27 +1,47 @@
 {
-  "generated_at": "2026-09-09T00:36:59+00:00",
+  "generated_at": "2026-10-28T12:53:07+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1900,
-  "changes_this_run": 20,
+  "items_seen": 1874,
+  "changes_this_run": 1243,
   "errors": [],
   "state_preserved": false,
-  "public_items": 472,
-  "public_duplicate_revisions_removed": 3,
+  "public_items": 520,
+  "public_duplicate_revisions_removed": 0,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-09-09T00:37:05+00:00",
-  "application_status_candidates": 170,
-  "application_status_open_now": 30,
-  "application_status_fetches": 10,
+  "application_status_checked_at": "2026-10-28T12:53:35+00:00",
+  "application_status_candidates": 191,
+  "application_status_open_now": 6,
+  "application_status_fetches": 40,
   "application_status_errors": [],
   "application_status_warnings": [
     {
-      "title": "【公募型プロポーザル】事業評価制度推進支援業務委託",
+      "title": "令和8年度人権の集いさがみはら業務委託に係る公募型プロポーザルの実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "橋本駅南口地区の公共空間（地下空間等）の活用に係る調査委託 公募型プロポーザルの結果について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "相模原市重度障害者医療費助成医療証に係る印刷製本及び封入封緘業務委託に係る条件付一般競争入札の結果について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "相模原市下水道施設地震対策事業計画見直し業務委託に係る条件付一般競争入札の実施について",
       "warning": "公式ページ404。受付中にはしません"
     },
     {
       "title": "ミックスペーパー運搬業務委託（10月から3月）に係る条件付き一般競争入札の結果について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "交通量等調査業務委託に係る条件付一般競争入札の結果について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "地盤変動影響調査業務委託【上鶴間地区（その2）ほか】に係る条件付一般競争入札の実施について",
       "warning": "公式ページ404。受付中にはしません"
     },
     {
@@ -41,6 +61,18 @@
       "warning": "公式ページ404。受付中にはしません"
     },
     {
+      "title": "路面下空洞調査業務委託に係る条件付一般競争入札の結果について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "相模原市営自動車駐車場の次期指定管理者公募に向けたサウンディング型市場調査の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "相模原市営自転車駐車場の次期指定管理者公募に向けたサウンディング型市場調査の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
       "title": "市立星が丘小学校外2校特別教室空調設備設置修繕に係る条件付一般競争入札の実施について",
       "warning": "公式ページ404。受付中にはしません"
     },
@@ -49,12 +81,24 @@
       "warning": "公式ページ404。受付中にはしません"
     },
     {
+      "title": "相模原市次期児童相談業務支援システム導入業務委託に係る公募型プロポーザルの実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "（都）村富相武台線道路改良事業補償調査算定業務委託に係る条件付一般競争入札の結果について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "特定建築物定期点検業務委託（本庁舎）に係る条件付き一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
       "title": "事業系一般廃棄物減量化に伴うごみ質実態調査及び減量化検討業務委託に係る条件付一般競争入札の結果について",
       "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 10,
-  "support_period_candidates_checked": 2,
+  "employment_notices_excluded": 2,
+  "support_period_candidates_checked": 3,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
   "scope": "神奈川 β（県＋16市町の公式情報）",
@@ -83,7 +127,6 @@
     "伊勢原市",
     "大磯町",
     "小田原市",
-    "川崎市",
     "平塚市",
     "座間市",
     "横浜市",
@@ -97,14 +140,14 @@
     "鎌倉市"
   ],
   "open_now_by_region": {
-    "神奈川県": 0,
-    "横浜市": 6,
+    "神奈川県": 1,
+    "横浜市": 1,
     "川崎市": 0,
-    "相模原市": 19,
+    "相模原市": 0,
     "藤沢市": 0,
     "茅ヶ崎市": 2,
     "横須賀市": 0,
-    "鎌倉市": 1,
+    "鎌倉市": 0,
     "平塚市": 0,
     "小田原市": 0,
     "三浦市": 0,
@@ -115,16 +158,16 @@
     "大磯町": 0,
     "二宮町": 0
   },
-  "open_now_exact_time": 3,
-  "open_now_high_value_exact_time": 2,
-  "preparation_due_now": 15,
-  "preparation_due_now_high_value": 2,
+  "open_now_exact_time": 1,
+  "open_now_high_value_exact_time": 0,
+  "preparation_due_now": 1,
+  "preparation_due_now_high_value": 0,
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20260907",
-    "to": "20260909"
+    "from": "20261026",
+    "to": "20261028"
   },
-  "gbiz_items_seen": 2,
+  "gbiz_items_seen": 3,
   "gbiz_errors": [],
   "gbiz_endpoint_mode": "v2-period-corporate-update-only"
 }
