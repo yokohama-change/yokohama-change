@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-10-29T09:57:16+00:00",
+  "updated_at": "2026-10-29T18:27:58+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -105,7 +105,7 @@
     "c7df71dff7965176ec12": {
       "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2026/sekkei/toshi/r8negishitochiriyou.html",
       "source_updated": "Fri, 04 Sep 2026 06:00:00 GMT",
-      "fetched_at": "2026-09-04T09:26:49+00:00",
+      "fetched_at": "2026-10-29T18:27:58+00:00",
       "facts": {
         "participation_deadline": "2026-06-12",
         "participation_deadline_at": "2026-06-12T17:00+09:00",
@@ -2242,7 +2242,7 @@
     "83d7b39073495f96934b": {
       "url": "https://www.pref.kanagawa.jp/docs/nf5/cnt/f531594/p858387.html",
       "source_updated": "2026-09-02T00:00:00+09:00",
-      "fetched_at": "2026-09-02T03:26:09+00:00",
+      "fetched_at": "2026-10-29T18:27:51+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2257,7 +2257,7 @@
     "99984976c5eee103ebef": {
       "url": "https://www.pref.kanagawa.jp/docs/nf5/cnt/f531594/p858388.html",
       "source_updated": "2026-09-02T00:00:00+09:00",
-      "fetched_at": "2026-09-02T03:26:09+00:00",
+      "fetched_at": "2026-10-29T18:27:51+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2287,7 +2287,7 @@
     "2b603ce3dc3010859446": {
       "url": "https://www.pref.kanagawa.jp/docs/nf5/cnt/f7214/p1067668.html",
       "source_updated": "2026-09-02T00:00:00+09:00",
-      "fetched_at": "2026-09-02T09:26:43+00:00",
+      "fetched_at": "2026-10-29T18:27:52+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2302,7 +2302,7 @@
     "2b42b49d55fb82f9f336": {
       "url": "https://www.pref.kanagawa.jp/docs/m2w/miryokuappu/miryokuappukatsuyoujirei.html",
       "source_updated": "2026-09-02T00:00:00+09:00",
-      "fetched_at": "2026-09-02T09:26:44+00:00",
+      "fetched_at": "2026-10-29T18:27:53+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2332,7 +2332,7 @@
     "e7891b499d2141a4788e": {
       "url": "https://www.pref.kanagawa.jp/docs/jf2/chusho/partnership.html",
       "source_updated": "2026-09-03T00:00:00+09:00",
-      "fetched_at": "2026-09-02T15:30:25+00:00",
+      "fetched_at": "2026-10-29T18:27:53+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2347,7 +2347,7 @@
     "f3b4155620aa61d9cba1": {
       "url": "https://www.city.chigasaki.kanagawa.jp/keiyaku/1006985.html",
       "source_updated": "Thu, 03 Sep 2026 00:13:24 +0900",
-      "fetched_at": "2026-09-02T15:30:26+00:00",
+      "fetched_at": "2026-10-29T18:27:54+00:00",
       "facts": {
         "participation_deadline": "2026-12-01",
         "participation_deadline_at": "2026-12-01T23:59+09:00",
@@ -2364,7 +2364,7 @@
     "7defce7be7b972a2296a": {
       "url": "https://www.pref.kanagawa.jp/docs/u2h/cnt/f531856/p870535.html",
       "source_updated": "2026-09-03T00:00:00+09:00",
-      "fetched_at": "2026-09-03T05:29:30+00:00",
+      "fetched_at": "2026-10-29T18:27:54+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2379,7 +2379,7 @@
     "71ac8efa9e5495d5071b": {
       "url": "https://www.city.isehara.kanagawa.jp/docs/2026090200067/",
       "source_updated": "Thu, 03 Sep 2026 17:00:00 +0900",
-      "fetched_at": "2026-09-03T09:27:07+00:00",
+      "fetched_at": "2026-10-29T18:27:55+00:00",
       "facts": {
         "participation_deadline": "2026-11-30",
         "participation_deadline_at": "2026-11-30T23:59+09:00",
@@ -2511,7 +2511,7 @@
     "9bd785d2fb4b7c0991a4": {
       "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2026/itaku/shimin/totsukahoukatsu.html",
       "source_updated": "Fri, 04 Sep 2026 00:00:00 GMT",
-      "fetched_at": "2026-09-04T00:33:42+00:00",
+      "fetched_at": "2026-10-29T18:27:57+00:00",
       "facts": {
         "participation_deadline": "2026-10-30",
         "participation_deadline_at": "2026-10-30T23:59+09:00",
@@ -2533,7 +2533,7 @@
     "e6e2e225e6e04556045c": {
       "url": "https://www.pref.kanagawa.jp/docs/f6z/zaitakuhojyo.html",
       "source_updated": "2026-09-04T11:00:00+09:00",
-      "fetched_at": "2026-09-04T03:25:44+00:00",
+      "fetched_at": "2026-10-29T18:27:58+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -3118,6 +3118,36 @@
       "url": "https://www.pref.kanagawa.jp/docs/m2w/premiumshien/kanatoku-dantaiichiran.html",
       "source_updated": "2026-10-29T00:00:00+09:00",
       "fetched_at": "2026-10-29T09:56:59+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "e343b5df4cc966f65905": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/1035161.html",
+      "source_updated": "Fri, 30 Oct 2026 00:05:04 +0900",
+      "fetched_at": "2026-10-29T18:27:45+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "24db097f7c2fc8f61e42": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/1036521.html",
+      "source_updated": "Fri, 30 Oct 2026 00:05:04 +0900",
+      "fetched_at": "2026-10-29T18:27:46+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",

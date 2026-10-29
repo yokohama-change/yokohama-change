@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-29T09:56:51+00:00",
+  "generated_at": "2026-10-29T18:27:44+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1883,
-  "changes_this_run": 178,
+  "items_seen": 1886,
+  "changes_this_run": 81,
   "errors": [],
   "state_preserved": false,
-  "public_items": 484,
-  "public_duplicate_revisions_removed": 6,
+  "public_items": 483,
+  "public_duplicate_revisions_removed": 5,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-10-29T09:57:16+00:00",
+  "application_status_checked_at": "2026-10-29T18:27:58+00:00",
   "application_status_candidates": 174,
   "application_status_open_now": 14,
   "application_status_fetches": 40,
@@ -83,9 +83,21 @@
     {
       "title": "津久井総合事務所公用車賃貸借契約（令和9年3月契約分）に係る条件付一般競争入札の実施について",
       "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "競争入札参加資格申請",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "道路附属物（照明施設）点検業務委託（その2）に係る条件付一般競争入札の結果について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "総合保健医療センターA館清掃業務委託（長期継続契約）に係る条件付一般競争入札の結果について",
+      "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 7,
+  "employment_notices_excluded": 8,
   "support_period_candidates_checked": 3,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
@@ -148,14 +160,14 @@
   },
   "open_now_exact_time": 5,
   "open_now_high_value_exact_time": 4,
-  "preparation_due_now": 4,
-  "preparation_due_now_high_value": 3,
+  "preparation_due_now": 0,
+  "preparation_due_now_high_value": 0,
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20261027",
-    "to": "20261029"
+    "from": "20261028",
+    "to": "20261030"
   },
-  "gbiz_items_seen": 0,
+  "gbiz_items_seen": 1,
   "gbiz_errors": [],
   "gbiz_endpoint_mode": "v2-period-corporate-update-only"
 }
