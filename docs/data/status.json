@@ -1,37 +1,21 @@
 {
-  "generated_at": "2026-10-30T00:58:40+00:00",
+  "generated_at": "2026-10-30T09:59:12+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1887,
-  "changes_this_run": 27,
+  "items_seen": 1893,
+  "changes_this_run": 217,
   "errors": [],
   "state_preserved": false,
-  "public_items": 488,
+  "public_items": 485,
   "public_duplicate_revisions_removed": 0,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-10-30T00:58:59+00:00",
-  "application_status_candidates": 174,
-  "application_status_open_now": 15,
+  "application_status_checked_at": "2026-10-30T09:59:25+00:00",
+  "application_status_candidates": 167,
+  "application_status_open_now": 16,
   "application_status_fetches": 40,
   "application_status_errors": [],
   "application_status_warnings": [
-    {
-      "title": "相模原市次期児童相談業務支援システム導入業務委託に係る公募型プロポーザルの実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "（都）村富相武台線道路改良事業補償調査算定業務委託に係る条件付一般競争入札の結果について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "特定建築物定期点検業務委託（本庁舎）に係る条件付き一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "事業系一般廃棄物減量化に伴うごみ質実態調査及び減量化検討業務委託に係る条件付一般競争入札の結果について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
     {
       "title": "相模原市南保健福祉センター日常清掃業務委託に係る条件付一般競争入札の結果について",
       "warning": "公式ページ404。受付中にはしません"
@@ -95,9 +79,25 @@
     {
       "title": "総合保健医療センターA館清掃業務委託（長期継続契約）に係る条件付一般競争入札の結果について",
       "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "総合保健医療センターB館清掃業務委託（長期継続契約）に係る条件付一般競争入札の結果について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "流域貯留浸透施設清掃委託（処理処分）に係る条件付一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "流域貯留浸透施設清掃委託（収集運搬）に係る条件付一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "河川定期点検業務委託に係る条件付一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 9,
+  "employment_notices_excluded": 12,
   "support_period_candidates_checked": 3,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
@@ -141,10 +141,10 @@
   ],
   "open_now_by_region": {
     "神奈川県": 2,
-    "横浜市": 3,
+    "横浜市": 6,
     "川崎市": 0,
     "相模原市": 2,
-    "藤沢市": 0,
+    "藤沢市": 1,
     "茅ヶ崎市": 2,
     "横須賀市": 0,
     "鎌倉市": 0,
@@ -152,16 +152,16 @@
     "小田原市": 0,
     "三浦市": 0,
     "逗子市": 0,
-    "海老名市": 5,
+    "海老名市": 2,
     "伊勢原市": 1,
     "座間市": 0,
     "大磯町": 0,
     "二宮町": 0
   },
-  "open_now_exact_time": 5,
-  "open_now_high_value_exact_time": 4,
-  "preparation_due_now": 0,
-  "preparation_due_now_high_value": 0,
+  "open_now_exact_time": 3,
+  "open_now_high_value_exact_time": 1,
+  "preparation_due_now": 2,
+  "preparation_due_now_high_value": 1,
   "gbiz_enabled": true,
   "gbiz_period": {
     "from": "20261028",
