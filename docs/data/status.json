@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-29T18:27:44+00:00",
+  "generated_at": "2026-10-30T00:58:40+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1886,
-  "changes_this_run": 81,
+  "items_seen": 1887,
+  "changes_this_run": 27,
   "errors": [],
   "state_preserved": false,
-  "public_items": 483,
-  "public_duplicate_revisions_removed": 5,
+  "public_items": 488,
+  "public_duplicate_revisions_removed": 0,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-10-29T18:27:58+00:00",
+  "application_status_checked_at": "2026-10-30T00:58:59+00:00",
   "application_status_candidates": 174,
-  "application_status_open_now": 14,
+  "application_status_open_now": 15,
   "application_status_fetches": 40,
   "application_status_errors": [],
   "application_status_warnings": [
@@ -97,7 +97,7 @@
       "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 8,
+  "employment_notices_excluded": 9,
   "support_period_candidates_checked": 3,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
@@ -140,7 +140,7 @@
     "鎌倉市"
   ],
   "open_now_by_region": {
-    "神奈川県": 1,
+    "神奈川県": 2,
     "横浜市": 3,
     "川崎市": 0,
     "相模原市": 2,
