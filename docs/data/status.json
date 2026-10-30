@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-30T09:59:12+00:00",
+  "generated_at": "2026-10-30T18:00:00+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1893,
-  "changes_this_run": 217,
+  "items_seen": 1884,
+  "changes_this_run": 33,
   "errors": [],
   "state_preserved": false,
-  "public_items": 485,
-  "public_duplicate_revisions_removed": 0,
+  "public_items": 479,
+  "public_duplicate_revisions_removed": 2,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-10-30T09:59:25+00:00",
-  "application_status_candidates": 167,
-  "application_status_open_now": 16,
+  "application_status_checked_at": "2026-10-30T18:00:17+00:00",
+  "application_status_candidates": 165,
+  "application_status_open_now": 15,
   "application_status_fetches": 40,
   "application_status_errors": [],
   "application_status_warnings": [
@@ -97,7 +97,7 @@
       "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 12,
+  "employment_notices_excluded": 13,
   "support_period_candidates_checked": 3,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
@@ -145,7 +145,7 @@
     "川崎市": 0,
     "相模原市": 2,
     "藤沢市": 1,
-    "茅ヶ崎市": 2,
+    "茅ヶ崎市": 1,
     "横須賀市": 0,
     "鎌倉市": 0,
     "平塚市": 0,
@@ -164,10 +164,10 @@
   "preparation_due_now_high_value": 1,
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20261028",
-    "to": "20261030"
+    "from": "20261029",
+    "to": "20261031"
   },
-  "gbiz_items_seen": 1,
+  "gbiz_items_seen": 0,
   "gbiz_errors": [],
   "gbiz_endpoint_mode": "v2-period-corporate-update-only"
 }

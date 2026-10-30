@@ -1,23 +1,13 @@
 {
-  "generated_at": "2026-10-30T09:59:27+00:00",
+  "generated_at": "2026-10-30T18:00:22+00:00",
   "enabled": true,
   "stale": false,
   "period": {
-    "from": "20261028",
-    "to": "20261030"
+    "from": "20261029",
+    "to": "20261031"
   },
-  "count": 1,
-  "items": [
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1011001059305",
-      "name": "株式会社パスラン",
-      "location": "神奈川県横浜市西区平沼１丁目７番１８号",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    }
-  ],
+  "count": 0,
+  "items": [],
   "errors": [],
   "endpoint_mode": "v2-period-corporate-update-only",
   "note": "法人情報の更新シグナルです。現在募集中の調達・補助金ではありません。",
