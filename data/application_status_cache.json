@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-10-31T12:26:48+00:00",
+  "updated_at": "2026-10-31T19:16:57+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -3291,6 +3291,36 @@
         "participation_dates": [
           "2026-09-30"
         ],
+        "generic_dates": []
+      }
+    },
+    "94c487cd9725c977e1cf": {
+      "url": "https://www.city.hiratsuka.kanagawa.jp/sangyo/page33_00164.html",
+      "source_updated": "Sun, 01 Nov 2026 10:00:00 +0900",
+      "fetched_at": "2026-10-31T19:16:41+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "450e88b2b816677dd764": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026529/bousai/1008801/1028151.html",
+      "source_updated": "Sun, 01 Nov 2026 00:05:04 +0900",
+      "fetched_at": "2026-10-31T19:16:42+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
         "generic_dates": []
       }
     }

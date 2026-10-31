@@ -1,13 +1,23 @@
 {
-  "generated_at": "2026-10-31T12:26:52+00:00",
+  "generated_at": "2026-10-31T19:17:01+00:00",
   "enabled": true,
   "stale": false,
   "period": {
-    "from": "20261029",
-    "to": "20261031"
+    "from": "20261030",
+    "to": "20261101"
   },
-  "count": 0,
-  "items": [],
+  "count": 1,
+  "items": [
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1011003024273",
+      "name": "ＳＶジャパントレーディング合同会社",
+      "location": "神奈川県横浜市西区北幸１丁目１１－５相鉄ＫＳビル６階・９階",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    }
+  ],
   "errors": [],
   "endpoint_mode": "v2-period-corporate-update-only",
   "note": "法人情報の更新シグナルです。現在募集中の調達・補助金ではありません。",
