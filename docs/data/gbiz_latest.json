@@ -1,20 +1,83 @@
 {
-  "generated_at": "2026-11-01T13:22:10+00:00",
+  "generated_at": "2026-11-01T19:39:31+00:00",
   "enabled": true,
   "stale": false,
   "period": {
-    "from": "20261030",
-    "to": "20261101"
+    "from": "20261031",
+    "to": "20261102"
   },
-  "count": 1,
+  "count": 8,
   "items": [
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1011003024273",
-      "name": "ＳＶジャパントレーディング合同会社",
-      "location": "神奈川県横浜市西区北幸１丁目１１－５相鉄ＫＳビル６階・９階",
+      "corporate_number": "1020001024607",
+      "name": "明発工業株式会社（閉鎖）",
+      "location": "神奈川県横浜市神奈川区羽沢町５２６番地",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    },
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1020001028351",
+      "name": "橋沢海運株式会社",
+      "location": "神奈川県横浜市神奈川区西神奈川１丁目１５－９飯田ビル２０１",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    },
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1020001048969",
+      "name": "株式会社キタノ",
+      "location": "神奈川県横浜市磯子区杉田６丁目１３番２５号",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    },
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1020001059421",
+      "name": "株式会社レリーフ（閉鎖）",
+      "location": "神奈川県横浜市瀬谷区瀬谷４丁目７番地２８",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    },
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1020002065583",
+      "name": "有限会社フォレスト（閉鎖）",
+      "location": "神奈川県横浜市戸塚区舞岡町４８８番地３",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    },
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1020003004482",
+      "name": "合同会社橘屋茶店",
+      "location": "神奈川県横浜市南区浦舟町１丁目１番地１４",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    },
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1020003021874",
+      "name": "Ｂｏｋｕｄａｉ合同会社（閉鎖）",
+      "location": "神奈川県横浜市中区扇町４丁目１１番地４センチュリー横浜関内３０２号室",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    },
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1040001130056",
+      "name": "アロカヴァ企画株式会社",
+      "location": "神奈川県横浜市港北区仲手原２丁目１番１３号",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     }
   ],
