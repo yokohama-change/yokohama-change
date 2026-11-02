@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-02T11:02:18+00:00",
+  "generated_at": "2026-11-02T21:42:18+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1881,
-  "changes_this_run": 168,
+  "items_seen": 1880,
+  "changes_this_run": 15,
   "errors": [],
   "state_preserved": false,
   "public_items": 474,
   "public_duplicate_revisions_removed": 1,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-02T11:02:36+00:00",
+  "application_status_checked_at": "2026-11-02T21:42:36+00:00",
   "application_status_candidates": 157,
-  "application_status_open_now": 18,
+  "application_status_open_now": 19,
   "application_status_fetches": 40,
   "application_status_errors": [],
   "application_status_warnings": [
@@ -141,7 +141,7 @@
   ],
   "open_now_by_region": {
     "神奈川県": 2,
-    "横浜市": 6,
+    "横浜市": 7,
     "川崎市": 0,
     "相模原市": 5,
     "藤沢市": 1,
@@ -160,14 +160,14 @@
   },
   "open_now_exact_time": 3,
   "open_now_high_value_exact_time": 1,
-  "preparation_due_now": 4,
-  "preparation_due_now_high_value": 2,
+  "preparation_due_now": 7,
+  "preparation_due_now_high_value": 4,
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20261031",
-    "to": "20261102"
+    "from": "20261101",
+    "to": "20261103"
   },
-  "gbiz_items_seen": 8,
+  "gbiz_items_seen": 7,
   "gbiz_errors": [],
   "gbiz_endpoint_mode": "v2-period-corporate-update-only"
 }
