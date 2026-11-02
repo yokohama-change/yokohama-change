@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-11-02T00:44:28+00:00",
+  "updated_at": "2026-11-02T11:02:36+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -432,8 +432,8 @@
     },
     "024042f6997641c3471c": {
       "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2026/itaku/toshi/syouchoumidori.html",
-      "source_updated": "Mon, 06 Jul 2026 02:00:00 GMT",
-      "fetched_at": "2026-09-05T18:26:35+00:00",
+      "source_updated": "Mon, 05 Oct 2026 04:00:00 GMT",
+      "fetched_at": "2026-11-02T11:02:35+00:00",
       "facts": {
         "participation_deadline": "2026-06-23",
         "participation_deadline_at": "2026-06-23T17:00+09:00",
@@ -477,8 +477,8 @@
     },
     "6c952ee9cecff868ae38": {
       "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2026/itaku/kenko/wakariyasui2026.html",
-      "source_updated": "Thu, 02 Jul 2026 05:00:00 GMT",
-      "fetched_at": "2026-09-05T18:26:36+00:00",
+      "source_updated": "Thu, 15 Oct 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-02T11:02:36+00:00",
       "facts": {
         "participation_deadline": "2026-06-19",
         "participation_deadline_at": "2026-06-19T17:00+09:00",
@@ -3409,6 +3409,43 @@
       "url": "https://www.town.ninomiya.kanagawa.jp/0000003645.html",
       "source_updated": "Mon, 02 Nov 2026 00:00:01 +0900",
       "fetched_at": "2026-11-02T00:44:12+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "5c704463fd655659c731": {
+      "url": "https://www.city.isehara.kanagawa.jp/docs/2026110200046/",
+      "source_updated": "Mon, 02 Nov 2026 17:11:37 +0900",
+      "fetched_at": "2026-11-02T11:02:19+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [
+          "2026-11-02",
+          "2026-11-06",
+          "2026-11-12",
+          "2026-11-20",
+          "2026-11-27",
+          "2026-12-08"
+        ],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "d3b65c7eb97cc07a994d": {
+      "url": "https://www.city.isehara.kanagawa.jp/docs/2026102300013/",
+      "source_updated": "Tue, 27 Oct 2026 09:26:18 +0900",
+      "fetched_at": "2026-11-02T11:02:35+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",

@@ -1,37 +1,21 @@
 {
-  "generated_at": "2026-11-02T00:44:10+00:00",
+  "generated_at": "2026-11-02T11:02:18+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1874,
-  "changes_this_run": 31,
+  "items_seen": 1881,
+  "changes_this_run": 168,
   "errors": [],
   "state_preserved": false,
-  "public_items": 487,
-  "public_duplicate_revisions_removed": 4,
+  "public_items": 474,
+  "public_duplicate_revisions_removed": 1,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-02T00:44:28+00:00",
-  "application_status_candidates": 171,
+  "application_status_checked_at": "2026-11-02T11:02:36+00:00",
+  "application_status_candidates": 157,
   "application_status_open_now": 18,
   "application_status_fetches": 40,
   "application_status_errors": [],
   "application_status_warnings": [
-    {
-      "title": "相模原市南保健福祉センター日常清掃業務委託に係る条件付一般競争入札の結果について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "相模原市南保健福祉センター設備管理業務委託に係る条件付一般競争入札の結果について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "県市道維持補修業務委託（南区その3）に係る条件付一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "県市道維持補修業務委託（南区その4）に係る条件付一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
     {
       "title": "相模原都市計画事業麻溝台・新磯野第一整備地区土地区画整理事業補償費算定業務委託（その2）に係る条件付一般競争入札の実施について",
       "warning": "公式ページ404。受付中にはしません"
@@ -95,9 +79,25 @@
     {
       "title": "河川定期点検業務委託に係る条件付一般競争入札の実施について",
       "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "相模原市営自転車駐車場の次期指定管理者公募に向けたサウンディング型市場調査の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "RPA新規開発及びRPA関連業務に係る労働者派遣契約に係る条件付一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "市立上溝中学校B棟屋上防水修繕に係る条件付一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "寸沢嵐市有林整備業務委託（その1）に係る条件付一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 4,
+  "employment_notices_excluded": 7,
   "support_period_candidates_checked": 3,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
