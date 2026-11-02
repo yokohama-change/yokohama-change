@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-11-01T19:39:28+00:00",
+  "updated_at": "2026-11-02T00:44:28+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -3402,6 +3402,21 @@
         "participation_dates": [
           "2026-11-09"
         ],
+        "generic_dates": []
+      }
+    },
+    "a1935980d10c66b2daf4": {
+      "url": "https://www.town.ninomiya.kanagawa.jp/0000003645.html",
+      "source_updated": "Mon, 02 Nov 2026 00:00:01 +0900",
+      "fetched_at": "2026-11-02T00:44:12+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
         "generic_dates": []
       }
     }
