@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-11-03T17:02:07+00:00",
+  "updated_at": "2026-11-03T23:22:28+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -3720,6 +3720,81 @@
         "participation_dates": [
           "2026-10-23"
         ],
+        "generic_dates": []
+      }
+    },
+    "704f11dbd12faed932cb": {
+      "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2027/itaku/kankyo/2027Sakaejurin.html",
+      "source_updated": "Tue, 20 Oct 2026 15:00:00 GMT",
+      "fetched_at": "2026-11-03T23:22:25+00:00",
+      "facts": {
+        "participation_deadline": "2026-10-30",
+        "participation_deadline_at": "2026-10-30T23:59+09:00",
+        "participation_source": "申込期限",
+        "downstream_dates": [
+          "2026-10-30",
+          "2026-11-13",
+          "2026-11-20",
+          "2026-11-27",
+          "2026-12-07",
+          "2027-01-19"
+        ],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [
+          "2026-10-30"
+        ],
+        "generic_dates": []
+      }
+    },
+    "4a02b8c305ab2eb06cbd": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/1036476.html",
+      "source_updated": "Wed, 21 Oct 2026 00:05:04 +0900",
+      "fetched_at": "2026-11-03T23:22:26+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "299668c9b8e25dd16cd9": {
+      "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2027/itaku/kenko/r9_ninchi_syoki.html",
+      "source_updated": "Fri, 23 Oct 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-03T23:22:27+00:00",
+      "facts": {
+        "participation_deadline": "2026-11-13",
+        "participation_deadline_at": "2026-11-13T17:00+09:00",
+        "participation_source": "申込期限+申込欄:提出期間",
+        "downstream_dates": [
+          "2026-11-13",
+          "2027-01-07",
+          "2027-01-08"
+        ],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [
+          "2026-11-13"
+        ],
+        "generic_dates": []
+      }
+    },
+    "80fd4c1ee3d090d4cffc": {
+      "url": "https://www.city.chigasaki.kanagawa.jp/keiyaku/keiyaku/1068088.html",
+      "source_updated": "Mon, 26 Oct 2026 14:05:14 +0900",
+      "fetched_at": "2026-11-03T23:22:28+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
         "generic_dates": []
       }
     }
