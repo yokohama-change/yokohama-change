@@ -1,7 +1,7 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-11-04T17:14:15+00:00",
+  "updated_at": "2026-11-04T23:39:44+00:00",
   "items": {
     "7266cf437785c4d8bfff": {
       "fingerprint": "438577d3106b16e5f440fbcfb136dfd1b4924e4ebb1f802fa8f763c3fc8d68b0",
@@ -6239,6 +6239,10 @@
       "fingerprint": "9faa37d16f22af7cfdb7f28defd39bf4ef37ff9c16fcf990ed5bbc17312d4f72",
       "source_id": "kamakura_news"
     },
+    "4eec0cf2f21b23a05988": {
+      "fingerprint": "277b2d24bfc10628e6d9e6981822ed5e301f634fc67fda287990cb7b2e2f2219",
+      "source_id": "hiratsuka_business"
+    },
     "94c487cd9725c977e1cf": {
       "fingerprint": "5cf0514d3d22c4cf3e64b57589f02e0e577719e78f79a6a2378bff76212d75e7",
       "source_id": "hiratsuka_business"
@@ -6353,10 +6357,6 @@
     },
     "d2a04fdbb7f9b348e736": {
       "fingerprint": "cbe618804b6de65f438e9035a318fcd9f3ca3490e899d9be8465fa10121085cd",
-      "source_id": "hiratsuka_business"
-    },
-    "b5359a5056a04011be7f": {
-      "fingerprint": "7e27ddab6ceca54a0082c8b5ba635912f72de7b6b6bc35a08101ac108c360c35",
       "source_id": "hiratsuka_business"
     },
     "5138d975c8ee1fc0192c": {
