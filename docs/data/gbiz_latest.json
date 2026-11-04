@@ -1,77 +1,13 @@
 {
-  "generated_at": "2026-11-04T06:19:02+00:00",
+  "generated_at": "2026-11-04T17:14:31+00:00",
   "enabled": true,
   "stale": false,
   "period": {
-    "from": "20261102",
-    "to": "20261104"
+    "from": "20261103",
+    "to": "20261105"
   },
-  "count": 7,
-  "items": [
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001090789",
-      "name": "株式会社ブラウンシールズ（閉鎖）",
-      "location": "神奈川県横浜市港南区下永谷３丁目１３番６号",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001096357",
-      "name": "株式会社藤商事",
-      "location": "神奈川県横浜市中区太田町４丁目４７番地",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001103914",
-      "name": "株式会社スリーシーエス",
-      "location": "神奈川県横浜市緑区北八朔町１９８８番地４５",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001160229",
-      "name": "株式会社ＫＥＹＢＯ（閉鎖）",
-      "location": "神奈川県横浜市瀬谷区下瀬谷１丁目３７番地５０",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020003014696",
-      "name": "パーキンスジャパン合同会社（閉鎖）",
-      "location": "神奈川県横浜市西区みなとみらい３丁目７番１号",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020003031964",
-      "name": "合同会社ＬＡＰＣＲＥＷＳＴＹＬＥ",
-      "location": "神奈川県横浜市中区野毛町１丁目５３番地",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020003032070",
-      "name": "ＳＹＴ合同会社",
-      "location": "神奈川県横浜市西区浅間町１丁目４番３号ウィザードビル４０２",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    }
-  ],
+  "count": 0,
+  "items": [],
   "errors": [],
   "endpoint_mode": "v2-period-corporate-update-only",
   "note": "法人情報の更新シグナルです。現在募集中の調達・補助金ではありません。",

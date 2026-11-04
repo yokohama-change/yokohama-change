@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-04T06:18:48+00:00",
+  "generated_at": "2026-11-04T17:14:15+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1887,
-  "changes_this_run": 149,
+  "items_seen": 1885,
+  "changes_this_run": 91,
   "errors": [],
   "state_preserved": false,
-  "public_items": 478,
-  "public_duplicate_revisions_removed": 3,
+  "public_items": 470,
+  "public_duplicate_revisions_removed": 7,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-04T06:18:59+00:00",
-  "application_status_candidates": 162,
-  "application_status_open_now": 21,
+  "application_status_checked_at": "2026-11-04T17:14:28+00:00",
+  "application_status_candidates": 164,
+  "application_status_open_now": 26,
   "application_status_fetches": 40,
   "application_status_errors": [],
   "application_status_warnings": [
@@ -97,7 +97,7 @@
       "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 8,
+  "employment_notices_excluded": 7,
   "support_period_candidates_checked": 3,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
@@ -127,6 +127,7 @@
     "伊勢原市",
     "大磯町",
     "小田原市",
+    "川崎市",
     "平塚市",
     "座間市",
     "横浜市",
@@ -141,9 +142,9 @@
   ],
   "open_now_by_region": {
     "神奈川県": 2,
-    "横浜市": 8,
+    "横浜市": 12,
     "川崎市": 0,
-    "相模原市": 5,
+    "相模原市": 6,
     "藤沢市": 1,
     "茅ヶ崎市": 2,
     "横須賀市": 0,
@@ -164,10 +165,10 @@
   "preparation_due_now_high_value": 5,
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20261102",
-    "to": "20261104"
+    "from": "20261103",
+    "to": "20261105"
   },
-  "gbiz_items_seen": 7,
+  "gbiz_items_seen": 0,
   "gbiz_errors": [],
   "gbiz_endpoint_mode": "v2-period-corporate-update-only"
 }
