@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-11-05T06:44:32+00:00",
+  "updated_at": "2026-11-05T17:24:03+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -703,7 +703,7 @@
     "d9c4c723f9df6602c0ab": {
       "url": "https://www.pref.kanagawa.jp/docs/m2w/premiumshien/kanatoku.html",
       "source_updated": "2026-10-29T00:00:00+09:00",
-      "fetched_at": "2026-10-29T09:56:58+00:00",
+      "fetched_at": "2026-11-05T17:24:01+00:00",
       "facts": {
         "participation_deadline": "2026-12-04",
         "participation_deadline_at": "2026-12-04T23:59+09:00",
@@ -1954,7 +1954,7 @@
     "a4f8f8b338bc879f773f": {
       "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/kankyo/1026504/shinrin/1019877.html",
       "source_updated": "Tue, 01 Sep 2026 00:05:04 +0900",
-      "fetched_at": "2026-10-29T09:57:04+00:00",
+      "fetched_at": "2026-11-05T17:23:48+00:00",
       "facts": {
         "participation_deadline": "2027-02-26",
         "participation_deadline_at": "2027-02-26T23:59+09:00",
@@ -1974,7 +1974,7 @@
     "2987a9b533ce12dd313b": {
       "url": "https://www.city.isehara.kanagawa.jp/docs/2026082500113/",
       "source_updated": "Tue, 01 Sep 2026 05:00:00 +0900",
-      "fetched_at": "2026-10-29T09:57:05+00:00",
+      "fetched_at": "2026-11-05T17:23:49+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -1989,7 +1989,7 @@
     "9bb5d635d9ebded16e35": {
       "url": "https://www.pref.kanagawa.jp/docs/tu5/aigo_ryokka_2027/proposal.html",
       "source_updated": "2026-09-01T09:00:00+09:00",
-      "fetched_at": "2026-10-29T09:57:06+00:00",
+      "fetched_at": "2026-11-05T17:23:49+00:00",
       "facts": {
         "participation_deadline": "2026-07-23",
         "participation_deadline_at": "2026-07-23T23:59+09:00",
@@ -2008,7 +2008,7 @@
     "947552e380388677b6a3": {
       "url": "https://www.city.kamakura.kanagawa.jp/furusato/20260819puropo.html",
       "source_updated": "2026-09-01T10:59:29+09:00",
-      "fetched_at": "2026-10-29T09:57:08+00:00",
+      "fetched_at": "2026-11-05T17:23:50+00:00",
       "facts": {
         "participation_deadline": "2026-09-30",
         "participation_deadline_at": "2026-09-30T23:59+09:00",
@@ -2028,7 +2028,7 @@
     "1ed137b51767d1c46381": {
       "url": "https://www.city.chigasaki.kanagawa.jp/kikaku_shiteikanrisha/1009684.html",
       "source_updated": "Tue, 01 Sep 2026 10:03:19 +0900",
-      "fetched_at": "2026-10-29T09:57:08+00:00",
+      "fetched_at": "2026-11-05T17:23:51+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2043,7 +2043,7 @@
     "81b481f1cb82248e365f": {
       "url": "https://www.city.yokosuka.kanagawa.jp/4421/yrp_hojo.html",
       "source_updated": "2026-08-04T17:10:30+09:00",
-      "fetched_at": "2026-10-29T09:57:09+00:00",
+      "fetched_at": "2026-11-05T17:23:51+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2058,7 +2058,7 @@
     "194995ccf5332ae2c197": {
       "url": "https://www.pref.kanagawa.jp/osirase/0502/kanagawa-datsutanso-portal/supports/index.html",
       "source_updated": "2026-09-07T00:00:00+09:00",
-      "fetched_at": "2026-10-29T09:57:10+00:00",
+      "fetched_at": "2026-11-05T17:23:52+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2073,7 +2073,7 @@
     "1d4da50f8555e8b7a7f4": {
       "url": "https://www.city.isehara.kanagawa.jp/docs/2026082000057/",
       "source_updated": "Tue, 01 Sep 2026 08:30:00 +0900",
-      "fetched_at": "2026-10-29T09:57:11+00:00",
+      "fetched_at": "2026-11-05T17:23:53+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2088,7 +2088,7 @@
     "e322e29f8215b5061edf": {
       "url": "https://www.pref.kanagawa.jp/docs/v3e/jyosei/hojokin/osirase.html",
       "source_updated": "2026-09-01T00:00:00+09:00",
-      "fetched_at": "2026-10-29T09:57:12+00:00",
+      "fetched_at": "2026-11-05T17:23:53+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2182,7 +2182,7 @@
     "efd1e29eb9e4781ce4d5": {
       "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/sangyo/1026664/1003291/josei/1035331.html",
       "source_updated": "Tue, 01 Sep 2026 11:10:58 +0900",
-      "fetched_at": "2026-10-29T09:57:14+00:00",
+      "fetched_at": "2026-11-05T17:23:56+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2212,7 +2212,7 @@
     "39813fd062a99e5e6ae5": {
       "url": "https://www.pref.kanagawa.jp/docs/bc2/suraidoseido/suraidoseido.html",
       "source_updated": "2026-09-02T00:00:00+09:00",
-      "fetched_at": "2026-10-29T09:57:15+00:00",
+      "fetched_at": "2026-11-05T17:23:56+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2227,7 +2227,7 @@
     "de66ac369b2d8a75c957": {
       "url": "https://www.pref.kanagawa.jp/docs/z4r/roukakuhou/index.html",
       "source_updated": "2026-09-02T00:00:00+09:00",
-      "fetched_at": "2026-10-29T09:57:16+00:00",
+      "fetched_at": "2026-11-05T17:23:57+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -4027,6 +4027,38 @@
         "result_hit": false,
         "closed_hit": false,
         "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "89c794fa47c3bcbda793": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/1036549.html",
+      "source_updated": "Fri, 06 Nov 2026 00:05:04 +0900",
+      "fetched_at": "2026-11-05T17:23:45+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "ecb2438b5ebecdc1e0cb": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/1036546.html",
+      "source_updated": "Fri, 06 Nov 2026 00:05:04 +0900",
+      "fetched_at": "2026-11-05T17:23:46+00:00",
+      "facts": {
+        "participation_deadline": "2026-11-17",
+        "participation_deadline_at": "2026-11-17T23:59+09:00",
+        "participation_source": "受付期間",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [
+          "2026-11-17"
+        ],
         "generic_dates": []
       }
     }
