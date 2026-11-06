@@ -1,37 +1,21 @@
 {
-  "generated_at": "2026-11-06T06:41:18+00:00",
+  "generated_at": "2026-11-06T23:06:44+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1879,
-  "changes_this_run": 139,
+  "items_seen": 1875,
+  "changes_this_run": 110,
   "errors": [],
   "state_preserved": false,
-  "public_items": 483,
-  "public_duplicate_revisions_removed": 2,
+  "public_items": 475,
+  "public_duplicate_revisions_removed": 3,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-06T06:41:39+00:00",
-  "application_status_candidates": 168,
-  "application_status_open_now": 28,
+  "application_status_checked_at": "2026-11-06T23:06:57+00:00",
+  "application_status_candidates": 162,
+  "application_status_open_now": 27,
   "application_status_fetches": 40,
   "application_status_errors": [],
   "application_status_warnings": [
-    {
-      "title": "相模原都市計画事業麻溝台・新磯野第一整備地区土地区画整理事業補償費算定業務委託（その2）に係る条件付一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "トンネル点検業務委託に係る条件付一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "大島学校給食センター応急給食用レトルトカレーに係る条件付一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "橋本公民館他25館自動体外式除細動器賃貸借契約（長期継続契約）に係る条件付一般競争入札の結果について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
     {
       "title": "中山間地域在宅医療・介護連携支援コーディネーター業務委託に係る公募型プロポーザルの実施結果について",
       "warning": "公式ページ404。受付中にはしません"
@@ -95,6 +79,22 @@
     {
       "title": "寸沢嵐市有林整備業務委託（その1）に係る条件付一般競争入札の実施について",
       "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "さがみはら防災ガイドブック作成印刷業務委託に係る条件付一般競争入札の結果について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "橋りょう点検業務委託（その4）に係る条件付一般競争入札の結果について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "麻溝台・新磯野第一整備地区土地区画整理事業 基盤整備工事（その2）ほか積算技術業務委託に係る条件付一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "ペデストリアンデッキ点検業務委託に係る条件付一般競争入札の結果について",
+      "warning": "公式ページ404。受付中にはしません"
     }
   ],
   "employment_notices_excluded": 13,
@@ -144,7 +144,7 @@
     "神奈川県": 2,
     "横浜市": 13,
     "川崎市": 0,
-    "相模原市": 7,
+    "相模原市": 6,
     "藤沢市": 1,
     "茅ヶ崎市": 2,
     "横須賀市": 0,
@@ -161,12 +161,12 @@
   },
   "open_now_exact_time": 6,
   "open_now_high_value_exact_time": 3,
-  "preparation_due_now": 10,
+  "preparation_due_now": 11,
   "preparation_due_now_high_value": 6,
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20261104",
-    "to": "20261106"
+    "from": "20261105",
+    "to": "20261107"
   },
   "gbiz_items_seen": 0,
   "gbiz_errors": [],
