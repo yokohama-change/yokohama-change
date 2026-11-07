@@ -1,7 +1,7 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-11-07T05:56:49+00:00",
+  "updated_at": "2026-11-07T12:58:53+00:00",
   "items": {
     "6a2f6bdc5579bd989e9f": {
       "fingerprint": "aa32d645b4016824e0c39d1080432249b6c2354bee0342d84316ef6a7c1d09fb",
@@ -941,10 +941,6 @@
     },
     "d5f3e3f2a670eeb95604": {
       "fingerprint": "ebee345e654053710c3b4ce3def804d462236d7d262e61cc9dfcce86d1f98f38",
-      "source_id": "yokohama_procurement"
-    },
-    "ae766e4a9ce81ecfd3de": {
-      "fingerprint": "71a112fe25a41b824607487e023ae9c4c830aed7da1987b7774f7b749e085245",
       "source_id": "yokohama_procurement"
     },
     "f5a255902d42e2fcbd92": {
@@ -3551,6 +3547,10 @@
       "fingerprint": "77ea0a543f36c77b278574582159816967cada4b4313ca2005f35f6cb3dae6da",
       "source_id": "yokohama_open_data"
     },
+    "476d589183591d21b6e5": {
+      "fingerprint": "1ff9687ab2441b1b8cf28faa68a6575ce0ff09f57942ef5b224fdc19138b8683",
+      "source_id": "kanagawa_pref_news"
+    },
     "eae52cd7b12c8c3a04ea": {
       "fingerprint": "aa30be268fa2673d00eff6ede8dc0c45f2a23c48f370ed34137599708a82d3eb",
       "source_id": "kanagawa_pref_news"
@@ -3945,10 +3945,6 @@
     },
     "bd68933ac68e051fd1de": {
       "fingerprint": "02c9c18fd4a03be0fae935c1482c4b4a0e79ba5880f4908c8b4a15b384121f4f",
-      "source_id": "kanagawa_pref_news"
-    },
-    "3d75e6d8ff40c976caf6": {
-      "fingerprint": "93d930f348af840da498d66a44416594a59d30d1607e373c616574a6b6f26fdf",
       "source_id": "kanagawa_pref_news"
     },
     "244af5fcfb318467729f": {

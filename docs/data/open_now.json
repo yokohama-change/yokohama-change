@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-07T05:56:49+00:00",
-  "count": 27,
+  "generated_at": "2026-11-07T12:58:53+00:00",
+  "count": 29,
   "high_value_count": 9,
   "items": [
     {
@@ -562,6 +562,66 @@
       "preparation_days": 10,
       "preparation_start_date": "2026-11-07",
       "preparation_status": "準備開始推奨",
+      "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
+    },
+    {
+      "id": "a6989a35d3e41287c4ac",
+      "title": "令和9年度 座間市シティプロモーション及びふるさと納税返礼品事業支援業務委託に係るプロポーザル",
+      "url": "https://www.city.zama.kanagawa.jp/sangyo/keiyaku/proposal/1013517.html",
+      "source_name": "座間市 新着・更新情報",
+      "category": "入札・調達",
+      "opportunity_type": "受注機会",
+      "buyer_segments": [
+        "入札・公共調達"
+      ],
+      "commercial_score": 61,
+      "urgency": 34,
+      "importance": 56,
+      "application_status": "受付中",
+      "participation_deadline": "2026-11-24",
+      "participation_deadline_at": "2026-11-24T17:00+09:00",
+      "days_left": 17,
+      "deadline_label": "残り17日",
+      "priority_tier": "受付中",
+      "status_confidence": "high",
+      "status_reason": "明示された新規参加期限（参加表明）を確認",
+      "detected_at": "2026-10-28T12:53:07+00:00",
+      "source_updated": "Wed, 21 Oct 2026 08:30:01 +0900",
+      "region": "座間市",
+      "deadline_time_exact": true,
+      "preparation_days": 10,
+      "preparation_start_date": "2026-11-14",
+      "preparation_status": "準備開始前",
+      "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
+    },
+    {
+      "id": "24d4eecae6be492d24d3",
+      "title": "南区合同庁舎長寿命化改修工事等に係る基本計画策定支援業務委託に係る条件付一般競争入札の実施について",
+      "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/1036472.html",
+      "source_name": "相模原市 新着更新情報",
+      "category": "入札・調達",
+      "opportunity_type": "受注機会",
+      "buyer_segments": [
+        "入札・公共調達"
+      ],
+      "commercial_score": 61,
+      "urgency": 34,
+      "importance": 56,
+      "application_status": "受付中",
+      "participation_deadline": "2026-11-27",
+      "participation_deadline_at": "2026-11-27T23:59+09:00",
+      "days_left": 20,
+      "deadline_label": "残り20日",
+      "priority_tier": "受付中",
+      "status_confidence": "high",
+      "status_reason": "明示された新規参加期限（受付期間）を確認",
+      "detected_at": "2026-10-28T12:53:07+00:00",
+      "source_updated": "Wed, 21 Oct 2026 00:05:04 +0900",
+      "region": "相模原市",
+      "deadline_time_exact": false,
+      "preparation_days": 10,
+      "preparation_start_date": "2026-11-17",
+      "preparation_status": "準備開始前",
       "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
     },
     {
