@@ -1,8 +1,12 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-11-06T23:06:44+00:00",
+  "updated_at": "2026-11-07T05:56:49+00:00",
   "items": {
+    "6a2f6bdc5579bd989e9f": {
+      "fingerprint": "aa32d645b4016824e0c39d1080432249b6c2354bee0342d84316ef6a7c1d09fb",
+      "source_id": "yokohama_city_info"
+    },
     "ff6b3db1a49454e07f3b": {
       "fingerprint": "545ae870dd159669ca59a9289c9658f21c067c8ab50937bef17ea49a34e530c4",
       "source_id": "yokohama_city_info"
@@ -797,10 +801,6 @@
     },
     "aa88d4c0b80d65a13479": {
       "fingerprint": "1bfa1fd6395e6b6ebd4e4a7d902dd88c3b898a5e2a4f8406efe41c60f1b80022",
-      "source_id": "yokohama_city_info"
-    },
-    "cda21be0f33a1d784533": {
-      "fingerprint": "1a49ae9a97ba043af4872302039a69b6beaf3724ae7a6ddd69a6e9c47f59dd39",
       "source_id": "yokohama_city_info"
     },
     "6378dfc94cfdf42b9ff6": {
@@ -3567,6 +3567,10 @@
       "fingerprint": "c552147095cf387f50b3f4d9f3bb49e15c50be976f4dd89c1f7526da7ec57af2",
       "source_id": "kanagawa_pref_news"
     },
+    "07797511fdd5b2311c66": {
+      "fingerprint": "6f01cafa0fc49d452138bd67c899b41ae3e35792cf33ac4832410ade89225eeb",
+      "source_id": "kanagawa_pref_news"
+    },
     "147e9785971e9834d5a2": {
       "fingerprint": "b267d34312c5d3327e7dcc66a8b84abb7fab8f7480f2f783b790ec91467389bd",
       "source_id": "kanagawa_pref_news"
@@ -3945,10 +3949,6 @@
     },
     "3d75e6d8ff40c976caf6": {
       "fingerprint": "93d930f348af840da498d66a44416594a59d30d1607e373c616574a6b6f26fdf",
-      "source_id": "kanagawa_pref_news"
-    },
-    "cb2c38395e631e3b39a0": {
-      "fingerprint": "b6479a424d37c601ed1b9e222d433eeaf28e4a3b93e4cefb34a2d861605e38e0",
       "source_id": "kanagawa_pref_news"
     },
     "244af5fcfb318467729f": {
@@ -5127,6 +5127,18 @@
       "fingerprint": "cfa535b2ace7b328fbee62c85178f915a5586fa0526b75740b16406d493d2ce6",
       "source_id": "fujisawa_news"
     },
+    "14838295b388ca5e3c94": {
+      "fingerprint": "474f6af3f0159bcef5272c23cb3a36462f3648d8c9ce362eec7eafadb937637a",
+      "source_id": "chigasaki_news"
+    },
+    "648c01c943ba436d29af": {
+      "fingerprint": "ec7e915f12f5a4476c3d2f92f9e1af5b21d64869f9887ed9a60447c1232c9a3a",
+      "source_id": "chigasaki_news"
+    },
+    "f2cab2e92b817e98ebae": {
+      "fingerprint": "e96e41021ba8f6b986d766a2ebdcde1d4747b923c772057e8a31f7aa2fd56006",
+      "source_id": "chigasaki_news"
+    },
     "c0427944fe71dc30f46b": {
       "fingerprint": "d743cad488be087ae79a49489aca8868557761b467342f0d6f3b8f3b781a3d4d",
       "source_id": "chigasaki_news"
@@ -5939,10 +5951,6 @@
       "fingerprint": "6cab55bdbb15bc66d5b9544e74342987cf07c32705528426eb3b217de9ca0d1c",
       "source_id": "chigasaki_news"
     },
-    "f2cab2e92b817e98ebae": {
-      "fingerprint": "d562995efe4a02d2d5ec9753cca35467b7e0cab5d9ffe166cdf7f4fea5abec7e",
-      "source_id": "chigasaki_news"
-    },
     "d7493c1c176bead8dfdb": {
       "fingerprint": "5212d3b66f3fe26ccca48592338831f502ba895bd079fc57637bf3da44b818ee",
       "source_id": "chigasaki_news"
@@ -6137,14 +6145,6 @@
     },
     "9f79ab810724665191ff": {
       "fingerprint": "d72753609b11b76f085e76500c91743ac2e4b4f9c2b2ca3493d893bfc878f1bf",
-      "source_id": "chigasaki_news"
-    },
-    "e4c6c0f0576b5848abd2": {
-      "fingerprint": "967404476796f27d49d60dae2395f6255e8c94379af44b0470c00e38d3567490",
-      "source_id": "chigasaki_news"
-    },
-    "3dc882a92e8687f0f73f": {
-      "fingerprint": "f8c566a68990b89ba36333d824a2a82effd5a6ee1ea396f0b66962fa01b7c927",
       "source_id": "chigasaki_news"
     },
     "00798db6dc0317c4622c": {
@@ -6347,6 +6347,10 @@
       "fingerprint": "cbe618804b6de65f438e9035a318fcd9f3ca3490e899d9be8465fa10121085cd",
       "source_id": "hiratsuka_business"
     },
+    "86e7a5f382978699e281": {
+      "fingerprint": "d9ff0aba50b90cee5f141e4bf8211fbf570e0d04d1d56f512fba6c5a4de1fbd7",
+      "source_id": "odawara_topics"
+    },
     "e0dbdea90ce16b7f8ffc": {
       "fingerprint": "244767000ace8713ddca73e75db80962e6fd1ff77a6fa1433c58a4176dc3d9d7",
       "source_id": "odawara_topics"
@@ -6421,10 +6425,6 @@
     },
     "fdfd0b6e1744e6de59fe": {
       "fingerprint": "cd6cc3c5616dbbc25d574ba22fa44aa320899c9112e8ce7ab0aa6ba0c4d3f2a0",
-      "source_id": "odawara_topics"
-    },
-    "48ae055912dbca0bde01": {
-      "fingerprint": "352367ba3ae9b0adef3e450dadead3f0289f37e21047f2d06509e762d6c747ce",
       "source_id": "odawara_topics"
     },
     "8923244c53330b379aaa": {
