@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-08T10:19:22+00:00",
+  "generated_at": "2026-11-08T17:55:52+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1870,
-  "changes_this_run": 5,
+  "items_seen": 1864,
+  "changes_this_run": 31,
   "errors": [],
   "state_preserved": false,
-  "public_items": 474,
-  "public_duplicate_revisions_removed": 4,
+  "public_items": 478,
+  "public_duplicate_revisions_removed": 2,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-08T10:19:41+00:00",
-  "application_status_candidates": 162,
+  "application_status_checked_at": "2026-11-08T17:56:12+00:00",
+  "application_status_candidates": 163,
   "application_status_open_now": 32,
   "application_status_fetches": 40,
   "application_status_errors": [],
@@ -161,14 +161,14 @@
   },
   "open_now_exact_time": 8,
   "open_now_high_value_exact_time": 3,
-  "preparation_due_now": 11,
+  "preparation_due_now": 10,
   "preparation_due_now_high_value": 6,
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20261106",
-    "to": "20261108"
+    "from": "20261107",
+    "to": "20261109"
   },
-  "gbiz_items_seen": 0,
+  "gbiz_items_seen": 10,
   "gbiz_errors": [],
   "gbiz_endpoint_mode": "v2-period-corporate-update-only"
 }
