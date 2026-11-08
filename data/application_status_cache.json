@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-11-08T00:35:03+00:00",
+  "updated_at": "2026-11-08T10:19:41+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -3001,7 +3001,7 @@
     "d4b98fda404d9478d5b3": {
       "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2027/itaku/kenko/r9tuusyogata.html",
       "source_updated": "Thu, 29 Oct 2026 05:00:00 GMT",
-      "fetched_at": "2026-10-29T09:56:54+00:00",
+      "fetched_at": "2026-11-08T10:19:37+00:00",
       "facts": {
         "participation_deadline": "2026-11-13",
         "participation_deadline_at": "2026-11-13T23:59+09:00",
@@ -3093,7 +3093,7 @@
     "6984fb42b3b863c73572": {
       "url": "https://www.city.chigasaki.kanagawa.jp/machidukuri/1007931/gyokoshuhen/1070158.html",
       "source_updated": "Thu, 29 Oct 2026 16:05:57 +0900",
-      "fetched_at": "2026-10-29T09:56:58+00:00",
+      "fetched_at": "2026-11-08T10:19:38+00:00",
       "facts": {
         "participation_deadline": "2026-10-29",
         "participation_deadline_at": "2026-10-29T17:00+09:00",
@@ -3130,7 +3130,7 @@
     "e343b5df4cc966f65905": {
       "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/1035161.html",
       "source_updated": "Fri, 30 Oct 2026 00:05:04 +0900",
-      "fetched_at": "2026-10-29T18:27:45+00:00",
+      "fetched_at": "2026-11-08T10:19:38+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -3145,7 +3145,7 @@
     "24db097f7c2fc8f61e42": {
       "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/1036521.html",
       "source_updated": "Fri, 30 Oct 2026 00:05:04 +0900",
-      "fetched_at": "2026-10-29T18:27:46+00:00",
+      "fetched_at": "2026-11-08T10:19:39+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -3160,7 +3160,7 @@
     "6b521a8de1dad434ec29": {
       "url": "https://www.pref.kanagawa.jp/docs/td6/osirase/db2026-2.html",
       "source_updated": "2026-10-30T09:00:00+09:00",
-      "fetched_at": "2026-10-30T00:58:42+00:00",
+      "fetched_at": "2026-11-08T10:19:40+00:00",
       "facts": {
         "participation_deadline": "2026-11-26",
         "participation_deadline_at": "2026-11-26T23:59+09:00",
@@ -3181,7 +3181,7 @@
     "31c4112a1693875e1688": {
       "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2026/itaku/zaisei/nakamuraTCplan2026.html",
       "source_updated": "Fri, 30 Oct 2026 05:00:00 GMT",
-      "fetched_at": "2026-10-30T09:59:13+00:00",
+      "fetched_at": "2026-11-08T10:19:40+00:00",
       "facts": {
         "participation_deadline": "2026-11-11",
         "participation_deadline_at": "2026-11-11T23:59+09:00",
@@ -3203,7 +3203,7 @@
     "332ee61460e5031b601f": {
       "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2026/itaku/tsurumi/raunji-r9keiyaku.html",
       "source_updated": "Fri, 30 Oct 2026 01:00:00 GMT",
-      "fetched_at": "2026-10-30T09:59:13+00:00",
+      "fetched_at": "2026-11-08T10:19:41+00:00",
       "facts": {
         "participation_deadline": "2026-11-09",
         "participation_deadline_at": "2026-11-09T23:59+09:00",
