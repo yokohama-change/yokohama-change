@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-07T19:25:28+00:00",
-  "count": 30,
+  "generated_at": "2026-11-08T00:34:41+00:00",
+  "count": 32,
   "high_value_count": 9,
   "items": [
     {
@@ -871,6 +871,37 @@
       "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
     },
     {
+      "id": "62fdf279e878b78ec137",
+      "title": "令和9・10年度競争入札参加資格認定定期申請の受付について",
+      "url": "https://www.city.hiratsuka.kanagawa.jp/keyaku/page-c_02091.html",
+      "source_name": "平塚市 産業・ビジネス新着情報",
+      "category": "入札・調達",
+      "opportunity_type": "受注機会",
+      "buyer_segments": [
+        "士業・補助金支援",
+        "入札・公共調達"
+      ],
+      "commercial_score": 51,
+      "urgency": 34,
+      "importance": 38,
+      "application_status": "受付中",
+      "participation_deadline": "2026-11-30",
+      "participation_deadline_at": "2026-11-30T23:59+09:00",
+      "days_left": 22,
+      "deadline_label": "残り22日",
+      "priority_tier": "受付中",
+      "status_confidence": "high",
+      "status_reason": "明示された新規参加期限（受付期間）を確認",
+      "detected_at": "2026-10-28T12:53:07+00:00",
+      "source_updated": "Thu, 17 Sep 2026 08:30:00 +0900",
+      "region": "平塚市",
+      "deadline_time_exact": false,
+      "preparation_days": 10,
+      "preparation_start_date": "2026-11-20",
+      "preparation_status": "準備開始前",
+      "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
+    },
+    {
       "id": "f3b4155620aa61d9cba1",
       "title": "競争入札参加資格申請",
       "url": "https://www.city.chigasaki.kanagawa.jp/keiyaku/1006985.html",
@@ -929,6 +960,36 @@
       "deadline_time_exact": false,
       "preparation_days": 7,
       "preparation_start_date": "2026-11-27",
+      "preparation_status": "準備開始前",
+      "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
+    },
+    {
+      "id": "f506282231075f47fe38",
+      "title": "二宮町止水板等購入費補助金",
+      "url": "https://www.town.ninomiya.kanagawa.jp/0000002791.html",
+      "source_name": "二宮町 全体更新情報",
+      "category": "補助金・支援",
+      "opportunity_type": "資金・支援",
+      "buyer_segments": [
+        "士業・補助金支援"
+      ],
+      "commercial_score": 51,
+      "urgency": 10,
+      "importance": 38,
+      "application_status": "受付中",
+      "participation_deadline": "2027-01-29",
+      "participation_deadline_at": "2027-01-29T08:30+09:00",
+      "days_left": 82,
+      "deadline_label": "残り82日",
+      "priority_tier": "受付中",
+      "status_confidence": "high",
+      "status_reason": "明示された新規参加期限（申請期限）を確認",
+      "detected_at": "2026-10-28T12:53:07+00:00",
+      "source_updated": "Mon, 26 Oct 2026 11:28:31 +0900",
+      "region": "二宮町",
+      "deadline_time_exact": true,
+      "preparation_days": 7,
+      "preparation_start_date": "2027-01-22",
       "preparation_status": "準備開始前",
       "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
     }
