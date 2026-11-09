@@ -1,101 +1,38 @@
 {
-  "generated_at": "2026-11-09T06:24:05+00:00",
+  "generated_at": "2026-11-09T19:48:02+00:00",
   "enabled": true,
   "stale": false,
   "period": {
-    "from": "20261107",
-    "to": "20261109"
+    "from": "20261108",
+    "to": "20261110"
   },
-  "count": 10,
+  "count": 3,
   "items": [
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001048283",
-      "name": "株式会社サンセット",
-      "location": "神奈川県横浜市瀬谷区本郷２丁目２８番地１７コスモ瀬谷パークサイドステージ６０１号",
+      "corporate_number": "1010403036696",
+      "name": "合同会社Ｐｈｏｅｎｉｘ",
+      "location": "神奈川県横浜市都筑区東山田町１２９５番１号シュクレ東山田１０１",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001107139",
-      "name": "株式会社アイランドコーポレーション",
-      "location": "神奈川県横浜市磯子区森１丁目５番２１－３２３号",
+      "corporate_number": "1012301006392",
+      "name": "株式会社Ｙ・Ｃ・Ｍ",
+      "location": "神奈川県横浜市青葉区恩田町１１２９恩田町貸倉庫Ａ",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001118012",
-      "name": "株式会社ＧＯＤＡＩＪＵＫＵ　ＪＡＰＡＮ",
-      "location": "神奈川県横浜市中区本牧大里町２８番１４－３０１号",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001170987",
-      "name": "株式会社Ｐｏｓｓｏ",
-      "location": "神奈川県横浜市中区石川町１丁目１５番地６東源元町ビル１０２号室",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001171028",
-      "name": "株式会社ＳＩフードサービス",
-      "location": "神奈川県横浜市港北区新横浜２丁目５番地４京浜建物第２ビル６０３号",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001171060",
-      "name": "Ｓｔｕｄｉｏ　Ｋｉｒｉｎ８７株式会社",
-      "location": "神奈川県横浜市西区北幸２丁目１３番５号北幸ぐうはうすＡ棟１０３",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001171069",
-      "name": "株式会社Ｒｅｕ",
-      "location": "神奈川県横浜市西区中央２丁目５２番３－９０１号",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020002004979",
-      "name": "有限会社丸山製作所",
-      "location": "神奈川県横浜市都筑区佐江戸町８３７番地",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020003029298",
-      "name": "合同会社ＺＥＲＯ",
-      "location": "神奈川県横浜市神奈川区神大寺３丁目３３番地７双葉神大寺コープ１０２",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020003032087",
-      "name": "合同会社ＮＯＲＭ",
-      "location": "神奈川県横浜市西区岡野１丁目１６番１６号第２梅澤ビル２階",
+      "corporate_number": "1013301033526",
+      "name": "株式会社ＴＡＢＬＯ",
+      "location": "神奈川県横浜市青葉区美しが丘３丁目１６番８号",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     }
   ],

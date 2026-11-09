@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-09T06:23:50+00:00",
+  "generated_at": "2026-11-09T19:47:37+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1870,
-  "changes_this_run": 160,
+  "items_seen": 1869,
+  "changes_this_run": 110,
   "errors": [],
   "state_preserved": false,
-  "public_items": 480,
-  "public_duplicate_revisions_removed": 1,
+  "public_items": 474,
+  "public_duplicate_revisions_removed": 0,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-09T06:24:02+00:00",
-  "application_status_candidates": 162,
-  "application_status_open_now": 33,
-  "application_status_fetches": 38,
+  "application_status_checked_at": "2026-11-09T19:47:57+00:00",
+  "application_status_candidates": 161,
+  "application_status_open_now": 32,
+  "application_status_fetches": 40,
   "application_status_errors": [],
   "application_status_warnings": [
     {
@@ -97,7 +97,7 @@
       "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 13,
+  "employment_notices_excluded": 9,
   "support_period_candidates_checked": 3,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
@@ -127,6 +127,7 @@
     "伊勢原市",
     "大磯町",
     "小田原市",
+    "川崎市",
     "平塚市",
     "座間市",
     "横浜市",
@@ -141,9 +142,9 @@
   ],
   "open_now_by_region": {
     "神奈川県": 2,
-    "横浜市": 14,
+    "横浜市": 12,
     "川崎市": 0,
-    "相模原市": 7,
+    "相模原市": 8,
     "藤沢市": 1,
     "茅ヶ崎市": 2,
     "横須賀市": 0,
@@ -159,15 +160,15 @@
     "二宮町": 1
   },
   "open_now_exact_time": 9,
-  "open_now_high_value_exact_time": 3,
-  "preparation_due_now": 11,
-  "preparation_due_now_high_value": 6,
+  "open_now_high_value_exact_time": 4,
+  "preparation_due_now": 17,
+  "preparation_due_now_high_value": 7,
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20261107",
-    "to": "20261109"
+    "from": "20261108",
+    "to": "20261110"
   },
-  "gbiz_items_seen": 10,
+  "gbiz_items_seen": 3,
   "gbiz_errors": [],
   "gbiz_endpoint_mode": "v2-period-corporate-update-only"
 }
