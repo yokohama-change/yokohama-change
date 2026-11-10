@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-10T14:52:11+00:00",
+  "generated_at": "2026-11-10T21:18:17+00:00",
   "enabled": true,
   "stale": false,
   "period": {
-    "from": "20261108",
-    "to": "20261110"
+    "from": "20261109",
+    "to": "20261111"
   },
-  "count": 3,
+  "count": 2,
   "items": [
     {
       "signal_type": "法人情報更新",
@@ -21,18 +21,9 @@
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1012301006392",
-      "name": "株式会社Ｙ・Ｃ・Ｍ",
-      "location": "神奈川県横浜市青葉区恩田町１１２９恩田町貸倉庫Ａ",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1013301033526",
-      "name": "株式会社ＴＡＢＬＯ",
-      "location": "神奈川県横浜市青葉区美しが丘３丁目１６番８号",
+      "corporate_number": "1010901054134",
+      "name": "株式会社クラフターズ",
+      "location": "神奈川県横浜市神奈川区台町７番１４号横浜テラス５１２号室",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     }
   ],

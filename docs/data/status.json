@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-10T14:51:47+00:00",
+  "generated_at": "2026-11-10T21:17:55+00:00",
   "sources_total": 21,
   "sources_ok": 21,
   "items_seen": 1885,
-  "changes_this_run": 123,
+  "changes_this_run": 61,
   "errors": [],
   "state_preserved": false,
-  "public_items": 458,
-  "public_duplicate_revisions_removed": 5,
+  "public_items": 457,
+  "public_duplicate_revisions_removed": 4,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-10T14:52:07+00:00",
-  "application_status_candidates": 154,
+  "application_status_checked_at": "2026-11-10T21:18:13+00:00",
+  "application_status_candidates": 158,
   "application_status_open_now": 32,
   "application_status_fetches": 36,
   "application_status_errors": [],
@@ -97,7 +97,7 @@
       "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 7,
+  "employment_notices_excluded": 6,
   "support_period_candidates_checked": 3,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
@@ -127,7 +127,6 @@
     "伊勢原市",
     "大磯町",
     "小田原市",
-    "川崎市",
     "平塚市",
     "座間市",
     "横浜市",
@@ -161,14 +160,14 @@
   },
   "open_now_exact_time": 9,
   "open_now_high_value_exact_time": 4,
-  "preparation_due_now": 17,
-  "preparation_due_now_high_value": 7,
+  "preparation_due_now": 16,
+  "preparation_due_now_high_value": 6,
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20261108",
-    "to": "20261110"
+    "from": "20261109",
+    "to": "20261111"
   },
-  "gbiz_items_seen": 3,
+  "gbiz_items_seen": 2,
   "gbiz_errors": [],
   "gbiz_endpoint_mode": "v2-period-corporate-update-only"
 }
