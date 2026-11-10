@@ -1,6 +1,13 @@
 {
-  "normalized_items": 4,
+  "normalized_items": 5,
   "changes": [
+    {
+      "id": "4bed146b792e4ce02b46",
+      "title": "神奈川県小児慢性特定疾病医療費助成制度",
+      "from": "制度・ルール",
+      "to": "補助金・支援",
+      "opportunity_type": "資金・支援"
+    },
     {
       "id": "71ac8efa9e5495d5071b",
       "title": "令和9・10年度競争入札参加資格定期申請について",

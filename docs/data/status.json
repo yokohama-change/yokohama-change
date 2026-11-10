@@ -1,45 +1,21 @@
 {
-  "generated_at": "2026-11-10T03:33:34+00:00",
+  "generated_at": "2026-11-10T14:51:47+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1872,
-  "changes_this_run": 99,
+  "items_seen": 1885,
+  "changes_this_run": 123,
   "errors": [],
   "state_preserved": false,
-  "public_items": 467,
-  "public_duplicate_revisions_removed": 6,
+  "public_items": 458,
+  "public_duplicate_revisions_removed": 5,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-10T03:33:54+00:00",
-  "application_status_candidates": 162,
+  "application_status_checked_at": "2026-11-10T14:52:07+00:00",
+  "application_status_candidates": 154,
   "application_status_open_now": 32,
-  "application_status_fetches": 40,
+  "application_status_fetches": 36,
   "application_status_errors": [],
   "application_status_warnings": [
-    {
-      "title": "中山間地域在宅医療・介護連携支援コーディネーター業務委託に係る公募型プロポーザルの実施結果について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "道路防災総点検業務委託に係る条件付一般競争入札の結果について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "道路用地維持管理業務委託（その1）に係る条件付一般競争入札の結果について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "金原地区土地改良事業に係る井戸試掘調査業務委託に関する条件付一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "津久井総合事務所公用車賃貸借契約（令和9年3月契約分）に係る条件付一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "競争入札参加資格申請",
-      "warning": "公式ページ404。受付中にはしません"
-    },
     {
       "title": "道路附属物（照明施設）点検業務委託（その2）に係る条件付一般競争入札の結果について",
       "warning": "公式ページ404。受付中にはしません"
@@ -95,9 +71,33 @@
     {
       "title": "ペデストリアンデッキ点検業務委託に係る条件付一般競争入札の結果について",
       "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "相模原市下水道業務継続計画見直し業務委託に係る条件付一般競争入札の結果について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "相模原市南保健福祉センター警備業務委託に係る条件付一般競争入札の結果について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "一般競争入札のお知らせ（公告期間9月8日～9月14日）",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "クラウドストレージサービスBoxライセンス調達業務に関する一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "本庁舎設備管理・案内業務委託（長期継続契約）に係る条件付き一般競争入札の結果について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "木もれびの森整備業務委託（その1）に係る条件付一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 11,
+  "employment_notices_excluded": 7,
   "support_period_candidates_checked": 3,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
