@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-11T14:26:49+00:00",
+  "generated_at": "2026-11-11T21:56:59+00:00",
   "enabled": true,
   "stale": false,
   "period": {
-    "from": "20261109",
-    "to": "20261111"
+    "from": "20261110",
+    "to": "20261112"
   },
   "count": 2,
   "items": [
@@ -12,18 +12,18 @@
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1010403036696",
-      "name": "合同会社Ｐｈｏｅｎｉｘ",
-      "location": "神奈川県横浜市都筑区東山田町１２９５番１号シュクレ東山田１０１",
+      "corporate_number": "1010001129183",
+      "name": "株式会社ファイブスター（閉鎖）",
+      "location": "神奈川県横浜市中区山下町２５番地１６",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1010901054134",
-      "name": "株式会社クラフターズ",
-      "location": "神奈川県横浜市神奈川区台町７番１４号横浜テラス５１２号室",
+      "corporate_number": "1010403036696",
+      "name": "合同会社Ｐｈｏｅｎｉｘ",
+      "location": "神奈川県横浜市都筑区東山田町１２９５番１号シュクレ東山田１０１",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     }
   ],

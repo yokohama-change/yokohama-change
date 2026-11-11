@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-11T14:26:29+00:00",
+  "generated_at": "2026-11-11T21:56:38+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1893,
-  "changes_this_run": 44,
+  "items_seen": 1892,
+  "changes_this_run": 40,
   "errors": [],
   "state_preserved": false,
-  "public_items": 462,
-  "public_duplicate_revisions_removed": 3,
+  "public_items": 454,
+  "public_duplicate_revisions_removed": 7,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-11T14:26:46+00:00",
+  "application_status_checked_at": "2026-11-11T21:56:56+00:00",
   "application_status_candidates": 154,
   "application_status_open_now": 30,
-  "application_status_fetches": 33,
+  "application_status_fetches": 37,
   "application_status_errors": [],
   "application_status_warnings": [
     {
@@ -97,7 +97,7 @@
       "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 11,
+  "employment_notices_excluded": 10,
   "support_period_candidates_checked": 3,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
@@ -142,9 +142,9 @@
   ],
   "open_now_by_region": {
     "神奈川県": 2,
-    "横浜市": 11,
+    "横浜市": 10,
     "川崎市": 0,
-    "相模原市": 8,
+    "相模原市": 9,
     "藤沢市": 1,
     "茅ヶ崎市": 1,
     "横須賀市": 0,
@@ -161,12 +161,12 @@
   },
   "open_now_exact_time": 8,
   "open_now_high_value_exact_time": 3,
-  "preparation_due_now": 15,
+  "preparation_due_now": 16,
   "preparation_due_now_high_value": 5,
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20261109",
-    "to": "20261111"
+    "from": "20261110",
+    "to": "20261112"
   },
   "gbiz_items_seen": 2,
   "gbiz_errors": [],

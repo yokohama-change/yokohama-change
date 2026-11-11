@@ -1,6 +1,13 @@
 {
-  "normalized_items": 5,
+  "normalized_items": 6,
   "changes": [
+    {
+      "id": "3f48ecccf8342af7faf2",
+      "title": "私立学校経常費補助金の変更交付申請書の提出について（小、義務教育、中、中等教育、高等学校、特別支援学校）",
+      "from": "子育て・教育",
+      "to": "補助金・支援",
+      "opportunity_type": "資金・支援"
+    },
     {
       "id": "4bed146b792e4ce02b46",
       "title": "神奈川県小児慢性特定疾病医療費助成制度",
