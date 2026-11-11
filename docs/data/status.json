@@ -1,25 +1,21 @@
 {
-  "generated_at": "2026-11-10T21:17:55+00:00",
+  "generated_at": "2026-11-11T06:15:02+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1885,
-  "changes_this_run": 61,
+  "items_seen": 1891,
+  "changes_this_run": 147,
   "errors": [],
   "state_preserved": false,
-  "public_items": 457,
-  "public_duplicate_revisions_removed": 4,
+  "public_items": 464,
+  "public_duplicate_revisions_removed": 2,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-10T21:18:13+00:00",
-  "application_status_candidates": 158,
-  "application_status_open_now": 32,
-  "application_status_fetches": 36,
+  "application_status_checked_at": "2026-11-11T06:15:12+00:00",
+  "application_status_candidates": 153,
+  "application_status_open_now": 30,
+  "application_status_fetches": 30,
   "application_status_errors": [],
   "application_status_warnings": [
-    {
-      "title": "道路附属物（照明施設）点検業務委託（その2）に係る条件付一般競争入札の結果について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
     {
       "title": "総合保健医療センターA館清掃業務委託（長期継続契約）に係る条件付一般競争入札の結果について",
       "warning": "公式ページ404。受付中にはしません"
@@ -95,9 +91,13 @@
     {
       "title": "木もれびの森整備業務委託（その1）に係る条件付一般競争入札の実施について",
       "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "木もれびの森整備業務委託（その2）に係る条件付一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 6,
+  "employment_notices_excluded": 11,
   "support_period_candidates_checked": 3,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
@@ -127,6 +127,7 @@
     "伊勢原市",
     "大磯町",
     "小田原市",
+    "川崎市",
     "平塚市",
     "座間市",
     "横浜市",
@@ -141,11 +142,11 @@
   ],
   "open_now_by_region": {
     "神奈川県": 2,
-    "横浜市": 12,
+    "横浜市": 11,
     "川崎市": 0,
     "相模原市": 8,
     "藤沢市": 1,
-    "茅ヶ崎市": 2,
+    "茅ヶ崎市": 1,
     "横須賀市": 0,
     "鎌倉市": 0,
     "平塚市": 1,
@@ -158,10 +159,10 @@
     "大磯町": 0,
     "二宮町": 1
   },
-  "open_now_exact_time": 9,
-  "open_now_high_value_exact_time": 4,
-  "preparation_due_now": 16,
-  "preparation_due_now_high_value": 6,
+  "open_now_exact_time": 8,
+  "open_now_high_value_exact_time": 3,
+  "preparation_due_now": 15,
+  "preparation_due_now_high_value": 5,
   "gbiz_enabled": true,
   "gbiz_period": {
     "from": "20261109",
