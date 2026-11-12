@@ -1,7 +1,7 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-11-12T17:35:05+00:00",
+  "updated_at": "2026-11-12T23:37:49+00:00",
   "items": {
     "972d37eb595ba5a42f5e": {
       "fingerprint": "f6b54cb2d306aa33ee262199ea771bad5da54819733a24dc0f5eb6f9a25c5e0e",
@@ -3587,8 +3587,16 @@
       "fingerprint": "77ea0a543f36c77b278574582159816967cada4b4313ca2005f35f6cb3dae6da",
       "source_id": "yokohama_open_data"
     },
+    "c7ca453f893ebd34aaab": {
+      "fingerprint": "44dd070738bcb1a7de417909b7bd6572496f3cb57eb4c430bd0e1b84d35867c6",
+      "source_id": "kanagawa_pref_news"
+    },
     "09b39544729643367601": {
       "fingerprint": "035a33046bb2998c14cc606f443f5539178ae2141e10c2fb5d0f4fee6d97a41c",
+      "source_id": "kanagawa_pref_news"
+    },
+    "339614aef4ae3b79f64d": {
+      "fingerprint": "4845b2d1aeb2a91f2f3d51054c53daea8eb32922569129b466bf7d5598c82bb4",
       "source_id": "kanagawa_pref_news"
     },
     "6e2c788ae0ea9b5ba6e7": {
@@ -3979,14 +3987,6 @@
       "fingerprint": "dc69949f270fc7c2b9c14a837a956774d769161651e3728308780c4c98bf5894",
       "source_id": "kanagawa_pref_news"
     },
-    "dfad5d629e8d501b5d95": {
-      "fingerprint": "6a53e4b8d8a24d05f0d9d04e4eabb272eb38864135e3acb439df301dc7f91f41",
-      "source_id": "kanagawa_pref_news"
-    },
-    "6e0c8efe36a06acf723e": {
-      "fingerprint": "049c720c9d242d9bfdaa12d82d7832d8c2b3ab3a7ff229a0da3db47db5d3b083",
-      "source_id": "kanagawa_pref_news"
-    },
     "74a049acd9b33e551578": {
       "fingerprint": "a22c374bb41dd0d92acd0ed030cd046ce58566853b5b5ad0185d4a84800314a4",
       "source_id": "kawasaki_business"
@@ -4051,10 +4051,6 @@
       "fingerprint": "4e7ccefe7329f0b2158b0d6d75cfd4c045df2e7bbd6547c855cfe6981ceefbb7",
       "source_id": "kawasaki_business"
     },
-    "123400c3c83c4e016d36": {
-      "fingerprint": "23364f8625c0f6bd448b5be0ab437e27a82981c2cb5150adb7f33d8134056c30",
-      "source_id": "kawasaki_business"
-    },
     "51182ac8b2eab52d5e65": {
       "fingerprint": "a2c00d896957a57d632872dd1bcbd17f2be3f20ea42bba66859d45ca679a068d",
       "source_id": "kawasaki_business"
@@ -4101,6 +4097,10 @@
     },
     "7411a1237c06755315e1": {
       "fingerprint": "0e4a95cb7a22d3e176572e96fd483f12bcc6a7e06e22437204187ea071d50be2",
+      "source_id": "kawasaki_business"
+    },
+    "25e7eea0c41dd29d98f3": {
+      "fingerprint": "f55f391f62d7aa60cc2698b99c2764b35256bf13c65eae799eb97eba95df3c67",
       "source_id": "kawasaki_business"
     },
     "cf2cbbfefb95b3f3b26e": {
@@ -6383,6 +6383,26 @@
       "fingerprint": "cbe618804b6de65f438e9035a318fcd9f3ca3490e899d9be8465fa10121085cd",
       "source_id": "hiratsuka_business"
     },
+    "98e1bfdf86d3c69db868": {
+      "fingerprint": "2031bb8e6d6011b2cbea04b00dc85b344bd54a6e2ed56466ff44e033441becd8",
+      "source_id": "odawara_topics"
+    },
+    "955a1867b6b151780fd5": {
+      "fingerprint": "dc22f77d4dc2293d4743dd99f3f79ae7de7b3f2651c4d5181df2a62eeb1479f9",
+      "source_id": "odawara_topics"
+    },
+    "5657ea2f4b9bd6780db2": {
+      "fingerprint": "865646f1434c98e375f97803951ff7b5f0cf3fc19e8e9d1cf1f9cd48599111ac",
+      "source_id": "odawara_topics"
+    },
+    "91c31592788158a819e2": {
+      "fingerprint": "07a7b360c139dc50376fb37f20278373b85bb56b66ad9ecaafa9ed8e25636453",
+      "source_id": "odawara_topics"
+    },
+    "02c88db0d4d9dda477e4": {
+      "fingerprint": "94c540e7294744d200fee541e3ff3d069368fa12c49d6e3d11a1a0a4a9661f49",
+      "source_id": "odawara_topics"
+    },
     "cce281b1b68461c3126e": {
       "fingerprint": "a063e6ac5531f4a4207476ceda2ab3296f7f373c3c6ca7681c4622431ac0aded",
       "source_id": "odawara_topics"
@@ -6441,26 +6461,6 @@
     },
     "7d40f3f3b8701e52b153": {
       "fingerprint": "9bb16e0300f05c3b1dfba87f3af70533cbf3913564991e71249863d7ee6a2bf2",
-      "source_id": "odawara_topics"
-    },
-    "8dcc0e7d12855376a21c": {
-      "fingerprint": "37be0b26e39858cf6dbdfcb462010d66547a6fd25bb9775bd03967e775f0cce8",
-      "source_id": "odawara_topics"
-    },
-    "9e8033856db1ab3acc9c": {
-      "fingerprint": "1a5b70a1cf77685b61d0829db4f4e96c82690aa12c19259c582837752fd619d2",
-      "source_id": "odawara_topics"
-    },
-    "e698a908e05cadfa90bb": {
-      "fingerprint": "f0bdb0e8c7a5c57c7ef36bc3363ddbecab76ad3066e5c031aa2bf022ad26af4d",
-      "source_id": "odawara_topics"
-    },
-    "f321b3beed672995f7d0": {
-      "fingerprint": "81ac201d1b4e4997a207be6059fec48c4cf4c20d843fa68a4b819c12df51c4be",
-      "source_id": "odawara_topics"
-    },
-    "0354f274b25f91386aa3": {
-      "fingerprint": "d5009df7e558a71b94eb0fc52d1ef5875c56d28ddb7f95cf1b519dec7d82adb8",
       "source_id": "odawara_topics"
     },
     "8923244c53330b379aaa": {
