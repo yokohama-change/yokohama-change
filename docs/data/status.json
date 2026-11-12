@@ -1,53 +1,21 @@
 {
-  "generated_at": "2026-11-12T07:08:10+00:00",
+  "generated_at": "2026-11-12T17:35:05+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1897,
-  "changes_this_run": 148,
+  "items_seen": 1889,
+  "changes_this_run": 94,
   "errors": [],
   "state_preserved": false,
-  "public_items": 465,
-  "public_duplicate_revisions_removed": 5,
+  "public_items": 457,
+  "public_duplicate_revisions_removed": 6,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-12T07:08:29+00:00",
-  "application_status_candidates": 155,
-  "application_status_open_now": 29,
-  "application_status_fetches": 34,
+  "application_status_checked_at": "2026-11-12T17:35:17+00:00",
+  "application_status_candidates": 149,
+  "application_status_open_now": 31,
+  "application_status_fetches": 24,
   "application_status_errors": [],
   "application_status_warnings": [
-    {
-      "title": "総合保健医療センターA館清掃業務委託（長期継続契約）に係る条件付一般競争入札の結果について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "総合保健医療センターB館清掃業務委託（長期継続契約）に係る条件付一般競争入札の結果について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "流域貯留浸透施設清掃委託（処理処分）に係る条件付一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "流域貯留浸透施設清掃委託（収集運搬）に係る条件付一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "河川定期点検業務委託に係る条件付一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "相模原市営自転車駐車場の次期指定管理者公募に向けたサウンディング型市場調査の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "RPA新規開発及びRPA関連業務に係る労働者派遣契約に係る条件付一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "市立上溝中学校B棟屋上防水修繕に係る条件付一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
     {
       "title": "寸沢嵐市有林整備業務委託（その1）に係る条件付一般競争入札の実施について",
       "warning": "公式ページ404。受付中にはしません"
@@ -95,9 +63,33 @@
     {
       "title": "木もれびの森整備業務委託（その2）に係る条件付一般競争入札の実施について",
       "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "木もれびの森整備業務委託（その3）に係る条件付一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "木もれびの森整備業務委託（その4）に係る条件付一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "木もれびの森整備業務委託（その5）に係る条件付一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "木もれびの森整備業務委託（その6）に係る条件付一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "相模原市自転車活用推進計画検討業務委託に係る条件付一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "令和8年度自治会掲示板作製及び配送業務委託に係る条件付一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 23,
+  "employment_notices_excluded": 18,
   "support_period_candidates_checked": 3,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
@@ -127,7 +119,6 @@
     "伊勢原市",
     "大磯町",
     "小田原市",
-    "川崎市",
     "平塚市",
     "座間市",
     "横浜市",
@@ -144,7 +135,7 @@
     "神奈川県": 2,
     "横浜市": 10,
     "川崎市": 0,
-    "相模原市": 9,
+    "相模原市": 11,
     "藤沢市": 1,
     "茅ヶ崎市": 1,
     "横須賀市": 0,
@@ -161,14 +152,14 @@
   },
   "open_now_exact_time": 8,
   "open_now_high_value_exact_time": 3,
-  "preparation_due_now": 16,
-  "preparation_due_now_high_value": 5,
+  "preparation_due_now": 15,
+  "preparation_due_now_high_value": 3,
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20261110",
-    "to": "20261112"
+    "from": "20261111",
+    "to": "20261113"
   },
-  "gbiz_items_seen": 2,
+  "gbiz_items_seen": 1,
   "gbiz_errors": [],
   "gbiz_endpoint_mode": "v2-period-corporate-update-only"
 }

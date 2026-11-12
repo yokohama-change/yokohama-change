@@ -1,5 +1,5 @@
 {
-  "normalized_items": 5,
+  "normalized_items": 4,
   "changes": [
     {
       "id": "908b088be1ea047a3dcb",
@@ -14,13 +14,6 @@
       "from": "子育て・教育",
       "to": "補助金・支援",
       "opportunity_type": "資金・支援"
-    },
-    {
-      "id": "ca3a3fcf485ee0a56bcb",
-      "title": "相模原市営自転車駐車場の次期指定管理者公募に向けたサウンディング型市場調査の実施について",
-      "from": "補助金・支援",
-      "to": "入札・調達",
-      "opportunity_type": "受注機会"
     },
     {
       "id": "7a1e05187ea8132c2889",
