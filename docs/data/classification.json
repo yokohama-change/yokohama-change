@@ -1,26 +1,19 @@
 {
-  "normalized_items": 6,
+  "normalized_items": 5,
   "changes": [
+    {
+      "id": "908b088be1ea047a3dcb",
+      "title": "県営住宅駐車場の外部貸し（藤棚団地ほか19団地）に係る実施事業者の募集について",
+      "from": "補助金・支援",
+      "to": "入札・調達",
+      "opportunity_type": "受注機会"
+    },
     {
       "id": "3f48ecccf8342af7faf2",
       "title": "私立学校経常費補助金の変更交付申請書の提出について（小、義務教育、中、中等教育、高等学校、特別支援学校）",
       "from": "子育て・教育",
       "to": "補助金・支援",
       "opportunity_type": "資金・支援"
-    },
-    {
-      "id": "4bed146b792e4ce02b46",
-      "title": "神奈川県小児慢性特定疾病医療費助成制度",
-      "from": "制度・ルール",
-      "to": "補助金・支援",
-      "opportunity_type": "資金・支援"
-    },
-    {
-      "id": "71ac8efa9e5495d5071b",
-      "title": "令和9・10年度競争入札参加資格定期申請について",
-      "from": "補助金・支援",
-      "to": "入札・調達",
-      "opportunity_type": "受注機会"
     },
     {
       "id": "ca3a3fcf485ee0a56bcb",
