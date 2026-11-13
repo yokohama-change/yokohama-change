@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-11-12T23:37:57+00:00",
+  "updated_at": "2026-11-13T06:43:08+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -105,7 +105,7 @@
     "c7df71dff7965176ec12": {
       "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2026/sekkei/toshi/r8negishitochiriyou.html",
       "source_updated": "Fri, 04 Sep 2026 06:00:00 GMT",
-      "fetched_at": "2026-11-05T23:38:20+00:00",
+      "fetched_at": "2026-11-13T06:43:01+00:00",
       "facts": {
         "participation_deadline": "2026-06-12",
         "participation_deadline_at": "2026-06-12T17:00+09:00",
@@ -277,24 +277,16 @@
     },
     "19a61eb72877e6251b8a": {
       "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2026/itaku/iryo/iryoDXdigital.html",
-      "source_updated": "Thu, 06 Aug 2026 00:00:00 GMT",
-      "fetched_at": "2026-09-05T18:26:30+00:00",
+      "source_updated": "Fri, 13 Nov 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-13T06:42:52+00:00",
       "facts": {
-        "participation_deadline": "2026-08-18",
-        "participation_deadline_at": "2026-08-18T17:00+09:00",
-        "participation_source": "申込期限+申込欄:提出期間",
-        "downstream_dates": [
-          "2026-08-19",
-          "2026-08-21",
-          "2026-08-24",
-          "2026-08-28",
-          "2026-09-04"
-        ],
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
         "result_hit": true,
         "closed_hit": false,
-        "participation_dates": [
-          "2026-08-18"
-        ],
+        "participation_dates": [],
         "generic_dates": []
       }
     },
@@ -1842,8 +1834,8 @@
     },
     "a8b9698650c78e89f06d": {
       "url": "https://www.city.yokosuka.kanagawa.jp/2140/r8syoutengai_premium.html",
-      "source_updated": "2026-10-30T09:55:30+09:00",
-      "fetched_at": "2026-11-06T23:06:48+00:00",
+      "source_updated": "2026-11-12T16:52:03+09:00",
+      "fetched_at": "2026-11-13T06:43:01+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2595,7 +2587,7 @@
     "dd383ad45eac0e54ae4d": {
       "url": "https://www.pref.kanagawa.jp/docs/yt7/top/2026_esco.html",
       "source_updated": "2026-09-07T00:00:00+09:00",
-      "fetched_at": "2026-11-06T06:41:32+00:00",
+      "fetched_at": "2026-11-13T06:43:02+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2621,7 +2613,7 @@
     "e711aeef58eb4392be55": {
       "url": "https://www.city.zama.kanagawa.jp/sangyo/keiyaku/proposal/1013952.html",
       "source_updated": "Tue, 08 Sep 2026 15:30:04 +0900",
-      "fetched_at": "2026-11-06T06:41:34+00:00",
+      "fetched_at": "2026-11-13T06:43:03+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2636,7 +2628,7 @@
     "2e745c5a3db2c59a039a": {
       "url": "https://www.pref.kanagawa.jp/docs/n7t/dr.html",
       "source_updated": "2026-09-07T00:00:00+09:00",
-      "fetched_at": "2026-11-06T06:41:34+00:00",
+      "fetched_at": "2026-11-13T06:43:03+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2696,7 +2688,7 @@
     "c878acbff4589002c48a": {
       "url": "https://www.city.sagamihara.kanagawa.jp/shinseisho_menu/iryo/1011528.html",
       "source_updated": "Tue, 08 Sep 2026 00:05:03 +0900",
-      "fetched_at": "2026-11-06T06:41:37+00:00",
+      "fetched_at": "2026-11-13T06:43:05+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2978,8 +2970,8 @@
     },
     "1e27c46a2cbe93f4879e": {
       "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2027/itaku/kenko/2026frail.html",
-      "source_updated": "Thu, 29 Oct 2026 05:00:00 GMT",
-      "fetched_at": "2026-11-08T00:35:03+00:00",
+      "source_updated": "Fri, 13 Nov 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-13T06:42:56+00:00",
       "facts": {
         "participation_deadline": "2026-11-13",
         "participation_deadline_at": "2026-11-13T23:59+09:00",
@@ -2991,7 +2983,7 @@
           "2026-12-10"
         ],
         "result_hit": false,
-        "closed_hit": false,
+        "closed_hit": true,
         "participation_dates": [
           "2026-11-13"
         ],
@@ -3000,8 +2992,8 @@
     },
     "d4b98fda404d9478d5b3": {
       "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2027/itaku/kenko/r9tuusyogata.html",
-      "source_updated": "Thu, 29 Oct 2026 05:00:00 GMT",
-      "fetched_at": "2026-11-08T10:19:37+00:00",
+      "source_updated": "Fri, 13 Nov 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-13T06:42:58+00:00",
       "facts": {
         "participation_deadline": "2026-11-13",
         "participation_deadline_at": "2026-11-13T23:59+09:00",
@@ -3013,7 +3005,7 @@
           "2026-12-10"
         ],
         "result_hit": false,
-        "closed_hit": false,
+        "closed_hit": true,
         "participation_dates": [
           "2026-11-13"
         ],
@@ -4870,8 +4862,8 @@
     },
     "02c88db0d4d9dda477e4": {
       "url": "https://www.city.odawara.kanagawa.jp/public-i/facilities/library/liblaryinfo/p43398.html",
-      "source_updated": "Thu, 12 Nov 2026 17:32:55 +0900",
-      "fetched_at": "2026-11-12T23:37:50+00:00",
+      "source_updated": "Fri, 13 Nov 2026 09:22:18 +0900",
+      "fetched_at": "2026-11-13T06:42:59+00:00",
       "facts": {
         "participation_deadline": "2026-12-07",
         "participation_deadline_at": "2026-12-07T23:59+09:00",
@@ -4892,6 +4884,283 @@
         "participation_dates": [
           "2026-12-07"
         ],
+        "generic_dates": []
+      }
+    },
+    "cf4de2ad9c4e928452a5": {
+      "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2027/itaku/kankyo/higashiterao-6.html",
+      "source_updated": "Fri, 13 Nov 2026 01:00:00 GMT",
+      "fetched_at": "2026-11-13T06:42:52+00:00",
+      "facts": {
+        "participation_deadline": "2026-11-20",
+        "participation_deadline_at": "2026-11-20T17:15+09:00",
+        "participation_source": "申込期限+申込欄:提出期間",
+        "downstream_dates": [
+          "2026-11-30",
+          "2026-12-07",
+          "2026-12-11",
+          "2026-12-18",
+          "2027-01-12"
+        ],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [
+          "2026-11-20"
+        ],
+        "generic_dates": []
+      }
+    },
+    "b3d49cc732f8923e613d": {
+      "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2027/itaku/kenko/R9CPkennsyuu.html",
+      "source_updated": "Fri, 13 Nov 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-13T06:42:53+00:00",
+      "facts": {
+        "participation_deadline": "2026-11-26",
+        "participation_deadline_at": "2026-11-26T17:00+09:00",
+        "participation_source": "申込期限+申込欄:提出期間",
+        "downstream_dates": [
+          "2026-12-08",
+          "2026-12-15",
+          "2026-12-21"
+        ],
+        "result_hit": false,
+        "closed_hit": true,
+        "participation_dates": [
+          "2026-11-26"
+        ],
+        "generic_dates": []
+      }
+    },
+    "1fad69fd581137160dbf": {
+      "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2027/itaku/kenko/R9houkatsukensyu.html",
+      "source_updated": "Fri, 13 Nov 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-13T06:42:53+00:00",
+      "facts": {
+        "participation_deadline": "2026-11-26",
+        "participation_deadline_at": "2026-11-26T17:00+09:00",
+        "participation_source": "申込期限+申込欄:提出期間",
+        "downstream_dates": [
+          "2026-12-08",
+          "2026-12-15",
+          "2026-12-21"
+        ],
+        "result_hit": false,
+        "closed_hit": true,
+        "participation_dates": [
+          "2026-11-26"
+        ],
+        "generic_dates": []
+      }
+    },
+    "7b390b7f5b53685f16ba": {
+      "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2027/itaku/kenko/kakei.html",
+      "source_updated": "Fri, 13 Nov 2026 01:00:00 GMT",
+      "fetched_at": "2026-11-13T06:42:54+00:00",
+      "facts": {
+        "participation_deadline": "2026-11-27",
+        "participation_deadline_at": "2026-11-27T17:00+09:00",
+        "participation_source": "申込期限+申込欄:提出期間",
+        "downstream_dates": [
+          "2026-11-27",
+          "2026-12-04",
+          "2026-12-11",
+          "2026-12-24",
+          "2027-03-31"
+        ],
+        "result_hit": false,
+        "closed_hit": true,
+        "participation_dates": [
+          "2026-11-27"
+        ],
+        "generic_dates": []
+      }
+    },
+    "fab8a876066cb31154ad": {
+      "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2027/itaku/kenko/kunren.html",
+      "source_updated": "Fri, 13 Nov 2026 01:00:00 GMT",
+      "fetched_at": "2026-11-13T06:42:54+00:00",
+      "facts": {
+        "participation_deadline": "2026-11-27",
+        "participation_deadline_at": "2026-11-27T17:00+09:00",
+        "participation_source": "申込期限+申込欄:提出期間",
+        "downstream_dates": [
+          "2026-11-27",
+          "2026-12-04",
+          "2026-12-11",
+          "2026-12-24",
+          "2027-03-31"
+        ],
+        "result_hit": false,
+        "closed_hit": true,
+        "participation_dates": [
+          "2026-11-27"
+        ],
+        "generic_dates": []
+      }
+    },
+    "fcbfa08a5b1602315715": {
+      "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2027/itaku/kenko/muryou.html",
+      "source_updated": "Fri, 13 Nov 2026 01:00:00 GMT",
+      "fetched_at": "2026-11-13T06:42:54+00:00",
+      "facts": {
+        "participation_deadline": "2026-11-27",
+        "participation_deadline_at": "2026-11-27T17:00+09:00",
+        "participation_source": "申込期限+申込欄:提出期間",
+        "downstream_dates": [
+          "2026-11-27",
+          "2026-12-04",
+          "2026-12-11",
+          "2026-12-24",
+          "2027-03-31"
+        ],
+        "result_hit": false,
+        "closed_hit": true,
+        "participation_dates": [
+          "2026-11-27"
+        ],
+        "generic_dates": []
+      }
+    },
+    "6aa91f1829def009a2f9": {
+      "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2027/itaku/kenko/anteika.html",
+      "source_updated": "Fri, 13 Nov 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-13T06:42:55+00:00",
+      "facts": {
+        "participation_deadline": "2026-11-27",
+        "participation_deadline_at": "2026-11-27T17:00+09:00",
+        "participation_source": "申込期限+申込欄:提出期間",
+        "downstream_dates": [
+          "2026-11-27",
+          "2026-12-04",
+          "2026-12-11",
+          "2026-12-24",
+          "2027-03-31"
+        ],
+        "result_hit": false,
+        "closed_hit": true,
+        "participation_dates": [
+          "2026-11-27"
+        ],
+        "generic_dates": []
+      }
+    },
+    "f50371936062cc1d6fe1": {
+      "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2027/itaku/naka/yorisoigakushu.html",
+      "source_updated": "Fri, 13 Nov 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-13T06:42:56+00:00",
+      "facts": {
+        "participation_deadline": "2026-11-24",
+        "participation_deadline_at": "2026-11-24T17:00+09:00",
+        "participation_source": "申込期限+申込欄:提出期間",
+        "downstream_dates": [
+          "2026-01-18",
+          "2026-11-30",
+          "2026-12-07",
+          "2026-12-11",
+          "2026-12-23",
+          "2027-01-18"
+        ],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [
+          "2026-11-24"
+        ],
+        "generic_dates": []
+      }
+    },
+    "47f9d97caf7134a2465b": {
+      "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2027/itaku/konan/yorisoi.html",
+      "source_updated": "Fri, 13 Nov 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-13T06:42:57+00:00",
+      "facts": {
+        "participation_deadline": "2026-11-24",
+        "participation_deadline_at": "2026-11-24T23:59+09:00",
+        "participation_source": "申込期限",
+        "downstream_dates": [
+          "2026-11-24",
+          "2026-12-04",
+          "2026-12-09",
+          "2026-12-14",
+          "2026-12-24"
+        ],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [
+          "2026-11-24"
+        ],
+        "generic_dates": []
+      }
+    },
+    "fa8863763def828db303": {
+      "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2027/itaku/tsuzuki/myplazar9.html",
+      "source_updated": "Fri, 13 Nov 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-13T06:42:58+00:00",
+      "facts": {
+        "participation_deadline": "2026-11-24",
+        "participation_deadline_at": "2026-11-24T23:59+09:00",
+        "participation_source": "申込期限",
+        "downstream_dates": [
+          "2026-11-30",
+          "2026-12-04",
+          "2026-12-09",
+          "2027-01-07"
+        ],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [
+          "2026-11-24"
+        ],
+        "generic_dates": []
+      }
+    },
+    "a6e245afb832fa37fb62": {
+      "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2026/itaku/kyoiku/expodata.html",
+      "source_updated": "Fri, 13 Nov 2026 05:00:00 GMT",
+      "fetched_at": "2026-11-13T06:42:59+00:00",
+      "facts": {
+        "participation_deadline": "2026-11-06",
+        "participation_deadline_at": "2026-11-06T17:00+09:00",
+        "participation_source": "申込期限+申込欄:提出期間",
+        "downstream_dates": [
+          "2026-11-10",
+          "2026-11-18",
+          "2026-11-20"
+        ],
+        "result_hit": true,
+        "closed_hit": false,
+        "participation_dates": [
+          "2026-11-06"
+        ],
+        "generic_dates": []
+      }
+    },
+    "cd74610cd18585948471": {
+      "url": "https://www.city.zama.kanagawa.jp/fukushi/kaigo/jigyousha/1011105/1014246.html",
+      "source_updated": "Fri, 13 Nov 2026 14:00:04 +0900",
+      "fetched_at": "2026-11-13T06:43:00+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "91abdc65c4f7cd563fbf": {
+      "url": "https://www.pref.kanagawa.jp/docs/ap4/cnt/f360478/p715786-1.html",
+      "source_updated": "2026-11-13T00:00:00+09:00",
+      "fetched_at": "2026-11-13T06:43:00+00:00",
+      "facts": {
+        "participation_deadline": "",
+        "participation_deadline_at": "",
+        "participation_source": "",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [],
         "generic_dates": []
       }
     }

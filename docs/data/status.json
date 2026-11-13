@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-12T23:37:49+00:00",
+  "generated_at": "2026-11-13T06:42:51+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1889,
-  "changes_this_run": 8,
+  "items_seen": 1908,
+  "changes_this_run": 145,
   "errors": [],
   "state_preserved": false,
-  "public_items": 457,
-  "public_duplicate_revisions_removed": 6,
+  "public_items": 458,
+  "public_duplicate_revisions_removed": 7,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-12T23:37:57+00:00",
-  "application_status_candidates": 150,
-  "application_status_open_now": 32,
-  "application_status_fetches": 19,
+  "application_status_checked_at": "2026-11-13T06:43:08+00:00",
+  "application_status_candidates": 163,
+  "application_status_open_now": 34,
+  "application_status_fetches": 40,
   "application_status_errors": [],
   "application_status_warnings": [
     {
@@ -83,13 +83,9 @@
     {
       "title": "相模原市自転車活用推進計画検討業務委託に係る条件付一般競争入札の実施について",
       "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "令和8年度自治会掲示板作製及び配送業務委託に係る条件付一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 18,
+  "employment_notices_excluded": 17,
   "support_period_candidates_checked": 3,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
@@ -134,7 +130,7 @@
   ],
   "open_now_by_region": {
     "神奈川県": 2,
-    "横浜市": 10,
+    "横浜市": 12,
     "川崎市": 0,
     "相模原市": 11,
     "藤沢市": 1,
@@ -151,10 +147,10 @@
     "大磯町": 0,
     "二宮町": 1
   },
-  "open_now_exact_time": 8,
-  "open_now_high_value_exact_time": 3,
-  "preparation_due_now": 15,
-  "preparation_due_now_high_value": 3,
+  "open_now_exact_time": 10,
+  "open_now_high_value_exact_time": 5,
+  "preparation_due_now": 16,
+  "preparation_due_now_high_value": 4,
   "gbiz_enabled": true,
   "gbiz_period": {
     "from": "20261111",

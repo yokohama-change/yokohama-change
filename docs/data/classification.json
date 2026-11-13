@@ -1,5 +1,5 @@
 {
-  "normalized_items": 4,
+  "normalized_items": 3,
   "changes": [
     {
       "id": "908b088be1ea047a3dcb",
@@ -7,13 +7,6 @@
       "from": "補助金・支援",
       "to": "入札・調達",
       "opportunity_type": "受注機会"
-    },
-    {
-      "id": "3f48ecccf8342af7faf2",
-      "title": "私立学校経常費補助金の変更交付申請書の提出について（小、義務教育、中、中等教育、高等学校、特別支援学校）",
-      "from": "子育て・教育",
-      "to": "補助金・支援",
-      "opportunity_type": "資金・支援"
     },
     {
       "id": "7a1e05187ea8132c2889",
