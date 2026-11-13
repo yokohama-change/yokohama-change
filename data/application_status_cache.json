@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-11-13T17:12:08+00:00",
+  "updated_at": "2026-11-13T23:31:27+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -594,7 +594,7 @@
     "e0833ebb6d40551fc623": {
       "url": "https://www.city.yokohama.lg.jp/business/kigyoshien/keieishien/kaihatsu/tenjikai/tennjikaijyosei.html",
       "source_updated": "Fri, 30 Oct 2026 01:00:00 GMT",
-      "fetched_at": "2026-11-06T23:06:45+00:00",
+      "fetched_at": "2026-11-13T23:31:26+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -2765,7 +2765,7 @@
     "9de5746e739116e93ccd": {
       "url": "https://www.city.ebina.kanagawa.jp/shisei/nyusatsu/sanka/1011353.html",
       "source_updated": "Tue, 08 Sep 2026 10:00:03 +0900",
-      "fetched_at": "2026-11-06T23:06:54+00:00",
+      "fetched_at": "2026-11-13T23:31:21+00:00",
       "facts": {
         "participation_deadline": "2026-11-30",
         "participation_deadline_at": "2026-11-30T23:59+09:00",
@@ -2782,7 +2782,7 @@
     "23577e4844afa02f6537": {
       "url": "https://www.city.chigasaki.kanagawa.jp/sangyo/1043316/1068418.html",
       "source_updated": "Tue, 08 Sep 2026 14:03:17 +0900",
-      "fetched_at": "2026-11-06T23:06:54+00:00",
+      "fetched_at": "2026-11-13T23:31:21+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -3633,7 +3633,7 @@
     "554f7c2f36ab80b4509f": {
       "url": "https://www.city.zama.kanagawa.jp/sangyo/keiyaku/proposal/1014190.html",
       "source_updated": "Fri, 06 Nov 2026 16:58:14 +0900",
-      "fetched_at": "2026-11-06T23:06:45+00:00",
+      "fetched_at": "2026-11-13T23:31:27+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
