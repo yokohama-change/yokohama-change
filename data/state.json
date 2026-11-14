@@ -1,7 +1,7 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-11-13T23:31:15+00:00",
+  "updated_at": "2026-11-14T06:19:51+00:00",
   "items": {
     "bb706802d9fb1a9fea0d": {
       "fingerprint": "1a2901045b817ca8f7beef4e855611088af64402b48ff30701933dd04aa180fb",
@@ -3635,6 +3635,10 @@
       "fingerprint": "a44c7d536f2ef994cab4ad98e5dcae571a19cb910f336191fd226102e89b7682",
       "source_id": "kanagawa_pref_news"
     },
+    "7e8667461886c393e4f1": {
+      "fingerprint": "8553a5e7c0e696e54ebb939b0873243b27f3d33d27ab8f011958f1d6406ebe14",
+      "source_id": "kanagawa_pref_news"
+    },
     "818ea1c1bdec9d03fb5a": {
       "fingerprint": "b9b7dc8ca171b1f1370377900e33221cbc22066a4667edf52472e55977b65e42",
       "source_id": "kanagawa_pref_news"
@@ -4025,10 +4029,6 @@
     },
     "0e53bffebbebf8f0ec2a": {
       "fingerprint": "2dfad63d24d42d8b09928650ec2dfeca629e8dcd66cbf2980dfaab63c6c90c36",
-      "source_id": "kanagawa_pref_news"
-    },
-    "6980197c8c7de36a12c7": {
-      "fingerprint": "a219c186e4714d52348ed2dde8c349bceb8c63a5ab7b210f2c2e55ca523eda92",
       "source_id": "kanagawa_pref_news"
     },
     "74a049acd9b33e551578": {
@@ -5207,6 +5207,10 @@
       "fingerprint": "259ca87aebb37a05244b8d77f2f3e6ad29c11b100537dbdd6f9727047a014dbd",
       "source_id": "fujisawa_news"
     },
+    "f0332ef0ff0dc57fabe3": {
+      "fingerprint": "d57613e2d043893e2d7ddbc404261290649f4d6c3e747c519dbe07bf844970f6",
+      "source_id": "chigasaki_news"
+    },
     "f8f359de1b22f4cb6625": {
       "fingerprint": "ced487c12ea4f1f5f401ff6e8f6a32ac997217a7184cd65ea10d49a0d3208565",
       "source_id": "chigasaki_news"
@@ -6221,10 +6225,6 @@
     },
     "1a7bcf9bb811677de9ae": {
       "fingerprint": "06fb6db9439fb823908dd7a281eda8d1ff6b48d1850dcbadab9c1a9766d536cf",
-      "source_id": "chigasaki_news"
-    },
-    "b94f9577b14d8da24b7d": {
-      "fingerprint": "6821cfe19f20a08a31342b4c5541e6f95a7d5fd60aa1a50be27ee8d9b540ec00",
       "source_id": "chigasaki_news"
     },
     "db5e30e48e84e7b46dcc": {

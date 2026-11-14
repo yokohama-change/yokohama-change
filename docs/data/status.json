@@ -1,29 +1,21 @@
 {
-  "generated_at": "2026-11-13T23:31:15+00:00",
+  "generated_at": "2026-11-14T06:19:51+00:00",
   "sources_total": 21,
   "sources_ok": 21,
   "items_seen": 1907,
-  "changes_this_run": 0,
+  "changes_this_run": 2,
   "errors": [],
   "state_preserved": false,
-  "public_items": 455,
+  "public_items": 453,
   "public_duplicate_revisions_removed": 8,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-13T23:31:27+00:00",
-  "application_status_candidates": 162,
+  "application_status_checked_at": "2026-11-14T06:20:02+00:00",
+  "application_status_candidates": 160,
   "application_status_open_now": 32,
-  "application_status_fetches": 22,
+  "application_status_fetches": 23,
   "application_status_errors": [],
   "application_status_warnings": [
-    {
-      "title": "寸沢嵐市有林整備業務委託（その1）に係る条件付一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "さがみはら防災ガイドブック作成印刷業務委託に係る条件付一般競争入札の結果について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
     {
       "title": "橋りょう点検業務委託（その4）に係る条件付一般競争入札の結果について",
       "warning": "公式ページ404。受付中にはしません"
@@ -82,6 +74,10 @@
     },
     {
       "title": "相模原市自転車活用推進計画検討業務委託に係る条件付一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "令和8年度 景観計画（素案）作成業務委託に係る条件付一般競争入札の実施について",
       "warning": "公式ページ404。受付中にはしません"
     },
     {

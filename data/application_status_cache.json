@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-11-13T23:31:27+00:00",
+  "updated_at": "2026-11-14T06:20:01+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -4132,7 +4132,7 @@
     "6b5f3d93880d4cf21ec3": {
       "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2027/itaku/midori/md_yorisoi.html",
       "source_updated": "Tue, 20 Oct 2026 02:00:00 GMT",
-      "fetched_at": "2026-11-07T05:57:05+00:00",
+      "fetched_at": "2026-11-14T06:19:58+00:00",
       "facts": {
         "participation_deadline": "2026-10-30",
         "participation_deadline_at": "2026-10-30T23:59+09:00",
@@ -4156,7 +4156,7 @@
     "a22af974674d5f5fa89c": {
       "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2026/buppin/byoin/20261026_aibunsho.html",
       "source_updated": "Mon, 26 Oct 2026 09:00:00 GMT",
-      "fetched_at": "2026-11-07T05:57:06+00:00",
+      "fetched_at": "2026-11-14T06:19:58+00:00",
       "facts": {
         "participation_deadline": "2026-11-04",
         "participation_deadline_at": "2026-11-04T12:00+09:00",
@@ -4178,7 +4178,7 @@
     "8a017bf43e7fcca5247e": {
       "url": "https://www.pref.kanagawa.jp/docs/ka8/nyuusatukujou/nyuusatu.html",
       "source_updated": "2026-10-28T00:00:00+09:00",
-      "fetched_at": "2026-11-07T05:57:08+00:00",
+      "fetched_at": "2026-11-14T06:19:59+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -4193,7 +4193,7 @@
     "3e49c8f6d2a4ebbea8c7": {
       "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/1036484.html",
       "source_updated": "Fri, 23 Oct 2026 00:05:04 +0900",
-      "fetched_at": "2026-11-07T05:57:08+00:00",
+      "fetched_at": "2026-11-14T06:20:00+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -4208,7 +4208,7 @@
     "f3d47bea7bc31d659ae3": {
       "url": "https://www.city.yokosuka.kanagawa.jp/4402/hojokin/seisan.html",
       "source_updated": "2026-10-23T14:00:50+09:00",
-      "fetched_at": "2026-11-07T05:57:09+00:00",
+      "fetched_at": "2026-11-14T06:20:00+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -4223,7 +4223,7 @@
     "22d09c46b1224112a44e": {
       "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/1036497.html",
       "source_updated": "Tue, 27 Oct 2026 00:05:03 +0900",
-      "fetched_at": "2026-11-07T05:57:10+00:00",
+      "fetched_at": "2026-11-14T06:20:01+00:00",
       "facts": {
         "participation_deadline": "2026-11-04",
         "participation_deadline_at": "2026-11-04T23:59+09:00",
