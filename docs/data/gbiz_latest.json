@@ -1,23 +1,13 @@
 {
-  "generated_at": "2026-11-14T06:20:05+00:00",
+  "generated_at": "2026-11-14T15:48:48+00:00",
   "enabled": true,
   "stale": false,
   "period": {
-    "from": "20261112",
-    "to": "20261114"
+    "from": "20261113",
+    "to": "20261115"
   },
-  "count": 1,
-  "items": [
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1010001129183",
-      "name": "株式会社ファイブスター（閉鎖）",
-      "location": "神奈川県横浜市中区山下町２５番地１６",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    }
-  ],
+  "count": 0,
+  "items": [],
   "errors": [],
   "endpoint_mode": "v2-period-corporate-update-only",
   "note": "法人情報の更新シグナルです。現在募集中の調達・補助金ではありません。",

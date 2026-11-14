@@ -1,25 +1,21 @@
 {
-  "generated_at": "2026-11-14T06:19:51+00:00",
+  "generated_at": "2026-11-14T15:48:33+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1907,
-  "changes_this_run": 2,
+  "items_seen": 1901,
+  "changes_this_run": 26,
   "errors": [],
   "state_preserved": false,
-  "public_items": 453,
-  "public_duplicate_revisions_removed": 8,
+  "public_items": 450,
+  "public_duplicate_revisions_removed": 9,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-14T06:20:02+00:00",
-  "application_status_candidates": 160,
+  "application_status_checked_at": "2026-11-14T15:48:44+00:00",
+  "application_status_candidates": 159,
   "application_status_open_now": 32,
   "application_status_fetches": 23,
   "application_status_errors": [],
   "application_status_warnings": [
-    {
-      "title": "橋りょう点検業務委託（その4）に係る条件付一般競争入札の結果について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
     {
       "title": "麻溝台・新磯野第一整備地区土地区画整理事業 基盤整備工事（その2）ほか積算技術業務委託に係る条件付一般競争入札の実施について",
       "warning": "公式ページ404。受付中にはしません"
@@ -85,7 +81,7 @@
       "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 9,
+  "employment_notices_excluded": 8,
   "support_period_candidates_checked": 3,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
@@ -153,10 +149,10 @@
   "preparation_due_now_high_value": 7,
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20261112",
-    "to": "20261114"
+    "from": "20261113",
+    "to": "20261115"
   },
-  "gbiz_items_seen": 1,
+  "gbiz_items_seen": 0,
   "gbiz_errors": [],
   "gbiz_endpoint_mode": "v2-period-corporate-update-only"
 }
