@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-14T22:22:25+00:00",
+  "generated_at": "2026-11-15T06:28:16+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1901,
-  "changes_this_run": 1,
+  "items_seen": 1900,
+  "changes_this_run": 4,
   "errors": [],
   "state_preserved": false,
   "public_items": 450,
   "public_duplicate_revisions_removed": 9,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-14T22:22:37+00:00",
+  "application_status_checked_at": "2026-11-15T06:28:24+00:00",
   "application_status_candidates": 159,
   "application_status_open_now": 32,
   "application_status_fetches": 22,
@@ -78,6 +78,10 @@
     },
     {
       "title": "令和8年度自治会掲示板作製及び配送業務委託に係る条件付一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "相模原市立総合学習センター吸収冷温水機分解整備修繕に係る条件付一般競争の入札の実施について",
       "warning": "公式ページ404。受付中にはしません"
     }
   ],
