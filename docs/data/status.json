@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-15T06:28:16+00:00",
+  "generated_at": "2026-11-15T16:20:27+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1900,
-  "changes_this_run": 4,
+  "items_seen": 1895,
+  "changes_this_run": 79,
   "errors": [],
   "state_preserved": false,
-  "public_items": 450,
-  "public_duplicate_revisions_removed": 9,
+  "public_items": 455,
+  "public_duplicate_revisions_removed": 4,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-15T06:28:24+00:00",
-  "application_status_candidates": 159,
+  "application_status_checked_at": "2026-11-15T16:20:40+00:00",
+  "application_status_candidates": 156,
   "application_status_open_now": 32,
-  "application_status_fetches": 22,
+  "application_status_fetches": 24,
   "application_status_errors": [],
   "application_status_warnings": [
     {
@@ -149,14 +149,14 @@
   },
   "open_now_exact_time": 9,
   "open_now_high_value_exact_time": 4,
-  "preparation_due_now": 21,
-  "preparation_due_now_high_value": 7,
+  "preparation_due_now": 20,
+  "preparation_due_now_high_value": 8,
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20261113",
-    "to": "20261115"
+    "from": "20261114",
+    "to": "20261116"
   },
-  "gbiz_items_seen": 0,
+  "gbiz_items_seen": 14,
   "gbiz_errors": [],
   "gbiz_endpoint_mode": "v2-period-corporate-update-only"
 }

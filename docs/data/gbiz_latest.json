@@ -1,13 +1,140 @@
 {
-  "generated_at": "2026-11-15T06:28:26+00:00",
+  "generated_at": "2026-11-15T16:20:44+00:00",
   "enabled": true,
   "stale": false,
   "period": {
-    "from": "20261113",
-    "to": "20261115"
+    "from": "20261114",
+    "to": "20261116"
   },
-  "count": 0,
-  "items": [],
+  "count": 14,
+  "items": [
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1012401043823",
+      "name": "海英俊株式会社",
+      "location": "神奈川県横浜市中区山下町７３番地３ヴァルス山下町ビル７０１号室",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    },
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1020001030761",
+      "name": "株式会社エバーフォート",
+      "location": "神奈川県横浜市戸塚区戸塚町２９５１番地５",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    },
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1020001039811",
+      "name": "株式会社スキルアップ",
+      "location": "神奈川県横浜市中区山下町４６番地Ｂｌｏｃｋｓ山下公園３０２",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    },
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1020001041569",
+      "name": "株式会社シティコミュニケーションズ",
+      "location": "神奈川県横浜市中区長者町９丁目１５８番地",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    },
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1020001102544",
+      "name": "株式会社ハート泉",
+      "location": "神奈川県横浜市南区中里４丁目２６番１７号",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    },
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1020001127871",
+      "name": "ＹＥＣホールディングス株式会社",
+      "location": "神奈川県横浜市中区太田町１丁目９番地ＹＥＣ関内ビル",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    },
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1020001131691",
+      "name": "ワンプラザ株式会社",
+      "location": "神奈川県横浜市金沢区能見台３丁目５１番地１ふれあいの街Ｇ棟３０１号",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    },
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1020001171110",
+      "name": "株式会社みらいＺ",
+      "location": "神奈川県横浜市中区尾上町５丁目７１番地",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    },
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1020001171127",
+      "name": "株式会社ＨＡＲＭＯＺ",
+      "location": "神奈川県横浜市都筑区牛久保２丁目１８番地１６号",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    },
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1020001171151",
+      "name": "株式会社一剛運輸",
+      "location": "神奈川県横浜市旭区さちが丘１２８番８",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    },
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1020001171168",
+      "name": "株式会社ＨＡＩＧＨＴ　ａｎｄ",
+      "location": "神奈川県横浜市青葉区青葉台２丁目２８番地３プラウド青葉台１０３",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    },
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1020002029076",
+      "name": "有限会社アクティブ・トゥエンティワン",
+      "location": "神奈川県横浜市南区永楽町１丁目１５番地",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    },
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1020002039034",
+      "name": "有限会社タムテイー",
+      "location": "神奈川県横浜市鶴見区鶴見中央１丁目２番１号第２日野ビル４階浅川歯科医院内",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    },
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1021001088484",
+      "name": "株式会社Ｅｍｂｅｒ",
+      "location": "神奈川県横浜市神奈川区立町２３－７０レオパレス立町１０２",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    }
+  ],
   "errors": [],
   "endpoint_mode": "v2-period-corporate-update-only",
   "note": "法人情報の更新シグナルです。現在募集中の調達・補助金ではありません。",
