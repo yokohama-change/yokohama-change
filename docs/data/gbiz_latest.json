@@ -1,137 +1,101 @@
 {
-  "generated_at": "2026-11-16T06:26:04+00:00",
+  "generated_at": "2026-11-16T19:35:28+00:00",
   "enabled": true,
   "stale": false,
   "period": {
-    "from": "20261114",
-    "to": "20261116"
+    "from": "20261115",
+    "to": "20261117"
   },
-  "count": 14,
+  "count": 10,
   "items": [
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1012401043823",
-      "name": "海英俊株式会社",
-      "location": "神奈川県横浜市中区山下町７３番地３ヴァルス山下町ビル７０１号室",
+      "corporate_number": "1010801016151",
+      "name": "株式会社オーガスト",
+      "location": "神奈川県横浜市神奈川区金港町５番地１",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001030761",
-      "name": "株式会社エバーフォート",
-      "location": "神奈川県横浜市戸塚区戸塚町２９５１番地５",
+      "corporate_number": "1020001003734",
+      "name": "株式会社カサハラ不動産管理",
+      "location": "神奈川県横浜市港南区最戸２丁目１２番２７号",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001039811",
-      "name": "株式会社スキルアップ",
-      "location": "神奈川県横浜市中区山下町４６番地Ｂｌｏｃｋｓ山下公園３０２",
+      "corporate_number": "1020001034523",
+      "name": "宝栄運輸株式会社",
+      "location": "神奈川県横浜市鶴見区栄町通２丁目１２番地１８",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001041569",
-      "name": "株式会社シティコミュニケーションズ",
-      "location": "神奈川県横浜市中区長者町９丁目１５８番地",
+      "corporate_number": "1020001093404",
+      "name": "松原総合サービス株式会社",
+      "location": "神奈川県横浜市青葉区美しが丘西３丁目１０番地４９",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001102544",
-      "name": "株式会社ハート泉",
-      "location": "神奈川県横浜市南区中里４丁目２６番１７号",
+      "corporate_number": "1020001135668",
+      "name": "株式会社千手ホールディングス（閉鎖）",
+      "location": "神奈川県横浜市港北区新横浜２丁目２番地１５パレアナビル８階",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001127871",
-      "name": "ＹＥＣホールディングス株式会社",
-      "location": "神奈川県横浜市中区太田町１丁目９番地ＹＥＣ関内ビル",
+      "corporate_number": "1020001136121",
+      "name": "株式会社モンキーポッド",
+      "location": "神奈川県横浜市西区北幸２丁目１０－４８",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001131691",
-      "name": "ワンプラザ株式会社",
-      "location": "神奈川県横浜市金沢区能見台３丁目５１番地１ふれあいの街Ｇ棟３０１号",
+      "corporate_number": "1020001171044",
+      "name": "三英開発株式会社",
+      "location": "神奈川県横浜市港北区太尾町観音前５４４番地",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001171110",
-      "name": "株式会社みらいＺ",
-      "location": "神奈川県横浜市中区尾上町５丁目７１番地",
+      "corporate_number": "1020002018855",
+      "name": "有限会社さくらネーム",
+      "location": "神奈川県横浜市港南区最戸１丁目４５番１",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001171127",
-      "name": "株式会社ＨＡＲＭＯＺ",
-      "location": "神奈川県横浜市都筑区牛久保２丁目１８番地１６号",
+      "corporate_number": "1020003011958",
+      "name": "クレーン・アセット・Ｍ合同会社",
+      "location": "神奈川県横浜市港北区日吉１丁目１１－２０",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001171151",
-      "name": "株式会社一剛運輸",
-      "location": "神奈川県横浜市旭区さちが丘１２８番８",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001171168",
-      "name": "株式会社ＨＡＩＧＨＴ　ａｎｄ",
-      "location": "神奈川県横浜市青葉区青葉台２丁目２８番地３プラウド青葉台１０３",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020002029076",
-      "name": "有限会社アクティブ・トゥエンティワン",
-      "location": "神奈川県横浜市南区永楽町１丁目１５番地",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020002039034",
-      "name": "有限会社タムテイー",
-      "location": "神奈川県横浜市鶴見区鶴見中央１丁目２番１号第２日野ビル４階浅川歯科医院内",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1021001088484",
-      "name": "株式会社Ｅｍｂｅｒ",
-      "location": "神奈川県横浜市神奈川区立町２３－７０レオパレス立町１０２",
+      "corporate_number": "1020005015610",
+      "name": "一般社団法人ワーカーズ・コレクティブはっぴいさん",
+      "location": "神奈川県横浜市港北区新横浜２丁目８－４",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     }
   ],

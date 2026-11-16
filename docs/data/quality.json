@@ -1,18 +1,18 @@
 {
-  "checked_at": "2026-11-16T06:26:04+00:00",
+  "checked_at": "2026-11-16T19:35:28+00:00",
   "health": "warning",
   "health_label": "注意",
   "errors": [],
   "warnings": [
-    "締切確認注意 17件"
+    "締切確認注意 13件"
   ],
   "freshness_minutes": 0,
-  "open_now": 32,
+  "open_now": 33,
   "open_now_high_value": 10,
   "source_inventory": {
     "configured_sources": 21,
     "nonempty_sources": 21,
-    "state_items": 1897,
+    "state_items": 1895,
     "zero_item_source_ids": [],
     "orphan_source_ids": []
   },

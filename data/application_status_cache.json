@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-11-16T06:25:59+00:00",
+  "updated_at": "2026-11-16T19:35:25+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -694,8 +694,8 @@
     },
     "d9c4c723f9df6602c0ab": {
       "url": "https://www.pref.kanagawa.jp/docs/m2w/premiumshien/kanatoku.html",
-      "source_updated": "2026-11-12T00:00:00+09:00",
-      "fetched_at": "2026-11-11T21:56:39+00:00",
+      "source_updated": "2026-11-17T00:00:00+09:00",
+      "fetched_at": "2026-11-16T19:35:21+00:00",
       "facts": {
         "participation_deadline": "2026-12-04",
         "participation_deadline_at": "2026-12-04T23:59+09:00",
@@ -1898,16 +1898,18 @@
     },
     "f29f466ccb5b9fa4b699": {
       "url": "https://www.pref.kanagawa.jp/docs/ga4/pub/c1401214.html",
-      "source_updated": "2026-09-01T00:00:00+09:00",
-      "fetched_at": "2026-11-05T06:44:20+00:00",
+      "source_updated": "2026-11-17T00:00:00+09:00",
+      "fetched_at": "2026-11-16T19:35:20+00:00",
       "facts": {
-        "participation_deadline": "",
-        "participation_deadline_at": "",
-        "participation_source": "",
+        "participation_deadline": "2026-09-01",
+        "participation_deadline_at": "2026-09-01T23:59+09:00",
+        "participation_source": "募集期間",
         "downstream_dates": [],
         "result_hit": false,
         "closed_hit": false,
-        "participation_dates": [],
+        "participation_dates": [
+          "2026-09-01"
+        ],
         "generic_dates": []
       }
     },
@@ -3106,8 +3108,8 @@
     },
     "1cc5ea87556b6fe7b54f": {
       "url": "https://www.pref.kanagawa.jp/docs/m2w/premiumshien/kanatoku-dantaiichiran.html",
-      "source_updated": "2026-11-12T00:00:00+09:00",
-      "fetched_at": "2026-11-11T21:56:40+00:00",
+      "source_updated": "2026-11-17T00:00:00+09:00",
+      "fetched_at": "2026-11-16T19:35:21+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -3779,8 +3781,8 @@
     },
     "80fd4c1ee3d090d4cffc": {
       "url": "https://www.city.chigasaki.kanagawa.jp/keiyaku/keiyaku/1068088.html",
-      "source_updated": "Mon, 26 Oct 2026 14:05:14 +0900",
-      "fetched_at": "2026-11-11T06:15:12+00:00",
+      "source_updated": "Mon, 16 Nov 2026 18:05:56 +0900",
+      "fetched_at": "2026-11-16T19:35:18+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -5193,6 +5195,57 @@
         "result_hit": false,
         "closed_hit": false,
         "participation_dates": [],
+        "generic_dates": []
+      }
+    },
+    "394bc38ba833a655f9ed": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/1036598.html",
+      "source_updated": "Tue, 17 Nov 2026 00:05:03 +0900",
+      "fetched_at": "2026-11-16T19:35:19+00:00",
+      "facts": {
+        "participation_deadline": "2026-11-25",
+        "participation_deadline_at": "2026-11-25T23:59+09:00",
+        "participation_source": "受付期間",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [
+          "2026-11-25"
+        ],
+        "generic_dates": []
+      }
+    },
+    "e750de8c9bf640877ca6": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/1036597.html",
+      "source_updated": "Tue, 17 Nov 2026 00:05:03 +0900",
+      "fetched_at": "2026-11-16T19:35:19+00:00",
+      "facts": {
+        "participation_deadline": "2026-11-24",
+        "participation_deadline_at": "2026-11-24T23:59+09:00",
+        "participation_source": "受付期間",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [
+          "2026-11-24"
+        ],
+        "generic_dates": []
+      }
+    },
+    "68bc38ac2af0afd3638b": {
+      "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/1036599.html",
+      "source_updated": "Tue, 17 Nov 2026 00:05:03 +0900",
+      "fetched_at": "2026-11-16T19:35:20+00:00",
+      "facts": {
+        "participation_deadline": "2026-11-24",
+        "participation_deadline_at": "2026-11-24T23:59+09:00",
+        "participation_source": "受付期間",
+        "downstream_dates": [],
+        "result_hit": false,
+        "closed_hit": false,
+        "participation_dates": [
+          "2026-11-24"
+        ],
         "generic_dates": []
       }
     }
