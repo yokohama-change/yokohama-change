@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-15T22:47:45+00:00",
+  "generated_at": "2026-11-16T06:25:47+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1895,
-  "changes_this_run": 0,
+  "items_seen": 1897,
+  "changes_this_run": 109,
   "errors": [],
   "state_preserved": false,
-  "public_items": 455,
-  "public_duplicate_revisions_removed": 4,
+  "public_items": 470,
+  "public_duplicate_revisions_removed": 7,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-15T22:48:02+00:00",
-  "application_status_candidates": 156,
+  "application_status_checked_at": "2026-11-16T06:25:59+00:00",
+  "application_status_candidates": 157,
   "application_status_open_now": 32,
-  "application_status_fetches": 29,
+  "application_status_fetches": 24,
   "application_status_errors": [],
   "application_status_warnings": [
     {
@@ -85,8 +85,8 @@
       "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 8,
-  "support_period_candidates_checked": 3,
+  "employment_notices_excluded": 9,
+  "support_period_candidates_checked": 4,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
   "scope": "神奈川 β（県＋16市町の公式情報）",
