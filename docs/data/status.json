@@ -1,29 +1,21 @@
 {
-  "generated_at": "2026-11-16T19:35:17+00:00",
+  "generated_at": "2026-11-17T03:52:41+00:00",
   "sources_total": 21,
   "sources_ok": 21,
   "items_seen": 1895,
-  "changes_this_run": 74,
+  "changes_this_run": 81,
   "errors": [],
   "state_preserved": false,
-  "public_items": 462,
-  "public_duplicate_revisions_removed": 7,
+  "public_items": 458,
+  "public_duplicate_revisions_removed": 12,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-16T19:35:25+00:00",
+  "application_status_checked_at": "2026-11-17T03:52:53+00:00",
   "application_status_candidates": 156,
-  "application_status_open_now": 33,
-  "application_status_fetches": 20,
+  "application_status_open_now": 34,
+  "application_status_fetches": 25,
   "application_status_errors": [],
   "application_status_warnings": [
-    {
-      "title": "一般競争入札のお知らせ（公告期間9月8日～9月14日）",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "クラウドストレージサービスBoxライセンス調達業務に関する一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
     {
       "title": "本庁舎設備管理・案内業務委託（長期継続契約）に係る条件付き一般競争入札の結果について",
       "warning": "公式ページ404。受付中にはしません"
@@ -69,7 +61,7 @@
       "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 8,
+  "employment_notices_excluded": 10,
   "support_period_candidates_checked": 4,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
@@ -99,6 +91,7 @@
     "伊勢原市",
     "大磯町",
     "小田原市",
+    "川崎市",
     "平塚市",
     "座間市",
     "横浜市",
@@ -112,8 +105,8 @@
     "鎌倉市"
   ],
   "open_now_by_region": {
-    "神奈川県": 2,
-    "横浜市": 12,
+    "神奈川県": 3,
+    "横浜市": 13,
     "川崎市": 0,
     "相模原市": 11,
     "藤沢市": 1,
@@ -124,14 +117,14 @@
     "小田原市": 1,
     "三浦市": 1,
     "逗子市": 0,
-    "海老名市": 1,
+    "海老名市": 0,
     "伊勢原市": 0,
     "座間市": 1,
     "大磯町": 0,
     "二宮町": 1
   },
-  "open_now_exact_time": 9,
-  "open_now_high_value_exact_time": 4,
+  "open_now_exact_time": 10,
+  "open_now_high_value_exact_time": 5,
   "preparation_due_now": 24,
   "preparation_due_now_high_value": 8,
   "gbiz_enabled": true,
