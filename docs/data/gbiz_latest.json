@@ -1,32 +1,13 @@
 {
-  "generated_at": "2026-11-18T11:40:11+00:00",
+  "generated_at": "2026-11-18T20:30:10+00:00",
   "enabled": true,
   "stale": false,
   "period": {
-    "from": "20261116",
-    "to": "20261118"
+    "from": "20261117",
+    "to": "20261119"
   },
-  "count": 2,
-  "items": [
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1010801016151",
-      "name": "株式会社オーガスト",
-      "location": "神奈川県横浜市神奈川区金港町５番地１",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1011001128514",
-      "name": "ＫＳＫネクスト株式会社（閉鎖）",
-      "location": "神奈川県横浜市中区北仲通５丁目５７番地２ザ・タワー横浜北仲３４２１号室",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    }
-  ],
+  "count": 0,
+  "items": [],
   "errors": [],
   "endpoint_mode": "v2-period-corporate-update-only",
   "note": "法人情報の更新シグナルです。現在募集中の調達・補助金ではありません。",

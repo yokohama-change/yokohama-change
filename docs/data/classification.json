@@ -1,13 +1,6 @@
 {
-  "normalized_items": 3,
+  "normalized_items": 2,
   "changes": [
-    {
-      "id": "828ef8865f609b6e8493",
-      "title": "公募型サウンディング調査の実施",
-      "from": "補助金・支援",
-      "to": "入札・調達",
-      "opportunity_type": "情報更新"
-    },
     {
       "id": "908b088be1ea047a3dcb",
       "title": "県営住宅駐車場の外部貸し（藤棚団地ほか19団地）に係る実施事業者の募集について",

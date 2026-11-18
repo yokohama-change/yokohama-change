@@ -1,32 +1,28 @@
 {
-  "generated_at": "2026-11-18T11:39:57+00:00",
+  "generated_at": "2026-11-18T20:29:59+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1896,
-  "changes_this_run": 139,
+  "items_seen": 1894,
+  "changes_this_run": 51,
   "errors": [],
   "state_preserved": false,
-  "public_items": 420,
-  "public_duplicate_revisions_removed": 6,
+  "public_items": 408,
+  "public_duplicate_revisions_removed": 4,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-18T11:40:07+00:00",
-  "application_status_candidates": 118,
+  "application_status_checked_at": "2026-11-18T20:30:07+00:00",
+  "application_status_candidates": 112,
   "application_status_open_now": 34,
-  "application_status_fetches": 12,
+  "application_status_fetches": 10,
   "application_status_errors": [],
   "application_status_warnings": [
-    {
-      "title": "相模原市立総合学習センター吸収冷温水機分解整備修繕に係る条件付一般競争の入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
     {
       "title": "津久井総合事務所公用車賃貸借契約（令和9年3月契約分）に係る条件付一般競争入札の結果について",
       "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 13,
-  "support_period_candidates_checked": 3,
+  "employment_notices_excluded": 12,
+  "support_period_candidates_checked": 1,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
   "scope": "神奈川 β（県＋16市町の公式情報）",
@@ -64,19 +60,18 @@
     "神奈川県",
     "茅ヶ崎市",
     "藤沢市",
-    "逗子市",
     "鎌倉市"
   ],
   "open_now_by_region": {
     "神奈川県": 4,
     "横浜市": 14,
     "川崎市": 0,
-    "相模原市": 10,
+    "相模原市": 12,
     "藤沢市": 1,
     "茅ヶ崎市": 1,
     "横須賀市": 0,
     "鎌倉市": 1,
-    "平塚市": 1,
+    "平塚市": 0,
     "小田原市": 1,
     "三浦市": 0,
     "逗子市": 0,
@@ -84,18 +79,18 @@
     "伊勢原市": 0,
     "座間市": 0,
     "大磯町": 0,
-    "二宮町": 1
+    "二宮町": 0
   },
-  "open_now_exact_time": 12,
+  "open_now_exact_time": 11,
   "open_now_high_value_exact_time": 8,
-  "preparation_due_now": 23,
+  "preparation_due_now": 21,
   "preparation_due_now_high_value": 9,
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20261116",
-    "to": "20261118"
+    "from": "20261117",
+    "to": "20261119"
   },
-  "gbiz_items_seen": 2,
+  "gbiz_items_seen": 0,
   "gbiz_errors": [],
   "gbiz_endpoint_mode": "v2-period-corporate-update-only"
 }
