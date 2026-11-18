@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-17T15:58:30+00:00",
+  "generated_at": "2026-11-18T00:57:30+00:00",
   "enabled": true,
   "stale": false,
   "period": {
     "from": "20261116",
     "to": "20261118"
   },
-  "count": 10,
+  "count": 2,
   "items": [
     {
       "signal_type": "法人情報更新",
@@ -21,81 +21,9 @@
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001003734",
-      "name": "株式会社カサハラ不動産管理",
-      "location": "神奈川県横浜市港南区最戸２丁目１２番２７号",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001034523",
-      "name": "宝栄運輸株式会社",
-      "location": "神奈川県横浜市鶴見区栄町通２丁目１２番地１８",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001093404",
-      "name": "松原総合サービス株式会社",
-      "location": "神奈川県横浜市青葉区美しが丘西３丁目１０番地４９",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001135668",
-      "name": "株式会社千手ホールディングス（閉鎖）",
-      "location": "神奈川県横浜市港北区新横浜２丁目２番地１５パレアナビル８階",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001136121",
-      "name": "株式会社モンキーポッド",
-      "location": "神奈川県横浜市西区北幸２丁目１０－４８",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001171044",
-      "name": "三英開発株式会社",
-      "location": "神奈川県横浜市港北区太尾町観音前５４４番地",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020002018855",
-      "name": "有限会社さくらネーム",
-      "location": "神奈川県横浜市港南区最戸１丁目４５番１",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020003011958",
-      "name": "クレーン・アセット・Ｍ合同会社",
-      "location": "神奈川県横浜市港北区日吉１丁目１１－２０",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020005015610",
-      "name": "一般社団法人ワーカーズ・コレクティブはっぴいさん",
-      "location": "神奈川県横浜市港北区新横浜２丁目８－４",
+      "corporate_number": "1011001128514",
+      "name": "ＫＳＫネクスト株式会社（閉鎖）",
+      "location": "神奈川県横浜市中区北仲通５丁目５７番地２ザ・タワー横浜北仲３４２１号室",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     }
   ],

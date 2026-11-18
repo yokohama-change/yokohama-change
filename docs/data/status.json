@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-17T15:58:16+00:00",
+  "generated_at": "2026-11-18T00:57:13+00:00",
   "sources_total": 21,
   "sources_ok": 21,
   "items_seen": 1896,
-  "changes_this_run": 135,
+  "changes_this_run": 26,
   "errors": [],
   "state_preserved": false,
-  "public_items": 458,
+  "public_items": 460,
   "public_duplicate_revisions_removed": 6,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-17T15:58:26+00:00",
-  "application_status_candidates": 156,
+  "application_status_checked_at": "2026-11-18T00:57:25+00:00",
+  "application_status_candidates": 157,
   "application_status_open_now": 34,
-  "application_status_fetches": 18,
+  "application_status_fetches": 21,
   "application_status_errors": [],
   "application_status_warnings": [
     {
@@ -59,10 +59,14 @@
     {
       "title": "相模原市立総合学習センター吸収冷温水機分解整備修繕に係る条件付一般競争の入札の実施について",
       "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "津久井総合事務所公用車賃貸借契約（令和9年3月契約分）に係る条件付一般競争入札の結果について",
+      "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 13,
-  "support_period_candidates_checked": 4,
+  "employment_notices_excluded": 14,
+  "support_period_candidates_checked": 3,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
   "scope": "神奈川 β（県＋16市町の公式情報）",
@@ -132,7 +136,7 @@
     "from": "20261116",
     "to": "20261118"
   },
-  "gbiz_items_seen": 10,
+  "gbiz_items_seen": 2,
   "gbiz_errors": [],
   "gbiz_endpoint_mode": "v2-period-corporate-update-only"
 }
