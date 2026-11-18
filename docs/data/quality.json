@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-11-18T00:57:30+00:00",
+  "checked_at": "2026-11-18T11:40:11+00:00",
   "health": "warning",
   "health_label": "注意",
   "errors": [],
   "warnings": [
-    "締切確認注意 12件"
+    "締切確認注意 2件"
   ],
   "freshness_minutes": 0,
   "open_now": 34,
-  "open_now_high_value": 11,
+  "open_now_high_value": 13,
   "source_inventory": {
     "configured_sources": 21,
     "nonempty_sources": 21,

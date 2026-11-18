@@ -1,61 +1,21 @@
 {
-  "generated_at": "2026-11-18T00:57:13+00:00",
+  "generated_at": "2026-11-18T11:39:57+00:00",
   "sources_total": 21,
   "sources_ok": 21,
   "items_seen": 1896,
-  "changes_this_run": 26,
+  "changes_this_run": 139,
   "errors": [],
   "state_preserved": false,
-  "public_items": 460,
+  "public_items": 420,
   "public_duplicate_revisions_removed": 6,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-18T00:57:25+00:00",
-  "application_status_candidates": 157,
+  "application_status_checked_at": "2026-11-18T11:40:07+00:00",
+  "application_status_candidates": 118,
   "application_status_open_now": 34,
-  "application_status_fetches": 21,
+  "application_status_fetches": 12,
   "application_status_errors": [],
   "application_status_warnings": [
-    {
-      "title": "本庁舎設備管理・案内業務委託（長期継続契約）に係る条件付き一般競争入札の結果について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "木もれびの森整備業務委託（その1）に係る条件付一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "木もれびの森整備業務委託（その2）に係る条件付一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "木もれびの森整備業務委託（その3）に係る条件付一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "木もれびの森整備業務委託（その4）に係る条件付一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "木もれびの森整備業務委託（その5）に係る条件付一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "木もれびの森整備業務委託（その6）に係る条件付一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "相模原市自転車活用推進計画検討業務委託に係る条件付一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "令和8年度 景観計画（素案）作成業務委託に係る条件付一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
-    {
-      "title": "令和8年度自治会掲示板作製及び配送業務委託に係る条件付一般競争入札の実施について",
-      "warning": "公式ページ404。受付中にはしません"
-    },
     {
       "title": "相模原市立総合学習センター吸収冷温水機分解整備修繕に係る条件付一般競争の入札の実施について",
       "warning": "公式ページ404。受付中にはしません"
@@ -65,7 +25,7 @@
       "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 14,
+  "employment_notices_excluded": 13,
   "support_period_candidates_checked": 3,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
@@ -90,7 +50,6 @@
     "二宮町"
   ],
   "regions_seen": [
-    "三浦市",
     "二宮町",
     "伊勢原市",
     "大磯町",
@@ -109,28 +68,28 @@
     "鎌倉市"
   ],
   "open_now_by_region": {
-    "神奈川県": 3,
-    "横浜市": 13,
+    "神奈川県": 4,
+    "横浜市": 14,
     "川崎市": 0,
-    "相模原市": 11,
+    "相模原市": 10,
     "藤沢市": 1,
     "茅ヶ崎市": 1,
     "横須賀市": 0,
-    "鎌倉市": 0,
+    "鎌倉市": 1,
     "平塚市": 1,
     "小田原市": 1,
-    "三浦市": 1,
+    "三浦市": 0,
     "逗子市": 0,
     "海老名市": 0,
     "伊勢原市": 0,
-    "座間市": 1,
+    "座間市": 0,
     "大磯町": 0,
     "二宮町": 1
   },
-  "open_now_exact_time": 10,
-  "open_now_high_value_exact_time": 5,
-  "preparation_due_now": 24,
-  "preparation_due_now_high_value": 8,
+  "open_now_exact_time": 12,
+  "open_now_high_value_exact_time": 8,
+  "preparation_due_now": 23,
+  "preparation_due_now_high_value": 9,
   "gbiz_enabled": true,
   "gbiz_period": {
     "from": "20261116",
