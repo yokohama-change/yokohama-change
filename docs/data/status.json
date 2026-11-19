@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-19T02:33:03+00:00",
+  "generated_at": "2026-11-19T11:37:43+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1896,
-  "changes_this_run": 68,
+  "items_seen": 1897,
+  "changes_this_run": 129,
   "errors": [],
   "state_preserved": false,
-  "public_items": 406,
-  "public_duplicate_revisions_removed": 6,
+  "public_items": 410,
+  "public_duplicate_revisions_removed": 5,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-19T02:33:12+00:00",
-  "application_status_candidates": 114,
-  "application_status_open_now": 35,
-  "application_status_fetches": 11,
+  "application_status_checked_at": "2026-11-19T11:37:47+00:00",
+  "application_status_candidates": 115,
+  "application_status_open_now": 33,
+  "application_status_fetches": 6,
   "application_status_errors": [],
   "application_status_warnings": [
     {
@@ -21,7 +21,7 @@
       "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 9,
+  "employment_notices_excluded": 8,
   "support_period_candidates_checked": 1,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
@@ -46,6 +46,7 @@
     "二宮町"
   ],
   "regions_seen": [
+    "三浦市",
     "二宮町",
     "伊勢原市",
     "大磯町",
@@ -60,11 +61,12 @@
     "神奈川県",
     "茅ヶ崎市",
     "藤沢市",
+    "逗子市",
     "鎌倉市"
   ],
   "open_now_by_region": {
     "神奈川県": 4,
-    "横浜市": 14,
+    "横浜市": 12,
     "川崎市": 0,
     "相模原市": 12,
     "藤沢市": 1,
@@ -81,8 +83,8 @@
     "大磯町": 0,
     "二宮町": 0
   },
-  "open_now_exact_time": 12,
-  "open_now_high_value_exact_time": 8,
+  "open_now_exact_time": 10,
+  "open_now_high_value_exact_time": 7,
   "preparation_due_now": 21,
   "preparation_due_now_high_value": 9,
   "gbiz_enabled": true,
