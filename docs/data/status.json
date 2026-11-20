@@ -1,27 +1,31 @@
 {
-  "generated_at": "2026-11-19T11:37:43+00:00",
+  "generated_at": "2026-11-20T11:37:06+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1897,
-  "changes_this_run": 129,
+  "items_seen": 1889,
+  "changes_this_run": 283,
   "errors": [],
   "state_preserved": false,
-  "public_items": 410,
-  "public_duplicate_revisions_removed": 5,
+  "public_items": 430,
+  "public_duplicate_revisions_removed": 0,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-19T11:37:47+00:00",
-  "application_status_candidates": 115,
+  "application_status_checked_at": "2026-11-20T11:37:22+00:00",
+  "application_status_candidates": 119,
   "application_status_open_now": 33,
-  "application_status_fetches": 6,
+  "application_status_fetches": 26,
   "application_status_errors": [],
   "application_status_warnings": [
     {
       "title": "津久井総合事務所公用車賃貸借契約（令和9年3月契約分）に係る条件付一般競争入札の結果について",
       "warning": "公式ページ404。受付中にはしません"
+    },
+    {
+      "title": "令和9年度小規模多機能型居宅介護事業者の公募",
+      "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 8,
+  "employment_notices_excluded": 12,
   "support_period_candidates_checked": 1,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
@@ -46,7 +50,6 @@
     "二宮町"
   ],
   "regions_seen": [
-    "三浦市",
     "二宮町",
     "伊勢原市",
     "大磯町",
@@ -66,10 +69,10 @@
   ],
   "open_now_by_region": {
     "神奈川県": 4,
-    "横浜市": 12,
+    "横浜市": 13,
     "川崎市": 0,
-    "相模原市": 12,
-    "藤沢市": 1,
+    "相模原市": 10,
+    "藤沢市": 2,
     "茅ヶ崎市": 2,
     "横須賀市": 0,
     "鎌倉市": 1,
@@ -84,13 +87,13 @@
     "二宮町": 0
   },
   "open_now_exact_time": 10,
-  "open_now_high_value_exact_time": 7,
-  "preparation_due_now": 21,
-  "preparation_due_now_high_value": 9,
+  "open_now_high_value_exact_time": 6,
+  "preparation_due_now": 13,
+  "preparation_due_now_high_value": 6,
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20261117",
-    "to": "20261119"
+    "from": "20261118",
+    "to": "20261120"
   },
   "gbiz_items_seen": 0,
   "gbiz_errors": [],
