@@ -1,13 +1,32 @@
 {
-  "generated_at": "2026-11-20T11:37:24+00:00",
+  "generated_at": "2026-11-20T20:15:37+00:00",
   "enabled": true,
   "stale": false,
   "period": {
-    "from": "20261118",
-    "to": "20261120"
+    "from": "20261119",
+    "to": "20261121"
   },
-  "count": 0,
-  "items": [],
+  "count": 2,
+  "items": [
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1010703006028",
+      "name": "合同会社Ｇｏｏｄ　Ｂｌｅｓｓ（閉鎖）",
+      "location": "神奈川県横浜市旭区さちが丘１４６",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    },
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1010802003826",
+      "name": "有限会社カヤマ",
+      "location": "神奈川県横浜市都筑区荏田南５丁目１８番９５号",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    }
+  ],
   "errors": [],
   "endpoint_mode": "v2-period-corporate-update-only",
   "note": "法人情報の更新シグナルです。現在募集中の調達・補助金ではありません。",
