@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-21T10:59:08+00:00",
+  "generated_at": "2026-11-21T19:14:22+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1883,
-  "changes_this_run": 3,
+  "items_seen": 1882,
+  "changes_this_run": 5,
   "errors": [],
   "state_preserved": false,
   "public_items": 427,
   "public_duplicate_revisions_removed": 5,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-21T10:59:10+00:00",
+  "application_status_checked_at": "2026-11-21T19:14:24+00:00",
   "application_status_candidates": 119,
   "application_status_open_now": 26,
   "application_status_fetches": 2,
@@ -92,10 +92,10 @@
   "preparation_due_now_high_value": 7,
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20261119",
-    "to": "20261121"
+    "from": "20261120",
+    "to": "20261122"
   },
-  "gbiz_items_seen": 2,
+  "gbiz_items_seen": 4,
   "gbiz_errors": [],
   "gbiz_endpoint_mode": "v2-period-corporate-update-only"
 }
