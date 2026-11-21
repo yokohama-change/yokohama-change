@@ -1,7 +1,7 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-11-21T02:12:04+00:00",
+  "updated_at": "2026-11-21T10:59:08+00:00",
   "items": {
     "0e4d34eea712356ec9f2": {
       "fingerprint": "a104c56285188d3c99b64767f296a398b715a3c19e6fdb8eb8ac1c3b7421471c",
@@ -3659,6 +3659,10 @@
       "fingerprint": "5c1dfc23c93bb0e81fe33286da59fe2b62474a806f337bf65903fa3acf88d486",
       "source_id": "kanagawa_pref_news"
     },
+    "a4760480c54570cefd4b": {
+      "fingerprint": "4a0b8a0921f95ef33699f895b587815722a920bd8c2d11bee8f738525b6a3e56",
+      "source_id": "kanagawa_pref_news"
+    },
     "9f1a45398a6947bc924c": {
       "fingerprint": "9259d7dc98a489cf70b71ccfb511ea0d16ed79902389d34c3a6308a14b13629b",
       "source_id": "kanagawa_pref_news"
@@ -3911,6 +3915,14 @@
       "fingerprint": "064b1df45df684d9c86167b5976bf9d4b777c45f901184608075a9a3fb71afab",
       "source_id": "kanagawa_pref_news"
     },
+    "dfe7c0fcb8c3b31d8f68": {
+      "fingerprint": "e0ecefdda567588bdeaedbf8574b0fff39db2973d7356a7fdb59f18736273e69",
+      "source_id": "kanagawa_pref_news"
+    },
+    "e278898fc36b52d4e435": {
+      "fingerprint": "e26d890cadd984e9508d116a4938ea9092f5fc0582b436fe75aa94bc6470f604",
+      "source_id": "kanagawa_pref_news"
+    },
     "7a11a7773dcc62e253a3": {
       "fingerprint": "217c0cdec34489808b2ded57b0a546ba59e07707bf8dc00549df85cdef3576f3",
       "source_id": "kanagawa_pref_news"
@@ -4013,18 +4025,6 @@
     },
     "46f5521b91f2d930025a": {
       "fingerprint": "35ffcad2457c63d6b0a09c3a9abdf81d3b5a7d96c74f2031f9a81f961f1e1f2a",
-      "source_id": "kanagawa_pref_news"
-    },
-    "762511c2385a8689d9c7": {
-      "fingerprint": "e0af75164960e8f4b7a8157be69313692f742f55cd50492141a90c2b1bdbd449",
-      "source_id": "kanagawa_pref_news"
-    },
-    "fae96b7feda086c91197": {
-      "fingerprint": "de0e3aa8f9a31e7c5bc334cde1cc5209b8caa5d05eb6ea4bf41319156def7dec",
-      "source_id": "kanagawa_pref_news"
-    },
-    "e20e1b83912d43de02d7": {
-      "fingerprint": "573843517166cc0a1d463b4fc7d72f51d78c1a2c6bda7290b6c6b20fb099fc0f",
       "source_id": "kanagawa_pref_news"
     },
     "9cf907ca7f78d6ead003": {
