@@ -1,7 +1,7 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-11-21T19:14:22+00:00",
+  "updated_at": "2026-11-22T01:17:10+00:00",
   "items": {
     "0e4d34eea712356ec9f2": {
       "fingerprint": "a104c56285188d3c99b64767f296a398b715a3c19e6fdb8eb8ac1c3b7421471c",
@@ -3635,6 +3635,10 @@
       "fingerprint": "5690625a390df9febc791052390805fe23994e11b100c80ce87f48d35245b31d",
       "source_id": "kanagawa_pref_news"
     },
+    "7ed4e55a1be23d7c25ec": {
+      "fingerprint": "4f4d048fd8fd1ec3005650028cbe67b0b0d3066e07369074db47c6ec99c87d4a",
+      "source_id": "kanagawa_pref_news"
+    },
     "e26eb127f7f84204d721": {
       "fingerprint": "0adc5edf9901f5ae22558e7cd0d0fd828d7f72af55ed36da72c28db365d95db0",
       "source_id": "kanagawa_pref_news"
@@ -4021,10 +4025,6 @@
     },
     "9e9401ac01043352e50a": {
       "fingerprint": "10c26ea7e315c5e65a81a4db809b6d9b6254831a319f12b77261e3dd4d386c82",
-      "source_id": "kanagawa_pref_news"
-    },
-    "03976f7711248a9babe1": {
-      "fingerprint": "c7da077db2432c5d9301a882701d969c1bb81bb895e61a819728e3a2f82709a6",
       "source_id": "kanagawa_pref_news"
     },
     "9cf907ca7f78d6ead003": {
