@@ -1,7 +1,7 @@
 {
   "version": 2,
   "initialized": true,
-  "updated_at": "2026-11-22T01:17:10+00:00",
+  "updated_at": "2026-11-22T11:21:19+00:00",
   "items": {
     "0e4d34eea712356ec9f2": {
       "fingerprint": "a104c56285188d3c99b64767f296a398b715a3c19e6fdb8eb8ac1c3b7421471c",
@@ -5163,6 +5163,10 @@
       "fingerprint": "76107a3991de531b2328a4d01f8ad70ee7065733f4b8575b0b016c635e3a32d8",
       "source_id": "sagamihara_news"
     },
+    "aaa7649d20dd04465d64": {
+      "fingerprint": "b0bb71940d907af9d202c7618a9d459e80300cac543facaa872521ff34a61ca6",
+      "source_id": "fujisawa_news"
+    },
     "4f8553a9052f7cf3e0a0": {
       "fingerprint": "2791fdac0ce17a8d7afd76e9ccd59de3ff23a1890a1fddb97feb5ae63c102857",
       "source_id": "fujisawa_news"
@@ -5197,10 +5201,6 @@
     },
     "ed57013b47be9be1c1af": {
       "fingerprint": "c19eb0c89d8d468bb7d04fd183821b8970dc15d29e208d8233dfa94a8c499cd7",
-      "source_id": "fujisawa_news"
-    },
-    "1b22ce54d9638453aaab": {
-      "fingerprint": "fcb8328f8f28f09ad46a2394bd0438d05f4e3936f066ac6946bef7631ae47f20",
       "source_id": "fujisawa_news"
     },
     "14ea37d327c925a503d6": {
