@@ -1,21 +1,25 @@
 {
-  "generated_at": "2026-11-22T19:37:38+00:00",
+  "generated_at": "2026-11-23T01:41:37+00:00",
   "sources_total": 21,
   "sources_ok": 21,
   "items_seen": 1877,
-  "changes_this_run": 4,
+  "changes_this_run": 0,
   "errors": [],
   "state_preserved": false,
   "public_items": 427,
   "public_duplicate_revisions_removed": 5,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-22T19:37:45+00:00",
+  "application_status_checked_at": "2026-11-23T01:41:46+00:00",
   "application_status_candidates": 119,
   "application_status_open_now": 26,
-  "application_status_fetches": 9,
+  "application_status_fetches": 14,
   "application_status_errors": [],
   "application_status_warnings": [
+    {
+      "title": "相模原市国民健康保険診療所受付業務に係る労働者派遣（その2）（長期継続契約）の条件付一般競争入札の実施について",
+      "warning": "公式ページ404。受付中にはしません"
+    },
     {
       "title": "津久井総合事務所公用車賃貸借契約（令和9年3月契約分）に係る条件付一般競争入札の結果について",
       "warning": "公式ページ404。受付中にはしません"
