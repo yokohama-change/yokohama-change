@@ -1,157 +1,70 @@
 {
-  "generated_at": "2026-11-23T12:35:02+00:00",
+  "generated_at": "2026-11-24T23:53:42+00:00",
   "enabled": true,
-  "stale": true,
+  "stale": false,
   "period": {
-    "from": "20261122",
-    "to": "20261124"
+    "from": "20261123",
+    "to": "20261125"
   },
-  "count": 15,
+  "count": 6,
   "items": [
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1010703006028",
-      "name": "合同会社Ｇｏｏｄ　Ｂｌｅｓｓ（閉鎖）",
-      "location": "神奈川県横浜市旭区さちが丘１４６",
+      "corporate_number": "1020001048886",
+      "name": "グリーン洋書株式会社",
+      "location": "神奈川県横浜市南区六ツ川１丁目２３９番地３",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1010802003826",
-      "name": "有限会社カヤマ",
-      "location": "神奈川県横浜市都筑区荏田南５丁目１８番９５号",
+      "corporate_number": "1020001106074",
+      "name": "株式会社あだち",
+      "location": "神奈川県横浜市港北区綱島東１丁目１５番７号",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1010901049209",
-      "name": "株式会社ＢＯＮＤ　ＣＲＥＡＴＩＯＮ",
-      "location": "神奈川県横浜市西区南幸２丁目１６番２８号３Ｆ",
+      "corporate_number": "1020001117930",
+      "name": "ＨＯＰＥ国際文化商業株式会社",
+      "location": "神奈川県横浜市鶴見区潮田町２丁目１３０番地４９",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001057672",
-      "name": "エトリ電設株式会社",
-      "location": "神奈川県横浜市都筑区茅ケ崎東５丁目６番３４号",
+      "corporate_number": "1020002021727",
+      "name": "有限会社大成通信工業",
+      "location": "神奈川県横浜市旭区小高町５９番地４",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001117732",
-      "name": "株式会社フロウ",
-      "location": "神奈川県横浜市港北区大曽根３丁目２１番２１－６号",
+      "corporate_number": "1020002076936",
+      "name": "有限会社Ｊ・テック",
+      "location": "神奈川県横浜市鶴見区平安町２丁目１３番地１号",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     },
     {
       "signal_type": "法人情報更新",
       "signal_scope": "営業シグナル",
       "is_current_opportunity": false,
-      "corporate_number": "1020001121412",
-      "name": "ＧＸｓｐｏｒｔ株式会社（閉鎖）",
-      "location": "神奈川県横浜市戸塚区名瀬町３３３番地３９",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001145295",
-      "name": "株式会社シーツーダブリュー",
-      "location": "神奈川県横浜市西区戸部本町３９番８号ストークビル高島１０１号",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001170665",
-      "name": "株式会社ＴＥＣＴ電気",
-      "location": "神奈川県横浜市青葉区つつじが丘１０－２１つつじが丘ハイツ２０２",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001171259",
-      "name": "日佳貿易株式会社",
-      "location": "神奈川県横浜市磯子区岡村７丁目５番７号",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020002032831",
-      "name": "有限会社小沢建設商事",
-      "location": "神奈川県横浜市港北区篠原町２９７７番地４",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020003012675",
-      "name": "合同会社オフィスコイン",
-      "location": "神奈川県横浜市港北区新横浜３丁目１０番６号",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020003020554",
-      "name": "合同会社エヌプラン（閉鎖）",
-      "location": "神奈川県横浜市鶴見区鶴見１丁目６番４３－２１２号",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020003028928",
-      "name": "センサーコントロールズＨＤ合同会社",
-      "location": "神奈川県横浜市中区太田町６丁目７９番",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020003032194",
-      "name": "北欧アセット合同会社",
-      "location": "神奈川県横浜市保土ケ谷区西谷４丁目１３－３",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020003032211",
-      "name": "合同会社ｊａｍｃｒａｃｋｅｒ",
-      "location": "神奈川県横浜市青葉区新石川１丁目２番地１２フェリースあざみ野Ｄ１０２",
+      "corporate_number": "1021002068997",
+      "name": "有限会社マツイ",
+      "location": "神奈川県横浜市港北区師岡町４７６番地３ライオンズマンション大倉山第１０－６０７",
       "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
     }
   ],
-  "errors": [
-    {
-      "source": "法人情報更新",
-      "error": "HTTPError: HTTP Error 404: "
-    }
-  ],
+  "errors": [],
   "endpoint_mode": "v2-period-corporate-update-only",
-  "note": "gBizINFO更新取得に失敗したため、直前データを保持しています。現在募集中の案件とは分離されています。",
-  "signal_semantics": "営業先探索の補助情報。応募可能案件は YOKOHAMA CHANGE の受付中フィードを参照してください。",
-  "last_attempt_at": "2026-11-24T13:40:51+00:00"
+  "note": "法人情報の更新シグナルです。現在募集中の調達・補助金ではありません。",
+  "signal_semantics": "営業先探索の補助情報。応募可能案件は YOKOHAMA CHANGE の受付中フィードを参照してください。"
 }

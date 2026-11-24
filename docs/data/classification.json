@@ -1,6 +1,13 @@
 {
-  "normalized_items": 3,
+  "normalized_items": 4,
   "changes": [
+    {
+      "id": "8db8b06ddd5c3a5ded52",
+      "title": "NPO法人向け勉強会やイベント・助成募集等のご案内（受付中）",
+      "from": "施設・イベント",
+      "to": "補助金・支援",
+      "opportunity_type": "資金・支援"
+    },
     {
       "id": "0a6b4da365ad03978a22",
       "title": "一般競争入札のお知らせ（公告期間11月24日～12月17日）【鋼橋上部工】",
