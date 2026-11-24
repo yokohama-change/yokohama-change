@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-23T12:34:54+00:00",
+  "generated_at": "2026-11-24T02:12:22+00:00",
   "sources_total": 21,
   "sources_ok": 21,
   "items_seen": 1874,
-  "changes_this_run": 6,
+  "changes_this_run": 101,
   "errors": [],
   "state_preserved": false,
-  "public_items": 427,
-  "public_duplicate_revisions_removed": 5,
+  "public_items": 426,
+  "public_duplicate_revisions_removed": 6,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-23T12:35:00+00:00",
-  "application_status_candidates": 119,
+  "application_status_checked_at": "2026-11-24T02:12:31+00:00",
+  "application_status_candidates": 121,
   "application_status_open_now": 26,
-  "application_status_fetches": 9,
+  "application_status_fetches": 12,
   "application_status_errors": [],
   "application_status_warnings": [
     {
@@ -29,7 +29,7 @@
       "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 11,
+  "employment_notices_excluded": 16,
   "support_period_candidates_checked": 1,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
@@ -92,14 +92,19 @@
   },
   "open_now_exact_time": 10,
   "open_now_high_value_exact_time": 6,
-  "preparation_due_now": 15,
-  "preparation_due_now_high_value": 7,
+  "preparation_due_now": 10,
+  "preparation_due_now_high_value": 5,
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20261121",
-    "to": "20261123"
+    "from": "20261122",
+    "to": "20261124"
   },
   "gbiz_items_seen": 15,
-  "gbiz_errors": [],
+  "gbiz_errors": [
+    {
+      "source": "法人情報更新",
+      "error": "HTTPError: HTTP Error 404: "
+    }
+  ],
   "gbiz_endpoint_mode": "v2-period-corporate-update-only"
 }

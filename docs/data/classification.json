@@ -1,6 +1,13 @@
 {
-  "normalized_items": 2,
+  "normalized_items": 3,
   "changes": [
+    {
+      "id": "0a6b4da365ad03978a22",
+      "title": "一般競争入札のお知らせ（公告期間11月24日～12月17日）【鋼橋上部工】",
+      "from": "都市・不動産",
+      "to": "入札・調達",
+      "opportunity_type": "受注機会"
+    },
     {
       "id": "908b088be1ea047a3dcb",
       "title": "県営住宅駐車場の外部貸し（藤棚団地ほか19団地）に係る実施事業者の募集について",
