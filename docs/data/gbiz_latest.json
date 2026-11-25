@@ -1,68 +1,13 @@
 {
-  "generated_at": "2026-11-25T08:30:48+00:00",
+  "generated_at": "2026-11-25T19:15:08+00:00",
   "enabled": true,
   "stale": false,
   "period": {
-    "from": "20261123",
-    "to": "20261125"
+    "from": "20261124",
+    "to": "20261126"
   },
-  "count": 6,
-  "items": [
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001048886",
-      "name": "グリーン洋書株式会社",
-      "location": "神奈川県横浜市南区六ツ川１丁目２３９番地３",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001106074",
-      "name": "株式会社あだち",
-      "location": "神奈川県横浜市港北区綱島東１丁目１５番７号",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020001117930",
-      "name": "ＨＯＰＥ国際文化商業株式会社",
-      "location": "神奈川県横浜市鶴見区潮田町２丁目１３０番地４９",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020002021727",
-      "name": "有限会社大成通信工業",
-      "location": "神奈川県横浜市旭区小高町５９番地４",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1020002076936",
-      "name": "有限会社Ｊ・テック",
-      "location": "神奈川県横浜市鶴見区平安町２丁目１３番地１号",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    },
-    {
-      "signal_type": "法人情報更新",
-      "signal_scope": "営業シグナル",
-      "is_current_opportunity": false,
-      "corporate_number": "1021002068997",
-      "name": "有限会社マツイ",
-      "location": "神奈川県横浜市港北区師岡町４７６番地３ライオンズマンション大倉山第１０－６０７",
-      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
-    }
-  ],
+  "count": 0,
+  "items": [],
   "errors": [],
   "endpoint_mode": "v2-period-corporate-update-only",
   "note": "法人情報の更新シグナルです。現在募集中の調達・補助金ではありません。",
