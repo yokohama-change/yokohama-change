@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-24T23:53:29+00:00",
-  "count": 24,
-  "high_value_count": 9,
+  "generated_at": "2026-11-25T08:30:38+00:00",
+  "count": 23,
+  "high_value_count": 8,
   "items": [
     {
       "id": "6b521a8de1dad434ec29",
@@ -223,38 +223,6 @@
       "preparation_days": 10,
       "preparation_start_date": "2026-11-30",
       "preparation_status": "準備開始前",
-      "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
-    },
-    {
-      "id": "bad261af66c16ac3836c",
-      "title": "【公募型プロポーザル】令和９年度高等学校及び併設型中学校英語指導助手配置派遣業務",
-      "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2027/sonota/kyoiku/R9eigoshidoujoshu.html",
-      "source_name": "横浜市 入札・契約",
-      "category": "入札・調達",
-      "opportunity_type": "受注機会",
-      "buyer_segments": [
-        "士業・補助金支援",
-        "入札・公共調達",
-        "地域メディア"
-      ],
-      "commercial_score": 77,
-      "urgency": 52,
-      "importance": 68,
-      "application_status": "受付中",
-      "participation_deadline": "2026-11-25",
-      "participation_deadline_at": "2026-11-25T17:00+09:00",
-      "days_left": 0,
-      "deadline_label": "本日締切",
-      "priority_tier": "高優先",
-      "status_confidence": "high",
-      "status_reason": "明示された新規参加期限（申込期限+申込欄:提出期間）を確認",
-      "detected_at": "2026-11-18T11:39:57+00:00",
-      "source_updated": "Wed, 18 Nov 2026 01:00:00 GMT",
-      "region": "横浜市",
-      "deadline_time_exact": true,
-      "preparation_days": 10,
-      "preparation_start_date": "2026-11-15",
-      "preparation_status": "締切日",
       "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
     },
     {
