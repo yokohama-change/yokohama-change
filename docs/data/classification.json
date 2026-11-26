@@ -1,13 +1,6 @@
 {
-  "normalized_items": 4,
+  "normalized_items": 3,
   "changes": [
-    {
-      "id": "8db8b06ddd5c3a5ded52",
-      "title": "NPO法人向け勉強会やイベント・助成募集等のご案内（受付中）",
-      "from": "施設・イベント",
-      "to": "補助金・支援",
-      "opportunity_type": "資金・支援"
-    },
     {
       "id": "908b088be1ea047a3dcb",
       "title": "県営住宅駐車場の外部貸し（藤棚団地ほか19団地）に係る実施事業者の募集について",

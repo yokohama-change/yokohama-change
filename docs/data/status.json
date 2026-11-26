@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-25T19:14:54+00:00",
+  "generated_at": "2026-11-26T03:33:01+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1870,
-  "changes_this_run": 88,
+  "items_seen": 1875,
+  "changes_this_run": 147,
   "errors": [],
   "state_preserved": false,
-  "public_items": 434,
-  "public_duplicate_revisions_removed": 2,
+  "public_items": 440,
+  "public_duplicate_revisions_removed": 1,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-25T19:15:05+00:00",
-  "application_status_candidates": 135,
+  "application_status_checked_at": "2026-11-26T03:33:13+00:00",
+  "application_status_candidates": 133,
   "application_status_open_now": 22,
-  "application_status_fetches": 15,
+  "application_status_fetches": 22,
   "application_status_errors": [],
   "application_status_warnings": [
     {
@@ -29,7 +29,7 @@
       "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 14,
+  "employment_notices_excluded": 21,
   "support_period_candidates_checked": 1,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
