@@ -1,11 +1,11 @@
 {
-  "checked_at": "2026-11-26T03:33:15+00:00",
+  "checked_at": "2026-11-26T16:52:42+00:00",
   "health": "good",
   "health_label": "正常",
-  "open_now": 22,
-  "explainable_open_now": 22,
+  "open_now": 21,
+  "explainable_open_now": 21,
   "deadline_time_exact": 8,
-  "deadline_date_only": 14,
+  "deadline_date_only": 13,
   "errors": [],
   "checks": {
     "all_open_items_explainable": true,

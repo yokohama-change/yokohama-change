@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-26T03:33:01+00:00",
+  "generated_at": "2026-11-26T16:52:31+00:00",
   "sources_total": 21,
   "sources_ok": 21,
-  "items_seen": 1875,
-  "changes_this_run": 147,
+  "items_seen": 1873,
+  "changes_this_run": 221,
   "errors": [],
   "state_preserved": false,
-  "public_items": 440,
-  "public_duplicate_revisions_removed": 1,
+  "public_items": 441,
+  "public_duplicate_revisions_removed": 4,
   "public_duplicate_urls_removed": 0,
   "application_status_version": 3,
-  "application_status_checked_at": "2026-11-26T03:33:13+00:00",
-  "application_status_candidates": 133,
-  "application_status_open_now": 22,
-  "application_status_fetches": 22,
+  "application_status_checked_at": "2026-11-26T16:52:39+00:00",
+  "application_status_candidates": 131,
+  "application_status_open_now": 21,
+  "application_status_fetches": 9,
   "application_status_errors": [],
   "application_status_warnings": [
     {
@@ -29,7 +29,7 @@
       "warning": "公式ページ404。受付中にはしません"
     }
   ],
-  "employment_notices_excluded": 21,
+  "employment_notices_excluded": 12,
   "support_period_candidates_checked": 1,
   "support_period_open_enriched": 1,
   "support_period_errors": [],
@@ -72,7 +72,7 @@
     "鎌倉市"
   ],
   "open_now_by_region": {
-    "神奈川県": 4,
+    "神奈川県": 3,
     "横浜市": 5,
     "川崎市": 0,
     "相模原市": 8,
@@ -96,8 +96,8 @@
   "preparation_due_now_high_value": 3,
   "gbiz_enabled": true,
   "gbiz_period": {
-    "from": "20261124",
-    "to": "20261126"
+    "from": "20261125",
+    "to": "20261127"
   },
   "gbiz_items_seen": 0,
   "gbiz_errors": [],

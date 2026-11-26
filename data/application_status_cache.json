@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-11-26T03:33:13+00:00",
+  "updated_at": "2026-11-26T16:52:39+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -1701,8 +1701,8 @@
     },
     "9e1571ab9b0579407454": {
       "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/1024750/teate/1014284/1004038.html",
-      "source_updated": "Thu, 27 Aug 2026 10:03:17 +0900",
-      "fetched_at": "2026-10-29T00:55:02+00:00",
+      "source_updated": "Thu, 26 Nov 2026 18:05:54 +0900",
+      "fetched_at": "2026-11-26T16:52:32+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -1747,7 +1747,7 @@
     "5c23b19e4ba7580f9696": {
       "url": "https://www.city.fujisawa.kanagawa.jp/gesui-ka/wppp-proposal.html",
       "source_updated": "2026-11-19T17:00:00+09:00",
-      "fetched_at": "2026-11-19T11:37:44+00:00",
+      "fetched_at": "2026-11-26T16:52:39+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -4020,7 +4020,7 @@
     "58f614fbbe6108f25fb2": {
       "url": "https://www.pref.kanagawa.jp/docs/jf2/wg/shiensesaku_leaflet.html",
       "source_updated": "2026-11-05T00:00:00+09:00",
-      "fetched_at": "2026-11-19T11:37:45+00:00",
+      "fetched_at": "2026-11-26T16:52:33+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -4787,7 +4787,7 @@
     "908b088be1ea047a3dcb": {
       "url": "https://www.pref.kanagawa.jp/docs/h5z/shisetsukanri/tyuusyajou-gaibukashi/parking20261111.html",
       "source_updated": "2026-11-12T09:00:00+09:00",
-      "fetched_at": "2026-11-19T11:37:47+00:00",
+      "fetched_at": "2026-11-26T16:52:35+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -4809,7 +4809,7 @@
     "fb827b6798409c6e81b0": {
       "url": "https://www.pref.kanagawa.jp/docs/b4w/cnt/f52/p2253.html",
       "source_updated": "2026-11-12T00:00:00+09:00",
-      "fetched_at": "2026-11-19T11:37:47+00:00",
+      "fetched_at": "2026-11-26T16:52:36+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -5192,7 +5192,7 @@
     "1f9061885e67154455ee": {
       "url": "https://www.city.zama.kanagawa.jp/fukushi/kaigo/jigyousha/1011105/1014247.html",
       "source_updated": "Thu, 19 Nov 2026 14:00:03 +0900",
-      "fetched_at": "2026-11-19T11:37:45+00:00",
+      "fetched_at": "2026-11-26T16:52:37+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
