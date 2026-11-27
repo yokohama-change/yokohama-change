@@ -1,6 +1,13 @@
 {
-  "normalized_items": 3,
+  "normalized_items": 4,
   "changes": [
+    {
+      "id": "385d118a633ca7ce2522",
+      "title": "市営住宅及び共同施設の指定管理者の公募について",
+      "from": "補助金・支援",
+      "to": "入札・調達",
+      "opportunity_type": "受注機会"
+    },
     {
       "id": "908b088be1ea047a3dcb",
       "title": "県営住宅駐車場の外部貸し（藤棚団地ほか19団地）に係る実施事業者の募集について",

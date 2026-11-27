@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-26T16:52:31+00:00",
-  "count": 21,
-  "high_value_count": 7,
+  "generated_at": "2026-11-27T01:43:42+00:00",
+  "count": 22,
+  "high_value_count": 8,
   "items": [
     {
       "id": "3dec7d16c56b859da8bc",
@@ -96,6 +96,38 @@
       "deadline_time_exact": false,
       "preparation_days": 10,
       "preparation_start_date": "2026-11-28",
+      "preparation_status": "準備開始前",
+      "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
+    },
+    {
+      "id": "0941516eb813f258bf3d",
+      "title": "令和9年度座間市立小・中学校ICT活用教育支援業務委託に係る公募型プロポーザル",
+      "url": "https://www.city.zama.kanagawa.jp/sangyo/keiyaku/proposal/1014288.html",
+      "source_name": "座間市 新着・更新情報",
+      "category": "入札・調達",
+      "opportunity_type": "受注機会",
+      "buyer_segments": [
+        "士業・補助金支援",
+        "入札・公共調達",
+        "地域メディア"
+      ],
+      "commercial_score": 95,
+      "urgency": 52,
+      "importance": 91,
+      "application_status": "受付中",
+      "participation_deadline": "2026-12-09",
+      "participation_deadline_at": "2026-12-09T12:00+09:00",
+      "days_left": 12,
+      "deadline_label": "残り12日",
+      "priority_tier": "高優先",
+      "status_confidence": "high",
+      "status_reason": "明示された新規参加期限（参加表明）を確認",
+      "detected_at": "2026-11-27T01:43:42+00:00",
+      "source_updated": "Fri, 27 Nov 2026 10:00:04 +0900",
+      "region": "座間市",
+      "deadline_time_exact": true,
+      "preparation_days": 10,
+      "preparation_start_date": "2026-11-29",
       "preparation_status": "準備開始前",
       "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
     },
