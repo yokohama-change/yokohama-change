@@ -1,13 +1,23 @@
 {
-  "generated_at": "2026-11-27T12:16:44+00:00",
+  "generated_at": "2026-11-27T21:23:10+00:00",
   "enabled": true,
   "stale": false,
   "period": {
-    "from": "20261125",
-    "to": "20261127"
+    "from": "20261126",
+    "to": "20261128"
   },
-  "count": 0,
-  "items": [],
+  "count": 1,
+  "items": [
+    {
+      "signal_type": "法人情報更新",
+      "signal_scope": "営業シグナル",
+      "is_current_opportunity": false,
+      "corporate_number": "1011101109694",
+      "name": "ＹｕＦｕｔｕｒｅ株式会社",
+      "location": "神奈川県横浜市中区石川町３丁目１０４番地１ライオンズマンション元町５０６号室",
+      "note": "法人情報の更新シグナルです。現在募集中の調達・補助金を意味しません。"
+    }
+  ],
   "errors": [],
   "endpoint_mode": "v2-period-corporate-update-only",
   "note": "法人情報の更新シグナルです。現在募集中の調達・補助金ではありません。",

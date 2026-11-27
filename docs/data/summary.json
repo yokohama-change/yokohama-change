@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T12:16:26+00:00",
+  "generated_at": "2026-11-27T21:23:06+00:00",
   "commercial_50_plus": 8,
   "commercial_70_plus": 3,
   "commercial_85_plus": 2,
@@ -17,15 +17,15 @@
     "制度対応": 1
   },
   "status_engine_version": 3,
-  "open_now": 20,
-  "open_now_commercial_70_plus": 7,
+  "open_now": 19,
+  "open_now_commercial_70_plus": 6,
   "application_status_counts": {
-    "受付中": 20,
-    "参加締切済": 19,
-    "資格者のみ進行中": 27,
+    "受付中": 19,
+    "参加締切済": 24,
+    "資格者のみ進行中": 23,
     "結果掲載済": 2,
     "判定不可": 62,
-    "案件外": 309
+    "案件外": 307
   },
   "scope": "神奈川 β（県＋16市町の公式情報）",
   "coverage_regions": [
@@ -48,10 +48,10 @@
     "二宮町"
   ],
   "by_region": {
-    "神奈川県": 208,
+    "神奈川県": 200,
     "横浜市": 51,
     "川崎市": 2,
-    "相模原市": 62,
+    "相模原市": 67,
     "藤沢市": 7,
     "茅ヶ崎市": 37,
     "横須賀市": 3,
@@ -62,7 +62,7 @@
     "逗子市": 4,
     "海老名市": 11,
     "伊勢原市": 15,
-    "座間市": 7,
+    "座間市": 8,
     "大磯町": 4,
     "二宮町": 10
   },
@@ -70,7 +70,7 @@
     "神奈川県": 3,
     "横浜市": 5,
     "川崎市": 0,
-    "相模原市": 8,
+    "相模原市": 7,
     "藤沢市": 1,
     "茅ヶ崎市": 1,
     "横須賀市": 0,
@@ -87,6 +87,6 @@
   },
   "open_now_exact_time": 7,
   "open_now_high_value_exact_time": 4,
-  "preparation_due_now": 11,
-  "preparation_due_now_high_value": 3
+  "preparation_due_now": 12,
+  "preparation_due_now_high_value": 4
 }

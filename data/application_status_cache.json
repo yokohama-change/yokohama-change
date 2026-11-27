@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-11-27T12:16:42+00:00",
+  "updated_at": "2026-11-27T21:23:09+00:00",
   "items": {
     "3e661dcc993e867268c9": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/green/2026/0714ppagakko.html",
@@ -4067,7 +4067,7 @@
     "7f1cb973a14801fa5140": {
       "url": "https://www.city.isehara.kanagawa.jp/docs/2026110500078/",
       "source_updated": "Fri, 06 Nov 2026 10:17:00 +0900",
-      "fetched_at": "2026-11-20T20:15:32+00:00",
+      "fetched_at": "2026-11-27T21:23:07+00:00",
       "facts": {
         "participation_deadline": "2026-11-13",
         "participation_deadline_at": "2026-11-13T17:00+09:00",
@@ -4087,7 +4087,7 @@
     "6378dfc94cfdf42b9ff6": {
       "url": "https://www.city.yokohama.lg.jp/business/nyusatsu/kakukukyoku/2027/itaku/isogo/yorisoiseikatsu.html",
       "source_updated": "Fri, 06 Nov 2026 01:00:00 GMT",
-      "fetched_at": "2026-11-20T20:15:33+00:00",
+      "fetched_at": "2026-11-27T21:23:07+00:00",
       "facts": {
         "participation_deadline": "2026-11-19",
         "participation_deadline_at": "2026-11-19T17:00+09:00",
@@ -4112,7 +4112,7 @@
     "ed7e1b8bd929c85bd4a3": {
       "url": "https://www.pref.kanagawa.jp/docs/v3e/jyosei/yochien/documents/r2keijouhi_henkoukouhusinsei.html",
       "source_updated": "2026-11-06T13:00:00+09:00",
-      "fetched_at": "2026-11-20T20:15:33+00:00",
+      "fetched_at": "2026-11-27T21:23:08+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
@@ -4127,7 +4127,7 @@
     "6000476797d79341c77c": {
       "url": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kankyo/2026/1106hyoushoushiki.html",
       "source_updated": "Fri, 06 Nov 2026 01:00:00 GMT",
-      "fetched_at": "2026-11-20T20:15:34+00:00",
+      "fetched_at": "2026-11-27T21:23:08+00:00",
       "facts": {
         "participation_deadline": "",
         "participation_deadline_at": "",
