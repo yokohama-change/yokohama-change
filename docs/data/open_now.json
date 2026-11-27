@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-27T01:43:42+00:00",
-  "count": 22,
-  "high_value_count": 8,
+  "generated_at": "2026-11-27T12:16:26+00:00",
+  "count": 20,
+  "high_value_count": 7,
   "items": [
     {
       "id": "3dec7d16c56b859da8bc",
@@ -128,38 +128,6 @@
       "deadline_time_exact": true,
       "preparation_days": 10,
       "preparation_start_date": "2026-11-29",
-      "preparation_status": "準備開始前",
-      "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
-    },
-    {
-      "id": "61b69f9c305663303ab7",
-      "title": "鎌倉市立第一小学校改築工事に関するサウンディング調査業務委託に係る公募型プロポーザルの実施について",
-      "url": "https://www.city.kamakura.kanagawa.jp/g-shisetsu/daiitisaunding.html",
-      "source_name": "鎌倉市 新着情報",
-      "category": "入札・調達",
-      "opportunity_type": "受注機会",
-      "buyer_segments": [
-        "士業・補助金支援",
-        "入札・公共調達",
-        "地域メディア"
-      ],
-      "commercial_score": 95,
-      "urgency": 52,
-      "importance": 86,
-      "application_status": "受付中",
-      "participation_deadline": "2026-12-29",
-      "participation_deadline_at": "2026-12-29T08:30+09:00",
-      "days_left": 32,
-      "deadline_label": "残り32日",
-      "priority_tier": "高優先",
-      "status_confidence": "high",
-      "status_reason": "明示された新規参加期限（参加申込）を確認",
-      "detected_at": "2026-11-18T11:39:57+00:00",
-      "source_updated": "2026-11-18T16:53:09+09:00",
-      "region": "鎌倉市",
-      "deadline_time_exact": true,
-      "preparation_days": 10,
-      "preparation_start_date": "2026-12-19",
       "preparation_status": "準備開始前",
       "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
     },
@@ -317,38 +285,6 @@
       "preparation_days": 7,
       "preparation_start_date": "2027-01-06",
       "preparation_status": "準備開始前",
-      "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
-    },
-    {
-      "id": "d49686e395e1812a4f5c",
-      "title": "茅ヶ崎第1駐車場土地利活用事業における事業者募集について",
-      "url": "https://www.city.chigasaki.kanagawa.jp/kotsu_bus/1041112.html",
-      "source_name": "茅ヶ崎市 更新情報",
-      "category": "入札・調達",
-      "opportunity_type": "受注機会",
-      "buyer_segments": [
-        "不動産・建設",
-        "法人営業",
-        "入札・公共調達"
-      ],
-      "commercial_score": 67,
-      "urgency": 10,
-      "importance": 56,
-      "application_status": "受付中",
-      "participation_deadline": "2026-11-27",
-      "participation_deadline_at": "2026-11-27T17:00+09:00",
-      "days_left": 0,
-      "deadline_label": "本日締切",
-      "priority_tier": "受付中",
-      "status_confidence": "high",
-      "status_reason": "明示された新規参加期限（参加申込）を確認",
-      "detected_at": "2026-11-04T06:18:48+00:00",
-      "source_updated": "Wed, 04 Nov 2026 12:05:39 +0900",
-      "region": "茅ヶ崎市",
-      "deadline_time_exact": true,
-      "preparation_days": 10,
-      "preparation_start_date": "2026-11-17",
-      "preparation_status": "締切日",
       "preparation_note": "YOKOHAMA CHANGE独自の準備目安です。公式期限・応募要件ではありません。"
     },
     {
